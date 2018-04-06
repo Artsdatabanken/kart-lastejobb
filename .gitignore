@@ -2,3 +2,4 @@ config
 fme/old
 fme/*.log
 fme/*.ffs
+fme/*.fmw.recover
