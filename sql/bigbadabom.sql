@@ -364,7 +364,7 @@ ALTER TABLE ONLY prefix
 -- Name: code_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
-CREATE INDEX code_idx ON codes USING btree (code);
+CREATE UNIQUE INDEX code_idx ON codes USING btree (code);
 
 
 --
