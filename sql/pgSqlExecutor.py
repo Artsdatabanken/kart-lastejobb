@@ -9,10 +9,13 @@ def createConnectionString():
 
 def executeSql(sqlFile):
   conn = psycopg2.connect(createConnectionString())
+  old_isolation_level = conn.isolation_level
+  conn.set_isolation_level(0)
   cursor = conn.cursor()
   cursor.execute(open(sqlFile).read())
   conn.commit()
   cursor.close()
+  conn.set_isolation_level(old_isolation_level)
   conn.close()
 
 executeSql(sys.argv[1])
