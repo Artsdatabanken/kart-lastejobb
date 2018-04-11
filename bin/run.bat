@@ -1,7 +1,7 @@
-python ..\sql\pgSqlExecutor.py ..\sql\bigbadabom.sql ..\config\postgis.json
+python pgSqlExecutor.py ..\sql\bigbadabom.sql ..\config\postgis.json
 
 for %%f in (..\fme\*.fmw) do fme.exe %%f
 
-python ..\sql\pgSqlExecutor.py ..\sql\post-process.sql ..\config\postgis.json
+python pgSqlExecutor.py ..\sql\post-process.sql ..\config\postgis.json
 
-python ..\sql\pgSqlExecutor.py ..\sql\vacuum.sql ..\config\postgis.json
+python pgSqlExecutor.py ..\sql\vacuum.sql ..\config\postgis.json
