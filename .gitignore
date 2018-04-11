@@ -1,5 +1,5 @@
 config
-fme/old
-fme/*.log
-fme/*.ffs
-fme/*.fmw.recover
+fme/in/old
+fme/in/*.log
+fme/in/*.ffs
+fme/in/*.fmw.recover
