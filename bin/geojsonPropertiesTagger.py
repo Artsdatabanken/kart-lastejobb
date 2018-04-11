@@ -6,7 +6,7 @@ import json
 data = json.load(open(sys.argv[1]))
 
 for feature in data['features']:
-    for code in feature['properties']['codes']:
+    for code in feature['properties']['codes'].split(','):
         feature['properties'][code] = None
     feature['properties'].pop('codes', None)
 
