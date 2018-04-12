@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\03_ninMetadata.fmw
+#    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\04_ninMetadata.fmw
 #          --DestDataset_TEXTLINE_3 "D:\out\json\ninMetadata\metadata.json"
 #    
 #    
@@ -21,9 +21,9 @@
 #!   SHOW_INFO_NODES="true"
 #!   FME_SERVER_SERVICES=""
 #!   PYTHON_COMPATIBILITY="27"
-#!   VIEW_POSITION="-281.253 1525.02"
+#!   VIEW_POSITION="-220.173 1701.01"
 #!   END_TCL=""
-#!   DOC_EXTENTS="2742 110.75"
+#!   DOC_EXTENTS="3397 110.75"
 #!   SOURCE_ROUTING_FILE=""
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   LOG_MAX_RECORDED_FEATURES="200"
@@ -41,12 +41,12 @@
 #!   FME_DOCUMENT_PRIORGUID="a5f66f1a-b75c-4546-a902-720ca13d3f11,60f0cf22-21cc-46eb-84e5-2ad8d0082d7c,bd5c4a82-5db9-4156-ae7f-09994945a0f8"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   SHOW_ANNOTATIONS="true"
-#!   ZOOM_SCALE="100"
+#!   ZOOM_SCALE="88"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #!   DESTINATION_ROUTING_FILE=""
 #!   HISTORY=""
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   LAST_SAVE_DATE="2018-04-12T14:46:23"
+#!   LAST_SAVE_DATE="2018-04-12T15:12:23"
 #!   USAGE=""
 #!   DESTINATION="NONE"
 #!   MAX_LOG_FEATURES="200"
@@ -353,8 +353,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="6"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="2846 291"
-#!   BOUNDING_RECT="2846 291 -1 -1"
+#!   POSITION="3501 291"
+#!   BOUNDING_RECT="3501 291 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_2"
@@ -466,7 +466,7 @@
 #!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;nom.beskrivelse&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;prg.beskrivelse&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
@@ -513,47 +513,49 @@
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="10"
-#!   TYPE="Aggregator"
-#!   VERSION="14"
-#!   POSITION="2181.5 302.5"
-#!   BOUNDING_RECT="2181.5 302.5 -1 -1"
+#!   IDENTIFIER="13"
+#!   TYPE="ListBuilder"
+#!   VERSION="2"
+#!   POSITION="2181.5 331"
+#!   BOUNDING_RECT="2181.5 331 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
-#!     <OUTPUT_FEAT NAME="AGGREGATE"/>
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="metadata"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="ListConcatenator"
+#!   VERSION="3"
+#!   POSITION="2836.5 302.5"
+#!   BOUNDING_RECT="2836.5 302.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Drop Incoming Attributes"/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListConcatenator"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_list&lt;opencurly&gt;&lt;closecurly&gt;.metadata"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="metadata"/>
-#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -580,9 +582,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="11"
+#!   IDENTIFIER="14"
 #!   SOURCE_NODE="9"
-#!   TARGET_NODE="10"
+#!   TARGET_NODE="13"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -591,10 +593,21 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="12"
-#!   SOURCE_NODE="10"
+#!   IDENTIFIER="18"
+#!   SOURCE_NODE="13"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="17"
 #!   TARGET_NODE="6"
-#!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -758,7 +771,7 @@ TEXTLINE_2_DATASET "$(DestDataset_TEXTLINE_2)"
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)03_ninMetadata.log"
+LOG_FILENAME "$(FME_MF_DIR)04_ninMetadata.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -774,7 +787,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME 03_ninMetadata
+MACRO WORKSPACE_NAME 04_ninMetadata
 MACRO FME_VIEWER_APP fmedatainspector
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
@@ -798,7 +811,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TA
 # -------------------------------------------------------------------------
 MACRO SQLExecutor_DIRECTIVES USE_SSPI NO SERVER "$(config_mssql_host)" ENCRYPT_CONNECTION NO USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_mssql_pass)" COMMAND_TIMEOUT 30
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>nom.beskrivelse<space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>prg.navn<space>as<space>programNavn<comma><space><lf>prg.beskrivelse<space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>prg.navn<space>as<space>programNavn<comma><space><lf>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
@@ -813,13 +826,18 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO Aggregator_BREAK_ATTR
-
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    MODE ONE_LEVEL    $(Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES None    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS metadata    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder    INPUT FEATURE_TYPE ListBuilder_no_fme_type    LIST_NAME "_list{}"    LIST_ATTRS_TO_INCLUDE { metadata }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    ORDERED_BY_GROUP No    OUTPUT LIST FEATURE_TYPE ListBuilder_OUTPUT
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Aggregator_AGGREGATE TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>text_line_data<comma><lt>opencurly<gt><lt>at<gt>TrimRight<lt>openparen<gt><lt>at<gt>Value<lt>openparen<gt>metadata<lt>closeparen<gt><lt>comma<gt><lt>quote<gt><lt>comma<gt><lt>quote<gt><lt>closeparen<gt><lt>closecurly<gt><comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+Tcl2 set ListConcatenator__separator [FME_DecodeText {}];      regsub -all \"{}\" [FME_DecodeText {_list<opencurly><closecurly>.metadata}] [FME_DecodeText {<opencurly><backslash>d+<closecurly>}] ListConcatenator__listPattern;      set ListConcatenator__listPattern ^$ListConcatenator__listPattern$;
+Tcl2 proc ListConcatenator__Concatenate {} {   upvar \#0 ListConcatenator__separator separator             ListConcatenator__listPattern listPattern;   set allAttrs [lsort -dictionary [FME_AttributeNames]];   set keepEmptyParts [string equal {No} {No}];   set result {};   foreach attrName $allAttrs {     if {[regexp $listPattern $attrName]} {       set attrValue [FME_GetAttribute $attrName];       if {$keepEmptyParts || $attrValue != {}} {         lappend result $attrValue;       };     };   };   FME_SetAttribute {"metadata"} [join $result $separator]; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator    INPUT  FEATURE_TYPE ListBuilder_OUTPUT    OUTPUT FEATURE_TYPE ListConcatenator_OUTPUT         @Tcl2(ListConcatenator__Concatenate)
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC ListConcatenator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>text_line_data<comma><lt>opencurly<gt><lt>at<gt>TrimRight<lt>openparen<gt><lt>at<gt>Value<lt>openparen<gt>metadata<lt>closeparen<gt><lt>comma<gt><lt>quote<gt><lt>comma<gt><lt>quote<gt><lt>closeparen<gt><lt>closecurly<gt><comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
