@@ -7,7 +7,7 @@ data = json.load(open(sys.argv[1]))
 
 for feature in data['features']:
     for code in feature['properties']['codes'].split(','):
-        feature['properties'][code] = None
+        feature['properties'][code] = "Null"
     feature['properties'].pop('codes', None)
 
 with open(sys.argv[2], 'w') as outfile:
