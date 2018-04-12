@@ -46,7 +46,7 @@
 #!   MARKDOWN_DESCRIPTION=""
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #!   WORKSPACE_VERSION="1"
-#!   LAST_SAVE_DATE="2018-04-12T14:47:49"
+#!   LAST_SAVE_DATE="2018-04-12T15:44:14"
 #!   DESTINATION_ROUTING_FILE=""
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -4157,7 +4157,7 @@
 #!   BOUNDING_RECT="17010 1481.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
@@ -4543,8 +4543,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_FME_CONNECTION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_PERSISTENT_CONNECTION" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_WHERE_CLAUSE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS&lt;comma&gt;Yes&lt;comma&gt;SourceFME_CONNECTION_GROUP&lt;comma&gt;&lt;comma&gt;SourcePERSISTENT_CONNECTION&lt;comma&gt;NO&lt;comma&gt;SourceCOMMAND_TIMEOUT&lt;comma&gt;30&lt;comma&gt;SourceWHERE_CLAUSE&lt;comma&gt;&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;FME_DISCLOSURE_OPEN&lt;comma&gt;SourceMSSQL_SPATIAL_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceADVANCED&lt;comma&gt;FME_DISCLOSURE_OPEN&lt;comma&gt;SourceREAD_CACHE_SIZE&lt;comma&gt;10&lt;comma&gt;SourceASSUME_ONE_SRID_PER_COL&lt;comma&gt;&lt;comma&gt;SourceHANDLE_MULTIPLE_SPATIAL_COLUMNS&lt;comma&gt;NO&lt;comma&gt;SourceUSE_MAKE_VALID&lt;comma&gt;NO&lt;comma&gt;SourceSERVER&lt;comma&gt;&lt;dollar&gt;&lt;openparen&gt;config_mssql_host&lt;closeparen&gt;&lt;comma&gt;SourceUSE_SSPI&lt;comma&gt;NO&lt;comma&gt;SourceUSER_NAME&lt;comma&gt;&lt;dollar&gt;&lt;openparen&gt;config_mssql_user&lt;closeparen&gt;&lt;comma&gt;SourcePASSWORD&lt;comma&gt;&lt;dollar&gt;&lt;openparen&gt;config_mssql_pass&lt;closeparen&gt;&lt;comma&gt;SourceENCRYPT_CONNECTION&lt;comma&gt;NO,METAFILE,MSSQL_SPATIAL"/>
@@ -4575,8 +4575,8 @@
 #!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_HANDLE_MULTIPLE_SPATIAL_COLUMNS" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_HANDLE_MULTIPLE_SPATIAL_COLUMNS" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
@@ -4590,12 +4590,12 @@
 #!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_USE_SSPI" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_SPATIAL_USE_MAKE_VALID" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_SPATIAL_HANDLE_MULTIPLE_SPATIAL_COLUMNS,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Handle&lt;space&gt;Multiple&lt;space&gt;Spatial&lt;space&gt;Columns,MSSQL_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_SPATIAL&lt;space&gt;Password:,MSSQL_SPATIAL_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_SPATIAL&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,MSSQL_SPATIAL_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,MSSQL_SPATIAL&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,MSSQL_SPATIAL_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Server:,MSSQL_SPATIAL_READ_CACHE_SIZE,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Number&lt;space&gt;Of&lt;space&gt;Records&lt;space&gt;To&lt;space&gt;Fetch&lt;space&gt;At&lt;space&gt;A&lt;space&gt;Time,MSSQL_SPATIAL_ASSUME_ONE_SRID_PER_COL,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Geometry&lt;space&gt;Columns&lt;space&gt;Have&lt;space&gt;Exactly&lt;space&gt;One&lt;space&gt;SRID,MSSQL_SPATIAL_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_SPATIAL&lt;space&gt;Authentication:,MSSQL_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;,MSSQL_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Username:,MSSQL_SPATIAL_USE_MAKE_VALID,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Use&lt;space&gt;MakeValid&lt;space&gt;with&lt;space&gt;Search&lt;space&gt;Envelope,MSSQL_SPATIAL_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP MSSQL_SPATIAL_EXPOSE_FORMAT_ATTRS&quot;,MSSQL_SPATIAL&lt;space&gt;Schema&lt;space&gt;Attributes,MSSQL_SPATIAL_ADVANCED,&quot;OPTIONAL DISCLOSUREGROUP READ_CACHE_SIZE%ASSUME_ONE_SRID_PER_COL%HANDLE_MULTIPLE_SPATIAL_COLUMNS%USE_MAKE_VALID&quot;,MSSQL_SPATIAL&lt;space&gt;Advanced,MSSQL_SPATIAL_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_SPATIAL_MSSQL_SPATIAL_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS MSSQL_SPATIAL%Source&quot;,MSSQL_SPATIAL&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,MSSQL_SPATIAL_WHERE_CLAUSE,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;WHERE&lt;space&gt;Clause:,MSSQL_SPATIAL_FME_CONNECTION_GROUP,&quot;OPTIONAL NAMEDGROUP SERVER%DATASET%USE_SSPI%USER_NAME%PASSWORD%ENCRYPT_CONNECTION%NAMED_CONNECTION%PERSISTENT_CONNECTION%COMMAND_TIMEOUT&quot;,MSSQL_SPATIAL&lt;space&gt;Database&lt;space&gt;Connection"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_SPATIAL_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Username:,MSSQL_SPATIAL_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP MSSQL_SPATIAL_EXPOSE_FORMAT_ATTRS&quot;,MSSQL_SPATIAL&lt;space&gt;Schema&lt;space&gt;Attributes,MSSQL_SPATIAL_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_SPATIAL&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_SPATIAL_ADVANCED,&quot;OPTIONAL DISCLOSUREGROUP READ_CACHE_SIZE%ASSUME_ONE_SRID_PER_COL%HANDLE_MULTIPLE_SPATIAL_COLUMNS%USE_MAKE_VALID&quot;,MSSQL_SPATIAL&lt;space&gt;Advanced,MSSQL_SPATIAL_HANDLE_MULTIPLE_SPATIAL_COLUMNS,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Handle&lt;space&gt;Multiple&lt;space&gt;Spatial&lt;space&gt;Columns,MSSQL_SPATIAL_WHERE_CLAUSE,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;WHERE&lt;space&gt;Clause:,MSSQL_SPATIAL_ASSUME_ONE_SRID_PER_COL,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Geometry&lt;space&gt;Columns&lt;space&gt;Have&lt;space&gt;Exactly&lt;space&gt;One&lt;space&gt;SRID,MSSQL_SPATIAL_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,MSSQL_SPATIAL&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,MSSQL_SPATIAL_FME_CONNECTION_GROUP,&quot;OPTIONAL NAMEDGROUP SERVER%DATASET%USE_SSPI%USER_NAME%PASSWORD%ENCRYPT_CONNECTION%NAMED_CONNECTION%PERSISTENT_CONNECTION%COMMAND_TIMEOUT&quot;,MSSQL_SPATIAL&lt;space&gt;Database&lt;space&gt;Connection,MSSQL_SPATIAL_PERSISTENT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Persistent&lt;space&gt;Connection,MSSQL_SPATIAL_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_SPATIAL&lt;space&gt;Password:,MSSQL_SPATIAL_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;,MSSQL_SPATIAL_MSSQL_SPATIAL_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS MSSQL_SPATIAL%Source&quot;,MSSQL_SPATIAL&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,MSSQL_SPATIAL_READ_CACHE_SIZE,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Number&lt;space&gt;Of&lt;space&gt;Records&lt;space&gt;To&lt;space&gt;Fetch&lt;space&gt;At&lt;space&gt;A&lt;space&gt;Time,MSSQL_SPATIAL_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_SPATIAL_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_SPATIAL&lt;space&gt;Authentication:,MSSQL_SPATIAL_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_SPATIAL&lt;space&gt;Server:,MSSQL_SPATIAL_USE_MAKE_VALID,&quot;OPTIONAL CHOICE YES%NO&quot;,MSSQL_SPATIAL&lt;space&gt;Use&lt;space&gt;MakeValid&lt;space&gt;with&lt;space&gt;Search&lt;space&gt;Envelope"/>
 #!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
 #!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="166"
@@ -4630,7 +4630,7 @@
 #!   BOUNDING_RECT="14802 610.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
@@ -6108,12 +6108,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 MACRO WORKSPACE_NAME 06_nin
 MACRO FME_VIEWER_APP fmedatainspector
-# -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -6135,7 +6129,7 @@ FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 167" 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED 
-MACRO FeatureReader_DIRECTIVES HANDLE_MULTIPLE_SPATIAL_COLUMNS,NO,PASSWORD,$(config_mssql_pass$encode),COMMAND_TIMEOUT,30,PERSISTENT_CONNECTION,NO,USE_SEARCH_ENVELOPE,NO,SERVER,$(config_mssql_host$encode),READ_CACHE_SIZE,10,USE_SSPI,NO,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,USER_NAME,$(config_mssql_user$encode),USE_MAKE_VALID,NO,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN,ADVANCED,FME_DISCLOSURE_OPEN,ENCRYPT_CONNECTION,NO
+MACRO FeatureReader_DIRECTIVES USER_NAME,$(config_mssql_user$encode),EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN,COMMAND_TIMEOUT,30,ADVANCED,FME_DISCLOSURE_OPEN,HANDLE_MULTIPLE_SPATIAL_COLUMNS,NO,USE_SEARCH_ENVELOPE,NO,PERSISTENT_CONNECTION,NO,PASSWORD,$(config_mssql_pass$encode),QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,READ_CACHE_SIZE,10,ENCRYPT_CONNECTION,NO,USE_SSPI,NO,SERVER,$(config_mssql_host$encode),USE_MAKE_VALID,NO
 
 # Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
 INCLUDE [if { ( {NONE} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "NONE"};          }         ]
@@ -6181,8 +6175,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d91_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d91_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d91_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d91_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d91_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d96_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d96_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d96_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d96_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_0d81bf95_dd5f_4a09_bae7_1299f50e06d96_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter NULL Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_NULL
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_<UNFILTERED>
@@ -6210,7 +6204,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "CenterPointReplacer__Rejected__2 LOGGED
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc GeometryPropertySetter_areaCenterPoint_99cbd5a3_7bf7_489c_b27d_95b1361eff511_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_areaCenterPoint_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc GeometryPropertySetter_areaCenterPoint_99cbd5a3_7bf7_489c_b27d_95b1361eff516_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_areaCenterPoint_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 INCLUDE [    set macroLine "MACRO GeometryPropertySetter_areaCenterPoint_SRC_ATTRS_EXP ";    puts $macroLine; ]
 FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryPropertySetter_areaCenterPoint_GQuery    INPUT  FEATURE_TYPE CenterPointReplacer_POINT    ACTION SET_GEOMNAME    PARAMETER yes "geometriSenterpunkt"    OUTPUT RESULT FEATURE_TYPE GeometryPropertySetter_areaCenterPoint___RemoveAttrs___
 FACTORY_DEF <Unused> TeeFactory    FACTORY_NAME GeometryPropertySetter_areaCenterPoint_AttrRemover    INPUT FEATURE_TYPE GeometryPropertySetter_areaCenterPoint___RemoveAttrs___    OUTPUT FEATURE_TYPE *       @RemoveAttributes(fme_encoded"$(GeometryPropertySetter_areaCenterPoint_SRC_ATTRS_EXP)")
@@ -6219,7 +6213,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryPropertySetter_areaCenterPoint_
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc GeometryPropertySetter_area_dd5aa516_e6a6_428a_a846_5457aa64969d1_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_area_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc GeometryPropertySetter_area_dd5aa516_e6a6_428a_a846_5457aa64969d6_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_area_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 INCLUDE [    set macroLine "MACRO GeometryPropertySetter_area_SRC_ATTRS_EXP ";    puts $macroLine; ]
 FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryPropertySetter_area_GQuery    INPUT  FEATURE_TYPE GeometryValidator_PASSED_1_lm/rLk3vnLM=    INPUT  FEATURE_TYPE GeometryValidator_REPAIRED_0_bmPjNYy8zOc=    ACTION SET_GEOMNAME    PARAMETER yes "geometri"    OUTPUT RESULT FEATURE_TYPE GeometryPropertySetter_area___RemoveAttrs___
 FACTORY_DEF <Unused> TeeFactory    FACTORY_NAME GeometryPropertySetter_area_AttrRemover    INPUT FEATURE_TYPE GeometryPropertySetter_area___RemoveAttrs___    OUTPUT FEATURE_TYPE *       @RemoveAttributes(fme_encoded"$(GeometryPropertySetter_area_SRC_ATTRS_EXP)")
@@ -6289,21 +6283,7 @@ FACTORY_DEF * SortFactory    FACTORY_NAME FeatureHolder    INPUT  FEATURE_TYPE A
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureHolder OUTPUT Splitter"   INPUT FEATURE_TYPE FeatureHolder_OUTPUT   OUTPUT FEATURE_TYPE FeatureHolder_OUTPUT_0_KLgW8kDgBx4=   OUTPUT FEATURE_TYPE FeatureHolder_OUTPUT_1_UIyMFea60+w=   OUTPUT FEATURE_TYPE FeatureHolder_OUTPUT_2_kUFVznPBtjk=
 # -------------------------------------------------------------------------
-
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME FeatureHolder_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureHolder_OUTPUT_2_kUFVznPBtjk=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX FeatureHolder_Output    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureHolder_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA geometry_id,varchar<openparen>255<closeparen>,versjonId,varchar<openparen>255<closeparen>,institusjon,varchar<openparen>255<closeparen>,versjon,varchar<openparen>255<closeparen>,navnerom,varchar<openparen>255<closeparen>,naturniv<u00e5>_id,varchar<openparen>255<closeparen>,stedfestingskvalitet,varchar<openparen>255<closeparen>,beskrivelse,varchar<openparen>255<closeparen>,_matched_records,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureHolder_Output (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureHolder_OUTPUT_2_kUFVznPBtjk=
 # -------------------------------------------------------------------------
 MACRO SQLExecutor_NaturomradeType_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes COMMAND_TIMEOUT 30 NAMED_CONNECTION Nin_Hovedbase_SDE
 
@@ -6317,21 +6297,7 @@ INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO Featur
 FACTORY_DEF * ReferenceFactory    FACTORY_NAME FeatureMerger_NaturomradeType    INPUT REFERENCER FEATURE_TYPE SQLExecutor_NaturomradeType_RESULT    INPUT REFERENCEE FEATURE_TYPE SQLExecutor_NaturomradeType_INITIATOR    REFERENCE_INFO $(FeatureMerger_NaturomradeType_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>NaturomraadeFKID<closeparen>,FeatureMerger_NaturomradeType) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>localid<closeparen>,FeatureMerger_NaturomradeType) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_NaturomradeType_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_NaturomradeType_NOT_MERGED
 
 # -------------------------------------------------------------------------
-
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME FeatureMerger_NaturomradeType_NotMerged_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_NaturomradeType_NOT_MERGED    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX FeatureMerger_NaturomradeType_NotMerged    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureMerger_NaturomradeType_NotMerged_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA andel,varchar<openparen>255<closeparen>,beskrivelse,varchar<openparen>255<closeparen>,brukernavn,varchar<openparen>255<closeparen>,kartlagtDato,varchar<openparen>255<closeparen>,kode,varchar<openparen>255<closeparen>,kodeFoersteVersjon,varchar<openparen>255<closeparen>,kodeVersjon,varchar<openparen>255<closeparen>,NaturomraadetypeLokalID,varchar<openparen>255<closeparen>,NaturomraadeFKID,varchar<openparen>255<closeparen>,ninKartleggingsenhet,varchar<openparen>255<closeparen>,ninHovedgruppe,varchar<openparen>255<closeparen>,ninHovedtype,varchar<openparen>255<closeparen>,omraadetypeId,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_NaturomradeType_NotMerged (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureMerger_NaturomradeType_NOT_MERGED
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter_kode    INPUT  FEATURE_TYPE FeatureMerger_NaturomradeType_MERGED    OUTPUT FEATURE_TYPE TestFilter_kode_TESTFILTERINPUTLINE_0
@@ -6397,15 +6363,15 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE at
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeTrimmer_57f5e768_2bc6_4907_8aa1_188f947270811_trimmer { trimChars} {    set attrs [split {kode} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trimright $attrVal];         } else {             set result [string trimright $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trimright} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trimright} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_57f5e768_2bc6_4907_8aa1_188f947270811_trimmer {<space>} ")
+Tcl2 proc AttributeTrimmer_57f5e768_2bc6_4907_8aa1_188f947270816_trimmer { trimChars} {    set attrs [split {kode} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trimright $attrVal];         } else {             set result [string trimright $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trimright} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trimright} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_57f5e768_2bc6_4907_8aa1_188f947270816_trimmer {<space>} ")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_480f18c3_9283_4e07_9bec_a4544229d6d61_replacer { findText replaceText invalidValue} {     set attrs [split \"kode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_480f18c3_9283_4e07_9bec_a4544229d6d61_replacer {<space>} {_} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_480f18c3_9283_4e07_9bec_a4544229d6d66_replacer { findText replaceText invalidValue} {     set attrs [split \"kode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_480f18c3_9283_4e07_9bec_a4544229d6d66_replacer {<space>} {_} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -6413,9 +6379,9 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_7    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_1dd85446_946a_446d_a5c3_c6a0a0df0ec31_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_1dd85446_946a_446d_a5c3_c6a0a0df0ec36_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_7_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,localId,code,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_1dd85446_946a_446d_a5c3_c6a0a0df0ec31_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_7_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,localId,code,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_1dd85446_946a_446d_a5c3_c6a0a0df0ec36_LIST_EXP)")
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_0_rpABwRdi1ws=   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=
 # -------------------------------------------------------------------------
@@ -6534,10 +6500,6 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
 POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
 # -------------------------------------------------------------------------
