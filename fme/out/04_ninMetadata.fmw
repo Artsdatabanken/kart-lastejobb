@@ -21,7 +21,7 @@
 #!   SHOW_INFO_NODES="true"
 #!   FME_SERVER_SERVICES=""
 #!   PYTHON_COMPATIBILITY="27"
-#!   VIEW_POSITION="-220.173 1701.01"
+#!   VIEW_POSITION="-223.724 1701.01"
 #!   END_TCL=""
 #!   DOC_EXTENTS="3397 110.75"
 #!   SOURCE_ROUTING_FILE=""
@@ -46,7 +46,7 @@
 #!   DESTINATION_ROUTING_FILE=""
 #!   HISTORY=""
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   LAST_SAVE_DATE="2018-04-12T15:12:23"
+#!   LAST_SAVE_DATE="2018-04-12T15:45:51"
 #!   USAGE=""
 #!   DESTINATION="NONE"
 #!   MAX_LOG_FEATURES="200"
@@ -466,7 +466,7 @@
 #!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
@@ -507,7 +507,7 @@
 #!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_3"/>
-#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;programBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;&lt;space&gt;:&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;programBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;&lt;space&gt;:&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;comma&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
@@ -516,14 +516,15 @@
 #!   IDENTIFIER="13"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="2181.5 331"
-#!   BOUNDING_RECT="2181.5 331 -1 -1"
+#!   POSITION="2181.5 302.5"
+#!   BOUNDING_RECT="2181.5 302.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="GROUPS_ORDERED" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
@@ -571,7 +572,7 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="33"
+#!   IDENTIFIER="21"
 #!   SOURCE_NODE="5"
 #!   TARGET_NODE="9"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
@@ -811,7 +812,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TA
 # -------------------------------------------------------------------------
 MACRO SQLExecutor_DIRECTIVES USE_SSPI NO SERVER "$(config_mssql_host)" ENCRYPT_CONNECTION NO USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_mssql_pass)" COMMAND_TIMEOUT 30
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>prg.navn<space>as<space>programNavn<comma><space><lf>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>prg.navn<space>as<space>programNavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
@@ -820,7 +821,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE 
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><quote>beskrivelse<quote>:<space><quote><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><quote><comma><space><lf><quote>programBeskrivelse<quote>:<space><quote><at>Value<openparen>programBeskrivelse<closeparen><quote><comma><space><lf><quote>program<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><quote>prosjekt<quote><space>:<quote><at>Value<openparen>prosjektnavn<closeparen><quote><lf><closecurly><comma>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
+Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><quote>beskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>programBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>programBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>program<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><quote>prosjekt<quote><space>:<quote><at>Value<openparen>prosjektnavn<closeparen><quote><lf><closecurly><comma>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
 FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE SQLExecutor_RESULT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
 
 
