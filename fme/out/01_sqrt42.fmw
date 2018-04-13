@@ -12,7 +12,7 @@
 #!   USAGE=""
 #!   FME_REPROJECTION_ENGINE="FME"
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   DOC_EXTENTS="3172 294.5"
+#!   DOC_EXTENTS="3888 304.75"
 #!   BEGIN_TCL=""
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   SHOW_INFO_NODES="true"
@@ -21,7 +21,7 @@
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   SHOW_ANNOTATIONS="true"
 #!   FME_SERVER_SERVICES=""
-#!   VIEW_POSITION="-250.003 1625.02"
+#!   VIEW_POSITION="-229.433 2005.56"
 #!   SOURCE_ROUTING_FILE=""
 #!   HISTORY=""
 #!   REDIRECT_TERMINATORS="NONE"
@@ -44,12 +44,12 @@
 #!   FME_BUILD_NUM="17539"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   PYTHON_COMPATIBILITY="27"
-#!   ZOOM_SCALE="100"
-#!   LAST_SAVE_DATE="2018-04-13T10:56:13"
+#!   ZOOM_SCALE="79"
+#!   LAST_SAVE_DATE="2018-04-13T11:17:43"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #!   MARKDOWN_DESCRIPTION=""
 #!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   DOC_TOP_LEFT="104 340.75"
+#!   DOC_TOP_LEFT="104 330.5"
 #!   FME_DOCUMENT_PRIORGUID="84c5a4be-dff6-49e1-86bd-fbd57e87385d,9a820179-736a-4855-8e5c-d8c5b185cf8a,11f0df60-599e-45dc-84cc-ca358a1dcda4"
 #!   SOURCE="NONE"
 #!   BEGIN_PYTHON=""
@@ -341,8 +341,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="3276 340.75"
-#!   BOUNDING_RECT="3276 340.75 -1 -1"
+#!   POSITION="3992 366.75"
+#!   BOUNDING_RECT="3992 366.75 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOJSON_1"
@@ -600,8 +600,8 @@
 #!   IDENTIFIER="21"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="3276 585.75"
-#!   BOUNDING_RECT="3276 585.75 -1 -1"
+#!   POSITION="3276 559.75"
+#!   BOUNDING_RECT="3276 559.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -619,6 +619,28 @@
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="15"
+#!   TYPE="CoordinateRounder"
+#!   VERSION="3"
+#!   POSITION="3297 330.5"
+#!   BOUNDING_RECT="3297 330.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="ROUNDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="codes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XPREC" PARM_VALUE="7"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateRounder"/>
+#!     <XFORM_PARM PARM_NAME="ZPREC" PARM_VALUE="7"/>
+#!     <XFORM_PARM PARM_NAME="YPREC" PARM_VALUE="7"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -627,6 +649,17 @@
 #!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="fo 0 CREATED"
 #!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="15"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="fo 0 ROUNDED"
+#!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -688,11 +721,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="20"
+#!   IDENTIFIER="19"
 #!   SOURCE_NODE="22"
-#!   TARGET_NODE="2"
+#!   TARGET_NODE="15"
 #!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -921,12 +954,16 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE 
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE codes FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"7","7","7")
+
+# -------------------------------------------------------------------------
+
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter__Empty__Logger    INPUT  FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>NULL<gt>    OUTPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED                  @Log("AttributeFilter__Empty_: Feature is:","20","20")                  @FeatureType(AttributeFilter__Empty__LOGGED)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter__Empty_ LOGGED Output Nuker"   INPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeFilter_<lt>UNFILTERED<gt> TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sqrt42<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC CoordinateRounder_ROUNDED TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>sqrt42<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
