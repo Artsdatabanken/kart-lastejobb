@@ -9,51 +9,51 @@
 #          --DestDataset_TEXTLINE_3 "D:\out\json\ninMetadata\metadata.json"
 #    
 #    
-#!   BEGIN_PYTHON=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   FME_BUILD_NUM="17539"
-#!   FME_DOCUMENT_GUID="bb41c789-4e96-4fc6-a61f-92355495715a"
-#!   SOURCE="NONE"
-#!   DOC_TOP_LEFT="104 291"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   DESCRIPTION=""
-#!   BEGIN_TCL=""
-#!   SHOW_INFO_NODES="true"
-#!   FME_SERVER_SERVICES=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   VIEW_POSITION="-220.173 1701.01"
-#!   END_TCL=""
-#!   DOC_EXTENTS="3397 110.75"
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   WORKSPACE_VERSION="1"
-#!   TERMINATE_REJECTED="YES"
-#!   MARKDOWN_USAGE=""
-#!   LOG_FILE=""
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   TITLE=""
 #!   USE_MARKDOWN=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   MARKDOWN_DESCRIPTION=""
-#!   FME_DOCUMENT_PRIORGUID="a5f66f1a-b75c-4546-a902-720ca13d3f11,60f0cf22-21cc-46eb-84e5-2ad8d0082d7c,bd5c4a82-5db9-4156-ae7f-09994945a0f8"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   SHOW_ANNOTATIONS="true"
-#!   ZOOM_SCALE="88"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
-#!   DESTINATION_ROUTING_FILE=""
-#!   HISTORY=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   LAST_SAVE_DATE="2018-04-12T16:09:19"
+#!   BEGIN_TCL=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_PRIORGUID="a5f66f1a-b75c-4546-a902-720ca13d3f11,60f0cf22-21cc-46eb-84e5-2ad8d0082d7c,bd5c4a82-5db9-4156-ae7f-09994945a0f8,bb41c789-4e96-4fc6-a61f-92355495715a"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   MARKDOWN_USAGE=""
 #!   USAGE=""
-#!   DESTINATION="NONE"
-#!   MAX_LOG_FEATURES="200"
-#!   END_PYTHON=""
+#!   SOURCE_ROUTING_FILE=""
 #!   CATEGORY=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   TITLE=""
+#!   DOC_EXTENTS="4768 492"
+#!   END_PYTHON=""
+#!   DOC_TOP_LEFT="104 401.75"
+#!   BEGIN_PYTHON=""
+#!   HISTORY=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_DOCUMENT_GUID="e8bd02b3-616e-451c-9605-f04fd7fb3b6d"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   MAX_LOG_FEATURES="200"
+#!   FME_SERVER_SERVICES=""
+#!   FME_BUILD_NUM="17539"
+#!   TERMINATE_REJECTED="YES"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   WORKSPACE_VERSION="1"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   ZOOM_SCALE="91"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   SHOW_ANNOTATIONS="true"
+#!   VIEW_POSITION="-216.348 1943.7"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   PASSWORD=""
+#!   DESTINATION="NONE"
 #!   IGNORE_READER_FAILURE="No"
+#!   SOURCE="NONE"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   END_TCL=""
+#!   LOG_FILE=""
+#!   DESCRIPTION=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   LAST_SAVE_DATE="2018-04-17T15:58:56"
+#!   FME_REPROJECTION_ENGINE="FME"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -61,7 +61,7 @@
 #!   ROLE="WRITER"
 #!   FORMAT="TEXTLINE"
 #!   DATASET="$(DestDataset_TEXTLINE_3)"
-#!   KEYWORD="TEXTLINE_2"
+#!   KEYWORD="TEXTLINE_1"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="60"
 #!   ATTR_CASE="ANY"
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_geometry fme_char(50) text_line_eol char(10) fme_color char(50) fme_basename char(50) fme_text_string char(50) fme_rotation number(31,15) fme_sweep_angle number(31,15) fme_feature_type char(50) fme_dataset char(50) fme_text_size number(31,15) fme_type char(50) fme_secondary_axis number(31,15) fme_primary_axis number(31,15) fme_fill_color char(50)"
+#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_rotation number(31,15) fme_fill_color char(50) fme_color char(50) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_text_size number(31,15) fme_primary_axis number(31,15) fme_dataset char(50) fme_secondary_axis number(31,15) fme_feature_type char(50) fme_type char(50) text_line_eol char(10) fme_basename char(50) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -79,9 +79,25 @@
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="17539"
 #!   COORDSYS=""
-#!   FANOUT_GROUP="NO"
 #!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
 #! >
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Text file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Text file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="txt file"
+#! />
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
 #!   VALUE="text/plain"
@@ -92,22 +108,6 @@
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_FEATURE_TYPE_EDITING"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the Text file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="txt file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the Text file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_FEATURE_TYPE_EDITING"
 #!   VALUE="NO"
 #! />
 #! </DATASET>
@@ -353,11 +353,11 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="6"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="3501 291"
-#!   BOUNDING_RECT="3501 291 -1 -1"
+#!   POSITION="4872 427"
+#!   BOUNDING_RECT="4872 427 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
-#!   KEYWORD="TEXTLINE_2"
+#!   KEYWORD="TEXTLINE_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
@@ -405,8 +405,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="104 311.75"
-#!   BOUNDING_RECT="104 311.75 -1 -1"
+#!   POSITION="104 557.75"
+#!   BOUNDING_RECT="104 557.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -415,16 +415,16 @@
 #!     <OUTPUT_FEAT NAME="CREATED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
@@ -463,34 +463,34 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:"/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prj.prosjektbeskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;prosjektBeskrivelse&lt;comma&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prj.prosjektbeskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;prosjektBeskrivelse&lt;comma&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
-#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="lokalid,brukernavn,firma,naturområdeBeskrivelse,prosjektnavn,prosjektBeskrivelse,programNavn,programBeskrivelse"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="1526.5 302.5"
-#!   BOUNDING_RECT="1526.5 302.5 -1 -1"
+#!   POSITION="2181.5 548.5"
+#!   BOUNDING_RECT="2181.5 548.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -506,21 +506,22 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_3"/>
-#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjektBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;programBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;&lt;space&gt;:&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
+#!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
+#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjektBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;programBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;&lt;space&gt;:&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;koder&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;koder&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="2181.5 302.5"
-#!   BOUNDING_RECT="2181.5 302.5 -1 -1"
+#!   POSITION="3522 438.5"
+#!   BOUNDING_RECT="3522 438.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -529,21 +530,21 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="GROUPS_ORDERED" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="Selected Attributes"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="metadata"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="metadata"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListBuilder"/>
+#!     <XFORM_PARM PARM_NAME="GROUPS_ORDERED" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="17"
 #!   TYPE="ListConcatenator"
 #!   VERSION="3"
-#!   POSITION="2836.5 302.5"
-#!   BOUNDING_RECT="2836.5 302.5 -1 -1"
+#!   POSITION="4207.5 438.5"
+#!   BOUNDING_RECT="4207.5 438.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -553,18 +554,215 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListConcatenator"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_list&lt;opencurly&gt;&lt;closecurly&gt;.metadata"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListConcatenator"/>
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="20"
+#!   TYPE="SQLExecutor"
+#!   VERSION="8"
+#!   POSITION="820 893.75"
+#!   BOUNDING_RECT="820 893.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nat.kode&lt;comma&gt;&lt;lf&gt;nat.andel&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.NATUROMRAADETYPE&lt;space&gt;nat&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.lokalid&lt;space&gt;=&lt;space&gt;nat.naturomraadeFKID"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Initiator Attributes if Conflict"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="lokalid,kode,andel"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="JSONTemplater"
+#!   VERSION="0"
+#!   POSITION="1526.5 608.5"
+#!   BOUNDING_RECT="1526.5 608.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="SUB_TEMPLATE_PARAMS" PARM_VALUE="KODER_QUERY_EXPR,&quot;WHOLE_LINE TEXT_EDIT_XQUERY_OR_ATTR JSON%GET%PROCESS%GEOMETRY%NOBRACES&quot;,&quot;KODER Template Expression:&quot;"/>
+#!     <XFORM_PARM PARM_NAME="KODER_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;kode&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;kode&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;andel&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;andel&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="koder"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater"/>
+#!     <XFORM_PARM PARM_NAME="GEO_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="lokalid"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;openbracket&gt;fme:process-features&lt;openparen&gt;&lt;quote&gt;KODER&lt;quote&gt;&lt;closeparen&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="AttributeFilter"
+#!   VERSION="5"
+#!   POSITION="2836.5 638.5"
+#!   BOUNDING_RECT="2836.5 638.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;openbracket&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;,&lt;openbracket&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="koder"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="28"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="3501 667.75"
+#!   BOUNDING_RECT="3501 667.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter__Empty_"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="4"
+#!   IDENTIFIER="16"
 #!   SOURCE_NODE="3"
 #!   TARGET_NODE="5"
 #!   SOURCE_PORT_DESC="fo 0 CREATED"
@@ -575,20 +773,31 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="21"
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="20"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="25"
 #!   SOURCE_NODE="5"
-#!   TARGET_NODE="9"
+#!   TARGET_NODE="24"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   TARGET_PORT_DESC="fi 0 ROOT"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="14"
+#!   IDENTIFIER="26"
 #!   SOURCE_NODE="9"
-#!   TARGET_NODE="13"
+#!   TARGET_NODE="23"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -618,6 +827,83 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="20"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="fi 1 KODER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 0 &lt;lt&gt;lt&lt;gt&gt;EMPTY&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;lt&lt;gt&gt;MISSING&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 2 &lt;lt&gt;lt&lt;gt&gt;NULL&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="27"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="32"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 4 &lt;lt&gt;openbracket&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;&lt;lt&gt;closebracket&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -629,7 +915,7 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
-GUI IGNORE DestDataset_TEXTLINE_2,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2,TEXTLINE_OUT_ENCODING_TEXTLINE_2,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2
+GUI IGNORE DestDataset_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1
 DEFAULT_MACRO DestDataset_TEXTLINE_3 D:\out\json\ninMetadata\metadata.json
 GUI FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 INCLUDE PYTHON
@@ -707,13 +993,13 @@ WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} TEXTLINE
-MULTI_WRITER_KEYWORD{0} TEXTLINE_2
+MULTI_WRITER_KEYWORD{0} TEXTLINE_1
 #! END_WB_HEADER
 
 #! START_WB_HEADER
-MACRO WB_KEYWORD "TEXTLINE_2"
+MACRO WB_KEYWORD "TEXTLINE_1"
 #! END_WB_HEADER
-#! START_DEST_HEADER TEXTLINE TEXTLINE_2
+#! START_DEST_HEADER TEXTLINE TEXTLINE_1
 # =====================================================================
 # The following GUI line prompts for a folder to be used as the
 # the destination for the TextLine files. The user input is stored in
@@ -722,53 +1008,53 @@ MACRO WB_KEYWORD "TEXTLINE_2"
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_TEXTLINE_2 $(DestDataset)}         \
+ puts {DEFAULT_MACRO DestDataset_TEXTLINE_1 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER TEXTLINE TEXTLINE_2
-DEFAULT_MACRO DestDataset_TEXTLINE_2 $(DestDataset_TEXTLINE_3)
-GUI FILENAME DestDataset_TEXTLINE_2 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
+#! START_DEST_HEADER TEXTLINE TEXTLINE_1
+DEFAULT_MACRO DestDataset_TEXTLINE_1 $(DestDataset_TEXTLINE_3)
+GUI FILENAME DestDataset_TEXTLINE_1 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 # =====================================================================
 # The following GUI line prompts for the overwrite flag. The default is
 # YES. Possible values are YES or NO. Any value other than NO or
 # no is interpreted as YES.
-DEFAULT_MACRO TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2 YES
-TEXTLINE_2_OVERWRITE_FILE "$(TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2)"
-GUI CHOICE TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2 YES%NO Overwrite Existing File:
+DEFAULT_MACRO TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1 YES
+TEXTLINE_1_OVERWRITE_FILE "$(TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1 YES%NO Overwrite Existing File:
 # =====================================================================
 # Set the type of encoding for the output file
 # =====================================================================
 # Set line termination character
-DEFAULT_MACRO TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2 System
-TEXTLINE_2_END_OF_LINE "$(TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2)"
-GUI CHOICE TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2 System%Windows%Unix%Macintosh%Source%None Line Termination:
+DEFAULT_MACRO TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1 System
+TEXTLINE_1_END_OF_LINE "$(TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1 System%Windows%Unix%Macintosh%Source%None Line Termination:
 # =====================================================================
 # Set whether to write the last line termination character
-DEFAULT_MACRO TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2 YES
-TEXTLINE_2_WRITE_LAST_EOL "$(TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2)"
-GUI CHOICE TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2 YES%NO Write Last Line Terminator:
-DEFAULT_MACRO TEXTLINE_OUT_ENCODING_TEXTLINE_2 utf-8
-TEXTLINE_2_ENCODING "$(TEXTLINE_OUT_ENCODING_TEXTLINE_2)"
-GUI STRING_OR_ENCODING TEXTLINE_OUT_ENCODING_TEXTLINE_2 SYSTEM%* Character Encoding:
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1 YES
+TEXTLINE_1_WRITE_LAST_EOL "$(TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1 YES%NO Write Last Line Terminator:
+DEFAULT_MACRO TEXTLINE_OUT_ENCODING_TEXTLINE_1 utf-8
+TEXTLINE_1_ENCODING "$(TEXTLINE_OUT_ENCODING_TEXTLINE_1)"
+GUI STRING_OR_ENCODING TEXTLINE_OUT_ENCODING_TEXTLINE_1 SYSTEM%* Character Encoding:
 # =====================================================================
 # The following GUI line prompts for the overwrite flag. The default is
 # YES. Possible values are YES or NO. Any value other than NO or
 # no is interpreted as YES.
-DEFAULT_MACRO TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2 NO
-TEXTLINE_2_WRITE_UTF8_BOM "$(TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2)"
-GUI CHOICE TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2 YES%NO Write UTF Byte Order Mark
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1 NO
+TEXTLINE_1_WRITE_UTF8_BOM "$(TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1 YES%NO Write UTF Byte Order Mark
 # =====================================================================
 # Set the mime type. Note -- it is actually only used inside of workspaces
 # as a FORMAT_PARAMETER which even then is parsed only by the FME Server
 # Repository Manager
-DEFAULT_MACRO TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2 text/plain
-TEXTLINE_2_MIME_TYPE "$(TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2)"
-GUI STRING_OR_CHOICE TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2 application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml MIME Type:
+DEFAULT_MACRO TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1 text/plain
+TEXTLINE_1_MIME_TYPE "$(TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1)"
+GUI STRING_OR_CHOICE TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1 application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml MIME Type:
 # ============================================================================
 # Opt in for destination dataset type vs format type validation
-DEFAULT_MACRO TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_2 Yes
-TEXTLINE_2_DESTINATION_DATASETTYPE_VALIDATION "$(TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_2)"
-TEXTLINE_2_DATASET "$(DestDataset_TEXTLINE_2)"
+DEFAULT_MACRO TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_1 Yes
+TEXTLINE_1_DESTINATION_DATASETTYPE_VALIDATION "$(TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_1)"
+TEXTLINE_1_DATASET "$(DestDataset_TEXTLINE_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
@@ -784,7 +1070,7 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 LOG_FILTER_MASK -1
-DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_2 TEXTLINE_2
+DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
@@ -809,28 +1095,47 @@ FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator  
 FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
 FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys()        fme_feature_type Creator
 
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED Brancher -1 4".BranchingFactory.Count)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Creator CREATED Splitter"   INPUT FEATURE_TYPE Creator_CREATED   OUTPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   OUTPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_0_GJAgmIF9G6c= Brancher -1 16"   INPUT FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED_0_GJAgmIF9G6c= Brancher -1 16".BranchingFactory.Count)
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_1_Exx7idfjvCA= Brancher -1 15"   INPUT FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED_1_Exx7idfjvCA= Brancher -1 15".BranchingFactory.Count)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
 MACRO SQLExecutor_DIRECTIVES USE_SSPI NO SERVER "$(config_mssql_host)" ENCRYPT_CONNECTION NO USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_mssql_pass)" COMMAND_TIMEOUT 30
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prj.prosjektbeskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>prosjektBeskrivelse<comma><lf>prg.navn<space>as<space>programNavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prj.prosjektbeskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>prosjektBeskrivelse<comma><lf>prg.navn<space>as<space>programNavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
+MACRO SQLExecutor_3_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes USER_NAME "$(config_mssql_user)" ENCRYPT_CONNECTION NO COMMAND_TIMEOUT 30 SERVER "$(config_mssql_host)" PASSWORD "$(config_mssql_pass)" USE_SSPI NO
+
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_3    INPUT  FEATURE_TYPE Creator_CREATED_1_Exx7idfjvCA=    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nat.kode<comma><lf>nat.andel<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.NATUROMRAADETYPE<space>nat<lf>where<space><lf>nom.lokalid<space>=<space>nat.naturomraadeFKID"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor_3)"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_3_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_3_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_3)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_3_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_3_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_INITIATOR
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONTemplater_KODER_INPUT_FACTORY INPUT FEATURE_TYPE __dummy__  INPUT  FEATURE_TYPE SQLExecutor_3_RESULT OUTPUT FEATURE_TYPE JSONTemplater_DataFeatures    __xml_templater_bucket__ KODER
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE SQLExecutor_RESULT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR koder OUTPUT_XML_HEADER NO GROUP_BY lokalid CONSECUTIVE_GROUPS NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <openbracket>fme:process-features<openparen><quote>KODER<quote><closeparen><closebracket> BUCKET_TEMPLATE_EXPR KODER "<opencurly><lf><space><space><space><space><quote>kode<quote>:<space>fme:get-attribute<openparen><quote>kode<quote><closeparen><comma><lf><space><space><space><space><quote>andel<quote>:<space>fme:get-attribute<openparen><quote>andel<quote><closeparen><lf><closecurly>" OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
+# -------------------------------------------------------------------------
 
 
-Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><quote>beskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>prosjektBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>prosjektBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>programBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>programBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>program<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><quote>prosjekt<quote><space>:<quote><at>Value<openparen>prosjektnavn<closeparen><quote><lf><closecurly>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE SQLExecutor_RESULT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
+Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><quote>beskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>prosjektBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>prosjektBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>programBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>programBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>program<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><quote>prosjekt<quote><space>:<quote><at>Value<openparen>prosjektnavn<closeparen><quote><comma><lf><quote>koder<quote>:<space><at>Value<openparen>koder<closeparen><lf><closecurly>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
 
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
+
+FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE koder FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> <openbracket><space><space><closebracket> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt> OUTPUT <openbracket><space><space><closebracket> FEATURE_TYPE AttributeFilter_<openbracket><space><space><closebracket>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
 FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder    INPUT FEATURE_TYPE ListBuilder_no_fme_type    LIST_NAME "_list{}"    LIST_ATTRS_TO_INCLUDE { metadata }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    ORDERED_BY_GROUP No    OUTPUT LIST FEATURE_TYPE ListBuilder_OUTPUT
 
 # -------------------------------------------------------------------------
@@ -839,6 +1144,11 @@ Tcl2 set ListConcatenator__separator [FME_DecodeText {<comma>}];      regsub -al
 Tcl2 proc ListConcatenator__Concatenate {} {   upvar \#0 ListConcatenator__separator separator             ListConcatenator__listPattern listPattern;   set allAttrs [lsort -dictionary [FME_AttributeNames]];   set keepEmptyParts [string equal {No} {No}];   set result {};   foreach attrName $allAttrs {     if {[regexp $listPattern $attrName]} {       set attrValue [FME_GetAttribute $attrName];       if {$keepEmptyParts || $attrValue != {}} {         lappend result $attrValue;       };     };   };   FME_SetAttribute {"metadata"} [join $result $separator]; }
 FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator    INPUT  FEATURE_TYPE ListBuilder_OUTPUT    OUTPUT FEATURE_TYPE ListConcatenator_OUTPUT         @Tcl2(ListConcatenator__Concatenate)
 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter__Empty__Logger    INPUT  FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>NULL<gt>    INPUT  FEATURE_TYPE AttributeFilter_<openbracket><space><space><closebracket>    OUTPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED                  @Log("AttributeFilter__Empty_: Feature is:","20","20")                  @FeatureType(AttributeFilter__Empty__LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter__Empty_ LOGGED Output Nuker"   INPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC ListConcatenator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>text_line_data<comma><lt>opencurly<gt><lt>at<gt>Value<lt>openparen<gt>metadata<lt>closeparen<gt><lt>closecurly<gt><comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
