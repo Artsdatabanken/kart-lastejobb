@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\04_ninMetadata.fmw
+#    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\04_ninMetadata_new.fmw
 #          --DestDataset_TEXTLINE_3 "D:\out\json\ninMetadata\metadata.json"
 #    
 #    
@@ -21,9 +21,9 @@
 #!   CATEGORY=""
 #!   DESTINATION_ROUTING_FILE=""
 #!   TITLE=""
-#!   DOC_EXTENTS="4768 492"
+#!   DOC_EXTENTS="6794 547.75"
 #!   END_PYTHON=""
-#!   DOC_TOP_LEFT="104 401.75"
+#!   DOC_TOP_LEFT="104 346"
 #!   BEGIN_PYTHON=""
 #!   HISTORY=""
 #!   PYTHON_COMPATIBILITY="27"
@@ -36,10 +36,10 @@
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   WORKSPACE_VERSION="1"
 #!   LOG_MAX_RECORDED_FEATURES="200"
-#!   ZOOM_SCALE="91"
+#!   ZOOM_SCALE="67"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   SHOW_ANNOTATIONS="true"
-#!   VIEW_POSITION="-216.348 1943.7"
+#!   VIEW_POSITION="-251.868 2462.71"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   PASSWORD=""
 #!   DESTINATION="NONE"
@@ -52,7 +52,7 @@
 #!   MARKDOWN_DESCRIPTION=""
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
-#!   LAST_SAVE_DATE="2018-04-17T15:58:56"
+#!   LAST_SAVE_DATE="2018-04-19T10:28:39"
 #!   FME_REPROJECTION_ENGINE="FME"
 #! >
 #! <DATASETS>
@@ -353,16 +353,16 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="6"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="4872 427"
-#!   BOUNDING_RECT="4872 427 -1 -1"
+#!   POSITION="6898 666.25"
+#!   BOUNDING_RECT="6898 666.25 -1 -1"
 #!   ORDER="5e+14"
-#!   COLLAPSED="true"
+#!   COLLAPSED="false"
 #!   KEYWORD="TEXTLINE_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="false" ATTR_VALUE="&lt;opencurly&gt;&lt;at&gt;Value&lt;openparen&gt;metadata&lt;closeparen&gt;&lt;closecurly&gt;"/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="false" ATTR_VALUE="&lt;at&gt;Value&lt;openparen&gt;metadata&lt;closeparen&gt;"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -447,6 +447,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -463,23 +465,25 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor"/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;nom.brukernavn&lt;comma&gt;&lt;lf&gt;nom.firma&lt;comma&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prj.prosjektbeskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;prosjektBeskrivelse&lt;comma&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;lf&gt;--top&lt;space&gt;10&lt;lf&gt;REPLACE&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.lokalid&lt;comma&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;lokalid&lt;comma&gt;&lt;lf&gt;b.navn&lt;space&gt;as&lt;space&gt;brukernavn&lt;comma&gt;&lt;lf&gt;b.firmaNavn&lt;space&gt;as&lt;space&gt;firma&lt;comma&gt;&lt;lf&gt;b.email&lt;comma&gt;&lt;lf&gt;b.hjemmeside&lt;comma&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;nom.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;comma&gt;&lt;lf&gt;prj.prosjektnavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prj.prosjektbeskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;prosjektBeskrivelse&lt;comma&gt;&lt;lf&gt;prg.navn&lt;space&gt;as&lt;space&gt;programNavn&lt;comma&gt;&lt;space&gt;&lt;lf&gt;Replace&lt;space&gt;&lt;openparen&gt;Replace&lt;space&gt;&lt;openparen&gt;REPLACE&lt;openparen&gt;prg.beskrivelse&lt;comma&gt;&lt;apos&gt;&lt;quote&gt;&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;10&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;CHAR&lt;openparen&gt;13&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;programBeskrivelse&lt;lf&gt;from&lt;space&gt;&lt;lf&gt;nin_eier.NATUROMRAADE&lt;space&gt;nom&lt;comma&gt;&lt;lf&gt;nin_eier.PROSJEKT&lt;space&gt;prj&lt;comma&gt;&lt;lf&gt;nin_eier.PROGRAM&lt;space&gt;prg&lt;comma&gt;&lt;lf&gt;nin_eier.BRUKER&lt;space&gt;b&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;nom.prosjektFKID&lt;space&gt;=&lt;space&gt;prj.lokalid&lt;lf&gt;and&lt;lf&gt;prj.programFKID&lt;space&gt;=&lt;space&gt;prg.lokalid&lt;lf&gt;and&lt;lf&gt;b.brukernavn&lt;space&gt;=&lt;space&gt;nom.brukernavn"/>
 #!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Result Attributes Only"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
-#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="lokalid,brukernavn,firma,naturområdeBeskrivelse,prosjektnavn,prosjektBeskrivelse,programNavn,programBeskrivelse"/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="lokalid,brukernavn,firma,naturområdeBeskrivelse,prosjektnavn,prosjektBeskrivelse,programNavn,programBeskrivelse,email,hjemmeside"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
@@ -506,6 +510,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
@@ -513,15 +519,15 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_3"/>
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="metadata"/>
 #!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
-#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjektBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;programBeskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;&lt;space&gt;:&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;koder&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;koder&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;lokalid&lt;closeparen&gt;&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;naturomr&lt;u00e5&gt;deBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;quote&gt;kartlegger&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;brukernavn&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;brukernavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;firma&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;firma&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;email&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;email&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;hjemmeside&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;hjemmeside&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;program&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;navn&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;programNavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;programBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;prosjekt&lt;quote&gt;:&lt;opencurly&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;navn&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektnavn&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;tab&gt;&lt;quote&gt;beskrivelse&lt;quote&gt;:&lt;space&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Trim&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;prosjektBeskrivelse&lt;closeparen&gt;&lt;closeparen&gt;&lt;quote&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;quote&gt;koder&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;koder&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="3522 438.5"
-#!   BOUNDING_RECT="3522 438.5 -1 -1"
+#!   POSITION="4893 658.5"
+#!   BOUNDING_RECT="4893 658.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -543,8 +549,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="ListConcatenator"
 #!   VERSION="3"
-#!   POSITION="4207.5 438.5"
-#!   BOUNDING_RECT="4207.5 438.5 -1 -1"
+#!   POSITION="5578.5 658.5"
+#!   BOUNDING_RECT="5578.5 658.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -633,12 +639,14 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="SUB_TEMPLATE_PARAMS" PARM_VALUE="KODER_QUERY_EXPR,&quot;WHOLE_LINE TEXT_EDIT_XQUERY_OR_ATTR JSON%GET%PROCESS%GEOMETRY%NOBRACES&quot;,&quot;KODER Template Expression:&quot;"/>
-#!     <XFORM_PARM PARM_NAME="KODER_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;kode&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;kode&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;andel&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;andel&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="KODER_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;kode&lt;quote&gt;&lt;closeparen&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;andel&lt;quote&gt;&lt;closeparen&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -654,8 +662,8 @@
 #!   IDENTIFIER="23"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="2836.5 638.5"
-#!   BOUNDING_RECT="2836.5 638.5 -1 -1"
+#!   POSITION="2836.5 668.5"
+#!   BOUNDING_RECT="2836.5 668.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -671,6 +679,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
@@ -683,6 +693,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
@@ -695,6 +707,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
@@ -707,6 +721,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;openbracket&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;"/>
@@ -719,6 +735,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;,&lt;openbracket&gt;&lt;space&gt;&lt;space&gt;&lt;closebracket&gt;"/>
@@ -732,11 +750,11 @@
 #!   IDENTIFIER="28"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="3501 667.75"
-#!   BOUNDING_RECT="3501 667.75 -1 -1"
+#!   POSITION="3501 777.75"
+#!   BOUNDING_RECT="3501 777.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
@@ -749,6 +767,8 @@
 #!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
@@ -757,6 +777,180 @@
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter__Empty_"/>
 #!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="36"
+#!   TYPE="JSONValidator"
+#!   VERSION="1"
+#!   POSITION="4207.5 578.5"
+#!   BOUNDING_RECT="4207.5 578.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ERROR_LIST_ATTR" PARM_VALUE="_json_error"/>
+#!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;metadata&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONValidator_2"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="39"
+#!   TYPE="Logger"
+#!   VERSION="3"
+#!   POSITION="4872 447.75"
+#!   BOUNDING_RECT="4872 447.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONValidator_2_Failed"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="35"
+#!   TYPE="PythonCaller"
+#!   VERSION="4"
+#!   POSITION="3522 548.5"
+#!   BOUNDING_RECT="3522 548.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="lokalid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="firma" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="naturområdeBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektnavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="prosjektBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programNavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="programBeskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="hjemmeside" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="koder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="#&lt;space&gt;-*-&lt;space&gt;coding:&lt;space&gt;utf-8&lt;space&gt;-*-&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;function&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;space&gt;Interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;class&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;lokalid&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;lokalid&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;metadata&lt;space&gt;=&lt;space&gt;json.loads&lt;openparen&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;metadata&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;nyeKoder&lt;space&gt;=&lt;space&gt;&lt;opencurly&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;koder&lt;space&gt;in&lt;space&gt;metadata&lt;openbracket&gt;lokalid&lt;closebracket&gt;&lt;openbracket&gt;&lt;apos&gt;koder&lt;apos&gt;&lt;closebracket&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;kode&lt;space&gt;in&lt;space&gt;koder:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;kode&lt;space&gt;!=&lt;space&gt;&lt;quote&gt;&lt;quote&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;nyeKoder&lt;openbracket&gt;kode&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;koder&lt;openbracket&gt;kode&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;metadata&lt;openbracket&gt;lokalid&lt;closebracket&gt;.pop&lt;openparen&gt;&lt;apos&gt;koder&lt;apos&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;len&lt;openparen&gt;nyeKoder.keys&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;gt&gt;&lt;space&gt;0:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;metadata&lt;openbracket&gt;lokalid&lt;closebracket&gt;&lt;openbracket&gt;&lt;apos&gt;koder&lt;apos&gt;&lt;closebracket&gt;&lt;space&gt;=&lt;space&gt;nyeKoder&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;metadata&lt;apos&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;metadata&lt;closeparen&gt;&lt;openbracket&gt;1:-1&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="37"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="3501 346"
+#!   BOUNDING_RECT="3501 346 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter__Unfiltered_"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="PythonCaller"
+#!   VERSION="4"
+#!   POSITION="6233.5 658.5"
+#!   BOUNDING_RECT="6233.5 658.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_list{}.metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="metadata" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="#&lt;space&gt;-*-&lt;space&gt;coding:&lt;space&gt;utf-8&lt;space&gt;-*-&lt;lf&gt;import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;function&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;space&gt;Interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;class&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;metadata&lt;space&gt;=&lt;space&gt;json.loads&lt;openparen&gt;&lt;apos&gt;&lt;opencurly&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;metadata&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;metadata&lt;apos&gt;&lt;comma&gt;&lt;space&gt;json.dumps&lt;openparen&gt;metadata&lt;comma&gt;&lt;space&gt;&lt;space&gt;indent=2&lt;comma&gt;&lt;space&gt;ensure_ascii=False&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_2"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -817,11 +1011,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="19"
+#!   IDENTIFIER="34"
 #!   SOURCE_NODE="17"
-#!   TARGET_NODE="6"
+#!   TARGET_NODE="33"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -861,10 +1055,54 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="46"
+#!   SOURCE_NODE="35"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="30"
 #!   SOURCE_NODE="23"
 #!   TARGET_NODE="28"
 #!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;lt&lt;gt&gt;MISSING&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="39"
+#!   SOURCE_PORT_DESC="fo 1 FAILED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -883,13 +1121,24 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="27"
+#!   IDENTIFIER="45"
 #!   SOURCE_NODE="23"
-#!   TARGET_NODE="13"
+#!   TARGET_NODE="35"
 #!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="48"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="37"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1061,7 +1310,7 @@ TEXTLINE_1_DATASET "$(DestDataset_TEXTLINE_1)"
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)04_ninMetadata.log"
+LOG_FILENAME "$(FME_MF_DIR)04_ninMetadata_new.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -1077,7 +1326,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME 04_ninMetadata
+MACRO WORKSPACE_NAME 04_ninMetadata_new
 MACRO FME_VIEWER_APP fmedatainspector
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
@@ -1101,9 +1350,9 @@ FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED_1_Exx7idfjvCA= Br
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_DIRECTIVES USE_SSPI NO SERVER "$(config_mssql_host)" ENCRYPT_CONNECTION NO USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_mssql_pass)" COMMAND_TIMEOUT 30
+MACRO SQLExecutor_DIRECTIVES COMMAND_TIMEOUT 30 USE_SSPI NO ENCRYPT_CONNECTION NO USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SERVER "$(config_mssql_host)" PASSWORD "$(config_mssql_pass)"
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=    QUERY_SQL            "select<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>nom.brukernavn<comma><lf>nom.firma<comma><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prj.prosjektbeskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>prosjektBeskrivelse<comma><lf>prg.navn<space>as<space>programNavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE Creator_CREATED_0_GJAgmIF9G6c=    QUERY_SQL            "select<lf>--top<space>10<lf>REPLACE<openparen>REPLACE<openparen>nom.lokalid<comma><apos><opencurly><apos><comma><apos><apos><closeparen><comma><apos><closecurly><apos><comma><apos><apos><closeparen><space>as<space>lokalid<comma><lf>b.navn<space>as<space>brukernavn<comma><lf>b.firmaNavn<space>as<space>firma<comma><lf>b.email<comma><lf>b.hjemmeside<comma><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>nom.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>naturomr<u00e5>deBeskrivelse<comma><lf>prj.prosjektnavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prj.prosjektbeskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>prosjektBeskrivelse<comma><lf>prg.navn<space>as<space>programNavn<comma><space><lf>Replace<space><openparen>Replace<space><openparen>REPLACE<openparen>prg.beskrivelse<comma><apos><quote><apos><comma><apos><apos><closeparen><comma><space>CHAR<openparen>10<closeparen><comma><space><apos><apos><closeparen><comma><space>CHAR<openparen>13<closeparen><comma><space><apos><apos><closeparen><space>as<space>programBeskrivelse<lf>from<space><lf>nin_eier.NATUROMRAADE<space>nom<comma><lf>nin_eier.PROSJEKT<space>prj<comma><lf>nin_eier.PROGRAM<space>prg<comma><lf>nin_eier.BRUKER<space>b<lf>where<space><lf>nom.prosjektFKID<space>=<space>prj.lokalid<lf>and<lf>prj.programFKID<space>=<space>prg.lokalid<lf>and<lf>b.brukernavn<space>=<space>nom.brukernavn"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor)"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
@@ -1120,11 +1369,11 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONTemplater_KODER_INPUT_FACTORY INPUT FEATURE_TYPE __dummy__  INPUT  FEATURE_TYPE SQLExecutor_3_RESULT OUTPUT FEATURE_TYPE JSONTemplater_DataFeatures    __xml_templater_bucket__ KODER
-FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE SQLExecutor_RESULT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR koder OUTPUT_XML_HEADER NO GROUP_BY lokalid CONSECUTIVE_GROUPS NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <openbracket>fme:process-features<openparen><quote>KODER<quote><closeparen><closebracket> BUCKET_TEMPLATE_EXPR KODER "<opencurly><lf><space><space><space><space><quote>kode<quote>:<space>fme:get-attribute<openparen><quote>kode<quote><closeparen><comma><lf><space><space><space><space><quote>andel<quote>:<space>fme:get-attribute<openparen><quote>andel<quote><closeparen><lf><closecurly>" OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE SQLExecutor_RESULT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR koder OUTPUT_XML_HEADER NO GROUP_BY lokalid CONSECUTIVE_GROUPS NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <openbracket>fme:process-features<openparen><quote>KODER<quote><closeparen><closebracket> BUCKET_TEMPLATE_EXPR KODER "<opencurly>fme:get-attribute<openparen><quote>kode<quote><closeparen>:<space>fme:get-attribute<openparen><quote>andel<quote><closeparen><closecurly>" OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><quote>beskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>prosjektBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>prosjektBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>programBeskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>programBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>program<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><quote>prosjekt<quote><space>:<quote><at>Value<openparen>prosjektnavn<closeparen><quote><comma><lf><quote>koder<quote>:<space><at>Value<openparen>koder<closeparen><lf><closecurly>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
+Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {metadata}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>lokalid<closeparen><quote>:<space><opencurly><lf><quote>beskrivelse<quote>:<space><quote><at>Trim<openparen><at>Value<openparen>naturomr<u00e5>deBeskrivelse<closeparen><closeparen><quote><comma><space><lf><quote>kartlegger<quote>:<space><opencurly><lf><tab><quote>brukernavn<quote><space>:<space><quote><at>Value<openparen>brukernavn<closeparen><quote><comma><space><lf><tab><quote>firma<quote>:<space><quote><at>Value<openparen>firma<closeparen><quote><comma><space><lf><tab><quote>email<quote>:<space><quote><at>Value<openparen>email<closeparen><quote><comma><lf><tab><quote>hjemmeside<quote>:<space><quote><at>Value<openparen>hjemmeside<closeparen><quote><lf><closecurly><comma><lf><quote>program<quote>:<space><opencurly><lf><tab><quote>navn<quote>:<space><quote><at>Value<openparen>programNavn<closeparen><quote><comma><space><lf><tab><quote>beskrivelse<quote>:<space><space><quote><at>Trim<openparen><at>Value<openparen>programBeskrivelse<closeparen><closeparen><quote><lf><closecurly><comma><lf><quote>prosjekt<quote>:<opencurly><lf><tab><quote>navn<quote>:<space><quote><at>Value<openparen>prosjektnavn<closeparen><quote><comma><space><lf><tab><quote>beskrivelse<quote>:<space><space><quote><at>Trim<openparen><at>Value<openparen>prosjektBeskrivelse<closeparen><closeparen><quote><lf><closecurly><comma><lf><quote>koder<quote>:<space><at>Value<openparen>koder<closeparen><lf><closecurly>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
 FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
 
 
@@ -1133,9 +1382,25 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
 
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE koder FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> <openbracket><space><space><closebracket> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt> OUTPUT <openbracket><space><space><closebracket> FEATURE_TYPE AttributeFilter_<openbracket><space><space><closebracket>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>UNFILTERED<gt> Splitter"   INPUT FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>   OUTPUT FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>_0_86wt0NVK3zE=   OUTPUT FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>_1_Tc+gJQsvqnY=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter__Unfiltered_ (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>_1_Tc+gJQsvqnY=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
+
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>_0_86wt0NVK3zE=    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE #<space>-*-<space>coding:<space>utf-8<space>-*-<lf>import<space>fme<lf>import<space>fmeobjects<lf>import<space>json<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>lokalid<space>=<space>feature.getAttribute<openparen><apos>lokalid<apos><closeparen><lf><space><space><space><space><space><space><space><space>metadata<space>=<space>json.loads<openparen><apos><opencurly><apos><space>+<space>feature.getAttribute<openparen><apos>metadata<apos><closeparen><space>+<space><apos><closecurly><apos><closeparen><lf><space><space><space><space><space><space><space><space>nyeKoder<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space>for<space>koder<space>in<space>metadata<openbracket>lokalid<closebracket><openbracket><apos>koder<apos><closebracket>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>for<space>kode<space>in<space>koder:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space>kode<space>!=<space><quote><quote>:<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>nyeKoder<openbracket>kode<closebracket><space>=<space>koder<openbracket>kode<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>metadata<openbracket>lokalid<closebracket>.pop<openparen><apos>koder<apos><comma><space>None<closeparen><lf><space><space><space><space><space><space><space><space>if<space>len<openparen>nyeKoder.keys<openparen><closeparen><closeparen><space><gt><space>0:<lf><space><space><space><space><space><space><space><space><space><space><space><space>metadata<openbracket>lokalid<closebracket><openbracket><apos>koder<apos><closebracket><space>=<space>nyeKoder<lf><space><space><space><space><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>metadata<apos><comma><space>json.dumps<openparen>metadata<closeparen><openbracket>1:-1<closebracket><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONValidator_2       INPUT  FEATURE_TYPE PythonCaller_OUTPUT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>metadata<closeparen>,JSONValidator_2)"    FORMAT NONE    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONValidator_2_PASSED    OUTPUT INVALID FEATURE_TYPE JSONValidator_2_FAILED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONValidator_2_Failed (Disabled) Nuker"   INPUT FEATURE_TYPE JSONValidator_2_FAILED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME ListBuilder_fme_type_remover    INPUT  FEATURE_TYPE JSONValidator_2_PASSED    OUTPUT FEATURE_TYPE ListBuilder_no_fme_type       @RemoveAttributes(fme_type,fme_geometry)
 FACTORY_DEF {*} ListFactory    FACTORY_NAME ListBuilder    INPUT FEATURE_TYPE ListBuilder_no_fme_type    LIST_NAME "_list{}"    LIST_ATTRS_TO_INCLUDE { metadata }    LIST_ATTRS_TO_INCLUDE_MODE SELECTED    ORDERED_BY_GROUP No    OUTPUT LIST FEATURE_TYPE ListBuilder_OUTPUT
 
 # -------------------------------------------------------------------------
@@ -1146,12 +1411,16 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator    INPUT  FEATURE_TYPE
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter__Empty__Logger    INPUT  FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>    INPUT  FEATURE_TYPE AttributeFilter_<lt>NULL<gt>    INPUT  FEATURE_TYPE AttributeFilter_<openbracket><space><space><closebracket>    OUTPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED                  @Log("AttributeFilter__Empty_: Feature is:","20","20")                  @FeatureType(AttributeFilter__Empty__LOGGED)
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter__Empty_ LOGGED Output Nuker"   INPUT FEATURE_TYPE AttributeFilter__Empty__LOGGED
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_2    INPUT  FEATURE_TYPE ListConcatenator_OUTPUT    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE #<space>-*-<space>coding:<space>utf-8<space>-*-<lf>import<space>fme<lf>import<space>fmeobjects<lf>import<space>json<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>metadata<space>=<space>json.loads<openparen><apos><opencurly><apos><space>+<space>feature.getAttribute<openparen><apos>metadata<apos><closeparen><space>+<space><apos><closecurly><apos><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>metadata<apos><comma><space>json.dumps<openparen>metadata<comma><space><space>indent=2<comma><space>ensure_ascii=False<closeparen><closeparen><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_2_OUTPUT
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter__Empty_ (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>   INPUT FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>   INPUT FEATURE_TYPE AttributeFilter_<lt>NULL<gt>   INPUT FEATURE_TYPE AttributeFilter_<openbracket><space><space><closebracket>
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC ListConcatenator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>text_line_data<comma><lt>opencurly<gt><lt>at<gt>Value<lt>openparen<gt>metadata<lt>closeparen<gt><lt>closecurly<gt><comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC PythonCaller_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>text_line_data<comma><lt>at<gt>Value<lt>openparen<gt>metadata<lt>closeparen<gt><comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
