@@ -9,51 +9,51 @@
 #          --DestDataset_TEXTLINE "D:\out\json\codes\titles.json"
 #    
 #    
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_DOCUMENT_GUID="abac704c-6189-41a2-970c-95dd5e50b685"
-#!   VIEW_POSITION="-1462.51 1537.52"
-#!   MAX_LOG_FEATURES="200"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_SERVER_SERVICES=""
-#!   DOC_TOP_LEFT="104 291"
-#!   SHOW_ANNOTATIONS="true"
-#!   USE_MARKDOWN=""
-#!   TITLE=""
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   PASSWORD=""
-#!   LAST_SAVE_DATE="2018-04-12T12:45:22"
 #!   WORKSPACE_VERSION="1"
-#!   HISTORY=""
-#!   USAGE=""
-#!   END_TCL=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   FME_DOCUMENT_PRIORGUID="e4bda97b-1d18-4a05-a8b1-8339776389d5"
-#!   SOURCE_ROUTING_FILE=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   MARKDOWN_DESCRIPTION=""
-#!   TERMINATE_REJECTED="YES"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   MARKDOWN_USAGE=""
-#!   SHOW_INFO_NODES="true"
-#!   IGNORE_READER_FAILURE="No"
-#!   BEGIN_TCL=""
 #!   SOURCE="NONE"
-#!   DESTINATION="NONE"
-#!   FME_BUILD_NUM="17539"
-#!   PYTHON_COMPATIBILITY="27"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   DOC_EXTENTS="2742 110.75"
+#!   DOC_EXTENTS="5157 221"
+#!   SHOW_INFO_NODES="true"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   END_TCL=""
+#!   FME_DOCUMENT_GUID="1d803f05-7ebc-494d-9477-88aae919fadb"
+#!   LOG_MAX_RECORDED_FEATURES="200"
 #!   BEGIN_PYTHON=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SOURCE_ROUTING_FILE=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   ZOOM_SCALE="100"
+#!   MAX_LOG_FEATURES="200"
+#!   DOC_TOP_LEFT="104 331.5"
+#!   USAGE=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   MARKDOWN_DESCRIPTION=""
+#!   SHOW_ANNOTATIONS="true"
+#!   BEGIN_TCL=""
+#!   USE_MARKDOWN=""
+#!   MARKDOWN_USAGE=""
+#!   LAST_SAVE_DATE="2018-05-02T15:46:21"
+#!   FME_DOCUMENT_PRIORGUID="e4bda97b-1d18-4a05-a8b1-8339776389d5,abac704c-6189-41a2-970c-95dd5e50b685"
+#!   DESTINATION="NONE"
+#!   HISTORY=""
 #!   DESCRIPTION=""
-#!   LOG_FILE=""
+#!   FME_BUILD_NUM="17539"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   END_PYTHON=""
+#!   TERMINATE_REJECTED="YES"
+#!   IGNORE_READER_FAILURE="No"
 #!   FME_STROKE_MAX_DEVIATION="0"
+#!   PASSWORD=""
+#!   VIEW_POSITION="-240.712 1570.96"
+#!   TITLE=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   REDIRECT_TERMINATORS="NONE"
 #!   CATEGORY=""
+#!   ZOOM_SCALE="74"
+#!   LOG_FILE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_rotation number(31,15) fme_color char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_secondary_axis number(31,15) fme_basename char(50) fme_primary_axis number(31,15) fme_sweep_angle number(31,15) fme_dataset char(50) fme_text_size number(31,15) fme_type char(50) fme_feature_type char(50) fme_text_string char(50) text_line_eol char(10) fme_geometry fme_char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_fill_color char(50) fme_sweep_angle number(31,15) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_primary_axis number(31,15) fme_basename char(50) fme_dataset char(50) fme_geometry fme_char(50) fme_color char(50) fme_start_angle number(31,15) fme_rotation number(31,15) text_line_eol char(10) fme_type char(50) fme_feature_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -79,36 +79,36 @@
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="17539"
 #!   COORDSYS=""
-#!   FANOUT_GROUP="NO"
 #!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="text/plain"
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Text file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="txt file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="text_line"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_FEATURE_TYPE_EDITING"
-#!   VALUE="NO"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="READER_FEATURE_TYPE_EDITING"
 #!   VALUE="NO"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the Text file"
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="text_line"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="text/plain"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the Text file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -353,8 +353,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="3"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="2846 291"
-#!   BOUNDING_RECT="2846 291 -1 -1"
+#!   POSITION="5261 430"
+#!   BOUNDING_RECT="5261 430 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -400,6 +400,21 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="20"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Find codes that need an explanation&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1586 498.875"
+#!   TOP_LEFT="1586 498.875"
+#!   BOTTOM_RIGHT="1585 499.875"
+#!   BOUNDING_RECT="1586 498.875 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="14"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -410,8 +425,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="104 311.75"
-#!   BOUNDING_RECT="104 311.75 -1 -1"
+#!   POSITION="104 443.75"
+#!   BOUNDING_RECT="104 443.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -421,22 +436,22 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
 #!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="15"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="1526.5 302.5"
-#!   BOUNDING_RECT="1526.5 302.5 -1 -1"
+#!   POSITION="3941.5 331.5"
+#!   BOUNDING_RECT="3941.5 331.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -445,65 +460,67 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="titles" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_3"/>
-#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="titles"/>
 #!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;title&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="titles"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_3"/>
+#!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;title&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;title&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;parent&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;parent&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;&lt;closecurly&gt;&lt;space&gt;&lt;comma&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="2181.5 302.5"
-#!   BOUNDING_RECT="2181.5 302.5 -1 -1"
+#!   POSITION="4596.5 470"
+#!   BOUNDING_RECT="4596.5 470 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <OUTPUT_FEAT NAME="AGGREGATE"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="titles" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Drop Incoming Attributes"/>
-#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="titles"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE="titles"/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Drop Incoming Attributes"/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="10"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="820 401.75"
-#!   BOUNDING_RECT="820 401.75 -1 -1"
+#!   POSITION="820 533.75"
+#!   BOUNDING_RECT="820 533.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -512,7 +529,8 @@
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -521,27 +539,177 @@
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
-#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="id"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;c.code&lt;comma&gt;&lt;space&gt;c.title&lt;lf&gt;from&lt;lf&gt;data.codes&lt;space&gt;c&lt;lf&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
-#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;c.code&lt;comma&gt;&lt;space&gt;c.title&lt;lf&gt;from&lt;lf&gt;data.codes&lt;space&gt;c&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="code,title"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="SQLExecutor"
+#!   VERSION="8"
+#!   POSITION="3235 401.75"
+#!   BOUNDING_RECT="3235 401.75 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="parent" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="select&lt;space&gt;&lt;lf&gt;c.title&lt;space&gt;as&lt;space&gt;parent&lt;lf&gt;from&lt;lf&gt;data.codes&lt;space&gt;c&lt;lf&gt;where&lt;space&gt;&lt;lf&gt;c.code&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;parentCode&lt;closeparen&gt;&lt;apos&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="parent"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="14"
+#!   TYPE="PythonCaller"
+#!   VERSION="4"
+#!   POSITION="1660 370.125"
+#!   BOUNDING_RECT="1660 370.125 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;function&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;space&gt;Interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;class&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;code&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;code&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;openparen&gt;len&lt;openparen&gt;code.split&lt;openparen&gt;&lt;quote&gt;_&lt;quote&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;lt&gt;&lt;space&gt;3&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;parentCode&lt;apos&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;parentCode&lt;space&gt;=&lt;space&gt;code.split&lt;openparen&gt;&lt;quote&gt;_&lt;quote&gt;&lt;closeparen&gt;&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;+&lt;space&gt;&lt;apos&gt;_&lt;apos&gt;&lt;space&gt;+&lt;space&gt;code.split&lt;openparen&gt;&lt;quote&gt;_&lt;quote&gt;&lt;closeparen&gt;&lt;openbracket&gt;1&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;parentCode&lt;apos&gt;&lt;comma&gt;&lt;space&gt;parentCode&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller_2"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="parentCode"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="21"
+#!   TYPE="AttributeFilter"
+#!   VERSION="5"
+#!   POSITION="2570.5 524.5"
+#!   BOUNDING_RECT="2570.5 524.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="parentCode"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="19"
+#!   TYPE="StringConcatenator"
+#!   VERSION="7"
+#!   POSITION="3941.5 552.5"
+#!   BOUNDING_RECT="3941.5 552.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="parentCode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="titles" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACTION" PARM_VALUE="Create New Attribute"/>
+#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="titles"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringConcatenator_2"/>
+#!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARM_LINE" PARM_VALUE="&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;title&lt;quote&gt;:&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;title&lt;closeparen&gt;&lt;quote&gt;&lt;space&gt;&lt;closecurly&gt;&lt;space&gt;&lt;comma&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -557,10 +725,32 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="13"
+#!   IDENTIFIER="18"
 #!   SOURCE_NODE="10"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="17"
+#!   SOURCE_NODE="12"
 #!   TARGET_NODE="15"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="14"
+#!   TARGET_NODE="21"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -584,6 +774,39 @@
 #!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
 #!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="25"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 &lt;lt&gt;lt&lt;gt&gt;EMPTY&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -800,7 +1023,7 @@ FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 11"  
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_2_DIRECTIVES USER_NAME "$(config_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_pass)" HOST "$(config_host)" PORT "$(config_port)"
+MACRO SQLExecutor_2_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes HOST "$(config_host)" USER_NAME "$(config_user)" PASSWORD "$(config_pass)" PORT "$(config_port)"
 
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE Creator_CREATED    QUERY_SQL            "select<space>c.code<comma><space>c.title<lf>from<lf>data.codes<space>c<lf>"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_2)"    COMBINE_ATTRIBUTES   PREFER_RESULT    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_2)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_2_<REJECTED>
 
@@ -811,15 +1034,45 @@ FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_2_<Rejected> INPUT FEATURE_TYP
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {titles}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>code<closeparen><quote><space>:<space><quote><at>Value<openparen>title<closeparen><quote><comma>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_2    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>code<space>=<space>feature.getAttribute<openparen><apos>code<apos><closeparen><lf><space><space><space><space><space><space><space><space>if<openparen>len<openparen>code.split<openparen><quote>_<quote><closeparen><closeparen><space><lt><space>3<closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>parentCode<apos><comma><space>None<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space><space><space><space><space>else:<lf><space><space><space><space><space><space><space><space><space><space><space><space>parentCode<space>=<space>code.split<openparen><quote>_<quote><closeparen><openbracket>0<closebracket><space>+<space><apos>_<apos><space>+<space>code.split<openparen><quote>_<quote><closeparen><openbracket>1<closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>parentCode<apos><comma><space>parentCode<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_2_OUTPUT
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE PythonCaller_2_OUTPUT    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
+
+FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE parentCode FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>MISSING<gt> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>MISSING<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>NULL<gt> Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>NULL<gt>
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_3_DIRECTIVES QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes HOST "$(config_host)" USER_NAME "$(config_user)" PASSWORD "$(config_pass)" PORT "$(config_port)"
+
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_3    INPUT  FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt>    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space><lf>c.title<space>as<space>parent<lf>from<lf>data.codes<space>c<lf>where<space><lf>c.code<space>=<space><apos><at>Value<openparen>parentCode<closeparen><apos>,SQLExecutor_3)"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_3)"    COMBINE_ATTRIBUTES   PREFER_RESULT    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_3_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_3_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_3)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_3_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_3_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_INITIATOR
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+
+Tcl2 proc StringConcatenator_3_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {titles}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>code<closeparen><quote><space>:<space><opencurly><space><quote>title<quote>:<space><quote><at>Value<openparen>title<closeparen><quote><comma><space><quote>parent<quote>:<space><quote><at>Value<openparen>parent<closeparen><quote><space><closecurly><space><comma>"};    };    lappend parmList {StringConcatenator_3};    eval FME_Execute $parmList; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_3    INPUT  FEATURE_TYPE SQLExecutor_3_RESULT    OUTPUT FEATURE_TYPE StringConcatenator_3_OUTPUT         @Tcl2("StringConcatenator_3_evaluator ")
+
+
+# -------------------------------------------------------------------------
+
+
+Tcl2 proc StringConcatenator_2_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {titles}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<quote><at>Value<openparen>code<closeparen><quote><space>:<space><opencurly><space><quote>title<quote>:<space><quote><at>Value<openparen>title<closeparen><quote><space><closecurly><space><comma>"};    };    lappend parmList {StringConcatenator_2};    eval FME_Execute $parmList; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_2    INPUT  FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>    OUTPUT FEATURE_TYPE StringConcatenator_2_OUTPUT         @Tcl2("StringConcatenator_2_evaluator ")
 
 
 # -------------------------------------------------------------------------
 
 DEFAULT_MACRO Aggregator_BREAK_ATTR
 
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    MODE ONE_LEVEL    $(Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES None    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS titles    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE StringConcatenator_3_OUTPUT    INPUT  FEATURE_TYPE StringConcatenator_2_OUTPUT    MODE ONE_LEVEL    $(Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES None    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS titles    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
 
 # -------------------------------------------------------------------------
 
