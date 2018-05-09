@@ -1,10 +1,10 @@
 cd ..\fme\out
 
-REM for %%f in (*.fmw) do fme.exe %%f
+for %%f in (*.fmw) do fme.exe %%f
 
 cd ..\..\bin
 
-REM python .\geojsonPropertiesTagger.py D:\out\geojson\sqrt42\sqrt42.geojson D:\out\geojson\sqrt42\sqrt42tagged.geojson
+python .\geojsonPropertiesTagger.py D:\out\geojson\sqrt42\sqrt42.geojson D:\out\geojson\sqrt42\sqrt42tagged.geojson
 
 move D:\out\geojson\sqrt42\sqrt42.geojson D:\out\geojson\sqrt42\sqrt42.geojson.orig
 
