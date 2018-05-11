@@ -1,17 +1,20 @@
+set out=D:\out\
+set geojson=%out%geojson\sqrt42\
+
 cd ..\fme\out
 
 for %%f in (*.fmw) do fme.exe %%f
 
 cd ..\..\bin
 
-python .\geojsonPropertiesTagger.py D:\out\geojson\sqrt42\sqrt42.geojson D:\out\geojson\sqrt42\sqrt42tagged.geojson
+python .\geojsonPropertiesTagger.py %geojson%sqrt42.geojson %geojson%sqrt42tagged.geojson
 
-move D:\out\geojson\sqrt42\sqrt42.geojson D:\out\geojson\sqrt42\sqrt42.geojson.orig
+move %geojson%sqrt42.geojson %geojson%sqrt42.geojson.orig
 
-move D:\out\geojson\sqrt42\sqrt42tagged.geojson D:\out\geojson\sqrt42\sqrt42.geojson
+move %geojson%sqrt42tagged.geojson %geojson%sqrt42.geojson
 
-docker run -it --rm -v D:\out\geojson\sqrt42\:/data tippecanoe:latest tippecanoe -pk -P -zg -pS -o /data/sqrt42.mbtiles /data/sqrt42.geojson
+docker run -it --rm -v %geojson%:/data tippecanoe:latest tippecanoe -pk -P -zg -pS -o /data/sqrt42.mbtiles /data/sqrt42.geojson
 
-move D:\out\geojson\sqrt42\sqrt42.mbtiles D:\out\mbtiles\
+move %geojson%sqrt42.mbtiles %out%mbtiles\
 
-del D:\out\geojson\sqrt42\sqrt42.geojson.orig
+del %geojson%sqrt42.geojson.orig
