@@ -1,0 +1,19 @@
+{
+  "options": {
+    "paths": {
+      "root": "node_modules\\tileserver-gl-styles",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "../../../data/mbtiles/"
+    },
+	"domains": [
+      "tiles.artsdatabanken.no"
+    ]
+  },
+  "styles": {},
+  "data": {
+    "sqrt42": {
+      "mbtiles": "sqrt42.mbtiles"
+    }
+  }
+}
