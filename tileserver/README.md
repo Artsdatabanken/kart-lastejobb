@@ -7,12 +7,16 @@ Make sure options/paths/mbtiles in config.json points to the folder containing y
 ```npm install```
 
 ## Start
+Use one of these to verify that the server starts properly
+
 ```npm start```
+or
+```run.bat```
 
 ## Service
 Download the Non-Sucking Service Manager from https://nssm.cc/
 
-### Set-up
+### Setup
 Start a command-line interface. Navigate to nssm and run the following command:
 
 ```nssm install tileserver-gl-light```
