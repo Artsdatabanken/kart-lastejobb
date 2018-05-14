@@ -1,7 +1,7 @@
 # Tileserver
 
 ## Config
-Make sure mbtiles in config.json points to the folder containing your mbtile.
+Make sure options/paths/mbtiles in config.json points to the folder containing your mbtile.
 
 ## Installation
 ```npm install```
@@ -10,11 +10,12 @@ Make sure mbtiles in config.json points to the folder containing your mbtile.
 ```npm start```
 
 ## Service
-Download nssm from https://nssm.cc/
+Download the Non-Sucking Service Manager from https://nssm.cc/
 
 ### Set-up
 Start a command-line interface. Navigate to nssm and run the following command:
-```nssm install tileserver```
+
+```nssm install tileserver-gl-light```
 
 Browse to the folder containing run.bat and select it.
 
