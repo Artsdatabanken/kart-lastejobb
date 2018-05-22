@@ -1,8 +1,8 @@
-REM cd ..\fme\out
+cd ..\fme\out
 
-REM for %%f in (*.fmw) do fme.exe %%f
+for %%f in (*.fmw) do fme.exe %%f
 
-REM cd ..\..\bin
+cd ..\..\bin
 
 set out=D:\out\
 set geojson=%out%geojson\
