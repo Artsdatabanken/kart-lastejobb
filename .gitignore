@@ -3,8 +3,10 @@ fme/in/old
 fme/in/*.log
 fme/in/*.ffs
 fme/in/*.fmw.recover
+fme/in/*.ignore
 
 fme/out/old
 fme/out/*.log
 fme/out/*.ffs
 fme/out/*.fmw.recover
+fme/out/*.ignore
