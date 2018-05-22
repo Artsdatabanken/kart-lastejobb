@@ -460,8 +460,8 @@ CREATE INDEX successor_idx ON codeshierarchy USING btree (successor);
 -- Name: codes_geometry codes_id; Type: FK CONSTRAINT; Schema: data; Owner: postgres
 --
 
-ALTER TABLE ONLY codes_geometry
-    ADD CONSTRAINT codes_id FOREIGN KEY (codes_id) REFERENCES codes(id) ON DELETE CASCADE;
+--ALTER TABLE ONLY codes_geometry
+--    ADD CONSTRAINT codes_id FOREIGN KEY (codes_id) REFERENCES codes(id) ON DELETE CASCADE DEFERRABLE INITIALLY IMMEDIATE;
 
 
 --
