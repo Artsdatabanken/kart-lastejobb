@@ -1,20 +1,18 @@
-set out=D:\out\
-set geojson=%out%geojson\sqrt42\
-
 cd ..\fme\out
 
 for %%f in (*.fmw) do fme.exe %%f
 
 cd ..\..\bin
 
-python .\geojsonPropertiesTagger.py %geojson%sqrt42.geojson %geojson%sqrt42tagged.geojson
+set out=D:\out\
+set geojson=%out%geojson\
+cd %geojson%
 
-move %geojson%sqrt42.geojson %geojson%sqrt42.geojson.orig
-
-move %geojson%sqrt42tagged.geojson %geojson%sqrt42.geojson
-
-docker run -it --rm -v %geojson%:/data tippecanoe:latest tippecanoe -pk -P -zg -pS -o /data/sqrt42.mbtiles /data/sqrt42.geojson
-
-move %geojson%sqrt42.mbtiles %out%mbtiles\
-
-del %geojson%sqrt42.geojson.orig
+for /D %%i in (%geojson%*) do (
+    python D:\git\grunnkart-dataflyt\bin\geojsonPropertiesTagger.py %%~ni\%%~ni.geojson %%~ni\%%~ni.geojson.tagged
+    move %%~ni\%%~ni.geojson %%~ni\%%~ni.geojson.orig 
+    move %%~ni\%%~ni.geojson.tagged %%~ni\%%~ni.geojson 
+    docker run -it --rm -v %%i:/data tippecanoe:latest tippecanoe -pk -P -zg -pS -o /data/%%~ni.mbtiles /data/%%~ni.geojson
+    move %%i\%%~ni.mbtiles %out%mbtiles\
+    del %%~ni\%%~ni.geojson.orig
+)
