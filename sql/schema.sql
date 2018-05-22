@@ -385,6 +385,12 @@ CREATE UNIQUE INDEX code_idx ON codes USING btree (code);
 CREATE UNIQUE INDEX codes_geometry_idx ON codes_geometry USING btree (geometry_id, codes_id);
 
 
+-- Index: value_description_idx
+
+-- DROP INDEX data.value_description_idx;
+
+CREATE UNIQUE INDEX value_description_idx ON data.prefix USING btree (value, description);
+
 --
 -- TOC entry 4131 (class 1259 OID 219691)
 -- Name: fki_dataset_id_fx; Type: INDEX; Schema: data; Owner: postgres
@@ -455,7 +461,7 @@ CREATE INDEX successor_idx ON codeshierarchy USING btree (successor);
 --
 
 ALTER TABLE ONLY codes_geometry
-    ADD CONSTRAINT codes_id FOREIGN KEY (codes_id) REFERENCES codes(id);
+    ADD CONSTRAINT codes_id FOREIGN KEY (codes_id) REFERENCES codes(id) ON DELETE CASCADE;
 
 
 --
@@ -464,7 +470,7 @@ ALTER TABLE ONLY codes_geometry
 --
 
 ALTER TABLE ONLY geometry
-    ADD CONSTRAINT dataset_id_fx FOREIGN KEY (dataset_id) REFERENCES dataset(id);
+    ADD CONSTRAINT dataset_id_fx FOREIGN KEY (dataset_id) REFERENCES dataset(id) ON DELETE CASCADE;
 
 
 --
@@ -473,7 +479,7 @@ ALTER TABLE ONLY geometry
 --
 
 ALTER TABLE ONLY codes_geometry
-    ADD CONSTRAINT geometry_id FOREIGN KEY (geometry_id) REFERENCES geometry(id);
+    ADD CONSTRAINT geometry_id FOREIGN KEY (geometry_id) REFERENCES geometry(id) ON DELETE CASCADE;
 
 
 --
@@ -482,7 +488,7 @@ ALTER TABLE ONLY codes_geometry
 --
 
 ALTER TABLE ONLY localid_geometry
-    ADD CONSTRAINT geometry_id FOREIGN KEY (geometry_id) REFERENCES geometry(id);
+    ADD CONSTRAINT geometry_id FOREIGN KEY (geometry_id) REFERENCES geometry(id) ON DELETE CASCADE;
 
 
 --
@@ -491,7 +497,7 @@ ALTER TABLE ONLY localid_geometry
 --
 
 ALTER TABLE ONLY dataset
-    ADD CONSTRAINT prefix_id_fk FOREIGN KEY (prefix_id) REFERENCES prefix(id);
+    ADD CONSTRAINT prefix_id_fk FOREIGN KEY (prefix_id) REFERENCES prefix(id) ON DELETE CASCADE;
 
 
 -- Completed on 2018-04-11 11:19:57
