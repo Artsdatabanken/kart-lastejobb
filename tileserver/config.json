@@ -14,6 +14,18 @@
   "data": {
     "sqrt42": {
       "mbtiles": "sqrt42.mbtiles"
+    },
+    "NA": {
+      "mbtiles": "NA.mbtiles"
+    },
+    "MI": {
+      "mbtiles": "MI.mbtiles"
+    },
+    "VV": {
+      "mbtiles": "VV.mbtiles"
+    },
+    "AO": {
+      "mbtiles": "AO.mbtiles"
     }
   }
 }
