@@ -12,9 +12,6 @@
   },
   "styles": {},
   "data": {
-    "sqrt42": {
-      "mbtiles": "sqrt42.mbtiles"
-    },
     "NA": {
       "mbtiles": "NA.mbtiles"
     },
