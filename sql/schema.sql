@@ -87,6 +87,7 @@ ALTER TABLE codes OWNER TO postgres;
 
 CREATE TABLE codes_geometry (
     geometry_id bigint NOT NULL,
+    code text NOT NULL,
     codes_id bigint NOT NULL
 );
 
@@ -202,7 +203,7 @@ CREATE TABLE geometry (
     id bigint NOT NULL,
     geography public.geography,
     geometry public.geometry(Geometry,3857),
-    dataset_id NOT NULL integer
+    dataset_id integer NOT NULL 
 );
 
 
