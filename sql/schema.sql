@@ -202,7 +202,7 @@ CREATE TABLE geometry (
     id bigint NOT NULL,
     geography public.geography,
     geometry public.geometry(Geometry,3857),
-    dataset_id integer
+    dataset_id NOT NULL integer
 );
 
 
