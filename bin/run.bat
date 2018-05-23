@@ -1,2 +1,1 @@
-import.bat
-export.bat
+import.bat && export.bat
