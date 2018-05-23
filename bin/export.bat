@@ -15,3 +15,14 @@ for /D %%i in (%geojson%*) do (
     if not errorlevel 1 del %%i\%%~ni.geojson.orig
     if not errorlevel 1 move %%i\%%~ni.mbtiles %out%mbtiles\
 )
+
+set web=\\IT-WEBADBTEST01\data\
+
+for /D %%i in (%out%*) do (
+    mkdir %web%%%~ni\
+    copy %%i\*.* %web%%%~ni\
+    for /D %%y in (%%i\*) do (
+        mkdir %web%%%~ni\%%~ny\
+        copy %%y\*.* %web%%%~ni\%%~ny\
+    )
+)
