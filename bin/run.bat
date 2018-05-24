@@ -1,1 +1,1 @@
-import.bat && export.bat
+cd import && run.bat && cd ..\export && run.bat && cd ..
