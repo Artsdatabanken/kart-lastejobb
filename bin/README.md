@@ -1,8 +1,6 @@
-# export.bat
-* Runs all fme-jobs for export
-* Runs geojsonPropertiesTagger.py on geojson containing all features
-* Runs tippecanoe to create mbtiles
-* Copies files to webserver
+# run.bat
+* Runs import and export
+
 # geojsonPropertiesTagger.py
 * Moves all codes from arrays to tags in geojson
 ## Usage
