@@ -23,6 +23,12 @@
     },
     "AO": {
       "mbtiles": "AO.mbtiles"
+    },
+	"seksjoner2017": {
+      "mbtiles": "seksjoner2017.mbtiles"
+    },
+	"soner2017": {
+      "mbtiles": "soner2017.mbtiles"
     }
   }
 }
