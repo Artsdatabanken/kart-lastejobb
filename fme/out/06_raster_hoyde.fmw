@@ -1,0 +1,2381 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\06_raster_hoyde.fmw
+#          --DestDataset_MBTILES "D:\out\mbtiles"
+#          --SourceDataset_USGS_DEM "D:\in\KV\DTM_50\Data\*.dem"
+#    
+#    
+#!   END_TCL=""
+#!   DESTINATION="NONE"
+#!   DESCRIPTION=""
+#!   MAX_LOG_FEATURES="200"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   BEGIN_TCL=""
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_GUID="eac75076-1dc0-414e-9239-a3e8a70c824d"
+#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,537c9939-18d8-42da-a91f-6eecf9a3e07d,ec46e6ac-caa8-4f74-b97c-b8adc04b5f20,adb76ef2-68ae-4f4f-b5c2-c752ce42d4d6,cdac479c-e338-46e1-899c-06a7949e8c54,19741fde-9fd9-474f-ac11-ac9ee77a40e6,cf0564b2-76ec-479f-8d69-bfba3e41ba11,78227bba-6e5a-47e9-a910-5e7a345c665f,3fcb8571-887c-49ba-aa21-63de7f54c6ad,33091951-12ae-4706-83d4-33f13a1d4f8d,f780cb60-1c1b-43eb-b25f-bffea38a2efe"
+#!   LOG_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   USAGE=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_SERVER_SERVICES=""
+#!   SHOW_ANNOTATIONS="true"
+#!   END_PYTHON=""
+#!   CATEGORY=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   ZOOM_SCALE="60"
+#!   IGNORE_READER_FAILURE="No"
+#!   VIEW_POSITION="-255.211 2927.11"
+#!   PYTHON_COMPATIBILITY="27"
+#!   TITLE=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   WORKSPACE_VERSION="1"
+#!   BEGIN_PYTHON=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   PASSWORD=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SOURCE="NONE"
+#!   MARKDOWN_USAGE=""
+#!   HISTORY=""
+#!   LAST_SAVE_DATE="2018-05-30T18:30:22"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   SOURCE_ROUTING_FILE=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   USE_MARKDOWN=""
+#!   DOC_EXTENTS="6262 615.76"
+#!   FME_BUILD_NUM="17539"
+#!   DOC_TOP_LEFT="104 252.12"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="USGS_DEM"
+#!   DATASET="$(SourceDataset_USGS_DEM)"
+#!   KEYWORD="USGS_DEM_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="dem_edge_match_flag_EAST integer fme_feature_type char(50) file_datum_rmse_y integer fme_secondary_axis float multi_reader_type char(50) dem_edge_match_flag_NORTH integer file_datum_stats_avail integer fme_sweep_angle float fme_dataset char(50) dem_datum_rmse_z integer dem_accuracy_code_for_elevations integer dem_data_inspection_and_revision_date integer dem_type char(64) dem_data_source_date integer fme_type char(50) dem_producer char(40) dem_vertical_datum_shift float dem_inspection_flag char(1) multi_reader_keyword char(50) file_datum_rmse_x integer dem_largest_primary_contour_interval integer dem_edge_match_flag_WEST integer dem_largest_primary_contour_interval_units char(32) dem_edge_match_flag_SOUTH integer fme_basename char(50) fme_start_angle float multi_reader_id integer dem_smallest_primary_contour_interval integer fme_geometry fme_char(50) multi_reader_full_id integer fme_primary_axis float dem_datum_sample_size integer dem_smallest_primary_contour_interval_units char(32) dem_data_validation_flag integer dem_suspect_and_void_area_flag integer dem_level_code integer file_datum_sample_size integer fme_text_size float dem_datum_rmse_x integer dem_origin_code char(4) dem_data_edition integer dem_code_defining_elevation_pattern char(32) fme_rotation float dem_datum_rmse_y integer dem_sectional_indicator char(3) fme_text_string char(50) dem_process_code char(1) dem_units char(32) fme_color char(50) dem_spatial_resolution_z float dem_file_name char(40) file_datum_rmse_z integer dem_datum_stats_avail integer dem_percent_void integer fme_fill_color char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   MAX_FEATURES=""
+#!   MIN_FEATURES=""
+#!   COORDSYS=""
+#!   START_FEATURE=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   FEATURE_TYPES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the DEM file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="DEM1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_AUTO_EXPOSE"
+#!   VALUE="fme_basename char(50)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="DEM File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="AUTO_FANOUT_ATTRIBUTE"
+#!   VALUE="fme_basename"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the DEM file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="dem file"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="MBTILES"
+#!   DATASET="$(DestDataset_MBTILES)"
+#!   KEYWORD="MBTILES_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="64"
+#!   ATTR_CASE="ANY_FIRST_NONNUMERIC"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="mbtiles_name $(_MBTILES_WRITER_NAME) mbtiles_description $(_MBTILES_WRITER_DESCRIPTION) mbtiles_map_type $(_MBTILES_WRITER_MAP_TYPE) mbtiles_tile_format $(_MBTILES_WRITER_TILE_FORMAT) mbtiles_version $(_MBTILES_WRITER_VERSION) mbtiles_zoom_level_strategy $(_MBTILES_WRITER_ZOOM_LEVEL_STRATEGY) mbtiles_jpeg_compression_level $(_MBTILES_WRITER_JPEG_COMPRESSION_LEVEL) mbtiles_png_zlevel $(_MBTILES_WRITER_ZLEVEL) mbtiles_png8_dither $(_MBTILES_WRITER_DITHER) mbtiles_gen_min_zoom $(_MBTILES_WRITER_GEN_MIN_ZOOM) mbtiles_pyramid_interpolation_type $(_MBTILES_WRITER_INTERPOLATION_TYPE)"
+#!   DEFLINE_ATTRS="false"
+#!   EXPOSABLE_ATTRS="mbtiles_minzoom char(4) mbtiles_attribution char(255) fme_secondary_axis float fme_rotation float mbtiles_format char(255) mbtiles_description char(255) mbtiles_zoom_level char(4) fme_type char(50) fme_dataset char(50) fme_geometry fme_char(50) mbtiles_maxzoom char(4) fme_start_angle float fme_feature_type char(50) fme_text_size float fme_basename char(50) mbtiles_bounds char(255) fme_fill_color char(50) fme_primary_axis float fme_sweep_angle float mbtiles_type char(4) mbtiles_name char(255) fme_color char(50) fme_text_string char(50) mbtiles_version char(3) mbtiles_center char(255)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP mbtiles_layer_group mbtiles_metadata_group%mbtiles_file_parameters_group%mbtiles_pyramid_group%mbtiles_generate_pyramids%mbtiles_compression_group Raster&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP mbtiles_metadata_group mbtiles_name%mbtiles_description%mbtiles_map_type Metadata&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP mbtiles_file_parameters_group mbtiles_tile_format%mbtiles_version File Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP mbtiles_pyramid_group mbtiles_zoom_level_strategy%mbtiles_pyramid_interpolation_type%mbtiles_gen_min_zoom Zoom Levels&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP mbtiles_compression_group mbtiles_png_zlevel%mbtiles_jpeg_compression_level%mbtiles_png8_dither Compression&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED mbtiles_name Name&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED mbtiles_description Description&quot; &quot;&quot; &quot;GUI CHOICE_ENCODED mbtiles_map_type Overlay%Baselayer Map Type&quot; Overlay &quot;GUI ACTIVECHOICE_ENCODED mbtiles_tile_format PNG,mbtiles_jpeg_compression_level,mbtiles_png8_dither%PNG8,mbtiles_jpeg_compression_level,mbtiles_png_zlevel%JPEG,mbtiles_png_zlevel,mbtiles_png8_dither Tile Format&quot; PNG &quot;GUI CHOICE_ENCODED mbtiles_version 1.0%1.1 Version&quot; 1.1 &quot;GUI CHOICE_ENCODED mbtiles_zoom_level_strategy Auto%Upper%Lower Base Zoom Level Strategy&quot; Auto &quot;GUI CHOICE_ENCODED mbtiles_pyramid_interpolation_type Nearest-neighbor%Bilinear%Cubic%Cubic-spline%Lanczos%Mode%Average Interpolation Type&quot; Bilinear &quot;GUI LOOKUP_CHOICE mbtiles_gen_min_zoom Current-Zoom,-1%0,0%1,1%2,2%3,3%4,4%5,5%6,6%7,7%8,8%9,9%10,10%11,11%12,12%13,13%14,14%15,15%16,16%17,17%18,18%19,19%20,20%21,21%22,22%23,23%24,24 Minimum Zoom Level&quot; -1 &quot;GUI OPTIONAL RANGE_SLIDER mbtiles_png_zlevel 1%9%0%OFF PNG Compression Level (1 - 9)&quot; 6 &quot;GUI OPTIONAL RANGE_SLIDER mbtiles_jpeg_compression_level 0%100%0%OFF JPEG Compression Level (0 - 100)&quot; 25 &quot;GUI CHOICE_ENCODED mbtiles_png8_dither Yes%No Use Dithering&quot; No "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   COORDSYS="EPSG:3857"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the MBTiles file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Raster1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_AUTO_EXPOSE"
+#!   VALUE="fme_basename char(50)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Raster File"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="AUTO_FANOUT_ATTRIBUTE"
+#!   VALUE="fme_basename"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the MBTiles file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="mbtiles file"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="decimal(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="MBTILES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="MBTILES"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="dem_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="dem_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="dem_record_C"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_map"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="dem_record_C"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="dem_record_C"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="USGS_DEM"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mbtiles_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mbtiles_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mbtiles_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="MBTILES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mbtiles_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="MBTILES"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Raster1"
+#!   FEATURE_TYPE_NAME="$(Dataset)_@Value(format)"
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="104"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="6366 537"
+#!   BOUNDING_RECT="6366 537 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="MBTILES_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_name" PARM_VALUE="$(Dataset)_&lt;at&gt;Value&lt;openparen&gt;format&lt;closeparen&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_description" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_pyramid_interpolation_type" PARM_VALUE="$(NearestNeighbor)"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_png8_dither" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_file_parameters_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_map_type" PARM_VALUE="Overlay"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_png_zlevel" PARM_VALUE="6"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_jpeg_compression_level" PARM_VALUE="25"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_zoom_level_strategy" PARM_VALUE="Auto"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_gen_min_zoom" PARM_VALUE="-1"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_metadata_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_compression_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_tile_format" PARM_VALUE="PNG"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_pyramid_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <DEFLINE_PARM PARM_NAME="mbtiles_version" PARM_VALUE="1.1"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="USGS_DEM"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="16"
+#!   FEAT_GEOMTYPE="dem_raster"
+#!   POSITION="104 501"
+#!   BOUNDING_RECT="104 501 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="USGS_DEM_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_file_name" ATTR_TYPE="char(64)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_producer" ATTR_TYPE="char(64)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_process_code" ATTR_TYPE="char(1)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_sectional_indicator" ATTR_TYPE="char(3)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_origin_code" ATTR_TYPE="char(6)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_level_code" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_code_defining_elevation_pattern" ATTR_TYPE="char(32)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_accuracy_code_for_elevations" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_spatial_resolution_z" ATTR_TYPE="float"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_units" ATTR_TYPE="char(32)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_largest_primary_contour_interval" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_largest_primary_contour_interval_units" ATTR_TYPE="char(32)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_smallest_primary_contour_interval" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_smallest_primary_contour_interval_units" ATTR_TYPE="char(32)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_data_source_date" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_data_inspection_and_revision_date" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_inspection_flag" ATTR_TYPE="char(1)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_data_validation_flag" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_suspect_and_void_area_flag" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_data_edition" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_percent_void" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_edge_match_flag_WEST" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_edge_match_flag_NORTH" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_edge_match_flag_EAST" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_edge_match_flag_SOUTH" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_vertical_datum_shift" ATTR_TYPE="float"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_datum_stats_avail" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_datum_rmse_x" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_datum_rmse_y" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_datum_rmse_z" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_datum_sample_size" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_datum_stats_avail" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_datum_rmse_x" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_datum_rmse_y" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_datum_rmse_z" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="dem_datum_sample_size" ATTR_TYPE="integer"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME DestDataset_MBTILES Destination MBTiles Folder:"
+#!   DEFAULT_VALUE="D:\out\mbtiles"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_USGS_DEM DEM_Files(*.dem)|*.dem|All_files(*)|* Source U.S. Geological Survey DEM File(s):"
+#!   DEFAULT_VALUE="D:\in\KV\DTM_50\Data\*.dem"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM config_pass Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;json.load&lt;openparen&gt;open&lt;openparen&gt;&lt;apos&gt;..&lt;solidus&gt;..&lt;solidus&gt;config&lt;solidus&gt;postgis.json&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;data&lt;openbracket&gt;&lt;apos&gt;pass&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM config_user Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;json.load&lt;openparen&gt;open&lt;openparen&gt;&lt;apos&gt;..&lt;solidus&gt;..&lt;solidus&gt;config&lt;solidus&gt;postgis.json&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;data&lt;openbracket&gt;&lt;apos&gt;user&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM config_db Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;json.load&lt;openparen&gt;open&lt;openparen&gt;&lt;apos&gt;..&lt;solidus&gt;..&lt;solidus&gt;config&lt;solidus&gt;postgis.json&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;data&lt;openbracket&gt;&lt;apos&gt;db&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM config_port Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;json.load&lt;openparen&gt;open&lt;openparen&gt;&lt;apos&gt;..&lt;solidus&gt;..&lt;solidus&gt;config&lt;solidus&gt;postgis.json&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;data&lt;openbracket&gt;&lt;apos&gt;port&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_EDIT_PYTHON_PARM config_host Python Script:"
+#!   DEFAULT_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;json&lt;lf&gt;&lt;lf&gt;data&lt;space&gt;=&lt;space&gt;json.load&lt;openparen&gt;open&lt;openparen&gt;&lt;apos&gt;..&lt;solidus&gt;..&lt;solidus&gt;config&lt;solidus&gt;postgis.json&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;return&lt;space&gt;data&lt;openbracket&gt;&lt;apos&gt;host&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT Dataset Dataset:"
+#!   DEFAULT_VALUE="hoyde"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR Prefix Prefix:"
+#!   DEFAULT_VALUE="TE"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR PrefixDesc PrefixDesc:"
+#!   DEFAULT_VALUE="Terreng"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL TEXT NearestNeighbor NearestNeighbor:"
+#!   DEFAULT_VALUE="NearestNeighbor"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL RANGE_SLIDER_OR_ATTR manualMinValue &quot;RANGE:[,]%PRECISION:0&quot; manualMinValue:"
+#!   DEFAULT_VALUE="10"
+#!   IS_STAND_ALONE="true"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL RANGE_SLIDER_OR_ATTR offset &quot;RANGE:[,]%PRECISION:0&quot; offset:"
+#!   DEFAULT_VALUE="100000"
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="29"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Convert to dm&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4221.56 389.88"
+#!   TOP_LEFT="4221.56 389.88"
+#!   BOTTOM_RIGHT="4220.56 390.88"
+#!   BOUNDING_RECT="4221.56 389.88 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="50"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add offset&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4963.62 438.88"
+#!   TOP_LEFT="4963.62 438.88"
+#!   BOTTOM_RIGHT="4962.62 439.88"
+#!   BOUNDING_RECT="4963.62 438.88 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="49"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="43"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add offset&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4210.62 867.88"
+#!   TOP_LEFT="4210.62 867.88"
+#!   BOTTOM_RIGHT="4209.62 868.88"
+#!   BOUNDING_RECT="4210.62 867.88 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="42"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="54"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mapbox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3461.69 380.88"
+#!   TOP_LEFT="3461.69 380.88"
+#!   BOTTOM_RIGHT="3460.69 381.88"
+#!   BOUNDING_RECT="3461.69 380.88 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="41"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="57"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mapzen&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3461.69 815.875"
+#!   TOP_LEFT="3461.69 815.875"
+#!   BOTTOM_RIGHT="3460.69 816.875"
+#!   BOUNDING_RECT="3461.69 815.875 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="48"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="RasterMosaicker"
+#!   VERSION="5"
+#!   POSITION="810.5 542.5"
+#!   BOUNDING_RECT="810.5 542.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATA_VALUES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_PALETTES_NAME" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OVERLAPPING_VALUES" PARM_VALUE="last"/>
+#!     <XFORM_PARM PARM_NAME="SNAPPING_TYPE_NAME" PARM_VALUE="Resample"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="Moderate"/>
+#!     <XFORM_PARM PARM_NAME="PALETTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
+#!     <XFORM_PARM PARM_NAME="ALIGNMENT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NODATA_OVERWRITE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterMosaicker"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="RasterBandNodataRemover"
+#!   VERSION="1"
+#!   POSITION="1568.23 542.5"
+#!   BOUNDING_RECT="1568.23 542.5 896.537 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterBandNodataRemover"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="RasterSingularCellValueCalculator"
+#!   VERSION="1"
+#!   POSITION="4267.44 261.12"
+#!   BOUNDING_RECT="4267.44 261.12 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERATION" PARM_VALUE="*"/>
+#!     <XFORM_PARM PARM_NAME="SCALAR" PARM_VALUE="$(manualMinValue)"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_INTERPRETATION" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterSingularCellValueCalculator"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERAND_ORDER" PARM_VALUE="raster (operation) numeric value"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="33"
+#!   TYPE="RasterExpressionEvaluator"
+#!   VERSION="3"
+#!   POSITION="5701.5 416.5"
+#!   BOUNDING_RECT="5701.5 416.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;RED8;GREEN8;BLUE8&quot; EXPRESSION_LIST &quot;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;&lt;space&gt;&lt;gt&gt;&lt;gt&gt;&lt;space&gt;16;&lt;openparen&gt;&lt;space&gt;&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;&lt;space&gt;&lt;gt&gt;&lt;gt&gt;&lt;space&gt;8&lt;closeparen&gt;&lt;space&gt;-&lt;openparen&gt;&lt;space&gt;&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;&lt;gt&gt;&lt;gt&gt;16&lt;closeparen&gt;&lt;space&gt;&lt;lt&gt;&lt;lt&gt;&lt;space&gt;8&lt;space&gt;&lt;closeparen&gt;&lt;space&gt;&lt;closeparen&gt;;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;-&lt;space&gt;&lt;openparen&gt;&lt;openparen&gt;&lt;space&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;&lt;space&gt;&lt;gt&gt;&lt;gt&gt;&lt;space&gt;8&lt;closeparen&gt;&lt;space&gt;&lt;lt&gt;&lt;lt&gt;&lt;space&gt;8&lt;space&gt;&lt;closeparen&gt;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterExpressionEvaluator_2"/>
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="One Raster"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="49"
+#!   TYPE="RasterSingularCellValueCalculator"
+#!   VERSION="1"
+#!   POSITION="5031.38 310.12"
+#!   BOUNDING_RECT="5031.38 310.12 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERATION" PARM_VALUE="+"/>
+#!     <XFORM_PARM PARM_NAME="SCALAR" PARM_VALUE="$(offset)"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_INTERPRETATION" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterSingularCellValueCalculator_2"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERAND_ORDER" PARM_VALUE="raster (operation) numeric value"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="36"
+#!   TYPE="RasterExpressionEvaluator"
+#!   VERSION="3"
+#!   POSITION="5701.5 801.5"
+#!   BOUNDING_RECT="5701.5 801.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="RESULT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;RED8;GREEN8;BLUE8&quot; EXPRESSION_LIST &quot;&lt;at&gt;floor&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;solidus&gt;256&lt;closeparen&gt;;&lt;at&gt;floor&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;%256&lt;closeparen&gt;;&lt;at&gt;floor&lt;openparen&gt;&lt;space&gt;&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;space&gt;-&lt;space&gt;&lt;at&gt;floor&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;*&lt;space&gt;256&lt;space&gt;&lt;closeparen&gt;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterExpressionEvaluator_3"/>
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="One Raster"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="32"
+#!   TYPE="Reprojector"
+#!   VERSION="4"
+#!   POSITION="2792.5 512.5"
+#!   BOUNDING_RECT="2792.5 512.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:3857"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="42"
+#!   TYPE="RasterSingularCellValueCalculator"
+#!   VERSION="1"
+#!   POSITION="4278.38 739.12"
+#!   BOUNDING_RECT="4278.38 739.12 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERATION" PARM_VALUE="+"/>
+#!     <XFORM_PARM PARM_NAME="SCALAR" PARM_VALUE="32768"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_INTERPRETATION" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterSingularCellValueCalculator_3"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERAND_ORDER" PARM_VALUE="raster (operation) numeric value"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="41"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="3526.31 252.12"
+#!   BOUNDING_RECT="3526.31 252.12 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; format SET_TO mapbox"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="48"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="3526.31 687.125"
+#!   BOUNDING_RECT="3526.31 687.125 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="format" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_file_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_producer" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_process_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_sectional_indicator" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_origin_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_level_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_code_defining_elevation_pattern" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_accuracy_code_for_elevations" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_spatial_resolution_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_largest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_smallest_primary_contour_interval_units" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_source_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_inspection_and_revision_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_inspection_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_validation_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_suspect_and_void_area_flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_data_edition" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_percent_void" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_WEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_NORTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_EAST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_edge_match_flag_SOUTH" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_vertical_datum_shift" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_stats_avail" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_rmse_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="dem_datum_sample_size" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; format SET_TO mapzen"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="16"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="24"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="51"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="49"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="34"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="46"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="41"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="52"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="48"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="104"
+#!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="44"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="104"
+#!   SOURCE_PORT_DESC="fo 0 RESULT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="47"
+#!   SOURCE_NODE="41"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="45"
+#!   SOURCE_NODE="42"
+#!   TARGET_NODE="36"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 A"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="53"
+#!   SOURCE_NODE="48"
+#!   TARGET_NODE="42"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="49"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 A"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_USGS_DEM_1,USGS_DEM_IN_SAMPLE_USGS_DEM_1,USGS_DEM_IN_EXPOSE_ATTRS_GROUP_USGS_DEM_1,USGS_DEM_IN_SEARCH_ENVELOPE_MINX_USGS_DEM_1,USGS_DEM_IN_SEARCH_ENVELOPE_MINY_USGS_DEM_1,USGS_DEM_IN_SEARCH_ENVELOPE_MAXX_USGS_DEM_1,USGS_DEM_IN_SEARCH_ENVELOPE_MAXY_USGS_DEM_1,USGS_DEM_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_USGS_DEM_1,USGS_DEM_IN_CLIP_TO_ENVELOPE_USGS_DEM_1,USGS_DEM_IN_NETWORK_AUTHENTICATION_USGS_DEM_1,DestDataset_MBTILES_1
+DEFAULT_MACRO DestDataset_MBTILES D:\out\mbtiles
+GUI DIRNAME DestDataset_MBTILES Destination MBTiles Folder:
+DEFAULT_MACRO SourceDataset_USGS_DEM D:\in\KV\DTM_50\Data\*.dem
+GUI MULTIFILE SourceDataset_USGS_DEM DEM_Files(*.dem)|*.dem|All_files(*)|* Source U.S. Geological Survey DEM File(s):
+INCLUDE PYTHON
+def ParamFunc():
+  import fme
+  import json
+
+  data = json.load(open('../../config/postgis.json'))
+
+  return data['pass']
+
+value = ParamFunc()
+macroName = 'config_pass'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import fme
+  import json
+
+  data = json.load(open('../../config/postgis.json'))
+
+  return data['user']
+
+value = ParamFunc()
+macroName = 'config_user'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import fme
+  import json
+
+  data = json.load(open('../../config/postgis.json'))
+
+  return data['db']
+
+value = ParamFunc()
+macroName = 'config_db'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import fme
+  import json
+
+  data = json.load(open('../../config/postgis.json'))
+
+  return data['port']
+
+value = ParamFunc()
+macroName = 'config_port'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+INCLUDE PYTHON
+def ParamFunc():
+  import fme
+  import json
+
+  data = json.load(open('../../config/postgis.json'))
+
+  return data['host']
+
+value = ParamFunc()
+macroName = 'config_host'
+if value == None:
+  return { macroName : '' }
+else:
+  return { macroName : str(value) }
+END_INCLUDE
+DEFAULT_MACRO Dataset hoyde
+GUI IGNORE OPTIONAL TEXT Dataset Dataset:
+DEFAULT_MACRO Prefix TE
+GUI IGNORE OPTIONAL TEXT Prefix Prefix:
+DEFAULT_MACRO PrefixDesc Terreng
+GUI IGNORE OPTIONAL TEXT PrefixDesc PrefixDesc:
+DEFAULT_MACRO NearestNeighbor NearestNeighbor
+GUI IGNORE OPTIONAL TEXT NearestNeighbor NearestNeighbor:
+DEFAULT_MACRO manualMinValue 10
+GUI IGNORE OPTIONAL RANGE_SLIDER manualMinValue "RANGE:[,]%PRECISION:0" manualMinValue:
+DEFAULT_MACRO offset 100000
+GUI IGNORE OPTIONAL RANGE_SLIDER offset "RANGE:[,]%PRECISION:0" offset:
+INCLUDE [ if {{$(DestDataset_MBTILES)} == {}} { puts_real {Parameter 'DestDataset_MBTILES' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_USGS_DEM)} == {}} { puts_real {Parameter 'SourceDataset_USGS_DEM' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE USGS_DEM
+READER_KEYWORD USGS_DEM_1
+READER_GEN_DIRECTIVES AS_DEMRASTER,yes,SEARCH_ENVELOPE_MINY,0,USGS_DEM_EXPOSE_FORMAT_ATTRS,,SAMPLE,1,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,CLIP_TO_ENVELOPE,NO,EXPOSE_ATTRS_GROUP,,READER_META_ATTRIBUTES,fme_basename,GROUP_BY_DATASET,No,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} MBTILES
+MULTI_WRITER_KEYWORD{0} MBTILES_1
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "USGS_DEM_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER USGS_DEM USGS_DEM_1
+# ============================================================================
+# The following GUI line prompts for the datastore for DEM from which
+# data will be extracted
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_USGS_DEM_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER USGS_DEM USGS_DEM_1
+DEFAULT_MACRO SourceDataset_USGS_DEM_1 $(SourceDataset_USGS_DEM)
+GUI MULTIFILE SourceDataset_USGS_DEM_1 DEM_Files(*.dem)|*.dem|All_files(*)|* Source U.S. Geological Survey DEM File(s):
+DEFAULT_MACRO USGS_DEM_IN_READER_META_ATTRIBUTES_USGS_DEM_1 fme_basename
+USGS_DEM_1_READER_META_ATTRIBUTES "$(USGS_DEM_IN_READER_META_ATTRIBUTES_USGS_DEM_1)"
+# ============================================================================
+# Allow for a decimation factor -- by default, we do none
+#
+DEFAULT_MACRO USGS_DEM_IN_SAMPLE_USGS_DEM_1 1
+USGS_DEM_1_SAMPLE "$(USGS_DEM_IN_SAMPLE_USGS_DEM_1)"
+GUI INTEGER USGS_DEM_IN_SAMPLE_USGS_DEM_1 Decimation Factor:
+# ============================================================================
+# Set to read data as a DEM raster, instead of points
+DEFAULT_MACRO USGS_DEM_IN_AS_DEMRASTER_USGS_DEM_1 yes
+USGS_DEM_1_AS_DEMRASTER "$(USGS_DEM_IN_AS_DEMRASTER_USGS_DEM_1)"
+# ============================================================================
+DEFAULT_MACRO USGS_DEM_IN_GROUP_BY_DATASET_USGS_DEM_1 No
+USGS_DEM_1_GROUP_BY_DATASET "$(USGS_DEM_IN_GROUP_BY_DATASET_USGS_DEM_1)"
+DEFAULT_MACRO USGS_DEM_IN_EXPOSE_ATTRS_GROUP_USGS_DEM_1 
+USGS_DEM_1_EXPOSE_ATTRS_GROUP "$(USGS_DEM_IN_EXPOSE_ATTRS_GROUP_USGS_DEM_1)"
+GUI OPTIONAL DISCLOSUREGROUP USGS_DEM_IN_EXPOSE_ATTRS_GROUP_USGS_DEM_1 USGS_DEM_IN_USGS_DEM_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_SEARCH_ENVELOPE_MINX_USGS_DEM_1 0
+USGS_DEM_1_SEARCH_ENVELOPE "$(USGS_DEM_IN_SEARCH_ENVELOPE_MINX_USGS_DEM_1)"
+GUI OPTIONAL FLOAT USGS_DEM_IN_SEARCH_ENVELOPE_MINX_USGS_DEM_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_SEARCH_ENVELOPE_MINY_USGS_DEM_1 0
+USGS_DEM_1_SEARCH_ENVELOPE "$(USGS_DEM_IN_SEARCH_ENVELOPE_MINY_USGS_DEM_1)"
+GUI OPTIONAL FLOAT USGS_DEM_IN_SEARCH_ENVELOPE_MINY_USGS_DEM_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_SEARCH_ENVELOPE_MAXX_USGS_DEM_1 0
+USGS_DEM_1_SEARCH_ENVELOPE "$(USGS_DEM_IN_SEARCH_ENVELOPE_MAXX_USGS_DEM_1)"
+GUI OPTIONAL FLOAT USGS_DEM_IN_SEARCH_ENVELOPE_MAXX_USGS_DEM_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_SEARCH_ENVELOPE_MAXY_USGS_DEM_1 0
+USGS_DEM_1_SEARCH_ENVELOPE "$(USGS_DEM_IN_SEARCH_ENVELOPE_MAXY_USGS_DEM_1)"
+GUI OPTIONAL FLOAT USGS_DEM_IN_SEARCH_ENVELOPE_MAXY_USGS_DEM_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_USGS_DEM_1 
+USGS_DEM_1_SEARCH_ENVELOPE "$(USGS_DEM_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_USGS_DEM_1)"
+GUI OPTIONAL COORDSYS USGS_DEM_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_USGS_DEM_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+DEFAULT_MACRO USGS_DEM_IN_CLIP_TO_ENVELOPE_USGS_DEM_1 NO
+USGS_DEM_1_CLIP_TO_ENVELOPE "$(USGS_DEM_IN_CLIP_TO_ENVELOPE_USGS_DEM_1)"
+GUI OPTIONAL CHECKBOX USGS_DEM_IN_CLIP_TO_ENVELOPE_USGS_DEM_1 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_NETWORK_AUTHENTICATION_USGS_DEM_1 
+USGS_DEM_1_NETWORK_AUTHENTICATION "$(USGS_DEM_IN_NETWORK_AUTHENTICATION_USGS_DEM_1)"
+GUI OPTIONAL AUTHENTICATOR USGS_DEM_IN_NETWORK_AUTHENTICATION_USGS_DEM_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO USGS_DEM_IN_ATTRIBUTE_READING_USGS_DEM_1 ALL
+USGS_DEM_1_ATTRIBUTE_READING "$(USGS_DEM_IN_ATTRIBUTE_READING_USGS_DEM_1)"
+USGS_DEM_1_DATASET "$(SourceDataset_USGS_DEM_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "MBTILES_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER MBTILES MBTILES_1
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_MBTILES_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER MBTILES MBTILES_1
+DEFAULT_MACRO DestDataset_MBTILES_1 $(DestDataset_MBTILES)
+GUI DIRNAME DestDataset_MBTILES_1 Destination MBTiles Folder:
+DEFAULT_MACRO _MBTILES_WRITER_NAME_MBTILES_1 
+DEFAULT_MACRO _MBTILES_WRITER_DESCRIPTION_MBTILES_1 
+DEFAULT_MACRO _MBTILES_WRITER_MAP_TYPE_MBTILES_1 Overlay
+DEFAULT_MACRO _MBTILES_WRITER_TILE_FORMAT_MBTILES_1 PNG
+DEFAULT_MACRO _MBTILES_WRITER_VERSION_MBTILES_1 1.1
+DEFAULT_MACRO _MBTILES_WRITER_ZOOM_LEVEL_STRATEGY_MBTILES_1 Auto
+DEFAULT_MACRO _MBTILES_WRITER_INTERPOLATION_TYPE_MBTILES_1 Bilinear
+DEFAULT_MACRO _MBTILES_WRITER_GEN_MIN_ZOOM_MBTILES_1 -1
+DEFAULT_MACRO _MBTILES_WRITER_JPEG_COMPRESSION_LEVEL_MBTILES_1 25
+DEFAULT_MACRO _MBTILES_WRITER_ZLEVEL_MBTILES_1 6
+DEFAULT_MACRO _MBTILES_WRITER_DITHER_MBTILES_1 No
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO MBTILES_OUT_DESTINATION_DATASETTYPE_VALIDATION_MBTILES_1 Yes
+MBTILES_1_DESTINATION_DATASETTYPE_VALIDATION "$(MBTILES_OUT_DESTINATION_DATASETTYPE_VALIDATION_MBTILES_1)"
+DEFAULT_MACRO MBTILES_OUT_COORDINATE_SYSTEM_GRANULARITY_MBTILES_1 FEATURE
+MBTILES_1_COORDINATE_SYSTEM_GRANULARITY "$(MBTILES_OUT_COORDINATE_SYSTEM_GRANULARITY_MBTILES_1)"
+MBTILES_1_DATASET "$(DestDataset_MBTILES_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)06_raster_hoyde.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_USGS_DEM_1 USGS_DEM_1
+DEFAULT_MACRO DATASET_KEYWORD_MBTILES_1 MBTILES_1
+# -------------------------------------------------------------------------
+
+USGS_DEM_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MBTILES_1_COORDINATE_SYSTEM EPSG:3857
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME 06_raster_hoyde
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+USGS_DEM_1_DEF USGS_DEM
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD USGS_DEM_1   INPUT FEATURE_TYPE *    ROUTE USGS_DEM USGS_DEM_1::USGS_DEM TO FME_GENERIC ::USGS_DEM ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+USGS_DEM_1_MERGE_DEF USGS_DEM_1::USGS_DEM EXACT USGS_DEM
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "USGS_DEM (USGS_DEM_1) Splitter"    INPUT FEATURE_TYPE USGS_DEM    OUTPUT FEATURE_TYPE USGS_DEM_USGS_DEM_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TransformFact:5:RasterMosaicker    FACTORY_NAME RasterMosaicker    FACTORY_META_PARAMS    TRANSFORMER_NAME:RasterMosaicker    TRANSFORMER_PARAMS:XFORMER_NAME,RasterMosaicker,TRANSFORMER_GROUP,,GROUP_BY,,ALIGNMENT_GROUP,,SNAPPING_TYPE_NAME,Resample,INTERPOLATION_TYPE_NAME,Nearest<space>Neighbor,DATA_VALUES_GROUP,,OVERLAPPING_VALUES,last,NODATA_OVERWRITE,No,PALETTES_GROUP,,MERGE_PALETTES_NAME,Yes,ATTRIBUTES_GROUP,,ACCUM_ATTRS_NAME,Use<space>Attributes<space>From<space>One<space>Feature,COUNT_ATTR,,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE USGS_DEM_USGS_DEM_1    OUTPUT OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT    OUTPUT <REJECTED> FEATURE_TYPE RasterMosaicker_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterMosaicker_<Rejected> INPUT FEATURE_TYPE RasterMosaicker_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterMosaicker<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterBandNodataRemover    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterNodata(REJECTABLE, REMOVE)
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterBandNodataRemover_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterBandNodataRemover_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterBandNodataRemover_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterBandNodataRemover_<Rejected> INPUT FEATURE_TYPE RasterBandNodataRemover_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterBandNodataRemover<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+# Wipe out the source setting if it was untouched from the default setting
+
+DEFAULT_MACRO Reprojector_2_SOURCE "Read from feature"
+INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_2_SOURCE}          }         ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE RasterBandNodataRemover_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING")
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector_2 REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_2_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_0_dl2NLheVJKs=   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_1_4R5u0KwVNEk=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_0_dl2NLheVJKs=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "format" "SET_TO" "mapbox" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+
+
+# -------------------------------------------------------------------------
+
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A[0] * A:RasterSingularCellValueCalculator_961000a8_0bf9_497f_9168_ebd4f07539d02_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A:RasterSingularCellValueCalculator_961000a8_0bf9_497f_9168_ebd4f07539d02_SCALAR * A[0]};    }; ]
+# Note that the following template is largely shared by the following transformers:
+# RasterSingularCellValueCalculator
+# RasterCellValueRounder
+
+# -------------------------------------------------------------------------
+# Adds a prefix to existing attributes. This is done to ensure we don't
+# overwrite any attributes when we add new ones.
+# We'll also accept the name of an attribute that shouldn't be prefixed.
+
+Tcl2 proc RasterSingularCellValueCalculator_prefixExistingAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach oldName $attrNames {       set newName $kAttrPrefix;       append newName $oldName;       FME_RenameAttribute $newName $oldName;    }; };
+# -------------------------------------------------------------------------
+# Restores all previously prefixed attributes.
+
+Tcl2 proc RasterSingularCellValueCalculator_restorePrefixedAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach newName $attrNames {       set prefixIndex [string first $kAttrPrefix $newName];       if {$prefixIndex == 0} {          set oldName [string range $newName [expr $prefixIndex + 1] end];          FME_RenameAttribute $oldName $newName;       };    }; };
+# -------------------------------------------------------------------------
+# Renames band{index}.band_selected to just __selected__.
+
+Tcl2 proc RasterSingularCellValueCalculator_renameSelectedAttribute {} {    set index [FME_GetAttribute __band_index__];    set longName "_band{";    append longName $index;    append longName "}.band_selected";    FME_RenameAttribute "__selected__" $longName; };
+# -------------------------------------------------------------------------
+# Rename the existing attributes and get the band properties.
+# Reject if RasterProperties detects and marks invalid input
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterSingularCellValueCalculator_PropertiesExtractor    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @Tcl2("RasterSingularCellValueCalculator_prefixExistingAttributes")       @RasterProperties(REJECTABLE, BAND)
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_restorePrefixedAttributes")       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_input_with_properties       @RenameAttributes(FME_STRICT,.fme_rejection_code,.___fme_rejection_code___)
+# -------------------------------------------------------------------------
+# Separate the raster into individual bands.
+# Additionally, for each output band rename _band{index}.band_selected to
+# just __selected__, and restore the original attributes.
+
+FACTORY_DEF * RasterSplitterFactory    FACTORY_NAME RasterSingularCellValueCalculator_BandSeparator    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_input_with_properties    SPLIT_BY BAND    RASTER_INDEX_FIELD __raster_index__    BAND_INDEX_FIELD __band_index__    REJECT_INVALID_FEATURES YES    OUTPUT SPLIT FEATURE_TYPE RasterSingularCellValueCalculator_separated_bands       @Tcl2("RasterSingularCellValueCalculator_renameSelectedAttribute")       @RemoveAttributes(__band_index__)       @RemoveAttributes(fme_regexp_match,"^_band{[0-9]+}")       @Tcl2("RasterSingularCellValueCalculator_restorePrefixedAttributes")    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_restorePrefixedAttributes")
+# -------------------------------------------------------------------------
+# Split up the selected and unselected bands.
+
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_SelectionTester    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_separated_bands    TEST &__selected__ == "Yes"    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @RemoveAttributes(__selected__)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_unselected_bands       @RemoveAttributes(__selected__)
+# -------------------------------------------------------------------------
+# Perform the evaluation on selected bands.
+# Additionally, set the band type for all output bands to 0, so they get
+# appended first when we reconstruct our final raster.
+
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_961000a8_0bf9_497f_9168_ebd4f07539d02_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(manualMinValue$encode),RasterSingularCellValueCalculator)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_961000a8_0bf9_497f_9168_ebd4f07539d02_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_961000a8_0bf9_497f_9168_ebd4f07539d02_SCALAR)
+# -------------------------------------------------------------------------
+# Recombine the bands. Note that we are assuming the bands are arriving
+# in the correct order (and there's no reason they shouldn't, since there
+# are no blocking factories in between).
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_unselected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_OUTPUT       @RemoveAttributes(__raster_index__)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>
+# -------------------------------------------------------------------------
+# Here we are catching the bands that were potentially rejected in the expression evaluator.
+# This is very unorthodox but we need to remerge our rejected bands, hence the routing of
+# both outputs of the Factory to the rejected port of the transformer
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_Rejected_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterSingularCellValueCalculator_<Rejected> INPUT FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterSingularCellValueCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_2_c9724c35_05c9_493d_abc3_7371f0bd1e8d2_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A:RasterSingularCellValueCalculator_2_c9724c35_05c9_493d_abc3_7371f0bd1e8d2_SCALAR + A[0]};    }; ]
+# Note that the following template is largely shared by the following transformers:
+# RasterSingularCellValueCalculator
+# RasterCellValueRounder
+
+# -------------------------------------------------------------------------
+# Adds a prefix to existing attributes. This is done to ensure we don't
+# overwrite any attributes when we add new ones.
+# We'll also accept the name of an attribute that shouldn't be prefixed.
+
+Tcl2 proc RasterSingularCellValueCalculator_2_prefixExistingAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach oldName $attrNames {       set newName $kAttrPrefix;       append newName $oldName;       FME_RenameAttribute $newName $oldName;    }; };
+# -------------------------------------------------------------------------
+# Restores all previously prefixed attributes.
+
+Tcl2 proc RasterSingularCellValueCalculator_2_restorePrefixedAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach newName $attrNames {       set prefixIndex [string first $kAttrPrefix $newName];       if {$prefixIndex == 0} {          set oldName [string range $newName [expr $prefixIndex + 1] end];          FME_RenameAttribute $oldName $newName;       };    }; };
+# -------------------------------------------------------------------------
+# Renames band{index}.band_selected to just __selected__.
+
+Tcl2 proc RasterSingularCellValueCalculator_2_renameSelectedAttribute {} {    set index [FME_GetAttribute __band_index__];    set longName "_band{";    append longName $index;    append longName "}.band_selected";    FME_RenameAttribute "__selected__" $longName; };
+# -------------------------------------------------------------------------
+# Rename the existing attributes and get the band properties.
+# Reject if RasterProperties detects and marks invalid input
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_PropertiesExtractor    INPUT  FEATURE_TYPE RasterSingularCellValueCalculator_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @Tcl2("RasterSingularCellValueCalculator_2_prefixExistingAttributes")       @RasterProperties(REJECTABLE, BAND)
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_2_restorePrefixedAttributes")       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_2_input_with_properties       @RenameAttributes(FME_STRICT,.fme_rejection_code,.___fme_rejection_code___)
+# -------------------------------------------------------------------------
+# Separate the raster into individual bands.
+# Additionally, for each output band rename _band{index}.band_selected to
+# just __selected__, and restore the original attributes.
+
+FACTORY_DEF * RasterSplitterFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_BandSeparator    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_input_with_properties    SPLIT_BY BAND    RASTER_INDEX_FIELD __raster_index__    BAND_INDEX_FIELD __band_index__    REJECT_INVALID_FEATURES YES    OUTPUT SPLIT FEATURE_TYPE RasterSingularCellValueCalculator_2_separated_bands       @Tcl2("RasterSingularCellValueCalculator_2_renameSelectedAttribute")       @RemoveAttributes(__band_index__)       @RemoveAttributes(fme_regexp_match,"^_band{[0-9]+}")       @Tcl2("RasterSingularCellValueCalculator_2_restorePrefixedAttributes")    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_2_restorePrefixedAttributes")
+# -------------------------------------------------------------------------
+# Split up the selected and unselected bands.
+
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_SelectionTester    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_separated_bands    TEST &__selected__ == "Yes"    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @RemoveAttributes(__selected__)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_2_unselected_bands       @RemoveAttributes(__selected__)
+# -------------------------------------------------------------------------
+# Perform the evaluation on selected bands.
+# Additionally, set the band type for all output bands to 0, so they get
+# appended first when we reconstruct our final raster.
+
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_2_c9724c35_05c9_493d_abc3_7371f0bd1e8d2_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(offset$encode),RasterSingularCellValueCalculator_2)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_2_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_c9724c35_05c9_493d_abc3_7371f0bd1e8d2_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_c9724c35_05c9_493d_abc3_7371f0bd1e8d2_SCALAR)
+# -------------------------------------------------------------------------
+# Recombine the bands. Note that we are assuming the bands are arriving
+# in the correct order (and there's no reason they shouldn't, since there
+# are no blocking factories in between).
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_unselected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_2_OUTPUT       @RemoveAttributes(__raster_index__)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>
+# -------------------------------------------------------------------------
+# Here we are catching the bands that were potentially rejected in the expression evaluator.
+# This is very unorthodox but we need to remerge our rejected bands, hence the routing of
+# both outputs of the Factory to the rejected port of the transformer
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Rejected_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterSingularCellValueCalculator_2_<Rejected> INPUT FEATURE_TYPE RasterSingularCellValueCalculator_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterSingularCellValueCalculator_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_2    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_OUTPUT    INTERPRETATION_LIST "RED8;GREEN8;BLUE8" EXPRESSION_LIST "A<openbracket>0<closebracket><space><space><gt><gt><space>16;<openparen><space><openparen>A<openbracket>0<closebracket><space><space><gt><gt><space>8<closeparen><space>-<openparen><space><openparen>A<openbracket>0<closebracket><space><gt><gt>16<closeparen><space><lt><lt><space>8<space><closeparen><space><closeparen>;A<openbracket>0<closebracket><space>-<space><openparen><openparen><space>A<openbracket>0<closebracket><space><space><gt><gt><space>8<closeparen><space><lt><lt><space>8<space><closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_2_RESULT    OUTPUT <REJECTED> FEATURE_TYPE RasterExpressionEvaluator_2_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterExpressionEvaluator_2_<Rejected> INPUT FEATURE_TYPE RasterExpressionEvaluator_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterExpressionEvaluator_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED_1_4R5u0KwVNEk=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "format" "SET_TO" "mapzen" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+
+
+# -------------------------------------------------------------------------
+
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_3_253122a8_cae3_4c5e_a676_5298f64aa5e52_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A:RasterSingularCellValueCalculator_3_253122a8_cae3_4c5e_a676_5298f64aa5e52_SCALAR + A[0]};    }; ]
+# Note that the following template is largely shared by the following transformers:
+# RasterSingularCellValueCalculator
+# RasterCellValueRounder
+
+# -------------------------------------------------------------------------
+# Adds a prefix to existing attributes. This is done to ensure we don't
+# overwrite any attributes when we add new ones.
+# We'll also accept the name of an attribute that shouldn't be prefixed.
+
+Tcl2 proc RasterSingularCellValueCalculator_3_prefixExistingAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach oldName $attrNames {       set newName $kAttrPrefix;       append newName $oldName;       FME_RenameAttribute $newName $oldName;    }; };
+# -------------------------------------------------------------------------
+# Restores all previously prefixed attributes.
+
+Tcl2 proc RasterSingularCellValueCalculator_3_restorePrefixedAttributes {} {    set attrNames [FME_AttributeNames];    set kAttrPrefix ".";    foreach newName $attrNames {       set prefixIndex [string first $kAttrPrefix $newName];       if {$prefixIndex == 0} {          set oldName [string range $newName [expr $prefixIndex + 1] end];          FME_RenameAttribute $oldName $newName;       };    }; };
+# -------------------------------------------------------------------------
+# Renames band{index}.band_selected to just __selected__.
+
+Tcl2 proc RasterSingularCellValueCalculator_3_renameSelectedAttribute {} {    set index [FME_GetAttribute __band_index__];    set longName "_band{";    append longName $index;    append longName "}.band_selected";    FME_RenameAttribute "__selected__" $longName; };
+# -------------------------------------------------------------------------
+# Rename the existing attributes and get the band properties.
+# Reject if RasterProperties detects and marks invalid input
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_PropertiesExtractor    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @Tcl2("RasterSingularCellValueCalculator_3_prefixExistingAttributes")       @RasterProperties(REJECTABLE, BAND)
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_3_restorePrefixedAttributes")       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_3_input_with_properties       @RenameAttributes(FME_STRICT,.fme_rejection_code,.___fme_rejection_code___)
+# -------------------------------------------------------------------------
+# Separate the raster into individual bands.
+# Additionally, for each output band rename _band{index}.band_selected to
+# just __selected__, and restore the original attributes.
+
+FACTORY_DEF * RasterSplitterFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_BandSeparator    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_input_with_properties    SPLIT_BY BAND    RASTER_INDEX_FIELD __raster_index__    BAND_INDEX_FIELD __band_index__    REJECT_INVALID_FEATURES YES    OUTPUT SPLIT FEATURE_TYPE RasterSingularCellValueCalculator_3_separated_bands       @Tcl2("RasterSingularCellValueCalculator_3_renameSelectedAttribute")       @RemoveAttributes(__band_index__)       @RemoveAttributes(fme_regexp_match,"^_band{[0-9]+}")       @Tcl2("RasterSingularCellValueCalculator_3_restorePrefixedAttributes")    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>       @Tcl2("RasterSingularCellValueCalculator_3_restorePrefixedAttributes")
+# -------------------------------------------------------------------------
+# Split up the selected and unselected bands.
+
+FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_SelectionTester    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_separated_bands    TEST &__selected__ == "Yes"    OUTPUT PASSED FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @RemoveAttributes(__selected__)    OUTPUT FAILED FEATURE_TYPE RasterSingularCellValueCalculator_3_unselected_bands       @RemoveAttributes(__selected__)
+# -------------------------------------------------------------------------
+# Perform the evaluation on selected bands.
+# Additionally, set the band type for all output bands to 0, so they get
+# appended first when we reconstruct our final raster.
+
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_3_253122a8_cae3_4c5e_a676_5298f64aa5e52_SCALAR,"32768")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_3_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_253122a8_cae3_4c5e_a676_5298f64aa5e52_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_253122a8_cae3_4c5e_a676_5298f64aa5e52_SCALAR)
+# -------------------------------------------------------------------------
+# Recombine the bands. Note that we are assuming the bands are arriving
+# in the correct order (and there's no reason they shouldn't, since there
+# are no blocking factories in between).
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_unselected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_3_OUTPUT       @RemoveAttributes(__raster_index__)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>
+# -------------------------------------------------------------------------
+# Here we are catching the bands that were potentially rejected in the expression evaluator.
+# This is very unorthodox but we need to remerge our rejected bands, hence the routing of
+# both outputs of the Factory to the rejected port of the transformer
+
+FACTORY_DEF * RasterMergerFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Rejected_BandCombiner    INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands    GROUP_BY __raster_index__    ACCUMULATE_ATTRIBUTES Yes    REJECT_INVALID_FEATURES YES    OUTPUT MERGED FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterSingularCellValueCalculator_3_<Rejected> INPUT FEATURE_TYPE RasterSingularCellValueCalculator_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterSingularCellValueCalculator_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_3    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_OUTPUT    INTERPRETATION_LIST "RED8;GREEN8;BLUE8" EXPRESSION_LIST "<at>floor<openparen>A<openbracket>0<closebracket><solidus>256<closeparen>;<at>floor<openparen>A<openbracket>0<closebracket>%256<closeparen>;<at>floor<openparen><space><openparen>A<openbracket>0<closebracket><space>-<space><at>floor<openparen>A<openbracket>0<closebracket><closeparen><closeparen><space>*<space>256<space><closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_3_RESULT    OUTPUT <REJECTED> FEATURE_TYPE RasterExpressionEvaluator_3_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterExpressionEvaluator_3_<Rejected> INPUT FEATURE_TYPE RasterExpressionEvaluator_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterExpressionEvaluator_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC RasterExpressionEvaluator_2_RESULT TO MBTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>$(Dataset$encode$encode)_<lt>at<gt>Value<lt>openparen<gt>format<lt>closeparen<gt><comma>Raster1<closeparen> COORDINATE_SYSTEM EPSG:3857 GEOMETRY    ROUTE FME_GENERIC RasterExpressionEvaluator_3_RESULT TO MBTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>$(Dataset$encode$encode)_<lt>at<gt>Value<lt>openparen<gt>format<lt>closeparen<gt><comma>Raster1<closeparen> COORDINATE_SYSTEM EPSG:3857 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+MBTILES_1_DEF Raster1   mbtiles_name                 "$(Dataset)_<at>Value<openparen>format<closeparen>"   mbtiles_description          ""   mbtiles_map_type             Overlay   mbtiles_tile_format          PNG   mbtiles_version              1.1   mbtiles_zoom_level_strategy  Auto   mbtiles_jpeg_compression_level 25   mbtiles_png_zlevel           6   mbtiles_png8_dither          No   mbtiles_gen_min_zoom         -1   mbtiles_pyramid_interpolation_type "$(NearestNeighbor)"
