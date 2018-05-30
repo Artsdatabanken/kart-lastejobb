@@ -24,11 +24,26 @@
     "AO": {
       "mbtiles": "AO.mbtiles"
     },
+	"BS": {
+      "mbtiles": "BS.mbtiles"
+    },
 	"seksjoner2017": {
       "mbtiles": "seksjoner2017.mbtiles"
     },
 	"soner2017": {
       "mbtiles": "soner2017.mbtiles"
+    },
+	"BS_6SE": {
+      "mbtiles": "BS_6SE.mbtiles"
+    },
+	"BS_6SO": {
+      "mbtiles": "BS_6SO.mbtiles"
+    },
+	"hoyde_mapbox": {
+      "mbtiles": "hoyde_mapbox.mbtiles"
+    },
+	"hoyde_mapzen": {
+      "mbtiles": "hoyde_mapzen.mbtiles"
     }
   }
 }
