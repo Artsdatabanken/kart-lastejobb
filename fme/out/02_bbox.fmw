@@ -8,7 +8,7 @@
 #    "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\out\02_bbox.fmw
 #          --DestDataset_GEOJSON "D:\out\geojson\sqrt42\sqrt42.bbox.geojson"
 #          --DestDataset_TEXTLINE "D:\out\json\sqrt42\sqrt42bbox.json"
-#          --SourceDataset_MBTILES "D:\out\mbtiles\RASTER_*.mbtiles"
+#          --SourceDataset_MBTILES "D:\out\mbtiles\*-RASTER.mbtiles"
 #    
 #    
 #!   WARN_INVALID_XFORM_PARAM="Yes"
@@ -23,9 +23,9 @@
 #!   BEGIN_PYTHON=""
 #!   END_TCL=""
 #!   FME_BUILD_NUM="17539"
-#!   ZOOM_SCALE="45"
+#!   ZOOM_SCALE="43"
 #!   FME_DOCUMENT_PRIORGUID="1af7ae33-dc8c-468e-8edd-ad002f272871,63be9bcb-0242-4b52-b713-9c442b7f40a3,c28b2a8a-316e-47f0-9e32-2df2bc44e176,263f72bc-5e8f-4460-b350-61e8c502fb51,47d9fab3-1263-4ec0-beed-1d2b943cf092,622912aa-1919-4a5e-b76c-f749511222a6"
-#!   LAST_SAVE_DATE="2018-06-01T11:30:30"
+#!   LAST_SAVE_DATE="2018-06-01T12:33:07"
 #!   SOURCE_ROUTING_FILE=""
 #!   USE_MARKDOWN=""
 #!   USAGE=""
@@ -33,12 +33,12 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   DOC_EXTENTS="8617 546.25"
+#!   DOC_EXTENTS="9272 546.25"
 #!   TITLE=""
 #!   LOG_FILE=""
 #!   DESCRIPTION=""
 #!   MARKDOWN_DESCRIPTION=""
-#!   VIEW_POSITION="-312.503 3812.54"
+#!   VIEW_POSITION="-218.025 3960.8"
 #!   SOURCE="NONE"
 #!   MAX_LOG_FEATURES="200"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
@@ -937,8 +937,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="31"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="8721 888.5"
-#!   BOUNDING_RECT="8721 888.5 -1 -1"
+#!   POSITION="9376 888.5"
+#!   BOUNDING_RECT="9376 888.5 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -987,7 +987,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_MBTILES MBTiles_Database_Files(*.mbtiles)|*.mbtiles Source MBTiles File(s):"
-#!   DEFAULT_VALUE="D:\out\mbtiles\RASTER_*.mbtiles"
+#!   DEFAULT_VALUE="D:\out\mbtiles\*-RASTER.mbtiles"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1256,8 +1256,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="HTTPCaller"
 #!   VERSION="1"
-#!   POSITION="6695 675.25"
-#!   BOUNDING_RECT="6695 675.25 -1 -1"
+#!   POSITION="7350 675.25"
+#!   BOUNDING_RECT="7350 675.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -1328,8 +1328,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="6030.5 853.5"
-#!   BOUNDING_RECT="6030.5 853.5 -1 -1"
+#!   POSITION="6685.5 853.5"
+#!   BOUNDING_RECT="6685.5 853.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1349,8 +1349,8 @@
 #!   IDENTIFIER="16"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="4720.5 768"
-#!   BOUNDING_RECT="4720.5 768 -1 -1"
+#!   POSITION="5375.5 768"
+#!   BOUNDING_RECT="5375.5 768 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1379,8 +1379,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="5375.5 768"
-#!   BOUNDING_RECT="5375.5 768 -1 -1"
+#!   POSITION="6030.5 768"
+#!   BOUNDING_RECT="6030.5 768 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1462,8 +1462,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="6716 900"
-#!   BOUNDING_RECT="6716 900 -1 -1"
+#!   POSITION="7371 900"
+#!   BOUNDING_RECT="7371 900 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1487,8 +1487,8 @@
 #!   IDENTIFIER="32"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="7401.5 900"
-#!   BOUNDING_RECT="7401.5 900 -1 -1"
+#!   POSITION="8056.5 900"
+#!   BOUNDING_RECT="8056.5 900 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1510,8 +1510,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="ListConcatenator"
 #!   VERSION="3"
-#!   POSITION="8056.5 900"
-#!   BOUNDING_RECT="8056.5 900 -1 -1"
+#!   POSITION="8711.5 900"
+#!   BOUNDING_RECT="8711.5 900 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1603,6 +1603,34 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="48"
+#!   TYPE="CoordinateRounder"
+#!   VERSION="3"
+#!   POSITION="4720.5 768"
+#!   BOUNDING_RECT="4720.5 768 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="ROUNDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_xmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_ymax" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateRounder"/>
+#!     <XFORM_PARM PARM_NAME="YPREC" PARM_VALUE="5"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XPREC" PARM_VALUE="5"/>
+#!     <XFORM_PARM PARM_NAME="ZPREC" PARM_VALUE="5"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -1661,9 +1689,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="18"
+#!   IDENTIFIER="49"
 #!   SOURCE_NODE="13"
-#!   TARGET_NODE="16"
+#!   TARGET_NODE="48"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1782,6 +1810,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="53"
+#!   SOURCE_NODE="48"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 ROUNDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="52"
 #!   SOURCE_NODE="50"
 #!   TARGET_NODE="45"
@@ -1852,7 +1891,7 @@ DEFAULT_MACRO DestDataset_GEOJSON D:\out\geojson\sqrt42\sqrt42.bbox.geojson
 GUI FILENAME DestDataset_GEOJSON GeoJSON_Files(*.json)|*.json|All_Files|* Destination GeoJSON File:
 DEFAULT_MACRO DestDataset_TEXTLINE D:\out\json\sqrt42\sqrt42bbox.json
 GUI FILENAME DestDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
-DEFAULT_MACRO SourceDataset_MBTILES D:\out\mbtiles\RASTER_*.mbtiles
+DEFAULT_MACRO SourceDataset_MBTILES D:\out\mbtiles\*-RASTER.mbtiles
 GUI MULTIFILE SourceDataset_MBTILES MBTiles_Database_Files(*.mbtiles)|*.mbtiles Source MBTiles File(s):
 INCLUDE PYTHON
 def ParamFunc():
@@ -2253,9 +2292,13 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE 
 
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE BoundsExtractor_OUTPUT    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"5","5","5")
+
+# -------------------------------------------------------------------------
+
 
 Tcl2 proc StringConcatenator_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {_sw}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<at>Value<openparen>_xmin<closeparen><comma><at>Value<openparen>_ymin<closeparen>"};    };    lappend parmList {StringConcatenator};    eval FME_Execute $parmList; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE BoundsExtractor_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT         @Tcl2("StringConcatenator_evaluator ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE CoordinateRounder_ROUNDED    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT         @Tcl2("StringConcatenator_evaluator ")
 
 
 # -------------------------------------------------------------------------
@@ -2267,9 +2310,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_2    INPUT  FEATURE_
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce7_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce13_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE StringConcatenator_2_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_sw,code,_ne,fme_pcre_match,"^fme_$(AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce7_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE StringConcatenator_2_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_sw,code,_ne,fme_pcre_match,"^fme_$(AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce13_LIST_EXP)")
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_3 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT_0_BC3kU43/UhI=   OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT_1_L3REDu5imG0=
 # -------------------------------------------------------------------------
