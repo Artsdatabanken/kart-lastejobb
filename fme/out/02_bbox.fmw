@@ -25,7 +25,7 @@
 #!   FME_BUILD_NUM="17539"
 #!   ZOOM_SCALE="43"
 #!   FME_DOCUMENT_PRIORGUID="1af7ae33-dc8c-468e-8edd-ad002f272871,63be9bcb-0242-4b52-b713-9c442b7f40a3,c28b2a8a-316e-47f0-9e32-2df2bc44e176,263f72bc-5e8f-4460-b350-61e8c502fb51,47d9fab3-1263-4ec0-beed-1d2b943cf092,622912aa-1919-4a5e-b76c-f749511222a6"
-#!   LAST_SAVE_DATE="2018-06-01T12:33:07"
+#!   LAST_SAVE_DATE="2018-06-01T12:38:25"
 #!   SOURCE_ROUTING_FILE=""
 #!   USE_MARKDOWN=""
 #!   USAGE=""
@@ -33,12 +33,12 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   DOC_EXTENTS="9272 546.25"
+#!   DOC_EXTENTS="9272 775.626"
 #!   TITLE=""
 #!   LOG_FILE=""
 #!   DESCRIPTION=""
 #!   MARKDOWN_DESCRIPTION=""
-#!   VIEW_POSITION="-218.025 3960.8"
+#!   VIEW_POSITION="-218.025 3975.33"
 #!   SOURCE="NONE"
 #!   MAX_LOG_FEATURES="200"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
@@ -46,7 +46,7 @@
 #!   FME_REPROJECTION_ENGINE="FME"
 #!   IGNORE_READER_FAILURE="No"
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   DOC_TOP_LEFT="104 404.75"
+#!   DOC_TOP_LEFT="104 255.75"
 #!   MARKDOWN_USAGE=""
 #!   HISTORY=""
 #!   SHOW_ANNOTATIONS="true"
@@ -918,8 +918,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="4014 404.75"
-#!   BOUNDING_RECT="4014 404.75 -1 -1"
+#!   POSITION="4014 610.25"
+#!   BOUNDING_RECT="4014 610.25 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOJSON_1"
@@ -937,8 +937,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="31"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="9376 888.5"
-#!   BOUNDING_RECT="9376 888.5 -1 -1"
+#!   POSITION="9376 469"
+#!   BOUNDING_RECT="9376 469 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -956,8 +956,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="43"
 #!   FEAT_GEOMTYPE="mbtiles_raster"
-#!   POSITION="820 909.5"
-#!   BOUNDING_RECT="820 909.5 -1 -1"
+#!   POSITION="820 300"
+#!   BOUNDING_RECT="820 300 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="MBTILES_1"
@@ -1020,10 +1020,10 @@
 #! <COMMENT
 #!   IDENTIFIER="39"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Join in all codes and predecessor-codes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1595.62 581.876"
-#!   TOP_LEFT="1595.62 581.876"
-#!   BOTTOM_RIGHT="1594.62 582.876"
-#!   BOUNDING_RECT="1595.62 581.876 -1 -1"
+#!   POSITION="1595.62 1031.38"
+#!   TOP_LEFT="1595.62 1031.38"
+#!   BOTTOM_RIGHT="1594.62 1032.38"
+#!   BOUNDING_RECT="1595.62 1031.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1042,8 +1042,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="FeatureReader"
 #!   VERSION="9"
-#!   POSITION="820 538.25"
-#!   BOUNDING_RECT="820 538.25 -1 -1"
+#!   POSITION="820 987.75"
+#!   BOUNDING_RECT="820 987.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1125,8 +1125,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="104 418.25"
-#!   BOUNDING_RECT="104 418.25 -1 -1"
+#!   POSITION="104 867.75"
+#!   BOUNDING_RECT="104 867.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1150,8 +1150,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="1637.62 434.625"
-#!   BOUNDING_RECT="1637.62 434.625 -1 -1"
+#!   POSITION="1637.62 884.125"
+#!   BOUNDING_RECT="1637.62 884.125 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1192,8 +1192,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="BoundingBoxAccumulator"
 #!   VERSION="4"
-#!   POSITION="3319 455.5"
-#!   BOUNDING_RECT="3319 455.5 -1 -1"
+#!   POSITION="3319 661"
+#!   BOUNDING_RECT="3319 661 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1225,8 +1225,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="BoundsExtractor"
 #!   VERSION="2"
-#!   POSITION="4035 768"
-#!   BOUNDING_RECT="4035 768 -1 -1"
+#!   POSITION="4720.5 348.5"
+#!   BOUNDING_RECT="4720.5 348.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1256,8 +1256,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="HTTPCaller"
 #!   VERSION="1"
-#!   POSITION="7350 675.25"
-#!   BOUNDING_RECT="7350 675.25 -1 -1"
+#!   POSITION="7350 255.75"
+#!   BOUNDING_RECT="7350 255.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -1328,8 +1328,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="6685.5 853.5"
-#!   BOUNDING_RECT="6685.5 853.5 -1 -1"
+#!   POSITION="6685.5 434"
+#!   BOUNDING_RECT="6685.5 434 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1349,8 +1349,8 @@
 #!   IDENTIFIER="16"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="5375.5 768"
-#!   BOUNDING_RECT="5375.5 768 -1 -1"
+#!   POSITION="5375.5 348.5"
+#!   BOUNDING_RECT="5375.5 348.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1379,8 +1379,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="6030.5 768"
-#!   BOUNDING_RECT="6030.5 768 -1 -1"
+#!   POSITION="6030.5 348.5"
+#!   BOUNDING_RECT="6030.5 348.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1410,8 +1410,8 @@
 #!   IDENTIFIER="22"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="2633.5 499"
-#!   BOUNDING_RECT="2633.5 499 -1 -1"
+#!   POSITION="2633.5 948.5"
+#!   BOUNDING_RECT="2633.5 948.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1440,8 +1440,8 @@
 #!   IDENTIFIER="26"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="3298 710.25"
-#!   BOUNDING_RECT="3298 710.25 -1 -1"
+#!   POSITION="3298 915.75"
+#!   BOUNDING_RECT="3298 915.75 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1462,8 +1462,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="StringConcatenator"
 #!   VERSION="7"
-#!   POSITION="7371 900"
-#!   BOUNDING_RECT="7371 900 -1 -1"
+#!   POSITION="7371 480.5"
+#!   BOUNDING_RECT="7371 480.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1487,8 +1487,8 @@
 #!   IDENTIFIER="32"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="8056.5 900"
-#!   BOUNDING_RECT="8056.5 900 -1 -1"
+#!   POSITION="8056.5 480.5"
+#!   BOUNDING_RECT="8056.5 480.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1510,8 +1510,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="ListConcatenator"
 #!   VERSION="3"
-#!   POSITION="8711.5 900"
-#!   BOUNDING_RECT="8711.5 900 -1 -1"
+#!   POSITION="8711.5 480.5"
+#!   BOUNDING_RECT="8711.5 480.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1533,8 +1533,8 @@
 #!   IDENTIFIER="45"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="2633.5 921"
-#!   BOUNDING_RECT="2633.5 921 -1 -1"
+#!   POSITION="2633.5 311.5"
+#!   BOUNDING_RECT="2633.5 311.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1559,8 +1559,8 @@
 #!   IDENTIFIER="50"
 #!   TYPE="RasterExtentsCoercer"
 #!   VERSION="1"
-#!   POSITION="1752.5 951"
-#!   BOUNDING_RECT="1752.5 951 -1 -1"
+#!   POSITION="1752.5 341.5"
+#!   BOUNDING_RECT="1752.5 341.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1583,8 +1583,8 @@
 #!   IDENTIFIER="44"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="3319 921"
-#!   BOUNDING_RECT="3319 921 -1 -1"
+#!   POSITION="3319 311.5"
+#!   BOUNDING_RECT="3319 311.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1607,10 +1607,10 @@
 #!   IDENTIFIER="48"
 #!   TYPE="CoordinateRounder"
 #!   VERSION="3"
-#!   POSITION="4720.5 768"
-#!   BOUNDING_RECT="4720.5 768 -1 -1"
+#!   POSITION="4035 348.5"
+#!   BOUNDING_RECT="4035 348.5 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
+#!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17539"
 #! >
@@ -1618,12 +1618,6 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_xmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_ymax" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_zmax" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_zmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateRounder"/>
 #!     <XFORM_PARM PARM_NAME="YPREC" PARM_VALUE="5"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -1669,7 +1663,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="27"
 #!   SOURCE_NODE="9"
-#!   TARGET_NODE="13"
+#!   TARGET_NODE="48"
 #!   SOURCE_PORT_DESC="fo 0 BOUNDING_BOX"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1689,9 +1683,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="49"
+#!   IDENTIFIER="54"
 #!   SOURCE_NODE="13"
-#!   TARGET_NODE="48"
+#!   TARGET_NODE="16"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1788,9 +1782,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="47"
+#!   IDENTIFIER="49"
 #!   SOURCE_NODE="44"
-#!   TARGET_NODE="13"
+#!   TARGET_NODE="48"
 #!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1812,7 +1806,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="53"
 #!   SOURCE_NODE="48"
-#!   TARGET_NODE="16"
+#!   TARGET_NODE="13"
 #!   SOURCE_PORT_DESC="fo 0 ROUNDED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2288,17 +2282,17 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE Attr
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE BoundingBoxAccumulator_BOUNDING_BOX_0_Uimj7hHyq4I=    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,_xmin,_xmax,_ymin,_ymax,_zmin,_zmax,GEOMETRIC)
+FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    INPUT  FEATURE_TYPE BoundingBoxAccumulator_BOUNDING_BOX_0_Uimj7hHyq4I=    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"5","5","5")
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE BoundsExtractor_OUTPUT    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"5","5","5")
+FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE CoordinateRounder_ROUNDED    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,_xmin,_xmax,_ymin,_ymax,_zmin,_zmax,GEOMETRIC)
 
 # -------------------------------------------------------------------------
 
 
 Tcl2 proc StringConcatenator_evaluator {} {    if {{OUTGOING} == {OUTGOING}} {      set attr [FME_DecodeText {_sw}];      if {[string length $attr] == 0} { return; };      set attrs [list [FME_EncodeText $attr]];    } else {      set attrAll {<Unused>};      if {[string length $attrAll] == 0} { return; };      set attrs [split {<Unused>} { }];    };    set parmList {{EvaluateExpression} {ATTR_CREATE_EXPR_PROPOGATE_MISSING_FDIV}};    foreach attr $attrs {     lappend parmList $attr;     lappend parmList {"<at>Value<openparen>_xmin<closeparen><comma><at>Value<openparen>_ymin<closeparen>"};    };    lappend parmList {StringConcatenator};    eval FME_Execute $parmList; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE CoordinateRounder_ROUNDED    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT         @Tcl2("StringConcatenator_evaluator ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator    INPUT  FEATURE_TYPE BoundsExtractor_OUTPUT    OUTPUT FEATURE_TYPE StringConcatenator_OUTPUT         @Tcl2("StringConcatenator_evaluator ")
 
 
 # -------------------------------------------------------------------------
@@ -2310,9 +2304,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME StringConcatenator_2    INPUT  FEATURE_
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce13_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce15_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE StringConcatenator_2_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_sw,code,_ne,fme_pcre_match,"^fme_$(AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce13_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE StringConcatenator_2_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_sw,code,_ne,fme_pcre_match,"^fme_$(AttributeKeeper_3_8dc7670d_fa64_45bf_9a1c_6557900a99ce15_LIST_EXP)")
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_3 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT_0_BC3kU43/UhI=   OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT_1_L3REDu5imG0=
 # -------------------------------------------------------------------------
