@@ -27,14 +27,14 @@
 #!   USE_MARKDOWN=""
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   USAGE=""
-#!   DOC_EXTENTS="8306 2175.38"
+#!   DOC_EXTENTS="7823 2567.38"
 #!   IGNORE_READER_FAILURE="No"
 #!   TERMINATE_REJECTED="YES"
 #!   BEGIN_PYTHON=""
 #!   MARKDOWN_DESCRIPTION=""
 #!   CATEGORY=""
 #!   LOG_FILE=""
-#!   ZOOM_SCALE="105"
+#!   ZOOM_SCALE="50"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
@@ -49,9 +49,9 @@
 #!   END_TCL=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   DESCRIPTION=""
-#!   VIEW_POSITION="2607.17 1979.19"
+#!   VIEW_POSITION="-218.752 4406.29"
 #!   PYTHON_COMPATIBILITY="27"
-#!   LAST_SAVE_DATE="2018-06-04T13:38:43"
+#!   LAST_SAVE_DATE="2018-06-04T13:56:20"
 #!   DOC_TOP_LEFT="104 297"
 #!   MARKDOWN_USAGE=""
 #!   SHOW_INFO_NODES="true"
@@ -717,8 +717,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="104"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="8410 1561.75"
-#!   BOUNDING_RECT="8410 1561.75 -1 -1"
+#!   POSITION="7927 1585.75"
+#!   BOUNDING_RECT="7927 1585.75 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="MBTILES_1"
@@ -752,8 +752,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="16"
 #!   FEAT_GEOMTYPE="dem_raster"
-#!   POSITION="104 1628.5"
-#!   BOUNDING_RECT="104 1628.5 -1 -1"
+#!   POSITION="104 1942.5"
+#!   BOUNDING_RECT="104 1942.5 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="USGS_DEM_1"
@@ -811,8 +811,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="58"
 #!   FEAT_GEOMTYPE="dem_raster"
-#!   POSITION="104 1454.5"
-#!   BOUNDING_RECT="104 1454.5 -1 -1"
+#!   POSITION="104 1768.5"
+#!   BOUNDING_RECT="104 1768.5 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="USGS_DEM_2"
@@ -941,10 +941,10 @@
 #! <COMMENT
 #!   IDENTIFIER="29"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Convert to dm&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5549.56 1876.38"
-#!   TOP_LEFT="5549.56 1876.38"
-#!   BOTTOM_RIGHT="5548.56 1877.38"
-#!   BOUNDING_RECT="5549.56 1876.38 -1 -1"
+#!   POSITION="5127.56 1876.38"
+#!   TOP_LEFT="5127.56 1876.38"
+#!   BOTTOM_RIGHT="5126.56 1877.38"
+#!   BOUNDING_RECT="5127.56 1876.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -956,10 +956,10 @@
 #! <COMMENT
 #!   IDENTIFIER="50"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add offset&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6291.62 1869.38"
-#!   TOP_LEFT="6291.62 1869.38"
-#!   BOTTOM_RIGHT="6290.62 1870.38"
-#!   BOUNDING_RECT="6291.62 1869.38 -1 -1"
+#!   POSITION="5869.62 1873.38"
+#!   TOP_LEFT="5869.62 1873.38"
+#!   BOTTOM_RIGHT="5868.62 1874.38"
+#!   BOUNDING_RECT="5869.62 1873.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -971,10 +971,10 @@
 #! <COMMENT
 #!   IDENTIFIER="43"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add offset&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5538.62 1398.38"
-#!   TOP_LEFT="5538.62 1398.38"
-#!   BOTTOM_RIGHT="5537.62 1399.38"
-#!   BOUNDING_RECT="5538.62 1398.38 -1 -1"
+#!   POSITION="5116.62 1398.38"
+#!   TOP_LEFT="5116.62 1398.38"
+#!   BOTTOM_RIGHT="5115.62 1399.38"
+#!   BOUNDING_RECT="5116.62 1398.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -986,10 +986,10 @@
 #! <COMMENT
 #!   IDENTIFIER="54"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mapbox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4789.69 1803.38"
-#!   TOP_LEFT="4789.69 1803.38"
-#!   BOTTOM_RIGHT="4788.69 1804.38"
-#!   BOUNDING_RECT="4789.69 1803.38 -1 -1"
+#!   POSITION="4367.69 1760.38"
+#!   TOP_LEFT="4367.69 1760.38"
+#!   BOTTOM_RIGHT="4366.69 1761.38"
+#!   BOUNDING_RECT="4367.69 1760.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1001,10 +1001,10 @@
 #! <COMMENT
 #!   IDENTIFIER="57"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Mapzen&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4789.69 1368.38"
-#!   TOP_LEFT="4789.69 1368.38"
-#!   BOTTOM_RIGHT="4788.69 1369.38"
-#!   BOUNDING_RECT="4789.69 1368.38 -1 -1"
+#!   POSITION="4367.69 1368.38"
+#!   TOP_LEFT="4367.69 1368.38"
+#!   BOTTOM_RIGHT="4366.69 1369.38"
+#!   BOUNDING_RECT="4367.69 1368.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1016,10 +1016,10 @@
 #! <COMMENT
 #!   IDENTIFIER="56"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Make NoData 0 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2120.5 1677.38"
-#!   TOP_LEFT="2120.5 1677.38"
-#!   BOTTOM_RIGHT="2119.5 1678.38"
-#!   BOUNDING_RECT="2120.5 1677.38 -1 -1"
+#!   POSITION="2120.5 1991.38"
+#!   TOP_LEFT="2120.5 1991.38"
+#!   BOTTOM_RIGHT="2119.5 1992.38"
+#!   BOUNDING_RECT="2120.5 1991.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1031,10 +1031,10 @@
 #! <COMMENT
 #!   IDENTIFIER="76"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Convert to radians &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4103 2472.38"
-#!   TOP_LEFT="4103 2472.38"
-#!   BOTTOM_RIGHT="4102 2473.38"
-#!   BOUNDING_RECT="4103 2472.38 -1 -1"
+#!   POSITION="4400 2864.38"
+#!   TOP_LEFT="4400 2864.38"
+#!   BOTTOM_RIGHT="4399 2865.38"
+#!   BOUNDING_RECT="4400 2864.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1046,10 +1046,10 @@
 #! <COMMENT
 #!   IDENTIFIER="79"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Convert to radians &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4103 1907.38"
-#!   TOP_LEFT="4103 1907.38"
-#!   BOTTOM_RIGHT="4102 1908.38"
-#!   BOUNDING_RECT="4103 1907.38 -1 -1"
+#!   POSITION="4400 2299.38"
+#!   TOP_LEFT="4400 2299.38"
+#!   BOTTOM_RIGHT="4399 2300.38"
+#!   BOUNDING_RECT="4400 2299.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1061,10 +1061,10 @@
 #! <COMMENT
 #!   IDENTIFIER="112"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Reprojector_2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="4091 1368.38"
-#!   TOP_LEFT="4091 1368.38"
-#!   BOTTOM_RIGHT="4090 1369.38"
-#!   BOUNDING_RECT="4091 1368.38 -1 -1"
+#!   POSITION="3552.5 1760.38"
+#!   TOP_LEFT="3552.5 1760.38"
+#!   BOTTOM_RIGHT="3551.5 1761.38"
+#!   BOUNDING_RECT="3552.5 1760.38 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1072,6 +1072,21 @@
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="32"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="120"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hack to make normals wo math&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3471.68 1186.38"
+#!   TOP_LEFT="3471.68 1186.38"
+#!   BOTTOM_RIGHT="3470.68 1187.38"
+#!   BOUNDING_RECT="3471.68 1186.38 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="61"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -1083,8 +1098,8 @@
 #!   IDENTIFIER="18"
 #!   TYPE="RasterMosaicker"
 #!   VERSION="5"
-#!   POSITION="2775.5 1583"
-#!   BOUNDING_RECT="2775.5 1583 -1 -1"
+#!   POSITION="2775.5 1897"
+#!   BOUNDING_RECT="2775.5 1897 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1120,8 +1135,8 @@
 #!   IDENTIFIER="23"
 #!   TYPE="RasterSingularCellValueCalculator"
 #!   VERSION="1"
-#!   POSITION="5595.44 1747.62"
-#!   BOUNDING_RECT="5595.44 1747.62 -1 -1"
+#!   POSITION="5173.44 1747.62"
+#!   BOUNDING_RECT="5173.44 1747.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1147,8 +1162,8 @@
 #!   IDENTIFIER="33"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="7029.5 1810"
-#!   BOUNDING_RECT="7029.5 1810 -1 -1"
+#!   POSITION="6607.5 1829"
+#!   BOUNDING_RECT="6607.5 1829 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1173,8 +1188,8 @@
 #!   IDENTIFIER="49"
 #!   TYPE="RasterSingularCellValueCalculator"
 #!   VERSION="1"
-#!   POSITION="6359.38 1740.62"
-#!   BOUNDING_RECT="6359.38 1740.62 -1 -1"
+#!   POSITION="5937.38 1744.62"
+#!   BOUNDING_RECT="5937.38 1744.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1200,8 +1215,8 @@
 #!   IDENTIFIER="36"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="7029.5 1419"
-#!   BOUNDING_RECT="7029.5 1419 -1 -1"
+#!   POSITION="6607.5 1448"
+#!   BOUNDING_RECT="6607.5 1448 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1226,8 +1241,8 @@
 #!   IDENTIFIER="32"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="4115 1239.62"
-#!   BOUNDING_RECT="4115 1239.62 -1 -1"
+#!   POSITION="3576.5 1631.62"
+#!   BOUNDING_RECT="3576.5 1631.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1248,8 +1263,8 @@
 #!   IDENTIFIER="42"
 #!   TYPE="RasterSingularCellValueCalculator"
 #!   VERSION="1"
-#!   POSITION="5606.38 1269.62"
-#!   BOUNDING_RECT="5606.38 1269.62 -1 -1"
+#!   POSITION="5184.38 1269.62"
+#!   BOUNDING_RECT="5184.38 1269.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1275,8 +1290,8 @@
 #!   IDENTIFIER="41"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="4854.31 1674.62"
-#!   BOUNDING_RECT="4854.31 1674.62 -1 -1"
+#!   POSITION="4432.31 1631.62"
+#!   BOUNDING_RECT="4432.31 1631.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1300,8 +1315,8 @@
 #!   IDENTIFIER="48"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="4854.31 1239.62"
-#!   BOUNDING_RECT="4854.31 1239.62 -1 -1"
+#!   POSITION="4432.31 1239.62"
+#!   BOUNDING_RECT="4432.31 1239.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1325,8 +1340,8 @@
 #!   IDENTIFIER="30"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="2120.5 1548.62"
-#!   BOUNDING_RECT="2120.5 1548.62 -1 -1"
+#!   POSITION="2120.5 1862.62"
+#!   BOUNDING_RECT="2120.5 1862.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1349,8 +1364,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="RasterBandNodataRemover"
 #!   VERSION="1"
-#!   POSITION="810.5 1583"
-#!   BOUNDING_RECT="810.5 1583 430 71"
+#!   POSITION="810.5 1897"
+#!   BOUNDING_RECT="810.5 1897 430 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1443,8 +1458,8 @@
 #!   IDENTIFIER="61"
 #!   TYPE="TINGenerator"
 #!   VERSION="6"
-#!   POSITION="3430.5 934"
-#!   BOUNDING_RECT="3430.5 934 -1 -1"
+#!   POSITION="3471.68 1057.62"
+#!   BOUNDING_RECT="3471.68 1057.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1479,8 +1494,8 @@
 #!   IDENTIFIER="66"
 #!   TYPE="RasterSlopeCalculator"
 #!   VERSION="1"
-#!   POSITION="3430.5 1666"
-#!   BOUNDING_RECT="3430.5 1666 -1 -1"
+#!   POSITION="3564.5 2137"
+#!   BOUNDING_RECT="3564.5 2137 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1503,8 +1518,8 @@
 #!   IDENTIFIER="68"
 #!   TYPE="RasterAspectCalculator"
 #!   VERSION="1"
-#!   POSITION="3430.5 2272"
-#!   BOUNDING_RECT="3430.5 2272 -1 -1"
+#!   POSITION="3564.5 2600"
+#!   BOUNDING_RECT="3564.5 2600 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1526,8 +1541,8 @@
 #!   IDENTIFIER="70"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="4822 2348"
-#!   BOUNDING_RECT="4822 2348 -1 -1"
+#!   POSITION="5150.5 2587"
+#!   BOUNDING_RECT="5150.5 2587 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1550,8 +1565,8 @@
 #!   IDENTIFIER="73"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="5551.5 2246.5"
-#!   BOUNDING_RECT="5551.5 2246.5 -1 -1"
+#!   POSITION="5882.5 2485.5"
+#!   BOUNDING_RECT="5882.5 2485.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1578,8 +1593,8 @@
 #!   IDENTIFIER="75"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="4103 2343.62"
-#!   BOUNDING_RECT="4103 2343.62 -1 -1"
+#!   POSITION="4400 2735.62"
+#!   BOUNDING_RECT="4400 2735.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1602,8 +1617,8 @@
 #!   IDENTIFIER="71"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="4103 1778.62"
-#!   BOUNDING_RECT="4103 1778.62 -1 -1"
+#!   POSITION="4400 2170.62"
+#!   BOUNDING_RECT="4400 2170.62 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1626,8 +1641,8 @@
 #!   IDENTIFIER="63"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="1465.5 1553"
-#!   BOUNDING_RECT="1465.5 1553 -1 -1"
+#!   POSITION="1465.5 1867"
+#!   BOUNDING_RECT="1465.5 1867 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1644,8 +1659,8 @@
 #!   IDENTIFIER="83"
 #!   TYPE="NumericRasterizer"
 #!   VERSION="6"
-#!   POSITION="5572.5 655"
-#!   BOUNDING_RECT="5572.5 655 -1 -1"
+#!   POSITION="5903.5 655"
+#!   BOUNDING_RECT="5903.5 655 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1698,8 +1713,8 @@
 #!   IDENTIFIER="85"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="4822 655"
-#!   BOUNDING_RECT="4822 655 -1 -1"
+#!   POSITION="5150.5 655"
+#!   BOUNDING_RECT="5150.5 655 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1742,8 +1757,8 @@
 #!   IDENTIFIER="86"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="7694 613.5"
-#!   BOUNDING_RECT="7694 613.5 -1 -1"
+#!   POSITION="7927 613.5"
+#!   BOUNDING_RECT="7927 613.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1770,8 +1785,8 @@
 #!   IDENTIFIER="93"
 #!   TYPE="SubDocumentTransformer"
 #!   VERSION="0"
-#!   POSITION="4103 738"
-#!   BOUNDING_RECT="4103 738 -1 -1"
+#!   POSITION="4400 801"
+#!   BOUNDING_RECT="4400 801 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -1810,8 +1825,8 @@
 #!   IDENTIFIER="84"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="4822 319"
-#!   BOUNDING_RECT="4822 319 -1 -1"
+#!   POSITION="5150.5 319"
+#!   BOUNDING_RECT="5150.5 319 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1854,8 +1869,8 @@
 #!   IDENTIFIER="88"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="4822 948"
-#!   BOUNDING_RECT="4822 948 -1 -1"
+#!   POSITION="5150.5 948"
+#!   BOUNDING_RECT="5150.5 948 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1898,8 +1913,8 @@
 #!   IDENTIFIER="94"
 #!   TYPE="NumericRasterizer"
 #!   VERSION="6"
-#!   POSITION="5572.5 297"
-#!   BOUNDING_RECT="5572.5 297 -1 -1"
+#!   POSITION="5903.5 297"
+#!   BOUNDING_RECT="5903.5 297 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1952,8 +1967,8 @@
 #!   IDENTIFIER="96"
 #!   TYPE="NumericRasterizer"
 #!   VERSION="6"
-#!   POSITION="5572.5 948"
-#!   BOUNDING_RECT="5572.5 948 -1 -1"
+#!   POSITION="5903.5 991"
+#!   BOUNDING_RECT="5903.5 991 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2006,8 +2021,8 @@
 #!   IDENTIFIER="105"
 #!   TYPE="RasterBandCombiner"
 #!   VERSION="3"
-#!   POSITION="7029.5 683.5"
-#!   BOUNDING_RECT="7029.5 683.5 -1 -1"
+#!   POSITION="7262.5 683.5"
+#!   BOUNDING_RECT="7262.5 683.5 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2037,8 +2052,8 @@
 #!   IDENTIFIER="90"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="6325.5 685"
-#!   BOUNDING_RECT="6325.5 685 -1 -1"
+#!   POSITION="6607.5 685"
+#!   BOUNDING_RECT="6607.5 685 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2063,8 +2078,8 @@
 #!   IDENTIFIER="100"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="6325.5 306"
-#!   BOUNDING_RECT="6325.5 306 -1 -1"
+#!   POSITION="6607.5 306"
+#!   BOUNDING_RECT="6607.5 306 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2089,8 +2104,8 @@
 #!   IDENTIFIER="102"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="6325.5 1064"
-#!   BOUNDING_RECT="6325.5 1064 -1 -1"
+#!   POSITION="6607.5 1064"
+#!   BOUNDING_RECT="6607.5 1064 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2112,63 +2127,11 @@
 #!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="110"
-#!   TYPE="PythonCaller"
-#!   VERSION="4"
-#!   POSITION="3430.5 1886"
-#!   BOUNDING_RECT="3430.5 1886 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Function&lt;space&gt;interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;function&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;def&lt;space&gt;processFeature&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;space&gt;Interface:&lt;lf&gt;#&lt;space&gt;When&lt;space&gt;using&lt;space&gt;this&lt;space&gt;class&lt;comma&gt;&lt;space&gt;make&lt;space&gt;sure&lt;space&gt;its&lt;space&gt;name&lt;space&gt;is&lt;space&gt;set&lt;space&gt;as&lt;space&gt;the&lt;space&gt;value&lt;space&gt;of&lt;lf&gt;#&lt;space&gt;the&lt;space&gt;&lt;apos&gt;Class&lt;space&gt;or&lt;space&gt;Function&lt;space&gt;to&lt;space&gt;Process&lt;space&gt;Features&lt;apos&gt;&lt;space&gt;transformer&lt;space&gt;parameter&lt;lf&gt;class&lt;space&gt;FeatureProcessor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass"/>
-#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureProcessor"/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="113"
-#!   TYPE="RasterResampler"
-#!   VERSION="3"
-#!   POSITION="3430.5 1334"
-#!   BOUNDING_RECT="3430.5 1334 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="RESAMPLED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PERCENTAGE" PARM_VALUE="200"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterResampler"/>
-#!     <XFORM_PARM PARM_NAME="ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="X_CELL_SIZE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="INTERPOLATION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ROWCOL_OR_CELLSIZE" PARM_VALUE="Percentage"/>
-#!     <XFORM_PARM PARM_NAME="Y_CELL_SIZE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Bilinear"/>
-#!     <XFORM_PARM PARM_NAME="COLUMNS" PARM_VALUE="&lt;Unused&gt;"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="116"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="7715 1554"
-#!   BOUNDING_RECT="7715 1554 -1 -1"
+#!   POSITION="7262.5 1578"
+#!   BOUNDING_RECT="7262.5 1578 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2214,24 +2177,13 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="114"
-#!   SOURCE_NODE="18"
-#!   TARGET_NODE="113"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="69"
 #!   SOURCE_NODE="18"
 #!   TARGET_NODE="68"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="false"
-#!   EXECUTION_IDX="1"
+#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2242,7 +2194,7 @@
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="false"
-#!   EXECUTION_IDX="2"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2253,18 +2205,7 @@
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 POINTS&lt;solidus&gt;LINES"
 #!   ENABLED="false"
-#!   EXECUTION_IDX="3"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="111"
-#!   SOURCE_NODE="18"
-#!   TARGET_NODE="110"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
-#!   EXECUTION_IDX="4"
+#!   EXECUTION_IDX="2"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2275,7 +2216,7 @@
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
-#!   EXECUTION_IDX="5"
+#!   EXECUTION_IDX="3"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2603,17 +2544,6 @@
 #!   SOURCE_NODE="105"
 #!   TARGET_NODE="86"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="115"
-#!   SOURCE_NODE="113"
-#!   TARGET_NODE="32"
-#!   SOURCE_PORT_DESC="fo 0 RESAMPLED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -3389,9 +3319,9 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterBandNodataRemover_<Rejected> INPUT FEATURE_TYPE RasterBandNodataRemover_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterBandNodataRemover<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc210_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc212_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE RasterBandNodataRemover_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc210_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE RasterBandNodataRemover_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc212_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -3401,15 +3331,14 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterExpressionEvaluator_4_<Rejected> INPUT FEATURE_TYPE RasterExpressionEvaluator_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterExpressionEvaluator_4<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TransformFact:5:RasterMosaicker    FACTORY_NAME RasterMosaicker    FACTORY_META_PARAMS    TRANSFORMER_NAME:RasterMosaicker    TRANSFORMER_PARAMS:XFORMER_NAME,RasterMosaicker,TRANSFORMER_GROUP,,GROUP_BY,,ALIGNMENT_GROUP,,SNAPPING_TYPE_NAME,Resample,INTERPOLATION_TYPE_NAME,Bilinear,DATA_VALUES_GROUP,,OVERLAPPING_VALUES,last,NODATA_OVERWRITE,No,PALETTES_GROUP,,MERGE_PALETTES_NAME,Yes,ATTRIBUTES_GROUP,,ACCUM_ATTRS_NAME,Use<space>Attributes<space>From<space>One<space>Feature,COUNT_ATTR,,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE RasterExpressionEvaluator_4_RESULT    OUTPUT OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT    OUTPUT <REJECTED> FEATURE_TYPE RasterMosaicker_<REJECTED>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker OUTPUT Splitter"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_4_wqVjEklT1Ac=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_5_0Op0QiB4Sl4=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ= Disabled Nuker -1 69"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_2_2pFcMWb2Cec= Disabled Nuker -1 67"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs= Disabled Nuker -1 64"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_4_wqVjEklT1Ac= Disabled Nuker -1 111"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_4_wqVjEklT1Ac=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker OUTPUT Splitter"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=   OUTPUT FEATURE_TYPE RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E= Disabled Nuker -1 69"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ= Disabled Nuker -1 67"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterMosaicker_OUTPUT_2_2pFcMWb2Cec= Disabled Nuker -1 64"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterMosaicker_<Rejected> INPUT FEATURE_TYPE RasterMosaicker_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterMosaicker<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TransformFact:6:TINGenerator    FACTORY_NAME TINGenerator    FACTORY_META_PARAMS    TRANSFORMER_NAME:TINGenerator    TRANSFORMER_PARAMS:XFORMER_NAME,TINGenerator,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,GROUP_BY,,TOLERANCE,50    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT POINTS/LINES FEATURE_TYPE RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs=    OUTPUT TRIANGLES FEATURE_TYPE TINGenerator_TRIANGLES
+FACTORY_DEF * TransformFact:6:TINGenerator    FACTORY_NAME TINGenerator    FACTORY_META_PARAMS    TRANSFORMER_NAME:TINGenerator    TRANSFORMER_PARAMS:XFORMER_NAME,TINGenerator,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,GROUP_BY,,TOLERANCE,50    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT POINTS/LINES FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=    OUTPUT TRIANGLES FEATURE_TYPE TINGenerator_TRIANGLES
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SurfaceNormalCalculator INPUT Input Collector"   INPUT FEATURE_TYPE TINGenerator_TRIANGLES   OUTPUT FEATURE_TYPE SurfaceNormalCalculator_INPUT
 MACRO SurfaceNormalCalculator_WORKSPACE_NAME SurfaceNormalCalculator
@@ -3419,7 +3348,7 @@ MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)_SUB_DOC_NAME SurfaceNormalCalculator
 DEFAULT_MACRO SurfaceNormalCalculator_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(SurfaceNormalCalculator_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(SurfaceNormalCalculator_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT1528112323 Input Splitter"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT1528113380 Input Splitter"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {"No" == "Yes"} {       puts "MACRO COLLECTION_HANDLING *";    } else {       puts "MACRO COLLECTION_HANDLING NOT_THIS_TIME";    } ]
@@ -3469,8 +3398,8 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(SurfaceNormalCalculator_WORKSPACE_
 INCLUDE [    set macroLine "MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "{\[0-9\]+}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3    INPUT  FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_PythonCaller_OUTPUT"    OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"        @RemoveAttributes(_coordcount)        @RemoveAttributes(fme_regexp_match"$($(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_LIST_EXP)")
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid1528112323 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SOLID"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_NULL"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok1528112323 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid1528113380 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SOLID"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_NULL"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok1528113380 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(SurfaceNormalCalculator_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SurfaceNormalCalculator Ok Output Renamer/Nuker"   INPUT FEATURE_TYPE SurfaceNormalCalculator_Ok   OUTPUT FEATURE_TYPE SurfaceNormalCalculator_Ok
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SurfaceNormalCalculator Invalid Output Renamer/Nuker"   INPUT FEATURE_TYPE SurfaceNormalCalculator_Invalid
@@ -3558,16 +3487,12 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 FACTORY_DEF * RecorderFactory    FACTORY_NAME NumericRasterizer_Raster_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA fme_basename,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterResampler (Disabled) Nuker"   INPUT FEATURE_TYPE RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E=
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME RasterResampler_<Rejected> INPUT FEATURE_TYPE RasterResampler_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterResampler<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
 
 # Wipe out the source setting if it was untouched from the default setting
 
 DEFAULT_MACRO Reprojector_2_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_2_SOURCE}          }         ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE RasterResampler_RESAMPLED    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_5_0Op0QiB4Sl4=    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",Bilinear,PreserveCells,Reprojector_2,"COORD_SYS_WARNING")
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_3_ANcEW8l1Gxs=    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",Bilinear,PreserveCells,Reprojector_2,"COORD_SYS_WARNING")
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Reprojector_2 REPROJECTED Splitter"   INPUT FEATURE_TYPE Reprojector_2_REPROJECTED   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_0_dl2NLheVJKs=   OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED_1_4R5u0KwVNEk=
 # -------------------------------------------------------------------------
@@ -3577,7 +3502,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3310_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3310_SCALAR + A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR + A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3617,7 +3542,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Se
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3310_SCALAR,"32768")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_3_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3310_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3310_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR,"32768")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_3_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
@@ -3646,7 +3571,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATUR
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A[0] * A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4010_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4010_SCALAR * A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A[0] * A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR * A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3686,7 +3611,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_Sele
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4010_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(manualMinValue$encode),RasterSingularCellValueCalculator)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4010_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4010_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(manualMinValue$encode),RasterSingularCellValueCalculator)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
@@ -3704,7 +3629,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterSingularCellValueCalculator_<Rejected> INPUT FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterSingularCellValueCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b10_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b10_SCALAR + A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR + A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3744,7 +3669,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Se
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b10_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(offset$encode),RasterSingularCellValueCalculator_2)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_2_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b10_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b10_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(offset$encode),RasterSingularCellValueCalculator_2)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_2_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
@@ -3773,7 +3698,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME RasterSlopeCalculator    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_2_2pFcMWb2Cec=    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterSlope(REJECTABLE, Degrees,DoNotInterpolateNodata,Horn)
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterSlopeCalculator    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterSlope(REJECTABLE, Degrees,DoNotInterpolateNodata,Horn)
 FACTORY_DEF * TestFactory    FACTORY_NAME RasterSlopeCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterSlopeCalculator_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterSlopeCalculator_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -3786,15 +3711,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterExpressionEvaluator_7_<Rejected> INPUT FEATURE_TYPE RasterExpressionEvaluator_7_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterExpressionEvaluator_7<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_4_wqVjEklT1Ac=    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller OUTPUT Output Nuker"   INPUT FEATURE_TYPE PythonCaller_OUTPUT
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME RasterAspectCalculator    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_1_8h+M1cO2wkQ=    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterAspect(REJECTABLE,DoNotInterpolateNodata,Horn)
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterAspectCalculator    INPUT  FEATURE_TYPE RasterMosaicker_OUTPUT_0_lvRtbr+IQ+E=    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterAspect(REJECTABLE,DoNotInterpolateNodata,Horn)
 FACTORY_DEF * TestFactory     FACTORY_NAME RasterAspectCalculator_Rejector     INPUT FEATURE_TYPE ___TOREJECTOR___     TEST @Value(fme_rejection_code) != ""     OUTPUT PASSED FEATURE_TYPE RasterAspectCalculator_<REJECTED>        @RemoveAttributes(___fme_rejection_code___)     OUTPUT FAILED FEATURE_TYPE RasterAspectCalculator_OUTPUT        @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
