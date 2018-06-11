@@ -27,14 +27,14 @@
 #!   USE_MARKDOWN=""
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   USAGE=""
-#!   DOC_EXTENTS="7823 2567.38"
+#!   DOC_EXTENTS="7927 3364.38"
 #!   IGNORE_READER_FAILURE="No"
 #!   TERMINATE_REJECTED="YES"
 #!   BEGIN_PYTHON=""
 #!   MARKDOWN_DESCRIPTION=""
 #!   CATEGORY=""
 #!   LOG_FILE=""
-#!   ZOOM_SCALE="50"
+#!   ZOOM_SCALE="58"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
@@ -49,10 +49,10 @@
 #!   END_TCL=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   DESCRIPTION=""
-#!   VIEW_POSITION="-218.752 4406.29"
+#!   VIEW_POSITION="986.001 3830.86"
 #!   PYTHON_COMPATIBILITY="27"
-#!   LAST_SAVE_DATE="2018-06-04T13:56:20"
-#!   DOC_TOP_LEFT="104 297"
+#!   LAST_SAVE_DATE="2018-06-08T10:27:55"
+#!   DOC_TOP_LEFT="0 -500"
 #!   MARKDOWN_USAGE=""
 #!   SHOW_INFO_NODES="true"
 #!   REDIRECT_TERMINATORS="NONE"
@@ -1092,6 +1092,17 @@
 #! <CONSTANTS>
 #! </CONSTANTS>
 #! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="110"
+#!   NAME="New Bookmark"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="0 0"
+#!   BOTTOM_RIGHT="750 -500"
+#!   BOUNDING_RECT="0 0 750 500"
+#!   STICKY="false"
+#!   COLOUR="0.14902,0.721569,0.411765"
+#!   CONTENTS=""
+#! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
 #! <TRANSFORMER
@@ -3319,9 +3330,9 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterBandNodataRemover_<Rejected> INPUT FEATURE_TYPE RasterBandNodataRemover_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterBandNodataRemover<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc212_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc213_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE RasterBandNodataRemover_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc212_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE RasterBandNodataRemover_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_83b743c0_35ee_4dbc_9845_ce7ab23bdcc213_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -3348,7 +3359,7 @@ MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)_SUB_DOC_NAME SurfaceNormalCalculator
 DEFAULT_MACRO SurfaceNormalCalculator_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(SurfaceNormalCalculator_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(SurfaceNormalCalculator_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT1528113380 Input Splitter"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT1528446475 Input Splitter"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_INPUT"
 # -------------------------------------------------------------------------
 
 INCLUDE [    if {"No" == "Yes"} {       puts "MACRO COLLECTION_HANDLING *";    } else {       puts "MACRO COLLECTION_HANDLING NOT_THIS_TIME";    } ]
@@ -3398,8 +3409,8 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(SurfaceNormalCalculator_WORKSPACE_
 INCLUDE [    set macroLine "MACRO $(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "{\[0-9\]+}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3    INPUT  FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_PythonCaller_OUTPUT"    OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"        @RemoveAttributes(_coordcount)        @RemoveAttributes(fme_regexp_match"$($(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_LIST_EXP)")
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid1528113380 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SOLID"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_NULL"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok1528113380 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid1528446475 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_SOLID"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_GeometryFilter_NULL"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Invalid"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok1528446475 Output Collector"   INPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_AttributeRemover_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(SurfaceNormalCalculator_WORKSPACE_NAME)_Ok"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(SurfaceNormalCalculator_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SurfaceNormalCalculator Ok Output Renamer/Nuker"   INPUT FEATURE_TYPE SurfaceNormalCalculator_Ok   OUTPUT FEATURE_TYPE SurfaceNormalCalculator_Ok
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SurfaceNormalCalculator Invalid Output Renamer/Nuker"   INPUT FEATURE_TYPE SurfaceNormalCalculator_Invalid
@@ -3502,7 +3513,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR + A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3313_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_3_EXPRESSION A:RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3313_SCALAR + A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3542,7 +3553,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Se
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR,"32768")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_3_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3312_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_3_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_3_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3313_SCALAR,"32768")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_3_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_3_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3313_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_3_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_3_4216fac7_8c75_4bcb_98aa_89090ef4fc3313_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
@@ -3571,7 +3582,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATUR
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A[0] * A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR * A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A[0] * A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4013_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_EXPRESSION A:RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4013_SCALAR * A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3611,7 +3622,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_Sele
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(manualMinValue$encode),RasterSingularCellValueCalculator)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4012_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4013_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(manualMinValue$encode),RasterSingularCellValueCalculator)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4013_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_6c6c7aaf_c316_4ddb_b60f_4cb27c698c4013_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
@@ -3629,7 +3640,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterSingularCellValueCalculator_<Rejected> INPUT FEATURE_TYPE RasterSingularCellValueCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterSingularCellValueCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR + A[0]};    }; ]
+INCLUDE [    if {[string equal raster_first "raster_first"]} {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A[0] + A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b13_SCALAR};    }    else {       puts {MACRO RasterSingularCellValueCalculator_2_EXPRESSION A:RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b13_SCALAR + A[0]};    }; ]
 # Note that the following template is largely shared by the following transformers:
 # RasterSingularCellValueCalculator
 # RasterCellValueRounder
@@ -3669,7 +3680,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Se
 # Additionally, set the band type for all output bands to 0, so they get
 # appended first when we reconstruct our final raster.
 
-FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(offset$encode),RasterSingularCellValueCalculator_2)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_2_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b12_SCALAR)
+FACTORY_DEF * RasterEvaluationFactory    FACTORY_NAME RasterSingularCellValueCalculator_2_Evaluator    INPUT A FEATURE_TYPE RasterSingularCellValueCalculator_2_selected_bands       @SupplyAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b13_SCALAR,"@EvaluateExpression(FDIV,FLOAT,$(offset$encode),RasterSingularCellValueCalculator_2)")    PRESERVE_INTERPRETATION YES    EXPRESSION_LIST $(RasterSingularCellValueCalculator_2_EXPRESSION)    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterSingularCellValueCalculator_2_evaluated_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b13_SCALAR)    OUTPUT <REJECTED> FEATURE_TYPE RasterSingularCellValueCalculator_2_rejected_bands       @RemoveAttributes(RasterSingularCellValueCalculator_2_1d34052f_4805_446d_bbee_71d871447a1b13_SCALAR)
 # -------------------------------------------------------------------------
 # Recombine the bands. Note that we are assuming the bands are arriving
 # in the correct order (and there's no reason they shouldn't, since there
