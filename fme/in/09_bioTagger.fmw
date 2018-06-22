@@ -40,7 +40,7 @@
 #!   TERMINATE_REJECTED="YES"
 #!   CATEGORY=""
 #!   ZOOM_SCALE="74"
-#!   LAST_SAVE_DATE="2018-06-21T13:10:04"
+#!   LAST_SAVE_DATE="2018-06-21T13:53:50"
 #!   MAX_LOG_FEATURES="200"
 #!   SHOW_ANNOTATIONS="true"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
@@ -1856,9 +1856,9 @@ FACTORY_DEF * RecorderFactory    FACTORY_NAME ListExploder__Rejected__Recorder  
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_7286f008_87fa_4eee_848f_344ab03fd25f25_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_7286f008_87fa_4eee_848f_344ab03fd25f27_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code,codes_id,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_7286f008_87fa_4eee_848f_344ab03fd25f25_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code,codes_id,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_7286f008_87fa_4eee_848f_344ab03fd25f27_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
