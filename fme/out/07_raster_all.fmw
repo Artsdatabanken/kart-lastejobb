@@ -11,7 +11,7 @@
 #    
 #    
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   DOC_EXTENTS="4889 470.625"
+#!   DOC_EXTENTS="6199 703.029"
 #!   DESTINATION_ROUTING_FILE=""
 #!   SHOW_INFO_NODES="true"
 #!   END_TCL=""
@@ -20,8 +20,8 @@
 #!   FME_DOCUMENT_PRIORGUID="825e0ee5-53d1-444d-bef6-2789a00581dd"
 #!   MAX_LOG_FEATURES="200"
 #!   HISTORY=""
-#!   VIEW_POSITION="-790.633 1818.77"
-#!   LAST_SAVE_DATE="2018-07-31T12:52:25"
+#!   VIEW_POSITION="-207.272 1894.15"
+#!   LAST_SAVE_DATE="2018-07-31T13:59:07"
 #!   USAGE=""
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   LOG_FILE=""
@@ -49,10 +49,10 @@
 #!   FME_BUILD_NUM="17539"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   BEGIN_PYTHON=""
-#!   DOC_TOP_LEFT="104 255.75"
+#!   DOC_TOP_LEFT="104 72.8468"
 #!   TITLE=""
 #!   IGNORE_READER_FAILURE="No"
-#!   ZOOM_SCALE="100"
+#!   ZOOM_SCALE="98"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   REDIRECT_TERMINATORS="NONE"
 #! >
@@ -364,8 +364,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="16"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="4993 405.75"
-#!   BOUNDING_RECT="4993 405.75 -1 -1"
+#!   POSITION="6303 455.25"
+#!   BOUNDING_RECT="6303 455.25 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="PNGRASTER_1"
@@ -375,7 +375,7 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="code" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="pngraster_optimize" PARM_VALUE="No_optimization"/>
+#!     <DEFLINE_PARM PARM_NAME="pngraster_optimize" PARM_VALUE="Level_1_(recommended)"/>
 #!     <DEFLINE_PARM PARM_NAME="pngraster_layer_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="pngraster_world_file_generation" PARM_VALUE="yes"/>
 #!     <DEFLINE_PARM PARM_NAME="pngraster_tab_file_generation" PARM_VALUE="no"/>
@@ -424,10 +424,10 @@
 #! <COMMENT
 #!   IDENTIFIER="7"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Geometry&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="829 726.375"
-#!   TOP_LEFT="829 726.375"
-#!   BOTTOM_RIGHT="828 727.375"
-#!   BOUNDING_RECT="829 726.375 -1 -1"
+#!   POSITION="829 775.875"
+#!   TOP_LEFT="829 775.875"
+#!   BOTTOM_RIGHT="828 776.875"
+#!   BOUNDING_RECT="829 775.875 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -446,8 +446,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="104 532.75"
-#!   BOUNDING_RECT="104 532.75 -1 -1"
+#!   POSITION="104 582.25"
+#!   BOUNDING_RECT="104 582.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -471,8 +471,8 @@
 #!   IDENTIFIER="6"
 #!   TYPE="FeatureReader"
 #!   VERSION="9"
-#!   POSITION="871 579.125"
-#!   BOUNDING_RECT="871 579.125 -1 -1"
+#!   POSITION="871 628.625"
+#!   BOUNDING_RECT="871 628.625 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -539,7 +539,7 @@
 #!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_HOST" PARM_VALUE="$(config_host)"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE="id"/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE="10"/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_ADVANCED" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_DISABLE_COLLECTION_SPLITTING" PARM_VALUE="yes"/>
@@ -555,8 +555,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="DatabaseJoiner"
 #!   VERSION="6"
-#!   POSITION="1596 592.75"
-#!   BOUNDING_RECT="1596 592.75 -1 -1"
+#!   POSITION="1596 642.25"
+#!   BOUNDING_RECT="1596 642.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -610,8 +610,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="NumericRasterizer"
 #!   VERSION="6"
-#!   POSITION="4328.5 399.5"
-#!   BOUNDING_RECT="4328.5 399.5 -1 -1"
+#!   POSITION="4983.5 449"
+#!   BOUNDING_RECT="4983.5 449 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -661,8 +661,8 @@
 #!   IDENTIFIER="10"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="3643 553.5"
-#!   BOUNDING_RECT="3643 553.5 -1 -1"
+#!   POSITION="3643 603"
+#!   BOUNDING_RECT="3643 603 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -679,7 +679,7 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="ZVALATTR" PARM_VALUE="255"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="KEEPZVAL" PARM_VALUE="No"/>
@@ -689,8 +689,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="Sorter"
 #!   VERSION="2"
-#!   POSITION="2957.5 523.5"
-#!   BOUNDING_RECT="2957.5 523.5 -1 -1"
+#!   POSITION="2957.5 573"
+#!   BOUNDING_RECT="2957.5 573 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -710,8 +710,8 @@
 #!   IDENTIFIER="18"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="2302.5 523.5"
-#!   BOUNDING_RECT="2302.5 523.5 -1 -1"
+#!   POSITION="2302.5 573"
+#!   BOUNDING_RECT="2302.5 573 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -727,7 +727,7 @@
 #!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:3857"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="Read from feature"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="EPSG:4326"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #! </TRANSFORMER>
@@ -735,11 +735,11 @@
 #!   IDENTIFIER="21"
 #!   TYPE="SQLCreator"
 #!   VERSION="3"
-#!   POSITION="3622 255.75"
-#!   BOUNDING_RECT="3622 255.75 -1 -1"
+#!   POSITION="3622 305.25"
+#!   BOUNDING_RECT="3622 305.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="17539"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
@@ -776,6 +776,111 @@
 #!     <XFORM_PARM PARM_NAME="POSTGIS_PASSWORD" PARM_VALUE="$(config_pass)"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLCreator"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="RasterInterpretationCoercer"
+#!   VERSION="2"
+#!   POSITION="5638.5 449"
+#!   BOUNDING_RECT="5638.5 449 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="RGB_TO_RGBA" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONVERSION_OPTIONS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COLOR_TO_COLOR" PARM_VALUE="Cast"/>
+#!     <XFORM_PARM PARM_NAME="FLOAT_TO_INTEGER" PARM_VALUE="Round"/>
+#!     <XFORM_PARM PARM_NAME="RGBA_TO_RGB" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COLOR_TO_NUMERIC" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUMERIC_TO_NUMERIC" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERPRETATION" PARM_VALUE="Gray8"/>
+#!     <XFORM_PARM PARM_NAME="NUMERIC_TO_COLOR" PARM_VALUE="Cast"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterInterpretationCoercer"/>
+#!     <XFORM_PARM PARM_NAME="INTERPRETATION_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="28"
+#!   TYPE="FeatureMerger"
+#!   VERSION="17"
+#!   POSITION="4360.39 72.8468"
+#!   BOUNDING_RECT="4360.39 72.8468 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="minx" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="miny" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="maxx" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="maxy" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="minx" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="miny" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="maxx" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="maxy" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="minx" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="miny" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="maxx" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="maxy" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="minx" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="miny" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="maxx" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="maxy" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="* * AUTO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -792,10 +897,10 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="23"
 #!   SOURCE_NODE="21"
-#!   TARGET_NODE="9"
+#!   TARGET_NODE="28"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -814,9 +919,9 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="17"
 #!   SOURCE_NODE="9"
-#!   TARGET_NODE="16"
+#!   TARGET_NODE="24"
 #!   SOURCE_PORT_DESC="fo 0 RASTER"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -830,6 +935,17 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="27"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="28"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   ENABLED="false"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -851,6 +967,28 @@
 #!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="25"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="26"
+#!   SOURCE_NODE="28"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="false"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
@@ -1043,13 +1181,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE __
 
 FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 22"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED Brancher -1 22".BranchingFactory.Count)
 # -------------------------------------------------------------------------
-MACRO SQLCreator_DIRECTIVES DISABLE_COLLECTION_SPLITTING yes HOST "$(config_host)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PORT "$(config_port)" PASSWORD "$(config_pass)" USER_NAME "$(config_user)" USE_TRUE_POSTGIS_TYPES yes
 
-FACTORY_DEF * CreationFactory    FACTORY_NAME SQLCreator_Creator    OUTPUT FEATURE_TYPE _____CREATED______
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLCreator    INPUT FEATURE_TYPE _____CREATED______    QUERY_SQL            select<space>ST_Xmin<openparen>bbox.table_extent<closeparen><space>as<space>minx<comma><space>ST_ymin<openparen>bbox.table_extent<closeparen><space>as<space>miny<comma><space>ST_Xmax<openparen>bbox.table_extent<closeparen><space>as<space>maxx<comma><space>ST_ymax<openparen>bbox.table_extent<closeparen><space>as<space>maxy<lf>from<space><openparen><lf><tab>SELECT<space>st_transform<openparen>ST_SetSRID<openparen>ST_Extent<openparen>g.geography::geometry<closeparen><comma>4326<closeparen><comma>3857<closeparen><space>as<space>table_extent<space>FROM<space>data.geometry<space>g<lf><closeparen><lf>as<space>bbox    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     RESULT_ONLY    READER_TYPE          POSTGIS    READER_DATASET       "$(config_db$encode)"    READER_PARAMS        $(SQLCreator_DIRECTIVES)    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    CONTINUE_ON_READER_ERROR YES    OUTPUT RESULT FEATURE_TYPE SQLCreator_RESULT        @SupplyAttributes(fme_feature_type,SQLCreator)    OUTPUT READER_ERROR FEATURE_TYPE SQLCreator_<REJECTED>
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLCreator <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLCreator_<REJECTED>
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "SQLCreator_RESULT Brancher -1 23"   INPUT FEATURE_TYPE SQLCreator_RESULT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("SQLCreator_RESULT Brancher -1 23".BranchingFactory.Count)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLCreator_RESULT Disabled Nuker -1 23"   INPUT FEATURE_TYPE SQLCreator_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLCreator_<Rejected> INPUT FEATURE_TYPE SQLCreator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLCreator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -1063,7 +1196,7 @@ INCLUDE [if { ( {NONE} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {   
 # Consolidate the attribute merge options to what the factory expects
 DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
 INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS RESULT_ONLY";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),FeatureReader_2)"    QUERYFCT_IDS        "data.geometry"    READER_DIRECTIVES META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMAS_FOR_TABLE_LISTING<comma><comma>SourceEXPOSE_ATTRS_GROUP<comma>FME_DISCLOSURE_OPEN<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceSEARCH_METHOD<comma>MBR_OVERLAPS<comma>SourceADVANCED<comma>FME_DISCLOSURE_OPEN<comma>SourceFEATURES_PER_FETCH<comma>10000<comma>SourceBEGIN_SQL<comma><comma>SourceEND_SQL<comma><comma>SourceHOST<comma><dollar><openparen>config_host<closeparen><comma>SourcePORT<comma><dollar><openparen>config_port<closeparen><comma>SourceUSER_NAME<comma><dollar><openparen>config_user<closeparen><comma>SourcePASSWORD<comma><dollar><openparen>config_pass<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_2_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_2_<OTHER>    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_2_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),FeatureReader_2)"    QUERYFCT_IDS        "data.geometry"    READER_DIRECTIVES META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMAS_FOR_TABLE_LISTING<comma><comma>SourceEXPOSE_ATTRS_GROUP<comma>FME_DISCLOSURE_OPEN<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceSEARCH_METHOD<comma>MBR_OVERLAPS<comma>SourceADVANCED<comma>FME_DISCLOSURE_OPEN<comma>SourceFEATURES_PER_FETCH<comma>10000<comma>SourceBEGIN_SQL<comma><comma>SourceEND_SQL<comma><comma>SourceHOST<comma><dollar><openparen>config_host<closeparen><comma>SourcePORT<comma><dollar><openparen>config_port<closeparen><comma>SourceUSER_NAME<comma><dollar><openparen>config_user<closeparen><comma>SourcePASSWORD<comma><dollar><openparen>config_pass<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    QUERYFCT_MAX_FEATURES "10"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_2_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_2_<OTHER>    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_2_<REJECTED>
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_2_<Rejected> INPUT FEATURE_TYPE FeatureReader_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -1078,8 +1211,8 @@ FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_<Rejected> INPUT FEATURE_TY
 
 # Wipe out the source setting if it was untouched from the default setting
 
-DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
-INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+DEFAULT_MACRO Reprojector_SOURCE "EPSG:4326"
+INCLUDE [if { {EPSG:4326} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE DatabaseJoiner_JOINED    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:3857",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING")
 
 # -------------------------------------------------------------------------
@@ -1088,21 +1221,36 @@ FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE Reprojec
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer    INPUT  FEATURE_TYPE Sorter_SORTED    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("1", "No", ___fme_rejection_code___)
+FACTORY_DEF * TeeFactory    FACTORY_NAME 3DForcer    INPUT  FEATURE_TYPE Sorter_SORTED    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ZValue("255", "No", ___fme_rejection_code___)
 FACTORY_DEF * TestFactory    FACTORY_NAME 3DForcer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(___fme_rejection_code___) != ""    OUTPUT PASSED FEATURE_TYPE 3DForcer_<REJECTED>         @RenameAttributes(fme_rejection_code, ___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE 3DForcer_OUTPUT
 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "3DForcer OUTPUT Splitter"   INPUT FEATURE_TYPE 3DForcer_OUTPUT   OUTPUT FEATURE_TYPE 3DForcer_OUTPUT_0_nyB5S1aBvO8=   OUTPUT FEATURE_TYPE 3DForcer_OUTPUT_1_Dmq0fsKv0l8=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "3DForcer_OUTPUT_1_Dmq0fsKv0l8= Disabled Nuker -1 27"   INPUT FEATURE_TYPE 3DForcer_OUTPUT_1_Dmq0fsKv0l8=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME 3DForcer_<Rejected> INPUT FEATURE_TYPE 3DForcer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, 3DForcer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TransformFact:6:NumericRasterizer    FACTORY_NAME NumericRasterizer    FACTORY_META_PARAMS    TRANSFORMER_NAME:NumericRasterizer    TRANSFORMER_PARAMS:XFORMER_NAME,NumericRasterizer,TRANSFORMER_GROUP,,RASTER_PROPERTIES_GROUP,,GROUP_BY,code,ROWCOL_OR_CELLSIZE,CellSize,COLUMNS,<lt>Unused<gt>,ROWS,<lt>Unused<gt>,X_CELL_SIZE,50,Y_CELL_SIZE,50,INTERPRETATION_GROUP,,INTERPRETATION_TYPE,UInt8,BACKGROUND_GROUP,,BACKGROUND_VALUE,0,FILL_WITH_NODATA,Yes,ANTI_ALIASING_GROUP,FME_DISCLOSURE_OPEN,ANTI_ALIASING,No,TOLERANCE,0.5,GROUND_EXTENTS_GROUP,FME_DISCLOSURE_OPEN,SPECIFY_GROUND_EXTENTS,Use<space>input<space>data<space>ground<space>extents,GROUND_EXTENTS_MIN_X,<lt>Unused<gt>,GROUND_EXTENTS_MIN_Y,<lt>Unused<gt>,GROUND_EXTENTS_MAX_X,<lt>Unused<gt>,GROUND_EXTENTS_MAX_Y,<lt>Unused<gt>    PROCESS_GROUP_BY code    MULTI_PROCESS "EXTREME"    GROUPS_ARE_ORDERED Yes INPUT  FEATURE_TYPE 3DForcer_OUTPUT INPUT  FEATURE_TYPE SQLCreator_RESULT    OUTPUT RASTER FEATURE_TYPE NumericRasterizer_RASTER    OUTPUT <REJECTED> FEATURE_TYPE NumericRasterizer_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger (Disabled) Nuker"   INPUT FEATURE_TYPE 3DForcer_OUTPUT_1_Dmq0fsKv0l8=   INPUT FEATURE_TYPE SQLCreator_RESULT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureMerger_MERGED Disabled Nuker -1 26"   INPUT FEATURE_TYPE FeatureMerger_MERGED
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * TransformFact:6:NumericRasterizer    FACTORY_NAME NumericRasterizer    FACTORY_META_PARAMS    TRANSFORMER_NAME:NumericRasterizer    TRANSFORMER_PARAMS:XFORMER_NAME,NumericRasterizer,TRANSFORMER_GROUP,,RASTER_PROPERTIES_GROUP,,GROUP_BY,code,ROWCOL_OR_CELLSIZE,CellSize,COLUMNS,<lt>Unused<gt>,ROWS,<lt>Unused<gt>,X_CELL_SIZE,50,Y_CELL_SIZE,50,INTERPRETATION_GROUP,,INTERPRETATION_TYPE,UInt8,BACKGROUND_GROUP,,BACKGROUND_VALUE,0,FILL_WITH_NODATA,Yes,ANTI_ALIASING_GROUP,FME_DISCLOSURE_OPEN,ANTI_ALIASING,No,TOLERANCE,0.5,GROUND_EXTENTS_GROUP,FME_DISCLOSURE_OPEN,SPECIFY_GROUND_EXTENTS,Use<space>input<space>data<space>ground<space>extents,GROUND_EXTENTS_MIN_X,<lt>Unused<gt>,GROUND_EXTENTS_MIN_Y,<lt>Unused<gt>,GROUND_EXTENTS_MAX_X,<lt>Unused<gt>,GROUND_EXTENTS_MAX_Y,<lt>Unused<gt>    PROCESS_GROUP_BY code    MULTI_PROCESS "EXTREME"    GROUPS_ARE_ORDERED Yes INPUT  FEATURE_TYPE FeatureMerger_MERGED INPUT  FEATURE_TYPE 3DForcer_OUTPUT_0_nyB5S1aBvO8=    OUTPUT RASTER FEATURE_TYPE NumericRasterizer_RASTER    OUTPUT <REJECTED> FEATURE_TYPE NumericRasterizer_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME NumericRasterizer_<Rejected> INPUT FEATURE_TYPE NumericRasterizer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, NumericRasterizer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC NumericRasterizer_RASTER TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>code<lt>closeparen<gt><comma>Raster1<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+INCLUDE [ if {[string equal {<Unused>}        {<Unused>}]} { puts {MACRO RGBA_TO_RGB_ARG DROPALPHA} }           else { puts {MACRO RGBA_TO_RGB_ARG        <Unused>} }; if {[string equal {<Unused>}        {<Unused>}]} { puts {MACRO RGB_TO_RGBA_ARG CREATEOPAQUEALPHA} }   else { puts {MACRO RGB_TO_RGBA_ARG        <Unused>} }; if {[string equal {CAST}     {<Unused>}]} { puts {MACRO COLOR_TO_COLOR_ARG TYPESCALE} }        else { puts {MACRO COLOR_TO_COLOR_ARG     CAST} }; if {[string equal {CAST}   {<Unused>}]} { puts {MACRO NUMERIC_TO_COLOR_ARG DATASCALE} }      else { puts {MACRO NUMERIC_TO_COLOR_ARG   CAST} }; if {[string equal {<Unused>}   {<Unused>}]} { puts {MACRO COLOR_TO_NUMERIC_ARG BOUNDED_CAST} }   else { puts {MACRO COLOR_TO_NUMERIC_ARG   <Unused>} }; if {[string equal {<Unused>} {<Unused>}]} { puts {MACRO NUMERIC_TO_NUMERIC_ARG BOUNDED_CAST} } else { puts {MACRO NUMERIC_TO_NUMERIC_ARG <Unused>} }; if {[string equal {ROUND}   {<Unused>}]} { puts {MACRO FLOAT_TO_INTEGER_ARG ROUND} }          else { puts {MACRO FLOAT_TO_INTEGER_ARG   ROUND} }; puts {MACRO MANY_TO_ONE_ARG AVERAGE}; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterInterpretationCoercer    INPUT  FEATURE_TYPE NumericRasterizer_RASTER    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @ReinterpretRaster(REJECTABLE, RASTER, GRAY8, $(MANY_TO_ONE_ARG), $(RGBA_TO_RGB_ARG), $(COLOR_TO_COLOR_ARG), $(COLOR_TO_NUMERIC_ARG), $(NUMERIC_TO_COLOR_ARG), $(NUMERIC_TO_NUMERIC_ARG), $(FLOAT_TO_INTEGER_ARG), $(RGB_TO_RGBA_ARG))
+FACTORY_DEF * TestFactory     FACTORY_NAME RasterInterpretationCoercer_Rejector     INPUT FEATURE_TYPE ___TOREJECTOR___     TEST @Value(fme_rejection_code) != ""     OUTPUT PASSED FEATURE_TYPE RasterInterpretationCoercer_<REJECTED>        @RemoveAttributes(___fme_rejection_code___)     OUTPUT FAILED FEATURE_TYPE RasterInterpretationCoercer_OUTPUT        @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME RasterInterpretationCoercer_<Rejected> INPUT FEATURE_TYPE RasterInterpretationCoercer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterInterpretationCoercer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC RasterInterpretationCoercer_OUTPUT TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>code<lt>closeparen<gt><comma>Raster1<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-PNGRASTER_1_DEF Raster1   pngraster_world_file_generation yes   pngraster_tab_file_generation no   pngraster_optimize           No_optimization   code                         char(200)
+PNGRASTER_1_DEF Raster1   pngraster_world_file_generation yes   pngraster_tab_file_generation no   pngraster_optimize           Level_1_(recommended)   code                         char(200)
