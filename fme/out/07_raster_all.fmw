@@ -11,7 +11,7 @@
 #    
 #    
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   DOC_EXTENTS="6199 703.029"
+#!   DOC_EXTENTS="6199 507.625"
 #!   DESTINATION_ROUTING_FILE=""
 #!   SHOW_INFO_NODES="true"
 #!   END_TCL=""
@@ -20,8 +20,8 @@
 #!   FME_DOCUMENT_PRIORGUID="825e0ee5-53d1-444d-bef6-2789a00581dd"
 #!   MAX_LOG_FEATURES="200"
 #!   HISTORY=""
-#!   VIEW_POSITION="-207.272 1894.15"
-#!   LAST_SAVE_DATE="2018-07-31T13:59:07"
+#!   VIEW_POSITION="-207.272 1989.82"
+#!   LAST_SAVE_DATE="2018-07-31T14:01:51"
 #!   USAGE=""
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   LOG_FILE=""
@@ -49,7 +49,7 @@
 #!   FME_BUILD_NUM="17539"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   BEGIN_PYTHON=""
-#!   DOC_TOP_LEFT="104 72.8468"
+#!   DOC_TOP_LEFT="104 458.25"
 #!   TITLE=""
 #!   IGNORE_READER_FAILURE="No"
 #!   ZOOM_SCALE="98"
@@ -364,8 +364,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="16"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="6303 455.25"
-#!   BOUNDING_RECT="6303 455.25 -1 -1"
+#!   POSITION="6303 646.25"
+#!   BOUNDING_RECT="6303 646.25 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="PNGRASTER_1"
@@ -424,10 +424,10 @@
 #! <COMMENT
 #!   IDENTIFIER="7"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Geometry&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="829 775.875"
-#!   TOP_LEFT="829 775.875"
-#!   BOTTOM_RIGHT="828 776.875"
-#!   BOUNDING_RECT="829 775.875 -1 -1"
+#!   POSITION="829 965.875"
+#!   TOP_LEFT="829 965.875"
+#!   BOTTOM_RIGHT="828 966.875"
+#!   BOUNDING_RECT="829 965.875 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -446,8 +446,8 @@
 #!   IDENTIFIER="4"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="104 582.25"
-#!   BOUNDING_RECT="104 582.25 -1 -1"
+#!   POSITION="104 772.25"
+#!   BOUNDING_RECT="104 772.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -471,8 +471,8 @@
 #!   IDENTIFIER="6"
 #!   TYPE="FeatureReader"
 #!   VERSION="9"
-#!   POSITION="871 628.625"
-#!   BOUNDING_RECT="871 628.625 -1 -1"
+#!   POSITION="871 818.625"
+#!   BOUNDING_RECT="871 818.625 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -539,7 +539,7 @@
 #!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_HOST" PARM_VALUE="$(config_host)"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE="id"/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE="10"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_ADVANCED" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="POSTGIS_DISABLE_COLLECTION_SPLITTING" PARM_VALUE="yes"/>
@@ -555,8 +555,8 @@
 #!   IDENTIFIER="5"
 #!   TYPE="DatabaseJoiner"
 #!   VERSION="6"
-#!   POSITION="1596 642.25"
-#!   BOUNDING_RECT="1596 642.25 -1 -1"
+#!   POSITION="1596 832.25"
+#!   BOUNDING_RECT="1596 832.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -610,8 +610,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="NumericRasterizer"
 #!   VERSION="6"
-#!   POSITION="4983.5 449"
-#!   BOUNDING_RECT="4983.5 449 -1 -1"
+#!   POSITION="4983.5 640"
+#!   BOUNDING_RECT="4983.5 640 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -661,8 +661,8 @@
 #!   IDENTIFIER="10"
 #!   TYPE="3DForcer"
 #!   VERSION="2"
-#!   POSITION="3643 603"
-#!   BOUNDING_RECT="3643 603 -1 -1"
+#!   POSITION="3643 793"
+#!   BOUNDING_RECT="3643 793 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -689,8 +689,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="Sorter"
 #!   VERSION="2"
-#!   POSITION="2957.5 573"
-#!   BOUNDING_RECT="2957.5 573 -1 -1"
+#!   POSITION="2957.5 763"
+#!   BOUNDING_RECT="2957.5 763 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -710,8 +710,8 @@
 #!   IDENTIFIER="18"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="2302.5 573"
-#!   BOUNDING_RECT="2302.5 573 -1 -1"
+#!   POSITION="2302.5 763"
+#!   BOUNDING_RECT="2302.5 763 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -735,8 +735,8 @@
 #!   IDENTIFIER="21"
 #!   TYPE="SQLCreator"
 #!   VERSION="3"
-#!   POSITION="3622 305.25"
-#!   BOUNDING_RECT="3622 305.25 -1 -1"
+#!   POSITION="3622 458.25"
+#!   BOUNDING_RECT="3622 458.25 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -780,8 +780,8 @@
 #!   IDENTIFIER="24"
 #!   TYPE="RasterInterpretationCoercer"
 #!   VERSION="2"
-#!   POSITION="5638.5 449"
-#!   BOUNDING_RECT="5638.5 449 -1 -1"
+#!   POSITION="5638.5 640"
+#!   BOUNDING_RECT="5638.5 640 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -814,8 +814,8 @@
 #!   IDENTIFIER="28"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="4360.39 72.8468"
-#!   BOUNDING_RECT="4360.39 72.8468 -1 -1"
+#!   POSITION="4328.5 599"
+#!   BOUNDING_RECT="4328.5 599 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -1196,7 +1196,7 @@ INCLUDE [if { ( {NONE} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {   
 # Consolidate the attribute merge options to what the factory expects
 DEFAULT_MACRO FeatureReader_2_COMBINE_ATTRS
 INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_2_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_2_COMBINE_ATTRS RESULT_ONLY";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),FeatureReader_2)"    QUERYFCT_IDS        "data.geometry"    READER_DIRECTIVES META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMAS_FOR_TABLE_LISTING<comma><comma>SourceEXPOSE_ATTRS_GROUP<comma>FME_DISCLOSURE_OPEN<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceSEARCH_METHOD<comma>MBR_OVERLAPS<comma>SourceADVANCED<comma>FME_DISCLOSURE_OPEN<comma>SourceFEATURES_PER_FETCH<comma>10000<comma>SourceBEGIN_SQL<comma><comma>SourceEND_SQL<comma><comma>SourceHOST<comma><dollar><openparen>config_host<closeparen><comma>SourcePORT<comma><dollar><openparen>config_port<closeparen><comma>SourceUSER_NAME<comma><dollar><openparen>config_user<closeparen><comma>SourcePASSWORD<comma><dollar><openparen>config_pass<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    QUERYFCT_MAX_FEATURES "10"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_2_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_2_<OTHER>    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_2_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader_2    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_2_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),FeatureReader_2)"    QUERYFCT_IDS        "data.geometry"    READER_DIRECTIVES META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMAS_FOR_TABLE_LISTING<comma><comma>SourceEXPOSE_ATTRS_GROUP<comma>FME_DISCLOSURE_OPEN<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceSEARCH_METHOD<comma>MBR_OVERLAPS<comma>SourceADVANCED<comma>FME_DISCLOSURE_OPEN<comma>SourceFEATURES_PER_FETCH<comma>10000<comma>SourceBEGIN_SQL<comma><comma>SourceEND_SQL<comma><comma>SourceHOST<comma><dollar><openparen>config_host<closeparen><comma>SourcePORT<comma><dollar><openparen>config_port<closeparen><comma>SourceUSER_NAME<comma><dollar><openparen>config_user<closeparen><comma>SourcePASSWORD<comma><dollar><openparen>config_pass<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_2_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_2_<OTHER>    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_2_<REJECTED>
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_2_<Rejected> INPUT FEATURE_TYPE FeatureReader_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
