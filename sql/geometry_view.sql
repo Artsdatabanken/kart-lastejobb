@@ -3,7 +3,7 @@
 -- DROP VIEW data.v_geometry;
 
 CREATE OR REPLACE VIEW data.v_geometry AS
- SELECT g.id,
+ SELECT ROW_NUMBER () OVER (ORDER BY g.id) as id,
     g.geography,
     g.geometry,
 	c.code,
