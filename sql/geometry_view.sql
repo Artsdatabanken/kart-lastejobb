@@ -1,9 +1,10 @@
 -- View: data.v_geometry
 
--- DROP VIEW data.v_geometry;
+DROP VIEW data.v_geometry;
 
 CREATE OR REPLACE VIEW data.v_geometry AS
  SELECT ROW_NUMBER () OVER (ORDER BY g.id) as id,
+    g.id as geometry_id,
     g.geography,
     g.geometry,
 	c.code,
