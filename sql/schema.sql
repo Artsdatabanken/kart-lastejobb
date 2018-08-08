@@ -88,7 +88,8 @@ ALTER TABLE codes OWNER TO postgres;
 CREATE TABLE codes_geometry (
     geometry_id bigint NOT NULL,
     code text NOT NULL,
-    codes_id bigint NOT NULL
+    codes_id bigint NOT NULL,
+    fraction integer
 );
 
 
