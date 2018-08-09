@@ -1,1 +1,0 @@
-pg_restore -d bigbadabom /data/bigbadabom.backup
