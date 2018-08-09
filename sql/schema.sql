@@ -74,7 +74,8 @@ SET default_with_oids = false;
 CREATE TABLE codes (
     id bigint NOT NULL,
     code text,
-    title text
+    title text,
+    level integer
 );
 
 
