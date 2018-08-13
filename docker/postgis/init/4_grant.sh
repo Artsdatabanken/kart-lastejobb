@@ -1,1 +1,0 @@
-cat /docker-entrypoint-initdb.d/grant.txt | psql bigbadabom
