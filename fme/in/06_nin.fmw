@@ -18,12 +18,12 @@
 #!   WORKSPACE_VERSION="1"
 #!   TITLE=""
 #!   BEGIN_PYTHON=""
-#!   VIEW_POSITION="11787.3 2022.49"
+#!   VIEW_POSITION="25112.6 2556.21"
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   USE_MARKDOWN=""
 #!   LOG_FILE=""
-#!   LAST_SAVE_DATE="2018-08-14T11:15:11"
-#!   FME_DOCUMENT_GUID="bf77e90d-8ff1-4c70-80be-c1eca355a127"
+#!   LAST_SAVE_DATE="2018-08-22T14:42:08"
+#!   FME_DOCUMENT_GUID="ef55be75-a3ba-4826-8017-b8f3b299a8b4"
 #!   TERMINATE_REJECTED="NO"
 #!   DESTINATION="NONE"
 #!   END_PYTHON=""
@@ -49,7 +49,7 @@
 #!   REDIRECT_TERMINATORS="NONE"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   MAX_LOG_FEATURES="200"
-#!   FME_DOCUMENT_PRIORGUID="35986cd8-3dec-4124-9375-28352887bbb9,20496772-65f3-4c78-b7b0-aa15f8ff1801,fdb7fc1b-1e51-461c-bdce-7bf178a1168c,0a10b2ab-ad16-4c77-a6f3-e09bd34dbdf9,1c4f44b0-d9d5-484d-a6c5-7132efe3fc4a,dabb203e-2ed9-472d-be6b-1e961e545123,a8c37d2f-9eeb-4515-8234-b54431a11b0e,e0e6bba7-39e6-404d-9999-4baf2c9fcb97,cb3a1eb4-b4c5-4e6b-92e0-77375e2ac36e,2d152a0a-d167-4901-90f1-92724b38c2be,63dc3d15-eb7c-4dfc-9c79-b34ae0e62ef5,1e7caeaa-1e5f-4c6f-9755-89a6910b78b9,2f25818b-ad66-4d56-bf47-fff3b79f8255,c6451f8f-41b4-4ec5-a4de-10d0ae1b879c,fdb838c9-34ab-4463-bde0-ee2b65cc1b70,495ed8f8-d5fe-4764-9bbd-f4958998dd2d,4d23e852-57da-475e-9d3c-b0b9f7af1e16,703334a8-4272-49d3-86a5-d1832938895d,0ba3a765-fe95-414b-b673-4ac2f6f5fc8f,f7108a38-351a-4f14-9532-78d4d1e0ae6c,1421a363-d69c-483d-90f0-0b5850759d13,f296a9af-c4f4-490c-81f7-4d81a0054aad,f1a631c8-906a-4284-b766-5bb869c76246,13cb0bc8-cd20-4758-b5ba-69a06126c986,170a61fe-13da-4d45-980e-8d6c04e7ab29,9533ae2d-b8cd-442e-a363-86acf3229110,a9aa03ff-0b92-4f95-9578-63cb61b1f1ae,211f5f67-297b-47fb-abd4-91dda190ead1"
+#!   FME_DOCUMENT_PRIORGUID="35986cd8-3dec-4124-9375-28352887bbb9,20496772-65f3-4c78-b7b0-aa15f8ff1801,fdb7fc1b-1e51-461c-bdce-7bf178a1168c,0a10b2ab-ad16-4c77-a6f3-e09bd34dbdf9,1c4f44b0-d9d5-484d-a6c5-7132efe3fc4a,dabb203e-2ed9-472d-be6b-1e961e545123,a8c37d2f-9eeb-4515-8234-b54431a11b0e,e0e6bba7-39e6-404d-9999-4baf2c9fcb97,cb3a1eb4-b4c5-4e6b-92e0-77375e2ac36e,2d152a0a-d167-4901-90f1-92724b38c2be,63dc3d15-eb7c-4dfc-9c79-b34ae0e62ef5,1e7caeaa-1e5f-4c6f-9755-89a6910b78b9,2f25818b-ad66-4d56-bf47-fff3b79f8255,c6451f8f-41b4-4ec5-a4de-10d0ae1b879c,fdb838c9-34ab-4463-bde0-ee2b65cc1b70,495ed8f8-d5fe-4764-9bbd-f4958998dd2d,4d23e852-57da-475e-9d3c-b0b9f7af1e16,703334a8-4272-49d3-86a5-d1832938895d,0ba3a765-fe95-414b-b673-4ac2f6f5fc8f,f7108a38-351a-4f14-9532-78d4d1e0ae6c,1421a363-d69c-483d-90f0-0b5850759d13,f296a9af-c4f4-490c-81f7-4d81a0054aad,f1a631c8-906a-4284-b766-5bb869c76246,13cb0bc8-cd20-4758-b5ba-69a06126c986,170a61fe-13da-4d45-980e-8d6c04e7ab29,9533ae2d-b8cd-442e-a363-86acf3229110,a9aa03ff-0b92-4f95-9578-63cb61b1f1ae,211f5f67-297b-47fb-abd4-91dda190ead1,bf77e90d-8ff1-4c70-80be-c1eca355a127"
 #!   SHOW_INFO_NODES="true"
 #!   SHOW_ANNOTATIONS="true"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
@@ -1021,7 +1021,7 @@
 #!   BOUNDING_RECT="33471 2312.5 3910 652"
 #!   STICKY="true"
 #!   COLOUR="0.564706,0.054902,0.054902"
-#!   CONTENTS="283 286 279 284 278 285 282 239 288 280 289 287 281 "
+#!   CONTENTS="288 281 286 285 239 280 283 279 278 282 284 289 287 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -2041,15 +2041,14 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2062,19 +2061,19 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2087,19 +2086,19 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2112,19 +2111,19 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2137,19 +2136,19 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="Mdir"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2162,6 +2161,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;EMPTY&lt;gt&gt;,&lt;lt&gt;MISSING&lt;gt&gt;,&lt;lt&gt;NULL&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;,Mdir"/>
@@ -2550,7 +2550,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2574,9 +2573,9 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2600,9 +2599,9 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2626,9 +2625,9 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2652,6 +2651,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;EMPTY&lt;gt&gt;,&lt;lt&gt;MISSING&lt;gt&gt;,&lt;lt&gt;NULL&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
@@ -2673,7 +2673,6 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2696,6 +2695,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; kode SET_TO "/>
@@ -2721,7 +2721,6 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2744,10 +2743,10 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2770,10 +2769,10 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2796,10 +2795,10 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2822,6 +2821,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="&lt;lt&gt;EMPTY&lt;gt&gt;,&lt;lt&gt;MISSING&lt;gt&gt;,&lt;lt&gt;NULL&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
@@ -2844,7 +2844,6 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="beskrivelseLokalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2866,6 +2865,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; beskrivelse SET_TO "/>
@@ -2892,15 +2892,14 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2913,6 +2912,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
 #!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="FME Date/Time (%Y%m%d%H%M%S)"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -3621,15 +3621,14 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3642,6 +3641,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="beskrivelseId tematiskId RENAME_SET_DEFAULT  beskrivelseLokalId localId RENAME_SET_DEFAULT "/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -4230,16 +4230,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4252,21 +4253,21 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4279,21 +4280,21 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -4306,8 +4307,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
@@ -4344,16 +4344,17 @@
 #! >
 #!     <OUTPUT_FEAT NAME="UNIQUE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4366,21 +4367,21 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="DUPLICATE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -4393,8 +4394,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="andel" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="KEYATTR" PARM_VALUE="geometry_id codes_id"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -4463,23 +4463,27 @@
 #!     <XFORM_ATTR ATTR_NAME="variabelTema" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="variabelTrinn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="verdi" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="SELECT&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;beskrivelseId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kartlagtDato&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kode&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kodeFoersteVersjon&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kodeVersjon&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;verdi&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelGruppe&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelTema&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelNavn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelTrinn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;lokalId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;omraadetypeId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;omraadetypeFKID&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;beskrivelse&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openbracket&gt;Nin_Hovedbase_SDE&lt;closebracket&gt;.&lt;openbracket&gt;nin_eier&lt;closebracket&gt;.&lt;openbracket&gt;BESKRIVELSESVARIABEL&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;WHERE&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;space&gt;NOT&lt;space&gt;IN&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openbracket&gt;nin_hovedbase_SDE&lt;closebracket&gt;.&lt;openbracket&gt;nin_eier&lt;closebracket&gt;.&lt;openbracket&gt;BRUKER&lt;closebracket&gt;&lt;space&gt;WHERE&lt;space&gt;&lt;openbracket&gt;firmaNavn&lt;closebracket&gt;&lt;space&gt;IN&lt;space&gt;&lt;openparen&gt;&lt;apos&gt;Milj&lt;u00f8&gt;direktoratet&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Geodata&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;OR&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;brukernavn&lt;space&gt;is&lt;space&gt;null&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;omraadetypeFKID&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;localId&lt;closeparen&gt;&lt;apos&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;kode&lt;space&gt;not&lt;space&gt;like&lt;space&gt;&lt;apos&gt;%-x&lt;apos&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;kode&lt;space&gt;not&lt;space&gt;like&lt;space&gt;&lt;apos&gt;%-XY&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="MSSQL_ADO"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_PASSWORD" PARM_VALUE="$(config_mssql_pass)"/>
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Initiator Attributes if Conflict"/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_NAMED_CONNECTION" PARM_VALUE="Nin_Hovedbase_SDE"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_5"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;Connection:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="MSSQL_ADO_COMMAND_TIMEOUT" PARM_VALUE="30"/>
-#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="Nin_Hovedbase_SDE"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_mssql_db)"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE="beskrivelse,beskrivelseId,brukernavn,kartlagtDato,kode,kodeFoersteVersjon,kodeVersjon,lokalId,omraadetypeFKID,omraadetypeId,variabelGruppe,variabelNavn,variabelTema,variabelTrinn,verdi"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USER_NAME" PARM_VALUE="$(config_mssql_user)"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_SERVER" PARM_VALUE="$(config_mssql_host)"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_5"/>
+#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
+#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="SELECT&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;beskrivelseId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kartlagtDato&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kode&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kodeFoersteVersjon&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;kodeVersjon&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;verdi&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelGruppe&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelTema&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelNavn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;variabelTrinn&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;lokalId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;omraadetypeId&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;omraadetypeFKID&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;comma&gt;&lt;openbracket&gt;beskrivelse&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openbracket&gt;Nin_Hovedbase_SDE&lt;closebracket&gt;.&lt;openbracket&gt;nin_eier&lt;closebracket&gt;.&lt;openbracket&gt;BESKRIVELSESVARIABEL&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;WHERE&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;space&gt;NOT&lt;space&gt;IN&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;&lt;openbracket&gt;brukernavn&lt;closebracket&gt;&lt;space&gt;FROM&lt;space&gt;&lt;openbracket&gt;nin_hovedbase_SDE&lt;closebracket&gt;.&lt;openbracket&gt;nin_eier&lt;closebracket&gt;.&lt;openbracket&gt;BRUKER&lt;closebracket&gt;&lt;space&gt;WHERE&lt;space&gt;&lt;openbracket&gt;firmaNavn&lt;closebracket&gt;&lt;space&gt;IN&lt;space&gt;&lt;openparen&gt;&lt;apos&gt;Milj&lt;u00f8&gt;direktoratet&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;Geodata&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;OR&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;brukernavn&lt;space&gt;is&lt;space&gt;null&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;omraadetypeFKID&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;localId&lt;closeparen&gt;&lt;apos&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;kode&lt;space&gt;not&lt;space&gt;like&lt;space&gt;&lt;apos&gt;%-x&lt;apos&gt;&lt;lf&gt;AND&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;kode&lt;space&gt;not&lt;space&gt;like&lt;space&gt;&lt;apos&gt;%-XY&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="MSSQL_ADO_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,MSSQL_ADO&lt;space&gt;Password:,MSSQL_ADO_USE_SSPI,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Windows&lt;space&gt;Authentication,YES,USER_NAME,PASSWORD%SQL&lt;space&gt;Server&lt;space&gt;Authentication,NO&quot;,MSSQL_ADO&lt;space&gt;Authentication:,MSSQL_ADO_COMMAND_TIMEOUT,&quot;OPTIONAL INTEGER&quot;,MSSQL_ADO&lt;space&gt;Command&lt;space&gt;Timeout&lt;space&gt;&lt;openparen&gt;Seconds&lt;closeparen&gt;:,MSSQL_ADO_SERVER,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Server:,MSSQL_ADO_USER_NAME,&quot;OPTIONAL TEXT&quot;,MSSQL_ADO&lt;space&gt;Username:,MSSQL_ADO_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,MSSQL_ADO&lt;space&gt;,MSSQL_ADO_ENCRYPT_CONNECTION,&quot;OPTIONAL CHECKBOX YES%NO&quot;,MSSQL_ADO&lt;space&gt;Encrypt&lt;space&gt;Connection"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_USE_SSPI" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MSSQL_ADO_ENCRYPT_CONNECTION" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="365"
@@ -4496,14 +4500,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4516,6 +4519,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="code"/>
@@ -4537,14 +4541,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="tematiskId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kode" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kartlagt" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="trinn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fraction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BeskrivelsesVarKode" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="beskrivelse" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="brukernavn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeFoersteVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="kodeVersjon" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4557,6 +4560,7 @@
 #!     <XFORM_ATTR ATTR_NAME="naturområde_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="naturområdetype_localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totalklassifikasjonskvalitet" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="code"/>
 #!     <XFORM_PARM PARM_NAME="PARAM_GROUP" PARM_VALUE=""/>
@@ -6230,8 +6234,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_6ec9b575_5465_4b94_b7f5_deb44858e2851_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_6ec9b575_5465_4b94_b7f5_deb44858e2851_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_6ec9b575_5465_4b94_b7f5_deb44858e2851_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_6ec9b575_5465_4b94_b7f5_deb44858e2851_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_6ec9b575_5465_4b94_b7f5_deb44858e2851_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_ff50540e_e0ff_489f_ba97_24b91cacf41f1_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_ff50540e_e0ff_489f_ba97_24b91cacf41f1_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_ff50540e_e0ff_489f_ba97_24b91cacf41f1_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_ff50540e_e0ff_489f_ba97_24b91cacf41f1_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_ff50540e_e0ff_489f_ba97_24b91cacf41f1_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter NULL Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_NULL
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_<UNFILTERED>
@@ -6247,7 +6251,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryValidator REPAIRED Splitter"   
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc GeometryPropertySetter_area_dec3747b_fa62_4dcb_9486_9542dd0eaa311_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_area_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc GeometryPropertySetter_area_27ad0972_1cc8_4acc_8361_fede84e0a8bc1_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_area_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 INCLUDE [    set macroLine "MACRO GeometryPropertySetter_area_SRC_ATTRS_EXP ";    puts $macroLine; ]
 FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryPropertySetter_area_GQuery    INPUT  FEATURE_TYPE GeometryValidator_PASSED_1_lm/rLk3vnLM=    INPUT  FEATURE_TYPE GeometryValidator_REPAIRED_0_bmPjNYy8zOc=    ACTION SET_GEOMNAME    PARAMETER yes "geometri"    OUTPUT RESULT FEATURE_TYPE GeometryPropertySetter_area___RemoveAttrs___
 FACTORY_DEF <Unused> TeeFactory    FACTORY_NAME GeometryPropertySetter_area_AttrRemover    INPUT FEATURE_TYPE GeometryPropertySetter_area___RemoveAttrs___    OUTPUT FEATURE_TYPE *       @RemoveAttributes(fme_encoded"$(GeometryPropertySetter_area_SRC_ATTRS_EXP)")
@@ -6268,7 +6272,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "CenterPointReplacer__Rejected__2 LOGGED
 # -------------------------------------------------------------------------
 
 
-Tcl2 proc GeometryPropertySetter_areaCenterPoint_3e02e4af_6345_443e_8a3e_49a85b514fdd1_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_areaCenterPoint_}];       set domainName $xFormName$domainName;    };    return $domainName; }
+Tcl2 proc GeometryPropertySetter_areaCenterPoint_d3360402_5624_498f_9606_95d2135f6c161_createDomain { in_domainName } {    set domainName $in_domainName;    if { {<Unused>} != {Global} }    {       set xFormName [FME_EncodeText {GeometryPropertySetter_areaCenterPoint_}];       set domainName $xFormName$domainName;    };    return $domainName; }
 INCLUDE [    set macroLine "MACRO GeometryPropertySetter_areaCenterPoint_SRC_ATTRS_EXP ";    puts $macroLine; ]
 FACTORY_DEF * GQueryFactory    FACTORY_NAME GeometryPropertySetter_areaCenterPoint_GQuery    INPUT  FEATURE_TYPE CenterPointReplacer_POINT    ACTION SET_GEOMNAME    PARAMETER yes "geometriSenterpunkt"    OUTPUT RESULT FEATURE_TYPE GeometryPropertySetter_areaCenterPoint___RemoveAttrs___
 FACTORY_DEF <Unused> TeeFactory    FACTORY_NAME GeometryPropertySetter_areaCenterPoint_AttrRemover    INPUT FEATURE_TYPE GeometryPropertySetter_areaCenterPoint___RemoveAttrs___    OUTPUT FEATURE_TYPE *       @RemoveAttributes(fme_encoded"$(GeometryPropertySetter_areaCenterPoint_SRC_ATTRS_EXP)")
@@ -6321,6 +6325,13 @@ FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 RESULT Splitter"   INPUT FEATURE_TYPE SQLExecutor_2_RESULT   OUTPUT FEATURE_TYPE SQLExecutor_2_RESULT_0_uHPUmprYjr8=   OUTPUT FEATURE_TYPE SQLExecutor_2_RESULT_1_255TfJJCeOQ=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_<REJECTED>
+# -------------------------------------------------------------------------
+MACRO SQLExecutor_DIRECTIVES USER_NAME postgres PORT 5432 PASSWORD fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszi1qlRHsbpMjkXoracKy9do+qgfpxb6+4Qy+wLeRTe3liae4v9sfR5u3nuUzXcNRx/sJUlcV5btoZRDxHJGy0rIK47pFkEXXsXXcpXMoFKyazMsjF5BV1r2dLmAXRbNHSO4im0GXaGQaxNpoZmyyRhtjAF+hG1CsIMSKaD2svhqbK0yxOuxdtKXCuvSF9aJd1LRHTWbu5COyXshKNsE81Elri5MKbP8NO1tz6EVWHzDRxoOquKP/houZ64SVyNRlkRqABRdD3kaOPDAiAzWZu4YSscUEp2mwQiWiFZsCF4inf3naQvbKJxvxgi6BbR5W/5snbGzTytq1/Tb6sbuO9Od4ao38pWd9Q) QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SCHEMAS_FOR_TABLE_LISTING data HOST localhost
+
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT_0_uHPUmprYjr8=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space>id<space>as<space>dataset_id<space>from<space>data.dataset<space>where<space>description=<apos>$(Dataset$encode)<apos><semicolon>,SQLExecutor)"    READER_TYPE          POSTGRES    READER_DATASET       "bigbadabom"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_6    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT_1_255TfJJCeOQ= 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "id" "geometry_id" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_6_OUTPUT
@@ -6411,15 +6422,15 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE at
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc AttributeTrimmer_a12993f7_3f68_49ec_a541_fac1a314ebd51_trimmer { trimChars} {    set attrs [split {kode} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trimright $attrVal];         } else {             set result [string trimright $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trimright} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trimright} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_a12993f7_3f68_49ec_a541_fac1a314ebd51_trimmer {<space>} ")
+Tcl2 proc AttributeTrimmer_4b64d1fe_4600_4511_b0eb_c002e9e857ef1_trimmer { trimChars} {    set attrs [split {kode} {,}];    set trimChars [FME_DecodeText $trimChars];    foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set length [string length $attrVal];       if {$length > 0} {          if {[string length $trimChars] == 0} {             set result [string trimright $attrVal];         } else {             set result [string trimright $attrVal $trimChars];         };          if {[string length $result] == 0 && {Yes} == {No}} {              if { {trimright} == {trimleft}} {                set lastPos [expr $length - 1];                set result [string range $attrVal $lastPos $lastPos ];              } elseif { {trimright} == {trimright}} {                set result [string range $attrVal 0 0];              } else {                set midPos [expr $length / 2];                set result [string range $attrVal $midPos $midPos];              };          };          FME_SetAttribute $attr $result;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeTrimmer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE AttributeTrimmer_OUTPUT      @Tcl2("AttributeTrimmer_4b64d1fe_4600_4511_b0eb_c002e9e857ef1_trimmer {<space>} ")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_3fd4f7fb_023f_4866_b406_e6be4b1651ff1_replacer { findText replaceText invalidValue} {     set attrs [split \"kode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_3fd4f7fb_023f_4866_b406_e6be4b1651ff1_replacer {<space>} {_} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_8cc3f1f6_5923_4b52_b81b_9a8b2cc39bb91_replacer { findText replaceText invalidValue} {     set attrs [split \"kode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeTrimmer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_8cc3f1f6_5923_4b52_b81b_9a8b2cc39bb91_replacer {<space>} {_} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -6427,15 +6438,15 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_7    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_4bc36094_55a0_446a_8818_91c7dcf21d101_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_4258a470_9920_4862_9a2f_b47160b02f941_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_7_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,andel,code,localId,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_4bc36094_55a0_446a_8818_91c7dcf21d101_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_7_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,andel,code,localId,geometry_id,fme_pcre_match,"^fme_$(AttributeKeeper_4258a470_9920_4862_9a2f_b47160b02f941_LIST_EXP)")
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_0_rpABwRdi1ws=   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_5_DIRECTIVES NAMED_CONNECTION Nin_Hovedbase_SDE COMMAND_TIMEOUT 30 QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes
+MACRO SQLExecutor_5_DIRECTIVES PASSWORD "$(config_mssql_pass)" USE_SSPI NO COMMAND_TIMEOUT 30 SERVER "$(config_mssql_host)" USER_NAME "$(config_mssql_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes ENCRYPT_CONNECTION NO
 
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_5    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,SELECT<lf><space><space><space><space><space><space><openbracket>beskrivelseId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>brukernavn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kartlagtDato<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kode<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kodeFoersteVersjon<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kodeVersjon<closebracket><lf><space><space><space><space><space><space><comma><openbracket>verdi<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelGruppe<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelTema<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelNavn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelTrinn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>lokalId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>omraadetypeId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>omraadetypeFKID<closebracket><lf><space><space><space><space><space><space><comma><openbracket>beskrivelse<closebracket><lf><space><space>FROM<space><openbracket>Nin_Hovedbase_SDE<closebracket>.<openbracket>nin_eier<closebracket>.<openbracket>BESKRIVELSESVARIABEL<closebracket><lf><space><space>WHERE<space><lf><space><space><space><space><space><space><space><space><openparen><lf><space><space><space><space><space><space><space><space><openbracket>brukernavn<closebracket><space>NOT<space>IN<space><lf><space><space><space><space><space><space><space><space><space><space><space><space><openparen>SELECT<space><openbracket>brukernavn<closebracket><space>FROM<space><openbracket>nin_hovedbase_SDE<closebracket>.<openbracket>nin_eier<closebracket>.<openbracket>BRUKER<closebracket><space>WHERE<space><openbracket>firmaNavn<closebracket><space>IN<space><openparen><apos>Milj<u00f8>direktoratet<apos><comma><space><apos>Geodata<apos><closeparen><closeparen><lf><space><space><space><space><space><space><space><space>OR<space><lf><space><space><space><space><space><space><space><space>brukernavn<space>is<space>null<lf><space><space><space><space><space><space><space><space><closeparen><lf>AND<lf><space><space><space><space>omraadetypeFKID<space>=<space><apos><at>Value<openparen>localId<closeparen><apos><lf>AND<lf><space><space><space><space>kode<space>not<space>like<space><apos>%-x<apos><lf>AND<lf><space><space><space><space>kode<space>not<space>like<space><apos>%-XY<apos><lf><space><space><space><space>,SQLExecutor_5)"    READER_TYPE          MSSQL_ADO    READER_DATASET       "Nin_Hovedbase_SDE"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_5_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_5_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_5)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_5_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_5_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_5    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,SELECT<lf><space><space><space><space><space><space><openbracket>beskrivelseId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>brukernavn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kartlagtDato<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kode<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kodeFoersteVersjon<closebracket><lf><space><space><space><space><space><space><comma><openbracket>kodeVersjon<closebracket><lf><space><space><space><space><space><space><comma><openbracket>verdi<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelGruppe<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelTema<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelNavn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>variabelTrinn<closebracket><lf><space><space><space><space><space><space><comma><openbracket>lokalId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>omraadetypeId<closebracket><lf><space><space><space><space><space><space><comma><openbracket>omraadetypeFKID<closebracket><lf><space><space><space><space><space><space><comma><openbracket>beskrivelse<closebracket><lf><space><space>FROM<space><openbracket>Nin_Hovedbase_SDE<closebracket>.<openbracket>nin_eier<closebracket>.<openbracket>BESKRIVELSESVARIABEL<closebracket><lf><space><space>WHERE<space><lf><space><space><space><space><space><space><space><space><openparen><lf><space><space><space><space><space><space><space><space><openbracket>brukernavn<closebracket><space>NOT<space>IN<space><lf><space><space><space><space><space><space><space><space><space><space><space><space><openparen>SELECT<space><openbracket>brukernavn<closebracket><space>FROM<space><openbracket>nin_hovedbase_SDE<closebracket>.<openbracket>nin_eier<closebracket>.<openbracket>BRUKER<closebracket><space>WHERE<space><openbracket>firmaNavn<closebracket><space>IN<space><openparen><apos>Milj<u00f8>direktoratet<apos><comma><space><apos>Geodata<apos><closeparen><closeparen><lf><space><space><space><space><space><space><space><space>OR<space><lf><space><space><space><space><space><space><space><space>brukernavn<space>is<space>null<lf><space><space><space><space><space><space><space><space><closeparen><lf>AND<lf><space><space><space><space>omraadetypeFKID<space>=<space><apos><at>Value<openparen>localId<closeparen><apos><lf>AND<lf><space><space><space><space>kode<space>not<space>like<space><apos>%-x<apos><lf>AND<lf><space><space><space><space>kode<space>not<space>like<space><apos>%-XY<apos><lf><space><space><space><space>,SQLExecutor_5)"    READER_TYPE          MSSQL_ADO    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_mssql_db$encode),SQLExecutor_5)"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_5_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_5_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_5)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_5_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_5_<REJECTED>
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_5 INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_5_INITIATOR
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_5 <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_5_<REJECTED>
@@ -6541,13 +6552,6 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 <REJECTED> Output Nuker" 
 
 FACTORY_DEF * DuplicateRemoverFactory    FACTORY_NAME DuplicateFilter    COMMAND_PARM_EVALUATION SINGLE_PASS    SUPPORTS_FEATURE_TABLES    INPUT  FEATURE_TYPE SQLExecutor_3_RESULT    KEY_ATTRIBUTES  geometry_id codes_id    INPUT_IS_ORDERED NO    OUTPUT UNIQUE FEATURE_TYPE DuplicateFilter_UNIQUE
 
-# -------------------------------------------------------------------------
-MACRO SQLExecutor_DIRECTIVES USER_NAME postgres PORT 5432 PASSWORD fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszi1qlRHsbpMjkXoracKy9do+qgfpxb6+4Qy+wLeRTe3liae4v9sfR5u3nuUzXcNRx/sJUlcV5btoZRDxHJGy0rIK47pFkEXXsXXcpXMoFKyazMsjF5BV1r2dLmAXRbNHSO4im0GXaGQaxNpoZmyyRhtjAF+hG1CsIMSKaD2svhqbK0yxOuxdtKXCuvSF9aJd1LRHTWbu5COyXshKNsE81Elri5MKbP8NO1tz6EVWHzDRxoOquKP/houZ64SVyNRlkRqABRdD3kaOPDAiAzWZu4YSscUEp2mwQiWiFZsCF4inf3naQvbKJxvxgi6BbR5W/5snbGzTytq1/Tb6sbuO9Od4ao38pWd9Q) QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SCHEMAS_FOR_TABLE_LISTING data HOST localhost
-
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT_0_uHPUmprYjr8=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space>id<space>as<space>dataset_id<space>from<space>data.dataset<space>where<space>description=<apos>$(Dataset$encode)<apos><semicolon>,SQLExecutor)"    READER_TYPE          POSTGRES    READER_DATASET       "bigbadabom"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor <REJECTED> Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_<REJECTED>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLExecutor_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC DuplicateFilter_UNIQUE TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureHolder_OUTPUT_1_UIyMFea60+w= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.localid_geometry<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
