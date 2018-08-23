@@ -1,12 +1,12 @@
 select * from (
-	select ch.predecessor as code, st_area(ST_Collect(g.geography::geometry)::geography) as area 
+	select ch.predecessor as code, round(st_area(ST_Collect(g.geography::geometry)::geography)) as area 
 	from data.geometry g, data.codes_geometry cg, data.codeshierarchy ch 
 	where g.id = cg.geometry_id and cg.code like 'NA_%' and ch.successor = cg.code
 	group by ch.predecessor
 
 	union all
 
-	select lowest.code , st_area(ST_Collect(g.geography::geometry)::geography) as area 
+	select lowest.code, round(st_area(ST_Collect(g.geography::geometry)::geography)) as area 
 	from
 	(
 		SELECT c.code
