@@ -11,7 +11,7 @@
 #    
 #!   MAX_LOG_FEATURES="200"
 #!   BEGIN_TCL=""
-#!   LAST_SAVE_DATE="2018-08-27T15:01:09"
+#!   LAST_SAVE_DATE="2018-08-27T15:15:45"
 #!   PASSWORD=""
 #!   WORKSPACE_VERSION="1"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
@@ -40,7 +40,7 @@
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   SHOW_INFO_NODES="true"
 #!   FME_SERVER_SERVICES=""
-#!   VIEW_POSITION="347.226 2436.89"
+#!   VIEW_POSITION="561.874 2436.89"
 #!   FME_BUILD_NUM="17539"
 #!   LOG_FILE=""
 #!   USE_MARKDOWN=""
@@ -400,6 +400,21 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="110"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Handle areas&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="6133.78 988.572"
+#!   TOP_LEFT="6133.78 988.572"
+#!   BOTTOM_RIGHT="6132.78 989.572"
+#!   BOUNDING_RECT="6133.78 988.572 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="24"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -2255,7 +2270,7 @@
 #!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="POLYS_FIRST" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
 #!     <XFORM_PARM PARM_NAME="CANDIDATE_LIST_ATTRS_TO_INCLUDE" PARM_VALUE="code_ar geometry_id_ar"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PointOnAreaOverlayer"/>
@@ -3131,8 +3146,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b79_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b79_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b79_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b79_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b79_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b82_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b82_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b82_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b82_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_96c8b5cc_f570_46ae_8c52_8506b0dc4d5b82_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter LINE Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_LINE
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter <UNFILTERED> Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_<UNFILTERED>
@@ -3178,7 +3193,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_3    INPUT  FEAT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRenamer_3 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRenamer_3_OUTPUT   OUTPUT FEATURE_TYPE AttributeRenamer_3_OUTPUT_0_HifNWqwiJ4A=   OUTPUT FEATURE_TYPE AttributeRenamer_3_OUTPUT_1_hr83VR1MQvo=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} OverlayFactory    FACTORY_NAME PointOnAreaOverlayer    INPUT POINT FEATURE_TYPE GeometryFilter_POINT    INPUT POLYGON FEATURE_TYPE AttributeRenamer_3_OUTPUT_1_hr83VR1MQvo=    OVERLAP_COUNT_ATTRIBUTE "_overlaps"    DEAGGREGATE_INPUT Yes    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CANDIDATE_LIST_NAME "_relationships"    CANDIDATE_LIST_ATTRS_TO_INCLUDE { code_ar geometry_id_ar }    CANDIDATE_LIST_ATTRS_TO_INCLUDE_MODE SELECTED    MODE COMPLETE    POLYS_FIRST "NO"    REJECT_INVALID_GEOM YES    OUTPUT POLYGON FEATURE_TYPE PointOnAreaOverlayer_AREA    OUTPUT ILLEGAL_GEOM FEATURE_TYPE PointOnAreaOverlayer_<REJECTED>
+FACTORY_DEF {*} OverlayFactory    FACTORY_NAME PointOnAreaOverlayer    INPUT POINT FEATURE_TYPE GeometryFilter_POINT    INPUT POLYGON FEATURE_TYPE AttributeRenamer_3_OUTPUT_1_hr83VR1MQvo=    OVERLAP_COUNT_ATTRIBUTE "_overlaps"    DEAGGREGATE_INPUT Yes    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CANDIDATE_LIST_NAME "_relationships"    CANDIDATE_LIST_ATTRS_TO_INCLUDE { code_ar geometry_id_ar }    CANDIDATE_LIST_ATTRS_TO_INCLUDE_MODE SELECTED    MODE COMPLETE    POLYS_FIRST "YES"    REJECT_INVALID_GEOM YES    OUTPUT POLYGON FEATURE_TYPE PointOnAreaOverlayer_AREA    OUTPUT ILLEGAL_GEOM FEATURE_TYPE PointOnAreaOverlayer_<REJECTED>
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME PointOnAreaOverlayer_<Rejected> INPUT FEATURE_TYPE PointOnAreaOverlayer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, PointOnAreaOverlayer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -3199,9 +3214,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator_5    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2_af6eb2f6_c2bd_4a71_8560_7310bc60bea477_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_af6eb2f6_c2bd_4a71_8560_7310bc60bea480_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE ListConcatenator_5_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,geometry_id_na,_overlaps,code_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_2_af6eb2f6_c2bd_4a71_8560_7310bc60bea477_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE ListConcatenator_5_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,geometry_id_na,_overlaps,code_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_2_af6eb2f6_c2bd_4a71_8560_7310bc60bea480_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -3229,9 +3244,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator_9    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_3_52c12f6e_3cbc_4625_9a4a_44132cca4b8876_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_3_52c12f6e_3cbc_4625_9a4a_44132cca4b8879_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE ListConcatenator_9_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_overlaps,code_na,_concatenated_geometry_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_3_52c12f6e_3cbc_4625_9a4a_44132cca4b8876_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE ListConcatenator_9_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,_overlaps,code_na,_concatenated_geometry_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_3_52c12f6e_3cbc_4625_9a4a_44132cca4b8879_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 MACRO DatabaseJoiner_5_DIRECTIVES PORT 5432 USER_NAME "$(config_user)" HOST "$(config_host)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_pass)"
@@ -3277,9 +3292,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME ListConcatenator_8    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_4_59134b0f_11aa_4555_b8de_a0c3d5bd67b832_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_4_59134b0f_11aa_4555_b8de_a0c3d5bd67b835_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_4    INPUT  FEATURE_TYPE ListConcatenator_8_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_4_OUTPUT        @KeepAttributes(fme_encoded,_concatenated_na,predecessor,_concatenated_geometry_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_4_59134b0f_11aa_4555_b8de_a0c3d5bd67b832_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_4    INPUT  FEATURE_TYPE ListConcatenator_8_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_4_OUTPUT        @KeepAttributes(fme_encoded,_concatenated_na,predecessor,_concatenated_geometry_na,_concatenated_ar,_concatenated_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_4_59134b0f_11aa_4555_b8de_a0c3d5bd67b835_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -3290,7 +3305,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE 
 
 # -------------------------------------------------------------------------
 
-Tcl2 set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitDelim]] }      {         set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {_concatenated_geometry_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitDelim;            set delim [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93732_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {_concatenated_geometry_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+Tcl2 set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitDelim]] }      {         set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {_concatenated_geometry_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitDelim;            set delim [set AttributeSplitter_d4f7c0e1_2293_4d85_9e60_98245e4df93735_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {_concatenated_geometry_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE PythonCaller_OUTPUT    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
 
 # -------------------------------------------------------------------------
@@ -3314,9 +3329,9 @@ FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TY
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_5_dc6bbef0_8635_4c9a_add4_97f92caca03c25_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_5_dc6bbef0_8635_4c9a_add4_97f92caca03c28_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_5    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE AttributeKeeper_5_OUTPUT        @KeepAttributes(fme_encoded,predecessor,_count_geometry_na,_count_ar,_area,_count_na,_count_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_5_dc6bbef0_8635_4c9a_add4_97f92caca03c25_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_5    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    OUTPUT FEATURE_TYPE AttributeKeeper_5_OUTPUT        @KeepAttributes(fme_encoded,predecessor,_count_geometry_na,_count_ar,_area,_count_na,_count_geometry_ar,fme_pcre_match,"^fme_$(AttributeKeeper_5_dc6bbef0_8635_4c9a_add4_97f92caca03c28_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_4 INPUT CONTROL_FEATURE FEATURE_TYPE AttributeKeeper_5_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_4_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR @EvaluateExpression(FDIV,STRING_ENCODED,<opencurly><lf><space><space><space><space>fme:get-attribute<openparen><quote>predecessor<quote><closeparen>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>area<quote>:<space><at>int64<openparen><at>Value<openparen><quote>_area<quote><closeparen><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>observations<quote>:<space>fme:get-attribute<openparen><quote>_count_na<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>areas<quote>:<space>fme:get-attribute<openparen><quote>_count_geometry_na<quote><closeparen><lf><space><space><space><space><space><space><space><space><closecurly><lf><closecurly>,JSONTemplater_4) OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_4_OUTPUT
