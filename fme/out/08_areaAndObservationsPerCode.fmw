@@ -34,7 +34,7 @@
 #!   DOC_EXTENTS="8731.63 2910.25"
 #!   SOURCE="NONE"
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_DATE="2018-08-29T11:29:03"
+#!   LAST_SAVE_DATE="2018-08-29T11:36:42"
 #!   DOC_TOP_LEFT="647.605 -224.85"
 #!   SHOW_ANNOTATIONS="true"
 #!   TERMINATE_REJECTED="YES"
@@ -400,21 +400,6 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
-#! <COMMENT
-#!   IDENTIFIER="98"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Finds codes without children&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7054.45 2037.47"
-#!   TOP_LEFT="7054.45 2037.47"
-#!   BOTTOM_RIGHT="7053.45 2038.47"
-#!   BOUNDING_RECT="7054.45 2037.47 -1 -1"
-#!   ORDER="5e+14"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
-#!   SIZE_POLICY="8"
-#!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="90"
-#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -439,7 +424,7 @@
 #!   BOUNDING_RECT="6325.69 2157.03 1279.86 1547.65"
 #!   STICKY="true"
 #!   COLOUR="0.247059,0.47451,0.0156863"
-#!   CONTENTS="90 97 91 117 93 96 95 102 98 193 101 "
+#!   CONTENTS="97 98 104 117 93 95 96 102 193 101 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="153"
@@ -2030,67 +2015,6 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="90"
-#!   TYPE="DatabaseJoiner"
-#!   VERSION="6"
-#!   POSITION="7120.45 1890.21"
-#!   BOUNDING_RECT="7120.45 1890.21 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="JOINED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="UNJOINED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Joined"/>
-#!     <XFORM_PARM PARM_NAME="OPTIMIZE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PREFETCH_EXHAUSTIVE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
-#!     <XFORM_PARM PARM_NAME="TRIM_KEY_FIELDS_DISPLAY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ADDED_FIELDS" PARM_VALUE="predecessor"/>
-#!     <XFORM_PARM PARM_NAME="MATCH_MULTIPLE_DISPLAY" PARM_VALUE="Create a feature for each match"/>
-#!     <XFORM_PARM PARM_NAME="CACHE_SIZE" PARM_VALUE="5000"/>
-#!     <XFORM_PARM PARM_NAME="TABLE" PARM_VALUE="data.codeshierarchy"/>
-#!     <XFORM_PARM PARM_NAME="MATCHED_ATTR_NAME" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="code_na&lt;space&gt;predecessor"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DatabaseJoiner_3"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
-#!     <XFORM_PARM PARM_NAME="PREFETCH_QUERY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="JOINED_LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="JOINED_ATTRIBUTE_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="5432"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MATCH_RULE_DISPLAY" PARM_VALUE="Match All (1:M)"/>
-#!     <XFORM_PARM PARM_NAME="JOIN_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Original"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="95"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
@@ -2107,7 +2031,6 @@
 #!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2118,6 +2041,75 @@
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; predecessor SET_TO &lt;at&gt;Value&lt;openparen&gt;code_na&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="96"
+#!   TYPE="FeatureMerger"
+#!   VERSION="17"
+#!   POSITION="7120.45 1953.14"
+#!   BOUNDING_RECT="7120.45 1953.14 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;code_na&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;predecessor&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger_4"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="First Wins"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="Build Polygons"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2228,6 +2220,17 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="103"
+#!   SOURCE_NODE="101"
+#!   TARGET_NODE="96"
+#!   SOURCE_PORT_DESC="fo 0 JOINED"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2474,11 +2477,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="91"
+#!   IDENTIFIER="98"
 #!   SOURCE_NODE="193"
-#!   TARGET_NODE="90"
+#!   TARGET_NODE="96"
 #!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2529,10 +2532,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="96"
-#!   SOURCE_NODE="90"
+#!   IDENTIFIER="104"
+#!   SOURCE_NODE="96"
 #!   TARGET_NODE="95"
-#!   SOURCE_PORT_DESC="fo 1 UNJOINED"
+#!   SOURCE_PORT_DESC="fo 1 UNMERGED_REQUESTOR"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -2910,8 +2913,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460939_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460939_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460939_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460939_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460939_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter LINE Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_LINE
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter AREA Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_AREA
@@ -2966,9 +2969,9 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_4    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764321_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764329_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_4_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code_ar,geometry_id_na,code_na,fme_pcre_match,"^fme_$(AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764321_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_4_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code_ar,geometry_id_na,code_na,fme_pcre_match,"^fme_$(AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764329_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -2982,25 +2985,27 @@ MACRO DatabaseJoiner_5_DIRECTIVES PASSWORD "$(config_pass)" USER_NAME "$(config_
 
 INCLUDE [    if { {MATCH_ALL} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_5_ONE_FEATURE_PER_JOIN NO};    } else {       puts {MACRO DatabaseJoiner_5_ONE_FEATURE_PER_JOIN YES};    } ]
 FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner_5    INPUT  FEATURE_TYPE Aggregator_2_AGGREGATE_1_GwHKCdIwyqw=    READER_TYPE             POSTGRES    READER_DATASET          "$(config_db$encode)"    TABLE_ID                "data.codeshierarchy"    READER_PARAMS           $(DatabaseJoiner_5_DIRECTIVES)    JOIN_KEYS               code_na<space>successor    ADDED_FIELDS            predecessor    COMBINE_ATTRIBUTES      PREFER_ORIGINAL    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_5_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner_5"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_5_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_5_<REJECTED>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "DatabaseJoiner_5 JOINED Splitter"   INPUT FEATURE_TYPE DatabaseJoiner_5_JOINED   OUTPUT FEATURE_TYPE DatabaseJoiner_5_JOINED_0_oYFxrnuzto0=   OUTPUT FEATURE_TYPE DatabaseJoiner_5_JOINED_1_Z3YqEduapMM=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_5_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner_5<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-MACRO DatabaseJoiner_3_DIRECTIVES PASSWORD "$(config_pass)" USER_NAME "$(config_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes HOST "$(config_host)" PORT 5432
 
-INCLUDE [    if { {MATCH_ALL} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_3_ONE_FEATURE_PER_JOIN NO};    } else {       puts {MACRO DatabaseJoiner_3_ONE_FEATURE_PER_JOIN YES};    } ]
-FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner_3    INPUT  FEATURE_TYPE Aggregator_2_AGGREGATE_0_Ki45vvC/Bu8=    READER_TYPE             POSTGRES    READER_DATASET          "$(config_db$encode)"    TABLE_ID                "data.codeshierarchy"    READER_PARAMS           $(DatabaseJoiner_3_DIRECTIVES)    JOIN_KEYS               code_na<space>predecessor    ADDED_FIELDS            predecessor    COMBINE_ATTRIBUTES      PREFER_ORIGINAL    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_3_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner_3"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT UNJOINED FEATURE_TYPE DatabaseJoiner_3_UNJOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_3_<REJECTED>
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_4    INPUT REFERENCER FEATURE_TYPE Aggregator_2_AGGREGATE_0_Ki45vvC/Bu8=    INPUT REFERENCEE FEATURE_TYPE DatabaseJoiner_5_JOINED_1_Z3YqEduapMM=    CONNECT_Z_MODE FIRST_WINS    REFERENCE_INFO $(FeatureMerger_4_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>code_na<closeparen>,FeatureMerger_4) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>predecessor<closeparen>,FeatureMerger_4) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES Yes    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_4_UNMERGED_REQUESTOR    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_4_<REJECTED>
+
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_3_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_4_<Rejected> INPUT FEATURE_TYPE FeatureMerger_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_4<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE DatabaseJoiner_3_UNJOINED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "predecessor" "SET_TO" "<at>Value<openparen>code_na<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE FeatureMerger_4_UNMERGED_REQUESTOR    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "predecessor" "SET_TO" "<at>Value<openparen>code_na<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
 
 
 # -------------------------------------------------------------------------
 
 DEFAULT_MACRO Aggregator_5_BREAK_ATTR
 INCLUDE [if {"No" == "Yes"} {puts {MACRO Aggregator_5_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE predecessor} }]
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_5    INPUT  FEATURE_TYPE DatabaseJoiner_5_JOINED    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    MODE ONE_LEVEL    GROUP_BY predecessor    $(Aggregator_5_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES All    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS code_ar geometry_id_na code_na    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_5_AGGREGATE
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_5    INPUT  FEATURE_TYPE DatabaseJoiner_5_JOINED_0_oYFxrnuzto0=    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    MODE ONE_LEVEL    GROUP_BY predecessor    $(Aggregator_5_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES All    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS code_ar geometry_id_na code_na    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_5_AGGREGATE
 
 # -------------------------------------------------------------------------
 
@@ -3011,7 +3016,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE 
 
 # -------------------------------------------------------------------------
 
-Tcl2 set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitDelim]] }      {         set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitDelim;            set delim [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2139_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+Tcl2 set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim]] }      {         set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim;            set delim [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE PythonCaller_OUTPUT    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
 
 # -------------------------------------------------------------------------
