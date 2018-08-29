@@ -31,18 +31,18 @@
 #!   HISTORY=""
 #!   FME_DOCUMENT_GUID="59e457d2-03ff-4ba5-9370-37638478c8a7"
 #!   FME_DOCUMENT_PRIORGUID="0d45c4cc-eb62-4c91-98fc-369eb5032516,0c7a277b-75d1-48b3-b48f-84d9324243fa,11b08cd9-74ba-4c8d-af14-d0be7b475274,64979ccd-21f7-477c-9459-593c04b66d05,cf91a455-04cd-4df6-bee8-239598629d51"
-#!   DOC_EXTENTS="8731.63 2910.25"
+#!   DOC_EXTENTS="9274.6 3639.79"
 #!   SOURCE="NONE"
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_DATE="2018-08-29T11:36:42"
-#!   DOC_TOP_LEFT="647.605 -224.85"
+#!   LAST_SAVE_DATE="2018-08-29T11:48:51"
+#!   DOC_TOP_LEFT="647.605 -864.386"
 #!   SHOW_ANNOTATIONS="true"
 #!   TERMINATE_REJECTED="YES"
 #!   DESTINATION="NONE"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
 #!   MARKDOWN_USAGE=""
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   VIEW_POSITION="789.07 2984.4"
+#!   VIEW_POSITION="625.006 2984.4"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   BEGIN_TCL=""
 #!   DESCRIPTION=""
@@ -353,8 +353,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="63"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="8857.22 673.797"
-#!   BOUNDING_RECT="8857.22 673.797 -1 -1"
+#!   POSITION="9400.19 -700.475"
+#!   BOUNDING_RECT="9400.19 -700.475 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -408,9 +408,9 @@
 #!   IDENTIFIER="154"
 #!   NAME="Write to json"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="8772.82 1431.25"
-#!   BOTTOM_RIGHT="9379.23 509.886"
-#!   BOUNDING_RECT="8772.82 1431.25 606.415 921.361"
+#!   TOP_LEFT="9315.79 56.9749"
+#!   BOTTOM_RIGHT="9922.21 -864.386"
+#!   BOUNDING_RECT="9315.79 56.9749 606.415 921.361"
 #!   STICKY="true"
 #!   COLOUR="0.121569,0.219608,0.494118"
 #!   CONTENTS="149 152 142 63 136 143 150 "
@@ -420,19 +420,19 @@
 #!   NAME="Join on predecessor"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="6325.69 2157.03"
-#!   BOTTOM_RIGHT="7605.54 609.381"
-#!   BOUNDING_RECT="6325.69 2157.03 1279.86 1547.65"
+#!   BOTTOM_RIGHT="7043.04 1261.73"
+#!   BOUNDING_RECT="6325.69 2157.03 717.35 895.302"
 #!   STICKY="true"
 #!   COLOUR="0.247059,0.47451,0.0156863"
-#!   CONTENTS="97 98 104 117 93 95 96 102 193 101 "
+#!   CONTENTS="117 93 102 193 101 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="153"
 #!   NAME="Calculate area"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="7063.09 501.747"
-#!   BOTTOM_RIGHT="7714.39 -224.85"
-#!   BOUNDING_RECT="7063.09 501.747 651.3 726.597"
+#!   TOP_LEFT="7413.43 -87.5655"
+#!   BOTTOM_RIGHT="8064.73 -814.163"
+#!   BOUNDING_RECT="7413.43 -87.5655 651.3 726.597"
 #!   STICKY="true"
 #!   COLOUR="0.847059,0.792157,0.764706"
 #!   CONTENTS="130 158 156 155 166 "
@@ -441,9 +441,9 @@
 #!   IDENTIFIER="157"
 #!   NAME="Count unique values"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="7750.07 2157.03"
-#!   BOTTOM_RIGHT="8304.07 1552.4"
-#!   BOUNDING_RECT="7750.07 2157.03 554 604.637"
+#!   TOP_LEFT="7413.43 709.48"
+#!   BOTTOM_RIGHT="7967.43 104.843"
+#!   BOUNDING_RECT="7413.43 709.48 554 604.637"
 #!   STICKY="true"
 #!   COLOUR="0.0784314,0.94902,0.686275"
 #!   CONTENTS="125 131 137 133 134 "
@@ -452,9 +452,9 @@
 #!   IDENTIFIER="171"
 #!   NAME="Merge area on predecessor"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="7987.82 1431.25"
-#!   BOTTOM_RIGHT="8598.09 500.823"
-#!   BOUNDING_RECT="7987.82 1431.25 610.275 930.424"
+#!   TOP_LEFT="8276.88 146.975"
+#!   BOTTOM_RIGHT="8887.16 -783.449"
+#!   BOUNDING_RECT="8276.88 146.975 610.275 930.424"
 #!   STICKY="true"
 #!   COLOUR="0.494118,0.47451,0.337255"
 #!   CONTENTS="124 135 123 "
@@ -483,11 +483,11 @@
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="178"
-#!   NAME="Intersect AR against other geometry"
+#!   NAME="Intersect geometry"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="3751.89 2170.66"
-#!   BOTTOM_RIGHT="4565.65 846.045"
-#!   BOUNDING_RECT="3751.89 2170.66 813.759 1324.62"
+#!   TOP_LEFT="3708.92 2248.79"
+#!   BOTTOM_RIGHT="4522.68 1039.07"
+#!   BOUNDING_RECT="3708.92 2248.79 813.759 1209.72"
 #!   STICKY="true"
 #!   COLOUR="0.0901961,0.854902,0.564706"
 #!   CONTENTS="115 189 175 167 172 164 194 "
@@ -519,8 +519,8 @@
 #!   NAME="Join in AR-codes"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="5502.1 2155.42"
-#!   BOTTOM_RIGHT="6123.09 894.224"
-#!   BOUNDING_RECT="5502.1 2155.42 620.989 1261.2"
+#!   BOTTOM_RIGHT="6123.09 1085.95"
+#!   BOUNDING_RECT="5502.1 2155.42 620.989 1069.48"
 #!   STICKY="true"
 #!   COLOUR="0.0666667,0.211765,0.647059"
 #!   CONTENTS="206 163 162 200 204 183 205 "
@@ -535,6 +535,39 @@
 #!   STICKY="true"
 #!   COLOUR="0.564706,0.258824,0.921569"
 #!   CONTENTS="170 185 203 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="100"
+#!   NAME="Add in codes that aren&apos;t predecessors"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="7192 2146.63"
+#!   BOTTOM_RIGHT="8001.22 1298.73"
+#!   BOUNDING_RECT="7192 2146.63 809.226 847.898"
+#!   STICKY="true"
+#!   COLOUR="0.47451,0.996078,0.027451"
+#!   CONTENTS="104 95 96 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="103"
+#!   NAME="Join in codes"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="4679.73 2260.66"
+#!   BOTTOM_RIGHT="8051.22 945.947"
+#!   BOUNDING_RECT="4679.73 2260.66 3371.49 1314.72"
+#!   STICKY="true"
+#!   COLOUR="0.137255,0.682353,0.0666667"
+#!   CONTENTS="165 205 100 185 95 183 206 96 102 163 98 204 99 174 169 199 193 170 162 117 200 203 93 101 159 104 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="105"
+#!   NAME="Read geometry"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="1680.8 2775.4"
+#!   BOTTOM_RIGHT="3478.42 27.4387"
+#!   BOUNDING_RECT="1680.8 2775.4 1797.62 2747.96"
+#!   STICKY="true"
+#!   COLOUR="0.439216,0.403922,0.831373"
+#!   CONTENTS="179 14 18 10 181 20 177 190 108 110 31 21 7 2 191 126 160 23 192 180 186 16 109 19 38 176 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -957,8 +990,8 @@
 #!   IDENTIFIER="101"
 #!   TYPE="DatabaseJoiner"
 #!   VERSION="6"
-#!   POSITION="6511.77 1375.69"
-#!   BOUNDING_RECT="6511.77 1375.69 -1 -1"
+#!   POSITION="6531.3 1816.63"
+#!   BOUNDING_RECT="6531.3 1816.63 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1018,8 +1051,8 @@
 #!   IDENTIFIER="102"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="7120.45 882.087"
-#!   BOUNDING_RECT="7120.45 882.087 -1 -1"
+#!   POSITION="6530.6 1499.28"
+#!   BOUNDING_RECT="6530.6 1499.28 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1065,8 +1098,8 @@
 #!   IDENTIFIER="133"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="7824.07 2067.03"
-#!   BOUNDING_RECT="7824.07 2067.03 -1 -1"
+#!   POSITION="7487.43 619.48"
+#!   BOUNDING_RECT="7487.43 619.48 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1095,8 +1128,8 @@
 #!   IDENTIFIER="123"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="8061.82 1341.25"
-#!   BOUNDING_RECT="8061.82 1341.25 -1 -1"
+#!   POSITION="8350.88 56.9749"
+#!   BOUNDING_RECT="8350.88 56.9749 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1186,8 +1219,8 @@
 #!   IDENTIFIER="124"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="8061.82 810.617"
-#!   BOUNDING_RECT="8061.82 810.617 -1 -1"
+#!   POSITION="8350.88 -473.655"
+#!   BOUNDING_RECT="8350.88 -473.655 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1241,8 +1274,8 @@
 #!   IDENTIFIER="125"
 #!   TYPE="AttributeSplitter"
 #!   VERSION="3"
-#!   POSITION="7824.07 1920.37"
-#!   BOUNDING_RECT="7824.07 1920.37 -1 -1"
+#!   POSITION="7487.43 472.82"
+#!   BOUNDING_RECT="7487.43 472.82 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1271,8 +1304,8 @@
 #!   IDENTIFIER="134"
 #!   TYPE="ListExploder"
 #!   VERSION="6"
-#!   POSITION="7824.07 1758.39"
-#!   BOUNDING_RECT="7824.07 1758.39 -1 -1"
+#!   POSITION="7487.43 310.84"
+#!   BOUNDING_RECT="7487.43 310.84 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1314,8 +1347,8 @@
 #!   IDENTIFIER="136"
 #!   TYPE="JSONTemplater"
 #!   VERSION="0"
-#!   POSITION="8857.22 942.087"
-#!   BOUNDING_RECT="8857.22 942.087 -1 -1"
+#!   POSITION="9400.19 -432.185"
+#!   BOUNDING_RECT="9400.19 -432.185 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1344,8 +1377,8 @@
 #!   IDENTIFIER="142"
 #!   TYPE="ListBuilder"
 #!   VERSION="2"
-#!   POSITION="8857.22 1089.55"
-#!   BOUNDING_RECT="8857.22 1089.55 -1 -1"
+#!   POSITION="9400.19 -284.725"
+#!   BOUNDING_RECT="9400.19 -284.725 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1367,8 +1400,8 @@
 #!   IDENTIFIER="143"
 #!   TYPE="JSONTemplater"
 #!   VERSION="0"
-#!   POSITION="8823.12 1325.15"
-#!   BOUNDING_RECT="8823.12 1325.15 -1 -1"
+#!   POSITION="9366.09 -49.1251"
+#!   BOUNDING_RECT="9366.09 -49.1251 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1409,8 +1442,8 @@
 #!   IDENTIFIER="130"
 #!   TYPE="AreaCalculator"
 #!   VERSION="2"
-#!   POSITION="7147.98 404.467"
-#!   BOUNDING_RECT="7147.98 404.467 -1 -1"
+#!   POSITION="7498.32 -184.846"
+#!   BOUNDING_RECT="7498.32 -184.846 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1442,8 +1475,8 @@
 #!   IDENTIFIER="156"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="7192 -34.8681"
-#!   BOUNDING_RECT="7192 -34.8681 -1 -1"
+#!   POSITION="7542.35 -624.181"
+#!   BOUNDING_RECT="7542.35 -624.181 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1469,8 +1502,8 @@
 #!   IDENTIFIER="167"
 #!   TYPE="GeometryRemover"
 #!   VERSION="0"
-#!   POSITION="3937.94 1336.67"
-#!   BOUNDING_RECT="3937.94 1336.67 -1 -1"
+#!   POSITION="3894.97 1414.79"
+#!   BOUNDING_RECT="3894.97 1414.79 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1492,8 +1525,8 @@
 #!   IDENTIFIER="172"
 #!   TYPE="PointOnAreaOverlayer"
 #!   VERSION="7"
-#!   POSITION="3885.05 2010.21"
-#!   BOUNDING_RECT="3885.05 2010.21 -1 -1"
+#!   POSITION="3842.08 2088.34"
+#!   BOUNDING_RECT="3842.08 2088.34 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1550,8 +1583,8 @@
 #!   IDENTIFIER="164"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="3928.93 1069.92"
-#!   BOUNDING_RECT="3928.93 1069.92 -1 -1"
+#!   POSITION="3894.97 1245.7"
+#!   BOUNDING_RECT="3894.97 1245.7 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1577,8 +1610,8 @@
 #!   IDENTIFIER="155"
 #!   TYPE="GeometryRemover"
 #!   VERSION="0"
-#!   POSITION="7183.87 185.197"
-#!   BOUNDING_RECT="7183.87 185.197 -1 -1"
+#!   POSITION="7534.21 -404.116"
+#!   BOUNDING_RECT="7534.21 -404.116 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1598,8 +1631,8 @@
 #!   IDENTIFIER="183"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="5622.54 1429.73"
-#!   BOUNDING_RECT="5622.54 1429.73 -1 -1"
+#!   POSITION="5626.44 1468.79"
+#!   BOUNDING_RECT="5626.44 1468.79 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1697,8 +1730,8 @@
 #!   IDENTIFIER="115"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="3930.9 1580.82"
-#!   BOUNDING_RECT="3930.9 1580.82 -1 -1"
+#!   POSITION="3887.93 1658.94"
+#!   BOUNDING_RECT="3887.93 1658.94 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1777,8 +1810,8 @@
 #!   IDENTIFIER="193"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="6488.33 1890.21"
-#!   BOUNDING_RECT="6488.33 1890.21 -1 -1"
+#!   POSITION="6487.63 2040.31"
+#!   BOUNDING_RECT="6487.63 2040.31 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1996,8 +2029,8 @@
 #!   IDENTIFIER="162"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="5641.43 1173.79"
-#!   BOUNDING_RECT="5641.43 1173.79 -1 -1"
+#!   POSITION="5641.43 1271.45"
+#!   BOUNDING_RECT="5641.43 1271.45 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2018,8 +2051,8 @@
 #!   IDENTIFIER="95"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="7120.45 1341.25"
-#!   BOUNDING_RECT="7120.45 1341.25 -1 -1"
+#!   POSITION="7413.43 1522.85"
+#!   BOUNDING_RECT="7413.43 1522.85 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2046,8 +2079,8 @@
 #!   IDENTIFIER="96"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="7120.45 1953.14"
-#!   BOUNDING_RECT="7120.45 1953.14 -1 -1"
+#!   POSITION="7390 2056.63"
+#!   BOUNDING_RECT="7390 2056.63 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2067,18 +2100,18 @@
 #!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="code_na" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="code_ar" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id_na" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
@@ -2204,7 +2237,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="97"
 #!   SOURCE_NODE="95"
-#!   TARGET_NODE="102"
+#!   TARGET_NODE="133"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2224,17 +2257,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="103"
-#!   SOURCE_NODE="101"
-#!   TARGET_NODE="96"
-#!   SOURCE_PORT_DESC="fo 0 JOINED"
-#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="114"
 #!   SOURCE_NODE="102"
 #!   TARGET_NODE="133"
@@ -2242,6 +2264,17 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="99"
+#!   SOURCE_NODE="102"
+#!   TARGET_NODE="96"
+#!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2913,8 +2946,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460947_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460958_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460958_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460958_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460958_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_9c5c6fdb_9c12_47c6_9b2b_ea1ae71f460958_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter LINE Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_LINE
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter AREA Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_AREA
@@ -2969,9 +3002,9 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer_4    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764329_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764340_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_4_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code_ar,geometry_id_na,code_na,fme_pcre_match,"^fme_$(AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764329_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_4_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,code_ar,geometry_id_na,code_na,fme_pcre_match,"^fme_$(AttributeKeeper_fe02229b_0b93_423b_ba22_d282988c764340_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
@@ -2985,14 +3018,20 @@ MACRO DatabaseJoiner_5_DIRECTIVES PASSWORD "$(config_pass)" USER_NAME "$(config_
 
 INCLUDE [    if { {MATCH_ALL} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_5_ONE_FEATURE_PER_JOIN NO};    } else {       puts {MACRO DatabaseJoiner_5_ONE_FEATURE_PER_JOIN YES};    } ]
 FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner_5    INPUT  FEATURE_TYPE Aggregator_2_AGGREGATE_1_GwHKCdIwyqw=    READER_TYPE             POSTGRES    READER_DATASET          "$(config_db$encode)"    TABLE_ID                "data.codeshierarchy"    READER_PARAMS           $(DatabaseJoiner_5_DIRECTIVES)    JOIN_KEYS               code_na<space>successor    ADDED_FIELDS            predecessor    COMBINE_ATTRIBUTES      PREFER_ORIGINAL    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_5_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner_5"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_5_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_5_<REJECTED>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "DatabaseJoiner_5 JOINED Splitter"   INPUT FEATURE_TYPE DatabaseJoiner_5_JOINED   OUTPUT FEATURE_TYPE DatabaseJoiner_5_JOINED_0_oYFxrnuzto0=   OUTPUT FEATURE_TYPE DatabaseJoiner_5_JOINED_1_Z3YqEduapMM=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_5_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner_5<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
+DEFAULT_MACRO Aggregator_5_BREAK_ATTR
+INCLUDE [if {"No" == "Yes"} {puts {MACRO Aggregator_5_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE predecessor} }]
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_5    INPUT  FEATURE_TYPE DatabaseJoiner_5_JOINED    MODE ONE_LEVEL    GROUP_BY predecessor    $(Aggregator_5_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES All    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS code_ar geometry_id_na code_na    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_5_AGGREGATE
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Aggregator_5 AGGREGATE Splitter"   INPUT FEATURE_TYPE Aggregator_5_AGGREGATE   OUTPUT FEATURE_TYPE Aggregator_5_AGGREGATE_0_vywvKzXBjCo=   OUTPUT FEATURE_TYPE Aggregator_5_AGGREGATE_1_fzbakfX5RHc=
+# -------------------------------------------------------------------------
+
 INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_4_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
 
-FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_4    INPUT REFERENCER FEATURE_TYPE Aggregator_2_AGGREGATE_0_Ki45vvC/Bu8=    INPUT REFERENCEE FEATURE_TYPE DatabaseJoiner_5_JOINED_1_Z3YqEduapMM=    CONNECT_Z_MODE FIRST_WINS    REFERENCE_INFO $(FeatureMerger_4_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>code_na<closeparen>,FeatureMerger_4) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>predecessor<closeparen>,FeatureMerger_4) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES Yes    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_4_UNMERGED_REQUESTOR    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_4_<REJECTED>
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_4    INPUT REFERENCER FEATURE_TYPE Aggregator_2_AGGREGATE_0_Ki45vvC/Bu8=    INPUT REFERENCEE FEATURE_TYPE Aggregator_5_AGGREGATE_1_fzbakfX5RHc=    CONNECT_Z_MODE FIRST_WINS    REFERENCE_INFO $(FeatureMerger_4_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>code_na<closeparen>,FeatureMerger_4) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>predecessor<closeparen>,FeatureMerger_4) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES Yes    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_4_UNMERGED_REQUESTOR    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_4_<REJECTED>
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_4_<Rejected> INPUT FEATURE_TYPE FeatureMerger_4_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_4<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -3003,20 +3042,14 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEAT
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO Aggregator_5_BREAK_ATTR
-INCLUDE [if {"No" == "Yes"} {puts {MACRO Aggregator_5_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE predecessor} }]
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_5    INPUT  FEATURE_TYPE DatabaseJoiner_5_JOINED_0_oYFxrnuzto0=    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    MODE ONE_LEVEL    GROUP_BY predecessor    $(Aggregator_5_BREAK_ATTR)    REMOVE_GEOMETRY YES    ACCUMULATE_ATTRIBUTES All    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS code_ar geometry_id_na code_na    SEPARATOR <comma>    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_5_AGGREGATE
-
-# -------------------------------------------------------------------------
-
 
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE Aggregator_5_AGGREGATE    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>findUnique<openparen>_self<comma><space>feature<comma><space>attribute<closeparen>:<lf><space><space><space><space><space><space><space><space>naDict<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space>for<space>na<space>in<space>feature.getAttribute<openparen>attribute<closeparen>.split<openparen><apos><comma><apos><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>naDict<openbracket>na<closebracket><space>=<space>True<lf><space><space><space><space><space><space><space><space>naString<space>=<space><quote><quote><lf><space><space><space><space><space><space><space><space>for<space>na<space>in<space>naDict.keys<openparen><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>naString<space>+=<space>na<space>+<space><apos><comma><apos><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen>attribute<comma><space>naString<openbracket>:-1<closebracket><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>_count_<apos><space>+<space>attribute<comma><space>len<openparen>naDict.keys<openparen><closeparen><closeparen><closeparen><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>#self.findUnique<openparen>feature<comma><space><apos>na<apos><closeparen><lf><space><space><space><space><space><space><space><space>self.findUnique<openparen>feature<comma><space><apos>code_ar<apos><closeparen><lf><space><space><space><space><space><space><space><space>self.findUnique<openparen>feature<comma><space><apos>geometry_id_na<apos><closeparen><lf><space><space><space><space><space><space><space><space>#self.findUnique<openparen>feature<comma><space><apos>geometry_ar<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE Aggregator_5_AGGREGATE_0_vywvKzXBjCo=    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>findUnique<openparen>_self<comma><space>feature<comma><space>attribute<closeparen>:<lf><space><space><space><space><space><space><space><space>naDict<space>=<space><opencurly><closecurly><lf><space><space><space><space><space><space><space><space>for<space>na<space>in<space>feature.getAttribute<openparen>attribute<closeparen>.split<openparen><apos><comma><apos><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>naDict<openbracket>na<closebracket><space>=<space>True<lf><space><space><space><space><space><space><space><space>naString<space>=<space><quote><quote><lf><space><space><space><space><space><space><space><space>for<space>na<space>in<space>naDict.keys<openparen><closeparen>:<lf><space><space><space><space><space><space><space><space><space><space><space><space>naString<space>+=<space>na<space>+<space><apos><comma><apos><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen>attribute<comma><space>naString<openbracket>:-1<closebracket><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>_count_<apos><space>+<space>attribute<comma><space>len<openparen>naDict.keys<openparen><closeparen><closeparen><closeparen><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>#self.findUnique<openparen>feature<comma><space><apos>na<apos><closeparen><lf><space><space><space><space><space><space><space><space>self.findUnique<openparen>feature<comma><space><apos>code_ar<apos><closeparen><lf><space><space><space><space><space><space><space><space>self.findUnique<openparen>feature<comma><space><apos>geometry_id_na<apos><closeparen><lf><space><space><space><space><space><space><space><space>#self.findUnique<openparen>feature<comma><space><apos>geometry_ar<apos><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
 
 # -------------------------------------------------------------------------
 
-Tcl2 set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim]] }      {         set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim;            set delim [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2147_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+Tcl2 set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitDelim [FME_DecodeText {<comma>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitDelim]] }      {         set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitWidths [split [regsub -all {s$} {<comma>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set attrNum 0;            set listName [FME_DecodeText {_list_geometry_na}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitDelim;            set delim [set AttributeSplitter_89f11f77_6874_4498_8162_494d58090c2158_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {geometry_id_na}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list_geometry_na}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE PythonCaller_OUTPUT    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
 
 # -------------------------------------------------------------------------
