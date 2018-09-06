@@ -13,15 +13,15 @@
 #!   FME_REPROJECTION_ENGINE="FME"
 #!   PYTHON_COMPATIBILITY="27"
 #!   SOURCE_ROUTING_FILE=""
-#!   DOC_EXTENTS="10847.8 3586.62"
+#!   DOC_EXTENTS="10792.6 4360.24"
 #!   MAX_LOG_FEATURES="200"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   DOC_TOP_LEFT="8 995.38"
+#!   DOC_TOP_LEFT="8 221.761"
 #!   USAGE=""
 #!   DESTINATION_ROUTING_FILE=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   ZOOM_SCALE="68"
-#!   VIEW_POSITION="942.105 4701.33"
+#!   VIEW_POSITION="942.105 3694.89"
 #!   HISTORY=""
 #!   LOG_FILE=""
 #!   BEGIN_TCL=""
@@ -38,7 +38,7 @@
 #!   FME_BUILD_NUM="17539"
 #!   TITLE=""
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   LAST_SAVE_DATE="2018-09-06T11:22:42"
+#!   LAST_SAVE_DATE="2018-09-06T11:47:49"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   REDIRECT_TERMINATORS="NONE"
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -341,8 +341,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="10341.4 2341.24"
-#!   BOUNDING_RECT="10341.4 2341.24 -1 -1"
+#!   POSITION="10286.2 517.948"
+#!   BOUNDING_RECT="10286.2 517.948 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOJSON_1"
@@ -408,9 +408,9 @@
 #!   IDENTIFIER="51"
 #!   NAME="Read geometry"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="875.057 2032.97"
-#!   BOTTOM_RIGHT="2732.06 1266.97"
-#!   BOUNDING_RECT="875.057 2032.97 1857 766"
+#!   TOP_LEFT="835.994 2005.4"
+#!   BOTTOM_RIGHT="2692.99 1239.4"
+#!   BOUNDING_RECT="835.994 2005.4 1857 766"
 #!   STICKY="true"
 #!   COLOUR="0.666667,0.0392157,0.376471"
 #!   CONTENTS="45 3 47 "
@@ -419,9 +419,9 @@
 #!   IDENTIFIER="52"
 #!   NAME="Calculate area"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="3120.96 2192.83"
-#!   BOTTOM_RIGHT="4589.6 1077.01"
-#!   BOUNDING_RECT="3120.96 2192.83 1468.64 1115.82"
+#!   TOP_LEFT="6553.9 1372.98"
+#!   BOTTOM_RIGHT="8022.54 257.152"
+#!   BOUNDING_RECT="6553.9 1372.98 1468.64 1115.82"
 #!   STICKY="true"
 #!   COLOUR="0.54902,0.34902,0.756863"
 #!   CONTENTS="107 104 50 105 70 71 55 49 77 "
@@ -430,9 +430,9 @@
 #!   IDENTIFIER="58"
 #!   NAME="Get name for AO and VV"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="9259.53 3207.27"
-#!   BOTTOM_RIGHT="10044.4 2051.91"
-#!   BOUNDING_RECT="9259.53 3207.27 784.841 1155.36"
+#!   TOP_LEFT="9204.38 1383.97"
+#!   BOTTOM_RIGHT="9989.22 228.611"
+#!   BOUNDING_RECT="9204.38 1383.97 784.841 1155.36"
 #!   STICKY="true"
 #!   COLOUR="0.286275,0.447059,0.266667"
 #!   CONTENTS="80 136 137 122 143 "
@@ -441,9 +441,9 @@
 #!   IDENTIFIER="72"
 #!   NAME="Round coordinates"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="8186.94 3207.27"
-#!   BOTTOM_RIGHT="9203.98 2384.89"
-#!   BOUNDING_RECT="8186.94 3207.27 1017.04 822.377"
+#!   TOP_LEFT="8113.41 1383.97"
+#!   BOTTOM_RIGHT="9130.45 561.596"
+#!   BOUNDING_RECT="8113.41 1383.97 1017.04 822.377"
 #!   STICKY="true"
 #!   COLOUR="0.376471,0.87451,0.184314"
 #!   CONTENTS="68 15 73 "
@@ -452,9 +452,9 @@
 #!   IDENTIFIER="82"
 #!   NAME="Write files per predecessor"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="10087.8 3207.27"
-#!   BOTTOM_RIGHT="10855.8 2045.06"
-#!   BOUNDING_RECT="10087.8 3207.27 767.965 1162.21"
+#!   TOP_LEFT="10032.7 1383.97"
+#!   BOTTOM_RIGHT="10800.6 221.761"
+#!   BOUNDING_RECT="10032.7 1383.97 767.965 1162.21"
 #!   STICKY="true"
 #!   COLOUR="0.227451,0.47451,0.219608"
 #!   CONTENTS="37 2 133 126 111 "
@@ -463,23 +463,23 @@
 #!   IDENTIFIER="86"
 #!   NAME="Merge code and geometry"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="6067.99 4008.87"
-#!   BOTTOM_RIGHT="7891.61 2002.31"
-#!   BOUNDING_RECT="6067.99 4008.87 1823.62 2006.56"
+#!   TOP_LEFT="4634.16 2657.75"
+#!   BOTTOM_RIGHT="6457.77 1484.39"
+#!   BOUNDING_RECT="4634.16 2657.75 1823.62 1173.36"
 #!   STICKY="true"
 #!   COLOUR="0.929412,0.839216,0.639216"
-#!   CONTENTS="131 98 132 127 116 134 135 99 146 140 "
+#!   CONTENTS="131 98 132 134 146 135 140 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="74"
 #!   NAME="Initiate"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="8 4582"
-#!   BOTTOM_RIGHT="2812.53 1290"
-#!   BOUNDING_RECT="8 4582 2804.53 3292"
+#!   BOTTOM_RIGHT="2812.53 1199.46"
+#!   BOUNDING_RECT="8 4582 2804.53 3382.54"
 #!   STICKY="true"
 #!   COLOUR="0.721569,0.803922,0.109804"
-#!   CONTENTS="100 87 65 92 5 75 94 46 64 95 102 66 60 103 93 101 119 123 47 3 84 45 "
+#!   CONTENTS="100 87 65 92 5 75 94 46 64 95 51 102 66 60 103 93 101 119 123 47 3 84 45 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="75"
@@ -540,42 +540,31 @@
 #!   IDENTIFIER="129"
 #!   NAME="Remove other successors"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="4736.99 4238.01"
-#!   BOTTOM_RIGHT="5300.4 3660.93"
-#!   BOUNDING_RECT="4736.99 4238.01 563.41 577.08"
+#!   TOP_LEFT="4787.54 3389.61"
+#!   BOTTOM_RIGHT="5350.95 2812.53"
+#!   BOUNDING_RECT="4787.54 3389.61 563.41 577.08"
 #!   STICKY="true"
 #!   COLOUR="0.662745,0.419608,0.286275"
 #!   CONTENTS="76 112 125 "
 #! />
 #! <BOOKMARK
-#!   IDENTIFIER="130"
-#!   NAME="Geometry-operations"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="3015.4 2531.71"
-#!   BOTTOM_RIGHT="5893.7 995.38"
-#!   BOUNDING_RECT="3015.4 2531.71 2878.3 1536.33"
-#!   STICKY="true"
-#!   COLOUR="0.396078,0.121569,0.670588"
-#!   CONTENTS="63 77 49 104 115 70 97 50 55 71 108 114 107 105 52 "
-#! />
-#! <BOOKMARK
 #!   IDENTIFIER="115"
 #!   NAME="Merge and aggregate on code"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="4736.99 2433.17"
-#!   BOTTOM_RIGHT="5836.41 1837.17"
-#!   BOUNDING_RECT="4736.99 2433.17 1099.42 596"
+#!   TOP_LEFT="3027.41 2557.43"
+#!   BOTTOM_RIGHT="4315.3 1792.3"
+#!   BOUNDING_RECT="3027.41 2557.43 1287.89 765.133"
 #!   STICKY="true"
 #!   COLOUR="0.937255,0.784314,0.992157"
-#!   CONTENTS="114 63 97 "
+#!   CONTENTS="114 63 97 116 99 117 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="146"
 #!   NAME="Get remaining codes"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="7065.99 3917.78"
-#!   BOTTOM_RIGHT="7833.74 3279.69"
-#!   BOUNDING_RECT="7065.99 3917.78 767.755 638.086"
+#!   TOP_LEFT="5632.15 2566.66"
+#!   BOTTOM_RIGHT="6399.9 1928.58"
+#!   BOUNDING_RECT="5632.15 2566.66 767.755 638.086"
 #!   STICKY="true"
 #!   COLOUR="0.666667,0.34902,0.866667"
 #!   CONTENTS="140 "
@@ -584,9 +573,9 @@
 #!   IDENTIFIER="99"
 #!   NAME="Find predecessors for code"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="6144.9 2495.71"
-#!   BOTTOM_RIGHT="6740.9 2121.21"
-#!   BOUNDING_RECT="6144.9 2495.71 596 374.5"
+#!   TOP_LEFT="3646.84 2277.1"
+#!   BOTTOM_RIGHT="4242.84 1902.6"
+#!   BOUNDING_RECT="3646.84 2277.1 596 374.5"
 #!   STICKY="true"
 #!   COLOUR="0.796078,0.298039,0.439216"
 #!   CONTENTS="116 "
@@ -597,8 +586,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="FeatureReader"
 #!   VERSION="9"
-#!   POSITION="1567.06 1800.72"
-#!   BOUNDING_RECT="1567.06 1800.72 -1 -1"
+#!   POSITION="1528 1773.15"
+#!   BOUNDING_RECT="1528 1773.15 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -714,8 +703,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="CoordinateRounder"
 #!   VERSION="3"
-#!   POSITION="8438.51 3048.06"
-#!   BOUNDING_RECT="8438.51 3048.06 -1 -1"
+#!   POSITION="8364.98 1224.76"
+#!   BOUNDING_RECT="8364.98 1224.76 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -724,19 +713,8 @@
 #!     <OUTPUT_FEAT NAME="ROUNDED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateRounder"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ZPREC" PARM_VALUE="7"/>
@@ -748,8 +726,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="10309.2 3048.06"
-#!   BOUNDING_RECT="10309.2 3048.06 -1 -1"
+#!   POSITION="10254.1 1224.76"
+#!   BOUNDING_RECT="10254.1 1224.76 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -760,17 +738,8 @@
 #!     <XFORM_ATTR ATTR_NAME="area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -780,8 +749,8 @@
 #!   IDENTIFIER="45"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="1017.06 1688.47"
-#!   BOUNDING_RECT="1017.06 1688.47 -1 -1"
+#!   POSITION="977.997 1660.9"
+#!   BOUNDING_RECT="977.997 1660.9 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -807,8 +776,8 @@
 #!   IDENTIFIER="49"
 #!   TYPE="AreaCalculator"
 #!   VERSION="2"
-#!   POSITION="3320.37 1736.93"
-#!   BOUNDING_RECT="3320.37 1736.93 -1 -1"
+#!   POSITION="6753.31 917.072"
+#!   BOUNDING_RECT="6753.31 917.072 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -816,15 +785,13 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="AREA_TYPE" PARM_VALUE="Plane Area"/>
@@ -838,8 +805,8 @@
 #!   IDENTIFIER="50"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="3301.3 1925.47"
-#!   BOUNDING_RECT="3301.3 1925.47 -1 -1"
+#!   POSITION="6734.23 1105.61"
+#!   BOUNDING_RECT="6734.23 1105.61 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -847,9 +814,8 @@
 #! >
 #!     <OUTPUT_FEAT NAME="REPROJECTED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE="EPSG:4326"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
@@ -992,8 +958,8 @@
 #!   IDENTIFIER="63"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="4786.99 2343.17"
-#!   BOUNDING_RECT="4786.99 2343.17 -1 -1"
+#!   POSITION="3077.41 2467.43"
+#!   BOUNDING_RECT="3077.41 2467.43 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1006,7 +972,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1017,14 +982,12 @@
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1032,7 +995,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
@@ -1061,8 +1023,8 @@
 #!   IDENTIFIER="70"
 #!   TYPE="Logger"
 #!   VERSION="3"
-#!   POSITION="3276.24 1276.28"
-#!   BOUNDING_RECT="3276.24 1276.28 -1 -1"
+#!   POSITION="6709.17 456.424"
+#!   BOUNDING_RECT="6709.17 456.424 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1070,9 +1032,8 @@
 #! >
 #!     <OUTPUT_FEAT NAME="LOGGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
@@ -1087,8 +1048,8 @@
 #!   IDENTIFIER="68"
 #!   TYPE="AttributeRounder"
 #!   VERSION="3"
-#!   POSITION="8452.84 2761.63"
-#!   BOUNDING_RECT="8452.84 2761.63 -1 -1"
+#!   POSITION="8379.31 938.339"
+#!   BOUNDING_RECT="8379.31 938.339 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1097,35 +1058,13 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ROUND_TYPE" PARM_VALUE="Nearest"/>
 #!     <XFORM_PARM PARM_NAME="PLACES" PARM_VALUE="0"/>
@@ -1161,8 +1100,8 @@
 #!   IDENTIFIER="76"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="4810.99 4148.01"
-#!   BOUNDING_RECT="4810.99 4148.01 -1 -1"
+#!   POSITION="4861.54 3299.61"
+#!   BOUNDING_RECT="4861.54 3299.61 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1579,8 +1518,8 @@
 #!   IDENTIFIER="98"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="6310.9 3432.55"
-#!   BOUNDING_RECT="6310.9 3432.55 -1 -1"
+#!   POSITION="4861.54 2419.58"
+#!   BOUNDING_RECT="4861.54 2419.58 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1593,7 +1532,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1609,7 +1547,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1639,7 +1576,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1703,8 +1639,8 @@
 #!   IDENTIFIER="104"
 #!   TYPE="GeometryRemover"
 #!   VERSION="0"
-#!   POSITION="3342.09 1512.45"
-#!   BOUNDING_RECT="3342.09 1512.45 -1 -1"
+#!   POSITION="6775.03 692.596"
+#!   BOUNDING_RECT="6775.03 692.596 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1712,9 +1648,8 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryRemover"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -1723,8 +1658,8 @@
 #!   IDENTIFIER="71"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="4013.66 2070.65"
-#!   BOUNDING_RECT="4013.66 2070.65 -1 -1"
+#!   POSITION="7446.6 1250.8"
+#!   BOUNDING_RECT="7446.6 1250.8 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1732,33 +1667,28 @@
 #! >
 #!     <OUTPUT_FEAT NAME="MERGED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1769,7 +1699,7 @@
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;first_successor&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;first_successor&lt;closeparen&gt; AUTO"/>
 #!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
@@ -1811,8 +1741,8 @@
 #!   IDENTIFIER="125"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="4820.4 3806.93"
-#!   BOUNDING_RECT="4820.4 3806.93 -1 -1"
+#!   POSITION="4870.95 2958.53"
+#!   BOUNDING_RECT="4870.95 2958.53 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1836,8 +1766,8 @@
 #!   IDENTIFIER="80"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="9449.71 3048.06"
-#!   BOUNDING_RECT="9449.71 3048.06 -1 -1"
+#!   POSITION="9394.56 1224.76"
+#!   BOUNDING_RECT="9394.56 1224.76 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1846,40 +1776,18 @@
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Substring&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;predecessor&lt;closeparen&gt;&lt;comma&gt;0&lt;comma&gt;2&lt;closeparen&gt; = VV&#10;TEST &lt;at&gt;Substring&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;predecessor&lt;closeparen&gt;&lt;comma&gt;0&lt;comma&gt;2&lt;closeparen&gt; = AO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Substring&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;first_predecessor&lt;closeparen&gt;&lt;comma&gt;0&lt;comma&gt;2&lt;closeparen&gt; = VV&#10;TEST &lt;at&gt;Substring&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;first_predecessor&lt;closeparen&gt;&lt;comma&gt;0&lt;comma&gt;2&lt;closeparen&gt; = AO"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #! </TRANSFORMER>
@@ -1887,8 +1795,8 @@
 #!   IDENTIFIER="97"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="5356.41 2343.17"
-#!   BOUNDING_RECT="5356.41 2343.17 -1 -1"
+#!   POSITION="3646.84 2467.43"
+#!   BOUNDING_RECT="3646.84 2467.43 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1901,7 +1809,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
@@ -1935,8 +1842,8 @@
 #!   IDENTIFIER="140"
 #!   TYPE="FeatureMerger"
 #!   VERSION="17"
-#!   POSITION="7170.15 3846.83"
-#!   BOUNDING_RECT="7170.15 3846.83 -1 -1"
+#!   POSITION="5736.32 2495.71"
+#!   BOUNDING_RECT="5736.32 2495.71 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1949,7 +1856,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1965,7 +1871,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1995,7 +1900,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2032,8 +1936,8 @@
 #!   IDENTIFIER="116"
 #!   TYPE="DatabaseJoiner"
 #!   VERSION="6"
-#!   POSITION="6260.9 2387.21"
-#!   BOUNDING_RECT="6260.9 2387.21 -1 -1"
+#!   POSITION="3762.84 2168.6"
+#!   BOUNDING_RECT="3762.84 2168.6 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2046,7 +1950,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2057,7 +1960,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
@@ -2066,7 +1968,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="JOIN_GROUP" PARM_VALUE=""/>
@@ -2103,8 +2004,8 @@
 #!   IDENTIFIER="134"
 #!   TYPE="Aggregator"
 #!   VERSION="14"
-#!   POSITION="7403.74 2724.09"
-#!   BOUNDING_RECT="7403.74 2724.09 -1 -1"
+#!   POSITION="5914.76 1777.39"
+#!   BOUNDING_RECT="5914.76 1777.39 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2113,7 +2014,6 @@
 #!     <OUTPUT_FEAT NAME="AGGREGATE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2152,15 +2052,15 @@
 #!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE="_area"/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="136"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="9478.69 2721.14"
-#!   BOUNDING_RECT="9478.69 2721.14 -1 -1"
+#!   POSITION="9423.55 897.84"
+#!   BOUNDING_RECT="9423.55 897.84 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2170,26 +2070,15 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; title SET_TO &lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; title SET_TO &lt;at&gt;Value&lt;openparen&gt;first_successor&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
@@ -2198,8 +2087,8 @@
 #!   IDENTIFIER="111"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="10318.2 2693.04"
-#!   BOUNDING_RECT="10318.2 2693.04 -1 -1"
+#!   POSITION="10263.1 869.746"
+#!   BOUNDING_RECT="10263.1 869.746 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2221,8 +2110,8 @@
 #!   IDENTIFIER="143"
 #!   TYPE="DatabaseJoiner"
 #!   VERSION="6"
-#!   POSITION="9510.03 2449.36"
-#!   BOUNDING_RECT="9510.03 2449.36 -1 -1"
+#!   POSITION="9454.88 626.06"
+#!   BOUNDING_RECT="9454.88 626.06 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2231,60 +2120,30 @@
 #!     <OUTPUT_FEAT NAME="JOINED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="title" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="UNJOINED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="successor" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="level_predecessor" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="level_successor" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="JOIN_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PREFETCH_EXHAUSTIVE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Joined"/>
 #!     <XFORM_PARM PARM_NAME="TABLE" PARM_VALUE="data.codes"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="JOINED_ATTRIBUTE_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="successor&lt;space&gt;code"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="first_successor&lt;space&gt;code"/>
 #!     <XFORM_PARM PARM_NAME="MATCHED_ATTR_NAME" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="JOINED_LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
@@ -2307,6 +2166,27 @@
 #!     <XFORM_PARM PARM_NAME="OPTIMIZE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRIM_KEY_FIELDS_DISPLAY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="130"
+#!   TYPE="AttributeKeeper"
+#!   VERSION="3"
+#!   POSITION="6588.24 1777.39"
+#!   BOUNDING_RECT="6588.24 1777.39 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="first_successor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="first_predecessor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="KEEP_ATTRS" PARM_VALUE="first_predecessor,first_successor"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_2"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="KEEP_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2465,11 +2345,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="108"
+#!   IDENTIFIER="118"
 #!   SOURCE_NODE="71"
-#!   TARGET_NODE="63"
+#!   TARGET_NODE="15"
 #!   SOURCE_PORT_DESC="fo 0 MERGED"
-#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2641,9 +2521,31 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="142"
+#!   IDENTIFIER="141"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="50"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="144"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="71"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="139"
 #!   SOURCE_NODE="134"
-#!   TARGET_NODE="15"
+#!   TARGET_NODE="130"
 #!   SOURCE_PORT_DESC="fo 0 AGGREGATE"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2685,24 +2587,13 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="78"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="50"
-#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;OTHER&lt;gt&gt;"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="106"
 #!   SOURCE_NODE="3"
-#!   TARGET_NODE="71"
+#!   TARGET_NODE="63"
 #!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;OTHER&lt;gt&gt;"
-#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
 #!   ENABLED="true"
-#!   EXECUTION_IDX="1"
+#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -3082,45 +2973,13 @@ DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
 INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS MERGE";       };    ]
 FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    $(FCTQUERY_INTERACTION_LINE)    QUERY_WHERE         "dataset_id<space>!=<space>6"    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         POSTGIS    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),FeatureReader)"    QUERYFCT_IDS        "data.geometry"    READER_DIRECTIVES META_MACROS,SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS<comma>Yes<comma>SourceDISABLE_COLLECTION_SPLITTING<comma>yes<comma>SourceUSE_TRUE_POSTGIS_TYPES<comma>yes<comma>SourceFME_CONNECTION_GROUP<comma><comma>SourceSCHEMAS_FOR_TABLE_LISTING<comma><comma>SourceEXPOSE_ATTRS_GROUP<comma>FME_DISCLOSURE_OPEN<comma>SourcePOSTGIS_EXPOSE_FORMAT_ATTRS<comma><quote>postgres_oid<comma>int4<quote><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO<comma>SourceSEARCH_METHOD<comma>MBR_OVERLAPS<comma>SourceADVANCED<comma>FME_DISCLOSURE_OPEN<comma>SourceFEATURES_PER_FETCH<comma>10000<comma>SourceBEGIN_SQL<comma><comma>SourceEND_SQL<comma><comma>SourceHOST<comma><dollar><openparen>config_host<closeparen><comma>SourcePORT<comma><dollar><openparen>config_port<closeparen><comma>SourceUSER_NAME<comma><dollar><openparen>config_user<closeparen><comma>SourcePASSWORD<comma><dollar><openparen>config_pass<closeparen>,METAFILE,POSTGIS    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_<OTHER>    OUTPUT READER_ERROR FEATURE_TYPE FeatureReader_<REJECTED>
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader <OTHER> Splitter"   INPUT FEATURE_TYPE FeatureReader_<OTHER>   OUTPUT FEATURE_TYPE FeatureReader_<OTHER>_0_JwC3S+Jx1+M=   OUTPUT FEATURE_TYPE FeatureReader_<OTHER>_1_6ZE0OVyQIF4=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-# Wipe out the source setting if it was untouched from the default setting
-
-DEFAULT_MACRO Reprojector_SOURCE "EPSG:4326"
-INCLUDE [if { {EPSG:4326} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE FeatureReader_<OTHER>_0_JwC3S+Jx1+M=    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING")
-
-# -------------------------------------------------------------------------
-
-INCLUDE [          if { ({Plane Area} == {Sloped Area}) } {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,SLOPED_AREAS,"1")};          } else {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,"1")};          }          ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator    INPUT  FEATURE_TYPE Reprojector_REPROJECTED         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         "_area" $(AreaCalculator_func)
-FACTORY_DEF * TestFactory    FACTORY_NAME AreaCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AreaCalculator_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AreaCalculator_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator__Rejected__Logger    INPUT  FEATURE_TYPE AreaCalculator_<REJECTED>    OUTPUT FEATURE_TYPE AreaCalculator__Rejected__LOGGED                  @Log("AreaCalculator__Rejected_: Feature is:","20","20")                  @FeatureType(AreaCalculator__Rejected__LOGGED)
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AreaCalculator__Rejected_ LOGGED Output Nuker"   INPUT FEATURE_TYPE AreaCalculator__Rejected__LOGGED
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryRemover    INPUT  FEATURE_TYPE AreaCalculator_OUTPUT    OUTPUT FEATURE_TYPE GeometryRemover_OUTPUT         @RemoveGeometry()
-
-# -------------------------------------------------------------------------
-
-INCLUDE [if { {GEOM_AND_ATTRS} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
-
-FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_5    INPUT REFERENCER FEATURE_TYPE FeatureReader_<OTHER>_1_6ZE0OVyQIF4=    INPUT REFERENCEE FEATURE_TYPE GeometryRemover_OUTPUT    REFERENCE_INFO $(FeatureMerger_5_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,FeatureMerger_5) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,FeatureMerger_5) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_5_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_5_<REJECTED>
-
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_5_<Rejected> INPUT FEATURE_TYPE FeatureMerger_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_5<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-
 INCLUDE [if { {GEOM_AND_ATTRS} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {POLYGONS} == {POLYGONS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {POLYGONS} == {AGGREGATES}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {POLYGONS} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_2_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
 
-FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_2    INPUT REFERENCER FEATURE_TYPE FeatureReader_4_<OTHER>    INPUT REFERENCEE FEATURE_TYPE FeatureMerger_5_MERGED    CONNECT_Z_MODE FIRST_WINS    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>geometry_id<closeparen>,FeatureMerger_2) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,FeatureMerger_2) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES Yes    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_2_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_2_<REJECTED>
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_2    INPUT REFERENCER FEATURE_TYPE FeatureReader_4_<OTHER>    INPUT REFERENCEE FEATURE_TYPE FeatureReader_<OTHER>    CONNECT_Z_MODE FIRST_WINS    REFERENCE_INFO $(FeatureMerger_2_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>geometry_id<closeparen>,FeatureMerger_2) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,FeatureMerger_2) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES Yes    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_2_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_2_<REJECTED>
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_2_<Rejected> INPUT FEATURE_TYPE FeatureMerger_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -3157,11 +3016,49 @@ FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_8_<Rejected> INPUT FEATURE_T
 
 DEFAULT_MACRO Aggregator_3_BREAK_ATTR
 INCLUDE [if {"No" == "Yes"} {puts {MACRO Aggregator_3_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE first_successor} }]
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_3    INPUT  FEATURE_TYPE FeatureMerger_4_MERGED    INPUT  FEATURE_TYPE FeatureMerger_8_MERGED    MODE ONE_LEVEL    GROUP_BY first_successor    $(Aggregator_3_BREAK_ATTR)    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    SUM_FIELDS _area    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_3_AGGREGATE
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator_3    INPUT  FEATURE_TYPE FeatureMerger_4_MERGED    INPUT  FEATURE_TYPE FeatureMerger_8_MERGED    MODE ONE_LEVEL    GROUP_BY first_successor    $(Aggregator_3_BREAK_ATTR)    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    SEPARATOR <comma>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_3_AGGREGATE
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE Aggregator_3_AGGREGATE    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"7","7","7")
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_af602158_e01d_4c52_8372_d609a2b41c312_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE Aggregator_3_AGGREGATE    OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,first_predecessor,first_successor,fme_pcre_match,"^fme_$(AttributeKeeper_2_af602158_e01d_4c52_8372_d609a2b41c312_LIST_EXP)")
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT_0_muAz4GqwTdk=   OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT_1_eKOY+pR0mH0=
+# -------------------------------------------------------------------------
+
+# Wipe out the source setting if it was untouched from the default setting
+
+DEFAULT_MACRO Reprojector_SOURCE "EPSG:4326"
+INCLUDE [if { {EPSG:4326} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE AttributeKeeper_2_OUTPUT_0_muAz4GqwTdk=    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:25833",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING")
+
+# -------------------------------------------------------------------------
+
+INCLUDE [          if { ({Plane Area} == {Sloped Area}) } {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,SLOPED_AREAS,"1")};          } else {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,"1")};          }          ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator    INPUT  FEATURE_TYPE Reprojector_REPROJECTED         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         "_area" $(AreaCalculator_func)
+FACTORY_DEF * TestFactory    FACTORY_NAME AreaCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AreaCalculator_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AreaCalculator_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator__Rejected__Logger    INPUT  FEATURE_TYPE AreaCalculator_<REJECTED>    OUTPUT FEATURE_TYPE AreaCalculator__Rejected__LOGGED                  @Log("AreaCalculator__Rejected_: Feature is:","20","20")                  @FeatureType(AreaCalculator__Rejected__LOGGED)
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AreaCalculator__Rejected_ LOGGED Output Nuker"   INPUT FEATURE_TYPE AreaCalculator__Rejected__LOGGED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryRemover    INPUT  FEATURE_TYPE AreaCalculator_OUTPUT    OUTPUT FEATURE_TYPE GeometryRemover_OUTPUT         @RemoveGeometry()
+
+# -------------------------------------------------------------------------
+
+INCLUDE [if { {GEOM_AND_ATTRS} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO ATTRIBUTES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {GEOM_AND_ATTRS} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_5_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger_5    INPUT REFERENCER FEATURE_TYPE AttributeKeeper_2_OUTPUT_1_eKOY+pR0mH0=    INPUT REFERENCEE FEATURE_TYPE GeometryRemover_OUTPUT    REFERENCE_INFO $(FeatureMerger_5_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>first_successor<closeparen>,FeatureMerger_5) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>first_successor<closeparen>,FeatureMerger_5) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_5_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_5_<REJECTED>
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_5_<Rejected> INPUT FEATURE_TYPE FeatureMerger_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger_5<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateRounder    INPUT  FEATURE_TYPE FeatureMerger_5_MERGED    OUTPUT FEATURE_TYPE CoordinateRounder_ROUNDED         @RoundOffCoords(xyz,"7","7","7")
 
 # -------------------------------------------------------------------------
 
@@ -3173,17 +3070,17 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME AttributeRounder_<Rejected> INPUT FEATURE_TYPE AttributeRounder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeRounder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Substring<openparen><at>Value<openparen>predecessor<closeparen><comma>0<comma>2<closeparen>,Tester) = VV ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Substring<openparen><at>Value<openparen>predecessor<closeparen><comma>0<comma>2<closeparen>,Tester) = AO ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Substring<openparen><at>Value<openparen>first_predecessor<closeparen><comma>0<comma>2<closeparen>,Tester) = VV ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Substring<openparen><at>Value<openparen>first_predecessor<closeparen><comma>0<comma>2<closeparen>,Tester) = AO ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_5    INPUT  FEATURE_TYPE Tester_FAILED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "title" "SET_TO" "<at>Value<openparen>code<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_5    INPUT  FEATURE_TYPE Tester_FAILED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "title" "SET_TO" "<at>Value<openparen>first_successor<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT
 
 
 # -------------------------------------------------------------------------
 MACRO DatabaseJoiner_DIRECTIVES USER_NAME "$(config_user)" HOST "$(config_host)" PORT 5432 QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_pass)"
 
 INCLUDE [    if { {MATCH_ALL} == {MATCH_ALL} } {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN NO};    } else {       puts {MACRO DatabaseJoiner_ONE_FEATURE_PER_JOIN YES};    } ]
-FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner    INPUT  FEATURE_TYPE Tester_PASSED    READER_TYPE             POSTGRES    READER_DATASET          "$(config_db$encode)"    TABLE_ID                "data.codes"    READER_PARAMS           $(DatabaseJoiner_DIRECTIVES)    JOIN_KEYS               successor<space>code    ADDED_FIELDS            title    COMBINE_ATTRIBUTES      PREFER_JOINED    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_<REJECTED>
+FACTORY_DEF * JoinFactory    FACTORY_NAME DatabaseJoiner    INPUT  FEATURE_TYPE Tester_PASSED    READER_TYPE             POSTGRES    READER_DATASET          "$(config_db$encode)"    TABLE_ID                "data.codes"    READER_PARAMS           $(DatabaseJoiner_DIRECTIVES)    JOIN_KEYS               first_successor<space>code    ADDED_FIELDS            title    COMBINE_ATTRIBUTES      PREFER_JOINED    MATCH_RULE              MATCH_ALL    CACHE_SIZE              5000    PREFETCH_EXHAUSTIVE     Yes    ONE_FEATURE_PER_JOIN    $(DatabaseJoiner_ONE_FEATURE_PER_JOIN)    JOIN_ID                 "DatabaseJoiner"    REJECTION_ENABLED       YES    UNJOINED_ENABLED        YES    OUTPUT JOINED FEATURE_TYPE DatabaseJoiner_JOINED    OUTPUT REJECTED FEATURE_TYPE DatabaseJoiner_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DatabaseJoiner_<Rejected> INPUT FEATURE_TYPE DatabaseJoiner_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DatabaseJoiner<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3192,9 +3089,9 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATUR
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_a4481fbb_6fb6_4dd4_824d_b28b6ebff3498_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_a4481fbb_6fb6_4dd4_824d_b28b6ebff34917_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,title,first_predecessor,code,area,fme_pcre_match,"^fme_$(AttributeKeeper_a4481fbb_6fb6_4dd4_824d_b28b6ebff3498_LIST_EXP)")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,title,first_predecessor,code,area,fme_pcre_match,"^fme_$(AttributeKeeper_a4481fbb_6fb6_4dd4_824d_b28b6ebff34917_LIST_EXP)")
 
 # -------------------------------------------------------------------------
 
