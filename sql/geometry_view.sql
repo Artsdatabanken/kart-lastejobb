@@ -6,7 +6,6 @@ CREATE OR REPLACE VIEW data.v_geometry AS
  SELECT ROW_NUMBER () OVER (ORDER BY g.id) as id,
     g.id as geometry_id,
     g.geography,
-    g.geometry,
 	c.code,
 	c.title,
 	CASE WHEN l_g.localid is null THEN ''
