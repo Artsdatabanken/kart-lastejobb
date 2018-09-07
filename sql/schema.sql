@@ -90,7 +90,8 @@ CREATE TABLE codes_geometry (
     geometry_id bigint NOT NULL,
     code text NOT NULL,
     codes_id bigint NOT NULL,
-    fraction integer
+    fraction integer,
+    created timestamp without time zone,
 );
 
 
