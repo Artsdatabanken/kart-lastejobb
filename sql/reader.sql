@@ -1,7 +1,5 @@
 CREATE ROLE reader WITH LOGIN PASSWORD 'reader';
 
-CREATE SCHEMA data;
-
 GRANT USAGE ON SCHEMA data TO reader;
 GRANT USAGE ON SCHEMA public TO reader;
 
