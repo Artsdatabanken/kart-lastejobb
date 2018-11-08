@@ -3,7 +3,7 @@
 #    Command-line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\in\02_nina.fmw
 #              --SourceDataset_FILEGDB "D:\in\NINA\20170614_Bioklima.gdb"
-#              --DestDataset_TEXTLINE "D:\out\mbtiles"
+#              --DestDataset_TEXTLINE "D:\out\mbtiles\gradient"
 #              --DestDataset_MBTILES "D:\out\mbtiles\gradient"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-08T11:14:53"
+#!   LAST_SAVE_DATE="2018-11-08T11:17:20"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -1961,7 +1961,7 @@
 #! <DATASET 
 #!   NAME="TEXTLINE_1"
 #!   OVERRIDE="-TEXTLINE_1_DATASET{*}"
-#!   DATASET="TEXTLINE_1/mbtiles"
+#!   DATASET="TEXTLINE_1/gradient"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
@@ -1973,7 +1973,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI FILENAME DestDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:"
-#!   DEFAULT_VALUE="D:\out\mbtiles"
+#!   DEFAULT_VALUE="D:\out\mbtiles\gradient"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -3491,7 +3491,7 @@ FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_FILEGDB_1,FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1,SourceDataset_POSTGRES_1,POSTGRES_IN_HOST_POSTGRES_1,POSTGRES_IN_PORT_POSTGRES_1,POSTGRES_IN_USER_NAME_POSTGRES_1,POSTGRES_IN_PASSWORD_POSTGRES_1,POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1,POSTGRES_IN_ADVANCED_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1,DestDataset_POSTGIS_1,POSTGIS_OUT_HOST_POSTGIS_1,POSTGIS_OUT_PORT_POSTGIS_1,POSTGIS_OUT_USER_NAME_POSTGIS_1,POSTGIS_OUT_PASSWORD_POSTGIS_1,POSTGIS_OUT_ADVANCED_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1,DestDataset_MBTILES_1
 DEFAULT_MACRO SourceDataset_FILEGDB D:\in\NINA\20170614_Bioklima.gdb
 GUI SOURCE_GEODATABASE SourceDataset_FILEGDB File Geodatabase:
-DEFAULT_MACRO DestDataset_TEXTLINE D:\out\mbtiles
+DEFAULT_MACRO DestDataset_TEXTLINE D:\out\mbtiles\gradient
 GUI FILENAME DestDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 DEFAULT_MACRO DestDataset_MBTILES D:\out\mbtiles\gradient
 GUI DIRNAME DestDataset_MBTILES Destination MBTiles Folder:
@@ -3965,8 +3965,8 @@ DEFAULT_MACRO Reprojector_3_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_3_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_3    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_1_5Bv9sBqpeX4=    INPUT  FEATURE_TYPE AttributeRenamer_6_OUTPUT_1_9gCyuERqIZg=    OUTPUT FEATURE_TYPE Reprojector_3_REPROJECTED         @Reproject($(Reprojector_3_SOURCE),"EPSG:4326",NearestNeighbor,PreserveCells,Reprojector_3,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b201_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,kode,source,fme_pcre_match,"^fme_$(AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b201_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b202_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,kode,source,fme_pcre_match,"^fme_$(AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b202_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TransformFact:14:Dissolver    FACTORY_NAME Dissolver    FACTORY_META_PARAMS    TRANSFORMER_NAME:Dissolver    TRANSFORMER_PARAMS:XFORMER_NAME,Dissolver,TRANSFORMER_GROUP,,GROUP_BY,kode<space>source,PARAMETERS_GROUP,,DIS_ATTR,,CONNECT_Z_MODE,First<space>Wins,DEAGGREGATE_INPUT,Yes,ATTR_ACCUM_GROUP,,ACCUM_INPUT_ATTRS,Use<space>Attributes<space>From<space>One<space>Feature,SUM,,AV,,WEIGHT,,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>,PARAMETERS_GROUP_ADVANCED,,NO_OVRLP,No    PROCESS_GROUP_BY kode source    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT AREA FEATURE_TYPE Dissolver_AREA    OUTPUT <REJECTED> FEATURE_TYPE Dissolver_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -4017,11 +4017,11 @@ DEFAULT_MACRO Reprojector_2_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_2_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_0_k6aB/J5mAeY=    INPUT  FEATURE_TYPE AttributeRenamer_6_OUTPUT_0_16Z+xkMwQjc=    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-DEFAULT_MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b1_GROUP_BY
-MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b1_GROUP_BY source
+DEFAULT_MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY
+MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY source
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b1_GROUP_BY',     'GROUP_BY':'source',     'STATS_ATTRS':'PCA',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'NUMERIC_ATTR':'_numeric_count',     'SUM_ATTR':'_sum',     'RANGE_ATTR':'_range',     'MEAN_ATTR':'_mean',     'MEDIAN_ATTR':'_median',     'STDEV_ATTR':'_stdev',     'STDEVP_ATTR':'_stdevp',     'MODE_ATTR':'_mode',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY',     'GROUP_BY':'source',     'STATS_ATTRS':'PCA',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'NUMERIC_ATTR':'_numeric_count',     'SUM_ATTR':'_sum',     'RANGE_ATTR':'_range',     'MEAN_ATTR':'_mean',     'MEDIAN_ATTR':'_median',     'STDEV_ATTR':'_stdev',     'STDEVP_ATTR':'_stdevp',     'MODE_ATTR':'_mode',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE StatisticsCalculator_COMPLETE
 FACTORY_DEF * SortFactory    FACTORY_NAME StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE StatisticsCalculator_COMPLETE    OUTPUT SORTED FEATURE_TYPE StatisticsCalculator_COMPLETE       @Python(StatisticsCalculator.summarizeStatistics,StatisticsCalculator,__ORIGINAL__)
