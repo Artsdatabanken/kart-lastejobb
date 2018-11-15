@@ -1,6 +1,6 @@
 @echo off
 set out=D:\out\
-set geojson=%out%geojson\codes\
+set geojson=%out%geojson\
 
 for %%i in (%geojson%*) do (
     echo Creating mbtile for %%~ni.geojson
@@ -10,5 +10,5 @@ for %%i in (%geojson%*) do (
     REM Only drop densest
     REM docker run -it --rm -v %geojson%:/data tippecanoe:latest tippecanoe -b 0 -zg -ab --drop-densest-as-needed -pS -S 10 -l %%~ni -o /data/%%~ni.mbtiles /data/%%~ni.geojson
 )
-mkdir %out%\mbtiles\polygon\
-move %geojson%*.mbtiles %out%\mbtiles\polygon\
+mkdir %out%\polygon\
+move %geojson%*.mbtiles %out%\polygon\
