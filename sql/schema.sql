@@ -175,7 +175,7 @@ ALTER SEQUENCE data.dataset_id_seq OWNED BY data.dataset.id;
 CREATE TABLE data.geometry (
     id bigint NOT NULL,
     geography public.geography,
-    geometry public.geometry(Geometry,3857),
+    --geometry public.geometry(Geometry,3857),
     dataset_id integer NOT NULL
 );
 
@@ -419,7 +419,7 @@ ALTER TABLE data.geometry CLUSTER ON geometry_geography_20180404;
 -- Name: geometry_geometry_20180404; Type: INDEX; Schema: data; Owner: postgres
 --
 
-CREATE INDEX geometry_geometry_20180404 ON data.geometry USING gist (geometry);
+--CREATE INDEX geometry_geometry_20180404 ON data.geometry USING gist (geometry);
 
 
 --
