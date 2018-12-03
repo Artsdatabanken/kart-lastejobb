@@ -3,8 +3,8 @@
 #    Command-line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" D:\git\grunnkart-dataflyt\fme\in\02_nina.fmw
 #              --SourceDataset_FILEGDB "D:\in\NINA\20170614_Bioklima.gdb"
-#              --DestDataset_TEXTLINE "D:\out\mbtiles\gradient"
-#              --DestDataset_MBTILES "D:\out\mbtiles\gradient"
+#              --DestDataset_TEXTLINE "D:\out\gradient"
+#              --DestDataset_MBTILES "D:\out\3857\gradient"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -19,8 +19,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="0512f6f9-0aa9-4dcf-8f47-35ab8b55269c"
-#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,537c9939-18d8-42da-a91f-6eecf9a3e07d,ec46e6ac-caa8-4f74-b97c-b8adc04b5f20,adb76ef2-68ae-4f4f-b5c2-c752ce42d4d6,cdac479c-e338-46e1-899c-06a7949e8c54,19741fde-9fd9-474f-ac11-ac9ee77a40e6,d621bb50-8f55-46f3-80db-46e38bd377a5,bae24d83-e35b-4e07-80f2-2d56d5d30ce6,e88c6264-a1a4-4548-8ba0-22e95bb3a137"
+#!   FME_DOCUMENT_GUID="bdd7fd88-989f-4bd7-9eb1-e06e18a5ec8e"
+#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,537c9939-18d8-42da-a91f-6eecf9a3e07d,ec46e6ac-caa8-4f74-b97c-b8adc04b5f20,adb76ef2-68ae-4f4f-b5c2-c752ce42d4d6,cdac479c-e338-46e1-899c-06a7949e8c54,19741fde-9fd9-474f-ac11-ac9ee77a40e6,d621bb50-8f55-46f3-80db-46e38bd377a5,bae24d83-e35b-4e07-80f2-2d56d5d30ce6,e88c6264-a1a4-4548-8ba0-22e95bb3a137,0512f6f9-0aa9-4dcf-8f47-35ab8b55269c,02de7ae1-e6ed-4def-ba0f-0a1a1db74c6b"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-08T11:17:20"
+#!   LAST_SAVE_DATE="2018-11-27T11:47:31"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="78.1258 2421.9"
+#!   VIEW_POSITION="78.1258 2417.56"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="72"
@@ -66,7 +66,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_where &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color text(50) fme_text_size double fme_color text(50) multi_reader_type text(50) fme_geometry fme_char(50) multi_reader_id int fme_text_string text(50) fme_dataset text(50) fme_secondary_axis double multi_reader_full_id int fme_sweep_angle double multi_reader_keyword text(50) fme_rotation double fme_type text(50) fme_start_angle double fme_basename text(50) fme_primary_axis double fme_feature_type text(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle double multi_reader_type text(50) fme_type text(50) fme_text_string text(50) fme_fill_color text(50) fme_start_angle double multi_reader_id int fme_color text(50) multi_reader_keyword text(50) fme_primary_axis double fme_text_size double fme_feature_type text(50) fme_basename text(50) fme_geometry fme_char(50) fme_secondary_axis double fme_dataset text(50) fme_rotation double multi_reader_full_id int"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP filegdb_table_settings_group filegdb_where Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT filegdb_where WHERE Clause&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -116,7 +116,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_text_size float8 postgres_type char(50) postgres_oid int4 fme_color char(50) multi_reader_type char(50) fme_geometry fme_char(50) multi_reader_id int4 fme_text_string char(50) fme_dataset char(50) fme_secondary_axis float8 multi_reader_full_id int4 fme_sweep_angle float8 multi_reader_keyword char(50) fme_rotation float8 fme_type char(50) fme_start_angle float8 fme_basename char(50) fme_primary_axis float8 fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_type char(50) fme_text_string char(50) fme_fill_color char(50) postgres_oid int4 fme_start_angle float8 postgres_type char(50) multi_reader_id int4 fme_color char(50) multi_reader_keyword char(50) fme_primary_axis float8 fme_text_size float8 fme_feature_type char(50) fme_basename char(50) fme_geometry fme_char(50) fme_secondary_axis float8 fme_dataset char(50) fme_rotation float8 multi_reader_full_id int4"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -186,7 +186,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_text_size float8 fme_color char(50) fme_db_operation char(8) fme_geometry fme_char(50) fme_text_string char(50) fme_dataset char(50) fme_secondary_axis float8 fme_sweep_angle float8 postgis_type char(50) postgis_collection_id int4 fme_rotation float8 fme_type char(50) fme_start_angle float8 fme_basename char(50) fme_primary_axis float8 fme_feature_type char(50) postgis_collection_part_id int4"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 postgis_type char(50) fme_type char(50) fme_text_string char(50) fme_fill_color char(50) fme_start_angle float8 postgis_collection_id int4 fme_color char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_text_size float8 fme_feature_type char(50) fme_basename char(50) fme_geometry fme_char(50) fme_secondary_axis float8 fme_dataset char(50) fme_rotation float8 fme_db_operation char(8)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -247,7 +247,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_geometry fme_char(50) fme_primary_axis number(31,15) fme_text_size number(31,15) fme_feature_type char(50) fme_color char(50) fme_basename char(50) fme_secondary_axis number(31,15) text_line_eol char(10) fme_fill_color char(50) fme_dataset char(50) fme_text_string char(50) fme_rotation number(31,15) fme_type char(50) fme_sweep_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_geometry fme_char(50) fme_basename char(50) text_line_eol char(10) fme_color char(50) fme_type char(50) fme_fill_color char(50) fme_dataset char(50) fme_sweep_angle number(31,15) fme_rotation number(31,15) fme_primary_axis number(31,15) fme_feature_type char(50) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -302,7 +302,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="mbtiles_name $(_MBTILES_WRITER_NAME) mbtiles_description $(_MBTILES_WRITER_DESCRIPTION) mbtiles_map_type $(_MBTILES_WRITER_MAP_TYPE) mbtiles_tile_format $(_MBTILES_WRITER_TILE_FORMAT) mbtiles_version $(_MBTILES_WRITER_VERSION) mbtiles_zoom_level_strategy $(_MBTILES_WRITER_ZOOM_LEVEL_STRATEGY) mbtiles_jpeg_compression_level $(_MBTILES_WRITER_JPEG_COMPRESSION_LEVEL) mbtiles_png_zlevel $(_MBTILES_WRITER_ZLEVEL) mbtiles_png8_dither $(_MBTILES_WRITER_DITHER) mbtiles_gen_min_zoom $(_MBTILES_WRITER_GEN_MIN_ZOOM) mbtiles_pyramid_interpolation_type $(_MBTILES_WRITER_INTERPOLATION_TYPE)"
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_text_size float mbtiles_attribution char(255) mbtiles_format char(255) fme_color char(50) fme_geometry fme_char(50) mbtiles_maxzoom char(4) fme_text_string char(50) mbtiles_type char(4) fme_dataset char(50) fme_secondary_axis float fme_sweep_angle float mbtiles_center char(255) mbtiles_version char(3) mbtiles_minzoom char(4) mbtiles_name char(255) fme_rotation float mbtiles_zoom_level char(4) fme_type char(50) mbtiles_bounds char(255) fme_start_angle float fme_basename char(50) mbtiles_description char(255) fme_primary_axis float fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float mbtiles_maxzoom char(4) fme_type char(50) mbtiles_attribution char(255) fme_text_string char(50) mbtiles_description char(255) fme_fill_color char(50) mbtiles_center char(255) fme_start_angle float mbtiles_name char(255) mbtiles_bounds char(255) fme_color char(50) fme_primary_axis float fme_text_size float fme_feature_type char(50) fme_basename char(50) fme_geometry fme_char(50) mbtiles_zoom_level char(4) fme_secondary_axis float mbtiles_minzoom char(4) fme_dataset char(50) fme_rotation float mbtiles_type char(4) mbtiles_version char(3) mbtiles_format char(255)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP mbtiles_layer_group mbtiles_metadata_group%mbtiles_file_parameters_group%mbtiles_pyramid_group%mbtiles_generate_pyramids%mbtiles_compression_group Raster&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP mbtiles_metadata_group mbtiles_name%mbtiles_description%mbtiles_map_type Metadata&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP mbtiles_file_parameters_group mbtiles_tile_format%mbtiles_version File Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP mbtiles_pyramid_group mbtiles_zoom_level_strategy%mbtiles_pyramid_interpolation_type%mbtiles_gen_min_zoom Zoom Levels&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP mbtiles_compression_group mbtiles_png_zlevel%mbtiles_jpeg_compression_level%mbtiles_png8_dither Compression&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED mbtiles_name Name&quot; &quot;&quot; &quot;GUI OPTIONAL STRING_ENCODED mbtiles_description Description&quot; &quot;&quot; &quot;GUI CHOICE_ENCODED mbtiles_map_type Overlay%Baselayer Map Type&quot; Overlay &quot;GUI ACTIVECHOICE_ENCODED mbtiles_tile_format PNG,mbtiles_jpeg_compression_level,mbtiles_png8_dither%PNG8,mbtiles_jpeg_compression_level,mbtiles_png_zlevel%JPEG,mbtiles_png_zlevel,mbtiles_png8_dither Tile Format&quot; PNG &quot;GUI CHOICE_ENCODED mbtiles_version 1.0%1.1 Version&quot; 1.1 &quot;GUI CHOICE_ENCODED mbtiles_zoom_level_strategy Auto%Upper%Lower Base Zoom Level Strategy&quot; Auto &quot;GUI CHOICE_ENCODED mbtiles_pyramid_interpolation_type Nearest-neighbor%Bilinear%Cubic%Cubic-spline%Lanczos%Mode%Average Interpolation Type&quot; Bilinear &quot;GUI LOOKUP_CHOICE mbtiles_gen_min_zoom Current-Zoom,-1%0,0%1,1%2,2%3,3%4,4%5,5%6,6%7,7%8,8%9,9%10,10%11,11%12,12%13,13%14,14%15,15%16,16%17,17%18,18%19,19%20,20%21,21%22,22%23,23%24,24 Minimum Zoom Level&quot; -1 &quot;GUI OPTIONAL RANGE_SLIDER mbtiles_png_zlevel 1%9%0%OFF PNG Compression Level (1 - 9)&quot; 6 &quot;GUI OPTIONAL RANGE_SLIDER mbtiles_jpeg_compression_level 0%100%0%OFF JPEG Compression Level (0 - 100)&quot; 25 &quot;GUI CHOICE_ENCODED mbtiles_png8_dither Yes%No Use Dithering&quot; No "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -702,6 +702,144 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="bool"
 #!   FME_TYPE="fme_boolean"
 #!   FORMAT="POSTGIS"
@@ -909,144 +1047,6 @@
 #!   FORMAT_TYPE="char(1)"
 #!   FME_TYPE="fme_char(width)"
 #!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="buffer"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="buffer"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="buffer"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="buffer"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(20)"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(12)"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(8)"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(31,15)"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(15,7)"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(11,0)"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="logical"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(6,0)"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(4,0)"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="number(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="TEXTLINE"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -1376,6 +1376,96 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="postgis_multipoint"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="POSTGIS"
@@ -1529,96 +1619,6 @@
 #!   FORMAT_TYPE="postgis_none"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="TEXTLINE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1973,12 +1973,12 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI FILENAME DestDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:"
-#!   DEFAULT_VALUE="D:\out\mbtiles\gradient"
+#!   DEFAULT_VALUE="D:\out\gradient"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_MBTILES Destination MBTiles Folder:"
-#!   DEFAULT_VALUE="D:\out\mbtiles\gradient"
+#!   DEFAULT_VALUE="D:\out\3857\gradient"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -2471,11 +2471,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2598,11 +2598,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:3857"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -2812,11 +2812,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2835,11 +2835,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2893,11 +2893,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2939,11 +2939,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2963,11 +2963,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_min" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_max" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_median" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3096,11 +3096,11 @@
 #!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SSBID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Dataeier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Length" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Sone_navn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Seksjon_na" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4326"/>
 #!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
@@ -3491,9 +3491,9 @@ FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_FILEGDB_1,FILEGDB_IN_EXPOSE_ATTRS_GROUP_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MINY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXX_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_MAXY_FILEGDB_1,FILEGDB_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_FILEGDB_1,FILEGDB_IN_CLIP_TO_ENVELOPE_FILEGDB_1,FILEGDB_IN_NETWORK_AUTHENTICATION_FILEGDB_1,SourceDataset_POSTGRES_1,POSTGRES_IN_HOST_POSTGRES_1,POSTGRES_IN_PORT_POSTGRES_1,POSTGRES_IN_USER_NAME_POSTGRES_1,POSTGRES_IN_PASSWORD_POSTGRES_1,POSTGRES_IN_EXPOSE_ATTRS_GROUP_POSTGRES_1,POSTGRES_IN_ADVANCED_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1,DestDataset_POSTGIS_1,POSTGIS_OUT_HOST_POSTGIS_1,POSTGIS_OUT_PORT_POSTGIS_1,POSTGIS_OUT_USER_NAME_POSTGIS_1,POSTGIS_OUT_PASSWORD_POSTGIS_1,POSTGIS_OUT_ADVANCED_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1,DestDataset_MBTILES_1
 DEFAULT_MACRO SourceDataset_FILEGDB D:\in\NINA\20170614_Bioklima.gdb
 GUI SOURCE_GEODATABASE SourceDataset_FILEGDB File Geodatabase:
-DEFAULT_MACRO DestDataset_TEXTLINE D:\out\mbtiles\gradient
+DEFAULT_MACRO DestDataset_TEXTLINE D:\out\gradient
 GUI FILENAME DestDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
-DEFAULT_MACRO DestDataset_MBTILES D:\out\mbtiles\gradient
+DEFAULT_MACRO DestDataset_MBTILES D:\out\3857\gradient
 GUI DIRNAME DestDataset_MBTILES Destination MBTiles Folder:
 INCLUDE PYTHON
 def ParamFunc():
@@ -3935,19 +3935,19 @@ MACRO WORKSPACE_NAME 02_nina
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_1::Soner2017 multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::Soner2017 ALIAS_GEOMETRY    ROUTE FILEGDB FILEGDB_1::Seksjoner2017 multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::Seksjoner2017 ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-FILEGDB_1_MERGE_DEF FILEGDB_1::Soner2017 EXACT Soner2017 DEFLINE filegdb_type,geodb_polygon,filegdb_where,,OBJECTID,objectid,SSBID,text<openparen>14<closeparen>,PCA2,double,Sone_kode,text<openparen>254<closeparen>,Sone_navn,text<openparen>254<closeparen>,Dataeier,text<openparen>254<closeparen>,Shape_Length,double,Shape_Area,double
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FILEGDB FILEGDB_1::Seksjoner2017 multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::Seksjoner2017 ALIAS_GEOMETRY    ROUTE FILEGDB FILEGDB_1::Soner2017 multi_reader_keyword,$(DATASET_KEYWORD_FILEGDB_1) TO FME_GENERIC ::Soner2017 ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 FILEGDB_1_MERGE_DEF FILEGDB_1::Seksjoner2017 EXACT Seksjoner2017 DEFLINE filegdb_type,geodb_polygon,filegdb_where,,OBJECTID,objectid,SSBID,text<openparen>14<closeparen>,PCA1,double,Seksjon_ko,text<openparen>254<closeparen>,Seksjon_na,text<openparen>254<closeparen>,Dataeier,text<openparen>254<closeparen>,Shape_Length,double,Shape_Area,double
+FILEGDB_1_MERGE_DEF FILEGDB_1::Soner2017 EXACT Soner2017 DEFLINE filegdb_type,geodb_polygon,filegdb_where,,OBJECTID,objectid,SSBID,text<openparen>14<closeparen>,PCA2,double,Sone_kode,text<openparen>254<closeparen>,Sone_navn,text<openparen>254<closeparen>,Dataeier,text<openparen>254<closeparen>,Shape_Length,double,Shape_Area,double
 POSTGRES_1_MERGE_DEF POSTGRES_1::data.codes EXACT data.codes DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,code,text<comma>BTree,title,text
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "data.codes (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.codes    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Seksjoner2017 (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE Seksjoner2017    OUTPUT FEATURE_TYPE Seksjoner2017_FILEGDB_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Soner2017 (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE Soner2017    OUTPUT FEATURE_TYPE Soner2017_FILEGDB_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "data.codes (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.codes    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE Soner2017_FILEGDB_1    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "source" "SET_TO" "$(Prefix$encode)-6SO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
@@ -3965,8 +3965,8 @@ DEFAULT_MACRO Reprojector_3_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_3_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_3    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_1_5Bv9sBqpeX4=    INPUT  FEATURE_TYPE AttributeRenamer_6_OUTPUT_1_9gCyuERqIZg=    OUTPUT FEATURE_TYPE Reprojector_3_REPROJECTED         @Reproject($(Reprojector_3_SOURCE),"EPSG:4326",NearestNeighbor,PreserveCells,Reprojector_3,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b202_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,kode,source,fme_pcre_match,"^fme_$(AttributeKeeper_88006bb2_3350_4335_91fc_4485ede46b202_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_658276ea_c62a_4e9a_ba98_29c01de5c8c20_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Reprojector_3_REPROJECTED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,kode,source,fme_pcre_match,"^fme_$(AttributeKeeper_658276ea_c62a_4e9a_ba98_29c01de5c8c20_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TransformFact:14:Dissolver    FACTORY_NAME Dissolver    FACTORY_META_PARAMS    TRANSFORMER_NAME:Dissolver    TRANSFORMER_PARAMS:XFORMER_NAME,Dissolver,TRANSFORMER_GROUP,,GROUP_BY,kode<space>source,PARAMETERS_GROUP,,DIS_ATTR,,CONNECT_Z_MODE,First<space>Wins,DEAGGREGATE_INPUT,Yes,ATTR_ACCUM_GROUP,,ACCUM_INPUT_ATTRS,Use<space>Attributes<space>From<space>One<space>Feature,SUM,,AV,,WEIGHT,,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>,PARAMETERS_GROUP_ADVANCED,,NO_OVRLP,No    PROCESS_GROUP_BY kode source    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT AREA FEATURE_TYPE Dissolver_AREA    OUTPUT <REJECTED> FEATURE_TYPE Dissolver_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -4017,11 +4017,11 @@ DEFAULT_MACRO Reprojector_2_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_2_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_0_k6aB/J5mAeY=    INPUT  FEATURE_TYPE AttributeRenamer_6_OUTPUT_0_16Z+xkMwQjc=    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-DEFAULT_MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY
-MACRO __StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY source
+DEFAULT_MACRO __StatisticsCalculator_8b6ef9c8_c97e_4a91_b412_dd291c8792dc0_GROUP_BY
+MACRO __StatisticsCalculator_8b6ef9c8_c97e_4a91_b412_dd291c8792dc0_GROUP_BY source
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_c336b79b_e5fe_4ec2_90ad_0b550581461b2_GROUP_BY',     'GROUP_BY':'source',     'STATS_ATTRS':'PCA',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'NUMERIC_ATTR':'_numeric_count',     'SUM_ATTR':'_sum',     'RANGE_ATTR':'_range',     'MEAN_ATTR':'_mean',     'MEDIAN_ATTR':'_median',     'STDEV_ATTR':'_stdev',     'STDEVP_ATTR':'_stdevp',     'MODE_ATTR':'_mode',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_8b6ef9c8_c97e_4a91_b412_dd291c8792dc0_GROUP_BY',     'GROUP_BY':'source',     'STATS_ATTRS':'PCA',     'MIN_ATTR':'_min',     'MAX_ATTR':'_max',     'COUNT_ATTR':'_count',     'NUMERIC_ATTR':'_numeric_count',     'SUM_ATTR':'_sum',     'RANGE_ATTR':'_range',     'MEAN_ATTR':'_mean',     'MEDIAN_ATTR':'_median',     'STDEV_ATTR':'_stdev',     'STDEVP_ATTR':'_stdevp',     'MODE_ATTR':'_mode',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE Reprojector_2_REPROJECTED    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE StatisticsCalculator_COMPLETE
 FACTORY_DEF * SortFactory    FACTORY_NAME StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE StatisticsCalculator_COMPLETE    OUTPUT SORTED FEATURE_TYPE StatisticsCalculator_COMPLETE       @Python(StatisticsCalculator.summarizeStatistics,StatisticsCalculator,__ORIGINAL__)
@@ -4051,14 +4051,14 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    INPUT  FEAT
 FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE AttributeCreator_3_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR text_line_data OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <opencurly><lf><space><space><quote>value_range<quote>:<space><opencurly><lf><space><space><space><space><quote>source<quote>:<space><openbracket><space>fme:get-attribute<openparen><quote>min<quote><closeparen><comma><space><space>fme:get-attribute<openparen><quote>max<quote><closeparen><space><closebracket><comma><lf><space><space><space><space><quote>compressed<quote>:<space><openbracket>1<comma>255<closebracket><comma><lf><space><space><space><space><quote>nodata<quote>:<space>0<space><lf><space><space><closecurly><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLExecutor_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_3_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC RasterBandInterpretationCoercer_OUTPUT TO MBTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>source<lt>closeparen<gt><comma>Raster1<closeparen> COORDINATE_SYSTEM EPSG:3857 GEOMETRY    ROUTE FME_GENERIC JSONTemplater_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLExecutor_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_3_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONTemplater_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC RasterBandInterpretationCoercer_OUTPUT TO MBTILES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Raster1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>source<lt>closeparen<gt><comma>Raster1<closeparen> COORDINATE_SYSTEM EPSG:3857 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
-# -------------------------------------------------------------------------
 POSTGIS_1_DEF data.codes_geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   codes_id                     text   geometry_id                  text
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
 # -------------------------------------------------------------------------
 MBTILES_1_DEF Raster1   mbtiles_name                 ""   mbtiles_description          ""   mbtiles_map_type             Overlay   mbtiles_tile_format          PNG   mbtiles_version              1.1   mbtiles_zoom_level_strategy  Auto   mbtiles_jpeg_compression_level 25   mbtiles_png_zlevel           6   mbtiles_png8_dither          No   mbtiles_gen_min_zoom         -1   mbtiles_pyramid_interpolation_type Bilinear

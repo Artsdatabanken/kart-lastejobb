@@ -14,10 +14,12 @@ def executeSql(sqlFile):
   conn.set_isolation_level(0)
   cursor = conn.cursor()
   cursor.execute(open(sqlFile).read())
+  result = cursor.fetchall()
   conn.commit()
   cursor.close()
   conn.set_isolation_level(old_isolation_level)
   conn.close()
+  return result
 
 def writeResults(sqlFile, output):
   conn = psycopg2.connect(createConnectionString())

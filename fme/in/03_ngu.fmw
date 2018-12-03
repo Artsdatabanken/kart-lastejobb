@@ -17,8 +17,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="e5601b1e-b56c-470a-97a0-994ec5b83a0f"
-#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,2b69e098-3bd9-491f-8539-928930bb7f00,4d42878c-0a55-494f-be36-28fa4975c9c0,3926fc98-115d-4f3f-a30d-fbdb624ac36b,fcd8018e-e355-4e56-9395-38d531bd072d,c97dd0af-a0b6-42cf-99b9-f151073fd74d,ca476ba8-9750-42c6-a74e-599110a0cd2d,4f57db83-a8e6-4b42-8556-1912d8f23a5f,6316fb0c-a3ef-4684-a259-ad7b9742bf9c"
+#!   FME_DOCUMENT_GUID="6fee6639-d1bf-43d1-89e7-c07b2d444665"
+#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,2b69e098-3bd9-491f-8539-928930bb7f00,4d42878c-0a55-494f-be36-28fa4975c9c0,3926fc98-115d-4f3f-a30d-fbdb624ac36b,fcd8018e-e355-4e56-9395-38d531bd072d,c97dd0af-a0b6-42cf-99b9-f151073fd74d,ca476ba8-9750-42c6-a74e-599110a0cd2d,4f57db83-a8e6-4b42-8556-1912d8f23a5f,6316fb0c-a3ef-4684-a259-ad7b9742bf9c,e5601b1e-b56c-470a-97a0-994ec5b83a0f"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-09T11:16:45"
+#!   LAST_SAVE_DATE="2018-11-20T11:44:01"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="5735.94 1113.92"
+#!   VIEW_POSITION="131.05 1111.4"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="124"
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_sweep_angle float8 multi_reader_type char(50) postgres_type char(50) fme_color char(50) fme_primary_axis float8 multi_reader_keyword char(50) postgres_oid int4 fme_secondary_axis float8 fme_text_string char(50) fme_dataset char(50) fme_type char(50) fme_geometry fme_char(50) fme_fill_color char(50) fme_basename char(50) fme_rotation float8 fme_start_angle float8 multi_reader_id int4 multi_reader_full_id int4 fme_text_size float8"
+#!   EXPOSABLE_ATTRS="fme_primary_axis float8 fme_start_angle float8 fme_type char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_secondary_axis float8 fme_basename char(50) fme_rotation float8 fme_sweep_angle float8 fme_text_size float8 fme_text_string char(50) multi_reader_keyword char(50) fme_fill_color char(50) fme_geometry fme_char(50) multi_reader_id int4 postgres_type char(50) fme_color char(50) postgres_oid int4 multi_reader_type char(50) fme_dataset char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -134,7 +134,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_where &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_feature_type text(50) fme_sweep_angle double multi_reader_type text(50) fme_color text(50) fme_primary_axis double multi_reader_keyword text(50) fme_secondary_axis double fme_text_string text(50) fme_dataset text(50) fme_type text(50) fme_geometry fme_char(50) fme_fill_color text(50) fme_basename text(50) fme_rotation double fme_start_angle double multi_reader_id int multi_reader_full_id int fme_text_size double"
+#!   EXPOSABLE_ATTRS="fme_primary_axis double fme_start_angle double fme_type text(50) fme_feature_type text(50) multi_reader_full_id int fme_secondary_axis double fme_basename text(50) fme_rotation double fme_sweep_angle double fme_text_size double fme_text_string text(50) multi_reader_keyword text(50) fme_fill_color text(50) multi_reader_id int fme_geometry fme_char(50) fme_color text(50) multi_reader_type text(50) fme_dataset text(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP filegdb_table_settings_group filegdb_where Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT filegdb_where WHERE Clause&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -184,7 +184,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_sweep_angle float8 fme_color char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_secondary_axis float8 fme_text_string char(50) fme_dataset char(50) postgis_type char(50) fme_type char(50) fme_geometry fme_char(50) fme_fill_color char(50) fme_basename char(50) postgis_collection_id int4 fme_rotation float8 fme_start_angle float8 fme_db_operation char(8) fme_text_size float8"
+#!   EXPOSABLE_ATTRS="fme_primary_axis float8 fme_start_angle float8 fme_db_operation char(8) fme_type char(50) fme_feature_type char(50) postgis_collection_id int4 fme_secondary_axis float8 fme_basename char(50) postgis_type char(50) fme_rotation float8 fme_sweep_angle float8 fme_text_size float8 fme_text_string char(50) fme_fill_color char(50) fme_geometry fme_char(50) fme_color char(50) postgis_collection_part_id int4 fme_dataset char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -234,6 +234,162 @@
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="single"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="objectid"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="guid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="globalid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bool"
@@ -431,162 +587,6 @@
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(2048)"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(2048)"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(2048)"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="blob"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="blob"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="blob"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="single"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(20)"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text(20)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="objectid"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="guid"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="FILEGDB"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="globalid"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="FILEGDB"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -802,96 +802,6 @@
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="geodb_point"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="FILEGDB"
@@ -985,6 +895,96 @@
 #!   FORMAT_TYPE="geodb_no_geom"
 #!   FME_TYPE="fme_collection"
 #!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1373,7 +1373,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL TEXT_OR_ATTR Prefix Prefix:"
-#!   DEFAULT_VALUE="NA-MI"
+#!   DEFAULT_VALUE="NA-LKM"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1858,7 +1858,7 @@
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
+#!   LAST_PARM_EDIT="18552"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1883,12 +1883,13 @@
 #!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_READ_TIME_WITH_TIMEZONE,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:,POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGRES_READ_TIME_WITH_TIMEZONE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE="data"/>
 #!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
 #!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="DELETE&lt;space&gt;FROM&lt;space&gt;data.dataset&lt;space&gt;WHERE&lt;space&gt;description=&lt;apos&gt;$(Dataset)&lt;apos&gt;&lt;semicolon&gt;&lt;lf&gt;INSERT&lt;space&gt;INTO&lt;space&gt;data.prefix&lt;space&gt;&lt;openparen&gt;value&lt;comma&gt;&lt;space&gt;description&lt;closeparen&gt;&lt;space&gt;values&lt;space&gt;&lt;openparen&gt;&lt;apos&gt;$(Prefix)&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;$(PrefixDesc)&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;ON&lt;space&gt;CONFLICT&lt;space&gt;DO&lt;space&gt;NOTHING&lt;semicolon&gt;&lt;lf&gt;INSERT&lt;space&gt;INTO&lt;space&gt;data.dataset&lt;space&gt;&lt;openparen&gt;prefix_id&lt;comma&gt;&lt;space&gt;description&lt;closeparen&gt;&lt;space&gt;Select&lt;space&gt;id&lt;comma&gt;&lt;space&gt;&lt;apos&gt;$(Dataset)&lt;apos&gt;&lt;space&gt;from&lt;space&gt;data.prefix&lt;space&gt;where&lt;space&gt;value&lt;space&gt;=&lt;space&gt;&lt;apos&gt;$(Prefix)&lt;apos&gt;&lt;semicolon&gt;"/>
@@ -2266,7 +2267,7 @@ else:
 END_INCLUDE
 DEFAULT_MACRO Dataset ngu
 GUI IGNORE OPTIONAL TEXT Dataset Dataset:
-DEFAULT_MACRO Prefix NA-MI
+DEFAULT_MACRO Prefix NA-LKM
 GUI IGNORE OPTIONAL TEXT Prefix Prefix:
 DEFAULT_MACRO PrefixDesc Miljøvariabel
 GUI IGNORE OPTIONAL TEXT PrefixDesc PrefixDesc:
@@ -2496,25 +2497,25 @@ FILEGDB_1_MERGE_DEF FILEGDB_1::NIN_VIEW_BE250_KALK EXACT NIN_VIEW_BE250_KALK DEF
 FILEGDB_1_MERGE_DEF FILEGDB_1::NIN_VIEW_BE250_ULTRAMAFISK EXACT NIN_VIEW_BE250_ULTRAMAFISK DEFLINE filegdb_type,geodb_polygon,filegdb_where,,OBJECTID,objectid,OBJEKTTYPE,text<openparen>32<closeparen>,TEGNFORKLARING,text<openparen>200<closeparen>,HOVEDBERGART,smallint,HOVEDBERGART_TEKST,text<openparen>255<closeparen>,ULTRAMAFISK,text<openparen>5<closeparen>,Shape_Length,double,Shape_Area,double
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME "data.codes (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.codes    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1
+# -------------------------------------------------------------------------
+
 FACTORY_DEF * TeeFactory    FACTORY_NAME "NIN_VIEW_BE250_ULTRAMAFISK (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE NIN_VIEW_BE250_ULTRAMAFISK    OUTPUT FEATURE_TYPE NIN_VIEW_BE250_ULTRAMAFISK_FILEGDB_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "NIN_VIEW_BE250_KALK (FILEGDB_1) Splitter"    INPUT FEATURE_TYPE NIN_VIEW_BE250_KALK    OUTPUT FEATURE_TYPE NIN_VIEW_BE250_KALK_FILEGDB_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "data.codes (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.codes    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_3_b18fd463_bff5_469c_9a7c_5a6f1395d2550_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE NIN_VIEW_BE250_KALK_FILEGDB_1    OUTPUT { FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,KALKINNHOLD_HOVEDBERGART,fme_pcre_match,"^fme_$(AttributeKeeper_3_b18fd463_bff5_469c_9a7c_5a6f1395d2550_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_3_31a215f5_2671_4f7b_8175_f756c764ef390_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_3    INPUT  FEATURE_TYPE NIN_VIEW_BE250_KALK_FILEGDB_1    OUTPUT { FEATURE_TYPE AttributeKeeper_3_OUTPUT        @KeepAttributes(fme_encoded,KALKINNHOLD_HOVEDBERGART,fme_pcre_match,"^fme_$(AttributeKeeper_3_31a215f5_2671_4f7b_8175_f756c764ef390_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 Lookup AttributeValueMapper_LOOKUP_TABLE   1               @EvaluateExpression(FDIV,STRING_ENCODED,$(Prefix$encode)-KA-A,AttributeValueMapper)   2               @EvaluateExpression(FDIV,STRING_ENCODED,$(Prefix$encode)-KA-B,AttributeValueMapper)   3               @EvaluateExpression(FDIV,STRING_ENCODED,$(Prefix$encode)-KA-D,AttributeValueMapper)   4               @EvaluateExpression(FDIV,STRING_ENCODED,$(Prefix$encode)-KA-F,AttributeValueMapper)   5               @EvaluateExpression(FDIV,STRING_ENCODED,$(Prefix$encode)-KA-H,AttributeValueMapper)   ""              ""   ENCODED_SUPPORTUNICODE
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeValueMapper    INPUT  FEATURE_TYPE AttributeKeeper_3_OUTPUT    OUTPUT FEATURE_TYPE AttributeValueMapper_OUTPUT         @Lookup(AttributeValueMapper_LOOKUP_TABLE,"KALKINNHOLD_HOVEDBERGART",FORWARD|ENCODED_ATTR|REAL_NULL_SUPPORT, _looked_up)
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer_2    INPUT  FEATURE_TYPE AttributeValueMapper_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "_looked_up" "orig_code" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_2_OUTPUT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2_7a1230ea_fe37_4d9c_821d_8fead535a6e80_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE NIN_VIEW_BE250_ULTRAMAFISK_FILEGDB_1    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_2_7a1230ea_fe37_4d9c_821d_8fead535a6e80_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_0de66b3f_6f4e_4b90_8978_83a330befb4e0_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE NIN_VIEW_BE250_ULTRAMAFISK_FILEGDB_1    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_2_0de66b3f_6f4e_4b90_8978_83a330befb4e0_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE AttributeKeeper_2_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "orig_code" "SET_TO" "$(Prefix$encode)-BK-A" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
@@ -2529,7 +2530,7 @@ FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    SAMPLE_RATE $(REAL_RA
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
 FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_SAMPLED
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_4_DIRECTIVES PASSWORD "$(config_pass)" SCHEMAS_FOR_TABLE_LISTING data HOST "$(config_host)" USER_NAME "$(config_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PORT "$(config_port)"
+MACRO SQLExecutor_4_DIRECTIVES READ_TIME_WITH_TIMEZONE Yes SCHEMAS_FOR_TABLE_LISTING data PORT "$(config_port)" USER_NAME "$(config_user)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PASSWORD "$(config_pass)" HOST "$(config_host)"
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_4    INPUT  FEATURE_TYPE Sampler_SAMPLED    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,DELETE<space>FROM<space>data.dataset<space>WHERE<space>description=<apos>$(Dataset$encode)<apos><semicolon><lf>INSERT<space>INTO<space>data.prefix<space><openparen>value<comma><space>description<closeparen><space>values<space><openparen><apos>$(Prefix$encode)<apos><comma><space><apos>$(PrefixDesc$encode)<apos><closeparen><space>ON<space>CONFLICT<space>DO<space>NOTHING<semicolon><lf>INSERT<space>INTO<space>data.dataset<space><openparen>prefix_id<comma><space>description<closeparen><space>Select<space>id<comma><space><apos>$(Dataset$encode)<apos><space>from<space>data.prefix<space>where<space>value<space>=<space><apos>$(Prefix$encode)<apos><semicolon>,SQLExecutor_4)"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_4)"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_4_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_4_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_4)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_4_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_4_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_4 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_4_RESULT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
