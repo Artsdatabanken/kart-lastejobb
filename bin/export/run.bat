@@ -1,1 +1,1 @@
-01_runAllFmeExportJobs.bat && 02_createAllMbtiles.bat && python .\codes.py ..\..\config\postgis.json && type nul > d:\out\time.txt
+01_runAllFmeExportJobs.bat && 02_createAllMbtiles.bat && type nul > d:\out\time.txt
