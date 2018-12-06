@@ -7,7 +7,7 @@ REM     Main logic
 REM	--------------------------------------------------------------------------------------
 
 echo Creating vector mbtiles for geojson
-set tippecanoe=sh -c "find %datafolder% -name '*.geojson' -exec bash /app/tippecanoe.sh {} \;"
+set tippecanoe=sh -c "find %datafolder% -name '*.geojson' -exec bash /app/tippecanoe.sh {} %datafolder% \;"
 docker run -v %out%:%datafolder% -v %CD%:/app -it --rm tippecanoe %tippecanoe%
 
 echo Creating raster mbtiles for png
