@@ -1,5 +1,5 @@
-insert into data.codes_geometry (codes_id, geometry_id, code, fraction, created)
-select p.id as codes_id, cg.geometry_id, p.code, max(cg.fraction), max(cg.created)
+insert into data.codes_geometry (codes_id, geometry_id, code, aggregated)
+select p.id as codes_id, cg.geometry_id, p.code, true
 from 
 data.codes s,
 data.codes p,
@@ -12,4 +12,4 @@ data.codes_geometry cg1
 where cg1.codes_id = p.id
 and  cg1.geometry_id = cg.geometry_id
 )
-group by p.id , cg.geometry_id, p.code 
+ group by p.id , cg.geometry_id, p.code 
