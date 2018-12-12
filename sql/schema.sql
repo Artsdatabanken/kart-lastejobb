@@ -5,7 +5,7 @@
 -- Dumped from database version 10.2
 -- Dumped by pg_dump version 10.5
 
--- Started on 2018-12-12 15:35:50
+-- Started on 2018-12-12 15:49:26
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -93,7 +93,7 @@ CREATE TABLE data.codes_geometry (
     codes_id bigint,
     fraction integer,
     created timestamp without time zone,
-    aggregated boolean DEFAULT false NOT NULL
+    aggregated boolean DEFAULT false
 );
 
 
@@ -488,7 +488,7 @@ ALTER TABLE ONLY data.dataset
 GRANT SELECT ON TABLE data.v_geometry TO reader;
 
 
--- Completed on 2018-12-12 15:35:51
+-- Completed on 2018-12-12 15:49:27
 
 --
 -- PostgreSQL database dump complete
