@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="10857.6 643.375"
-#!   DOC_TOP_LEFT="-393.69 394.505"
+#!   DOC_EXTENTS="9461.9 497.999"
+#!   DOC_TOP_LEFT="109 253.751"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="732d94da-c266-49c9-bc1b-6e34f87d41c3"
-#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,bfef4fb3-5469-44db-957d-0d49ba089f20,a251ba24-80c3-4ed7-a1c6-a642b4128a26,eeb91cd1-f0d4-4c2a-973d-e83c0dd31033,699c8def-6764-458b-89e8-7050ffdd3cec,8dbc0e82-05d5-44b9-8f8a-a811a029c7f4,683dee41-899c-4497-a522-1dbcf60f0a62,9948a956-a3ef-4252-bc74-e912f4f51c0a,bf4b45c2-b7aa-4cfe-bf09-414f1cb4c6eb,752dea29-475b-4059-bf2b-321bd2d78de0,ec88d2b9-1f4f-4de2-be23-e2225ab79144,eed99610-0fb6-4458-a06f-2bcdd4066585,7d1bcdfc-f213-43bd-a576-22576baa80b7,739e2f05-2e59-4e88-ad25-7439d44e2aef,1c1c383a-8e93-479a-9d12-128ecb743325"
+#!   FME_DOCUMENT_GUID="979540c2-3d12-4f2b-8fd2-490bf4c7f1e8"
+#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,bfef4fb3-5469-44db-957d-0d49ba089f20,a251ba24-80c3-4ed7-a1c6-a642b4128a26,eeb91cd1-f0d4-4c2a-973d-e83c0dd31033,699c8def-6764-458b-89e8-7050ffdd3cec,8dbc0e82-05d5-44b9-8f8a-a811a029c7f4,683dee41-899c-4497-a522-1dbcf60f0a62,9948a956-a3ef-4252-bc74-e912f4f51c0a,bf4b45c2-b7aa-4cfe-bf09-414f1cb4c6eb,752dea29-475b-4059-bf2b-321bd2d78de0,ec88d2b9-1f4f-4de2-be23-e2225ab79144,eed99610-0fb6-4458-a06f-2bcdd4066585,7d1bcdfc-f213-43bd-a576-22576baa80b7,739e2f05-2e59-4e88-ad25-7439d44e2aef,1c1c383a-8e93-479a-9d12-128ecb743325,732d94da-c266-49c9-bc1b-6e34f87d41c3"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-27T17:02:00"
+#!   LAST_SAVE_DATE="2018-12-07T13:39:24"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,10 +45,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1513.33 1637.75"
+#!   VIEW_POSITION="-203.806 2074.3"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="108"
+#!   ZOOM_SCALE="69"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string xml_char(50) fme_type xml_char(50) multi_reader_keyword xml_char(50) multi_reader_type xml_char(50) multi_reader_id xml_int32 fme_color xml_char(50) fme_geometry fme_char(50) fme_text_size xml_real64 multi_reader_full_id xml_int32 fme_sweep_angle xml_real64 fme_start_angle xml_real64 xml_type xml_char(50) fme_feature_type xml_char(50) fme_primary_axis xml_real64 fme_dataset xml_char(50) fme_rotation xml_real64 fme_fill_color xml_char(50) fme_secondary_axis xml_real64 fme_basename xml_char(50)"
+#!   EXPOSABLE_ATTRS="fme_basename xml_char(50) multi_reader_full_id xml_int32 fme_secondary_axis xml_real64 fme_geometry fme_char(50) fme_rotation xml_real64 fme_primary_axis xml_real64 fme_fill_color xml_char(50) fme_text_string xml_char(50) multi_reader_type xml_char(50) fme_dataset xml_char(50) fme_feature_type xml_char(50) fme_sweep_angle xml_real64 fme_color xml_char(50) fme_start_angle xml_real64 multi_reader_keyword xml_char(50) xml_type xml_char(50) fme_text_size xml_real64 multi_reader_id xml_int32 fme_type xml_char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -110,7 +110,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_type char(50) postgis_type char(50) fme_color char(50) fme_geometry fme_char(50) fme_text_size float8 postgis_collection_part_id int4 fme_db_operation char(8) fme_sweep_angle float8 postgis_collection_id int4 fme_start_angle float8 fme_feature_type char(50) fme_primary_axis float8 fme_dataset char(50) fme_rotation float8 fme_fill_color char(50) fme_secondary_axis float8 fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="fme_basename char(50) fme_secondary_axis float8 fme_geometry fme_char(50) postgis_collection_id int4 fme_rotation float8 fme_db_operation char(8) fme_primary_axis float8 postgis_type char(50) fme_fill_color char(50) fme_text_string char(50) postgis_collection_part_id int4 fme_dataset char(50) fme_feature_type char(50) fme_sweep_angle float8 fme_color char(50) fme_start_angle float8 fme_text_size float8 fme_type char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -802,8 +802,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="4"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="7003.1000000000004 783.5"
-#!   BOUNDING_RECT="7003.1000000000004 783.5 557.79300000000001 71"
+#!   POSITION="6527.1035000000002 688.75"
+#!   BOUNDING_RECT="6527.1035000000002 688.75 557.79300000000001 71"
 #!   ORDER="500000000000038"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_1"
@@ -841,8 +841,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="25"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="9906.0708623012142 465.50483217795147"
-#!   BOUNDING_RECT="9906.0708623012142 465.50483217795147 557.79300000000001 71"
+#!   POSITION="9013.1034999999993 395.75"
+#!   BOUNDING_RECT="9013.1034999999993 395.75 557.79300000000001 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_1"
@@ -882,8 +882,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="57"
 #!   FEAT_GEOMTYPE="xml_no_geom xml_point xml_line xml_area xml_arc xml_surface xml_solid xml_aggregate"
-#!   POSITION="-393.69016208680597 637"
-#!   BOUNDING_RECT="-393.69016208680597 637 -1 -1"
+#!   POSITION="109 466"
+#!   BOUNDING_RECT="109 466 -1 -1"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="WFS_1"
@@ -919,45 +919,6 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="målemetode" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="oppdateringsdato" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="komid" ATTR_TYPE="xml_buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#!   IS_SOURCE="false"
-#!   NODE_NAME="localid_geometry"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER="data"
-#!   IS_EDITABLE="true"
-#!   IDENTIFIER="44"
-#!   FEAT_GEOMTYPE="All"
-#!   POSITION="7903.1000000000004 1022.25"
-#!   BOUNDING_RECT="7903.1000000000004 1022.25 557.79300000000001 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="false"
-#!   KEYWORD="POSTGIS_1"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="1"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="localid" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="geometry_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_spatial_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="USE_EXISTING"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_update_geometry" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_allow_serial_writing" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_create_gist_index" PARM_VALUE="YES"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_create_with_oids" PARM_VALUE="NO"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_spatial_column" PARM_VALUE="geography"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_spatial_column_type" PARM_VALUE="geography"/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_srid" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="postgis_vacuum_analyze" PARM_VALUE="NO"/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1013,10 +974,10 @@
 #! <COMMENT
 #!   IDENTIFIER="63"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get id for pk&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5432 809.88"
-#!   TOP_LEFT="5432 809.88"
-#!   BOTTOM_RIGHT="5431 810.88"
-#!   BOUNDING_RECT="5432 809.88 -1 -1"
+#!   POSITION="4951 576.75"
+#!   TOP_LEFT="4951 576.75"
+#!   BOTTOM_RIGHT="4950 577.75"
+#!   BOUNDING_RECT="4951 576.75 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1027,10 +988,10 @@
 #! <COMMENT
 #!   IDENTIFIER="64"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get dataset id&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6208 1037.8800000000001"
-#!   TOP_LEFT="6208 1037.8800000000001"
-#!   BOTTOM_RIGHT="6207 1038.8800000000001"
-#!   BOUNDING_RECT="6208 1037.8800000000001 -1 -1"
+#!   POSITION="5727 751.75"
+#!   TOP_LEFT="5727 751.75"
+#!   BOTTOM_RIGHT="5726 752.75"
+#!   BOUNDING_RECT="5727 751.75 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1041,10 +1002,10 @@
 #! <COMMENT
 #!   IDENTIFIER="54"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Insert codes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7946 581.87900000000002"
-#!   TOP_LEFT="7946 581.87900000000002"
-#!   BOTTOM_RIGHT="7945 582.87900000000002"
-#!   BOUNDING_RECT="7946 581.87900000000002 -1 -1"
+#!   POSITION="7437 401.75"
+#!   TOP_LEFT="7437 401.75"
+#!   BOTTOM_RIGHT="7436 402.75"
+#!   BOUNDING_RECT="7437 401.75 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1055,10 +1016,10 @@
 #! <COMMENT
 #!   IDENTIFIER="38"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Insert dataset&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(prefix should already be there from NiN-import)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2878.5599999999999 1033.75"
-#!   TOP_LEFT="2878.5599999999999 1033.75"
-#!   BOTTOM_RIGHT="2877.5599999999999 1034.75"
-#!   BOUNDING_RECT="2878.5599999999999 1033.75 -1 -1"
+#!   POSITION="3017.5582655826561 444.75056250562511"
+#!   TOP_LEFT="3017.5582655826561 444.75056250562511"
+#!   BOTTOM_RIGHT="3016.5582655826561 445.75056250562511"
+#!   BOUNDING_RECT="3017.5582655826561 444.75056250562511 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1069,10 +1030,10 @@
 #! <COMMENT
 #!   IDENTIFIER="67"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get code-id&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="8784 581.87900000000002"
-#!   TOP_LEFT="8784 581.87900000000002"
-#!   BOTTOM_RIGHT="8783 582.87900000000002"
-#!   BOUNDING_RECT="8784 581.87900000000002 -1 -1"
+#!   POSITION="8213 401.75"
+#!   TOP_LEFT="8213 401.75"
+#!   BOTTOM_RIGHT="8212 402.75"
+#!   BOUNDING_RECT="8213 401.75 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1090,8 +1051,8 @@
 #!   IDENTIFIER="27"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="6250 890.62"
-#!   BOUNDING_RECT="6250 890.62 -1 -1"
+#!   POSITION="5769 604.4899999999999"
+#!   BOUNDING_RECT="5769 604.4899999999999 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1102,7 +1063,6 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
@@ -1110,14 +1070,12 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1146,8 +1104,8 @@
 #!   IDENTIFIER="31"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="4103.5 637"
-#!   BOUNDING_RECT="4103.5 637 -1 -1"
+#!   POSITION="4248 477.5"
+#!   BOUNDING_RECT="4248 477.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1172,8 +1130,8 @@
 #!   IDENTIFIER="45"
 #!   TYPE="FeatureHolder"
 #!   VERSION="0"
-#!   POSITION="7088 409"
-#!   BOUNDING_RECT="7088 409 -1 -1"
+#!   POSITION="6612 302.5"
+#!   BOUNDING_RECT="6612 302.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1185,7 +1143,6 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureHolder"/>
 #! </TRANSFORMER>
@@ -1193,8 +1150,8 @@
 #!   IDENTIFIER="52"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="5474 662.62"
-#!   BOUNDING_RECT="5474 662.62 -1 -1"
+#!   POSITION="4993 429.49000000000001"
+#!   BOUNDING_RECT="4993 429.49000000000001 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1205,20 +1162,17 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Initiator Attributes if Conflict"/>
@@ -1246,8 +1200,8 @@
 #!   IDENTIFIER="32"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="7988 434.62"
-#!   BOUNDING_RECT="7988 434.62 -1 -1"
+#!   POSITION="7479 254.49099999999999"
+#!   BOUNDING_RECT="7479 254.49099999999999 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1259,21 +1213,18 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
 #!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
@@ -1300,8 +1251,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="2924.1900000000001 842.75"
-#!   BOUNDING_RECT="2924.1900000000001 842.75 -1 -1"
+#!   POSITION="3063.1882655826562 253.75056250562511"
+#!   BOUNDING_RECT="3063.1882655826562 253.75056250562511 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1347,8 +1298,8 @@
 #!   IDENTIFIER="43"
 #!   TYPE="Sampler"
 #!   VERSION="2"
-#!   POSITION="2120.5 667"
-#!   BOUNDING_RECT="2120.5 667 -1 -1"
+#!   POSITION="2230 507.5"
+#!   BOUNDING_RECT="2230 507.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1374,8 +1325,8 @@
 #!   IDENTIFIER="66"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="8826 434.62"
-#!   BOUNDING_RECT="8826 434.62 -1 -1"
+#!   POSITION="8255 254.49099999999999"
+#!   BOUNDING_RECT="8255 254.49099999999999 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1387,7 +1338,6 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -1395,14 +1345,12 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="codes_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
@@ -1430,8 +1378,8 @@
 #!   IDENTIFIER="40"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="370.68078699305522 637"
-#!   BOUNDING_RECT="370.68078699305522 637 -1 -1"
+#!   POSITION="850 477.5"
+#!   BOUNDING_RECT="850 477.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1480,8 +1428,8 @@
 #!   IDENTIFIER="56"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="1465.5 637"
-#!   BOUNDING_RECT="1465.5 637 -1 -1"
+#!   POSITION="1540 477.5"
+#!   BOUNDING_RECT="1540 477.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1501,8 +1449,8 @@
 #!   IDENTIFIER="48"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="6250 409"
-#!   BOUNDING_RECT="6250 409 -1 -1"
+#!   POSITION="5757 302.5"
+#!   BOUNDING_RECT="5757 302.5 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1514,57 +1462,10 @@
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="id geometry_id RENAME_SET_DEFAULT "/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_4"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="34"
-#!   TYPE="UUIDGenerator"
-#!   VERSION="0"
-#!   POSITION="4758.5 637"
-#!   BOUNDING_RECT="4758.5 637 -1 -1"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="UUID_ATTR" PARM_VALUE="localid"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="UUIDGenerator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="39"
-#!   TYPE="AttributeRenamer"
-#!   VERSION="4"
-#!   POSITION="7088 986"
-#!   BOUNDING_RECT="7088 986 -1 -1"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="localid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="dataset_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="id geometry_id RENAME_SET_DEFAULT "/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1591,44 +1492,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="41"
-#!   SOURCE_NODE="27"
-#!   TARGET_NODE="39"
-#!   SOURCE_PORT_DESC="fo 0 RESULT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="35"
+#!   IDENTIFIER="50"
 #!   SOURCE_NODE="31"
-#!   TARGET_NODE="34"
-#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="36"
-#!   SOURCE_NODE="34"
 #!   TARGET_NODE="52"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
 #!   TARGET_PORT_DESC="fi 0 INITIATOR"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="49"
-#!   SOURCE_NODE="39"
-#!   TARGET_NODE="44"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2168,8 +2036,8 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE AR50_WFS_1    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "code" "SET_TO" "$(Prefix$encode)-I1" }      ATTR_ACTION { "" "created" "SET_TO" "<at>ReplaceRegEx<openparen><at>Value<openparen>oppdateringsdato<closeparen><comma><quote><openparen><openbracket><space><closebracket>.*<closeparen><dollar><quote><comma><quote><quote><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_e7a0bd1b_017f_4f01_81a6_c0ea1e3abdbf18_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,created,code,fme_pcre_match,"^fme_$(AttributeKeeper_e7a0bd1b_017f_4f01_81a6_c0ea1e3abdbf18_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2066bbeb_7ab5_4f1d_af3a_089a1ec000432_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,created,code,fme_pcre_match,"^fme_$(AttributeKeeper_2066bbeb_7ab5_4f1d_af3a_089a1ec000432_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 INCLUDE [ puts "MACRO REAL_RATE [expr 1 * -1 ]" ]
 FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER ORIGINAL    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___    OUTPUT NOT_SAMPLED FEATURE_TYPE Sampler_NOT_SAMPLED
@@ -2188,10 +2056,8 @@ DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE SQLExecutor_4_INITIATOR    INPUT  FEATURE_TYPE Sampler_NOT_SAMPLED    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:4326",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME UUIDGenerator    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    OUTPUT FEATURE_TYPE UUIDGenerator_OUTPUT         "localid" @UUID()
-# -------------------------------------------------------------------------
 MACRO SQLExecutor_2_DIRECTIVES PASSWORD "$(config_pass)" USER_NAME "$(config_user)" SCHEMAS_FOR_TABLE_LISTING data HOST "$(config_host)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes PORT "$(config_port)"
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE UUIDGenerator_OUTPUT    QUERY_SQL            "SELECT<space>nextval<openparen><apos>data.geometry_id_seq<apos><closeparen><space>as<space>id"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_2)"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_2)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_2_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_2    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    QUERY_SQL            "SELECT<space>nextval<openparen><apos>data.geometry_id_seq<apos><closeparen><space>as<space>id"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_2)"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_2_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_2_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_2)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_2_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_2_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 RESULT Splitter"   INPUT FEATURE_TYPE SQLExecutor_2_RESULT   OUTPUT FEATURE_TYPE SQLExecutor_2_RESULT_0_uHPUmprYjr8=   OUTPUT FEATURE_TYPE SQLExecutor_2_RESULT_1_255TfJJCeOQ=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_2 INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_2_INITIATOR
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -2215,22 +2081,17 @@ FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_5_<Rejected> INPUT FEATURE_TYP
 # -------------------------------------------------------------------------
 MACRO SQLExecutor_DIRECTIVES USER_NAME postgres PORT 5432 HOST localhost PASSWORD fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszi1qlRHsbpMjkXoracKy9do+qgfpxb6+4Qy+wLeRTe3liae4v9sfR5u3nuUzXcNRx/sJUlcV5btoZRDxHJGy0rIK47pFkEXXsXXcpXMoFKyazMsjF5BV1r2dLmAXRbNHSO4im0GXaGQaxNpoZmyyRhtjAF+hG1CsIMSKaD2svhqbK0yxOuxdtKXCuvSF9aJd1LRHTWbu5COyXshKNsE81Elri5MKbP8NO1tz6EVWHzDRxoOquKP/houZ64SVyNRlkRqABRdD3kaOPDAiAzWZu4YSscUEp2mwQiWiFZsCF4inf3naQvbKJxvxgi6BbR5W/5snbGzTytq1/Tb6sbuO9Od4ao38pWd9Q) QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SCHEMAS_FOR_TABLE_LISTING data
 FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor    INPUT  FEATURE_TYPE SQLExecutor_2_RESULT_0_uHPUmprYjr8=    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space>id<space>as<space>dataset_id<space>from<space>data.dataset<space>where<space>description=<apos>$(Dataset$encode)<apos><semicolon>,SQLExecutor)"    READER_TYPE          POSTGRES    READER_DATASET       "bigbadabom"    COMBINE_ATTRIBUTES   PREFER_QUERY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_<REJECTED>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor RESULT Splitter"   INPUT FEATURE_TYPE SQLExecutor_RESULT   OUTPUT FEATURE_TYPE SQLExecutor_RESULT_0_yZOpFWkl7nU=   OUTPUT FEATURE_TYPE SQLExecutor_RESULT_1_N3993qDbe+E=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_INITIATOR
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_<Rejected> INPUT FEATURE_TYPE SQLExecutor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE SQLExecutor_RESULT_1_N3993qDbe+E= 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "id" "geometry_id" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
-# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLExecutor_RESULT_0_yZOpFWkl7nU= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC SQLExecutor_5_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_OUTPUT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.localid_geometry<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC SQLExecutor_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC SQLExecutor_5_RESULT TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data.codes_geometry<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
-# -------------------------------------------------------------------------
-POSTGIS_1_DEF data.localid_geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   localid                      text   geometry_id                  text
-# -------------------------------------------------------------------------
 POSTGIS_1_DEF data.codes_geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   codes_id                     text   geometry_id                  text   code                         text   created                      timestamp
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
