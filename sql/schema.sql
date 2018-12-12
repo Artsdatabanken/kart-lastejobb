@@ -5,7 +5,7 @@
 -- Dumped from database version 10.2
 -- Dumped by pg_dump version 10.5
 
--- Started on 2018-12-12 16:05:20
+-- Started on 2018-12-12 16:55:52
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -36,7 +36,7 @@ CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
--- TOC entry 4282 (class 0 OID 0)
+-- TOC entry 4285 (class 0 OID 0)
 -- Dependencies: 1
 -- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
 --
@@ -53,7 +53,7 @@ CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
 
 
 --
--- TOC entry 4283 (class 0 OID 0)
+-- TOC entry 4286 (class 0 OID 0)
 -- Dependencies: 2
 -- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: 
 --
@@ -115,7 +115,7 @@ CREATE SEQUENCE data.codes_id_seq
 ALTER TABLE data.codes_id_seq OWNER TO postgres;
 
 --
--- TOC entry 4284 (class 0 OID 0)
+-- TOC entry 4287 (class 0 OID 0)
 -- Dependencies: 215
 -- Name: codes_id_seq; Type: SEQUENCE OWNED BY; Schema: data; Owner: postgres
 --
@@ -166,7 +166,7 @@ CREATE SEQUENCE data.dataset_id_seq
 ALTER TABLE data.dataset_id_seq OWNER TO postgres;
 
 --
--- TOC entry 4285 (class 0 OID 0)
+-- TOC entry 4288 (class 0 OID 0)
 -- Dependencies: 218
 -- Name: dataset_id_seq; Type: SEQUENCE OWNED BY; Schema: data; Owner: postgres
 --
@@ -204,7 +204,7 @@ CREATE SEQUENCE data.geometry_id_seq
 ALTER TABLE data.geometry_id_seq OWNER TO postgres;
 
 --
--- TOC entry 4286 (class 0 OID 0)
+-- TOC entry 4289 (class 0 OID 0)
 -- Dependencies: 220
 -- Name: geometry_id_seq; Type: SEQUENCE OWNED BY; Schema: data; Owner: postgres
 --
@@ -256,7 +256,7 @@ CREATE SEQUENCE data.prefix_id_seq
 ALTER TABLE data.prefix_id_seq OWNER TO postgres;
 
 --
--- TOC entry 4287 (class 0 OID 0)
+-- TOC entry 4290 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: prefix_id_seq; Type: SEQUENCE OWNED BY; Schema: data; Owner: postgres
 --
@@ -265,11 +265,11 @@ ALTER SEQUENCE data.prefix_id_seq OWNED BY data.prefix.id;
 
 
 --
--- TOC entry 224 (class 1259 OID 548141)
--- Name: v_geometry; Type: VIEW; Schema: data; Owner: postgres
+-- TOC entry 224 (class 1259 OID 703396)
+-- Name: v_geometry; Type: MATERIALIZED VIEW; Schema: data; Owner: postgres
 --
 
-CREATE VIEW data.v_geometry AS
+CREATE MATERIALIZED VIEW data.v_geometry AS
  SELECT row_number() OVER (ORDER BY g.id) AS id,
     g.id AS geometry_id,
     g.geography,
@@ -279,7 +279,7 @@ CREATE VIEW data.v_geometry AS
             WHEN (l_g.localid IS NULL) THEN ''::text
             ELSE l_g.localid
         END AS localid,
-    p.value,
+    p.value AS prefix,
     p.description AS prefixdescription,
     d.description AS datasetdescription
    FROM (data.geometry g
@@ -288,13 +288,14 @@ CREATE VIEW data.v_geometry AS
     data.dataset d,
     data.prefix p,
     data.codes c
-  WHERE ((g.id = c_g.geometry_id) AND (c_g.codes_id = c.id) AND (g.dataset_id = d.id) AND (p.id = d.prefix_id) AND ((c_g.aggregated <> true) OR (c_g.aggregated IS NULL)));
+  WHERE ((g.id = c_g.geometry_id) AND (c_g.codes_id = c.id) AND (g.dataset_id = d.id) AND (p.id = d.prefix_id) AND ((c_g.aggregated <> true) OR (c_g.aggregated IS NULL)))
+  WITH DATA;
 
 
 ALTER TABLE data.v_geometry OWNER TO postgres;
 
 --
--- TOC entry 4118 (class 2604 OID 548146)
+-- TOC entry 4119 (class 2604 OID 548146)
 -- Name: codes id; Type: DEFAULT; Schema: data; Owner: postgres
 --
 
@@ -302,7 +303,7 @@ ALTER TABLE ONLY data.codes ALTER COLUMN id SET DEFAULT nextval('data.codes_id_s
 
 
 --
--- TOC entry 4120 (class 2604 OID 548147)
+-- TOC entry 4121 (class 2604 OID 548147)
 -- Name: dataset id; Type: DEFAULT; Schema: data; Owner: postgres
 --
 
@@ -310,7 +311,7 @@ ALTER TABLE ONLY data.dataset ALTER COLUMN id SET DEFAULT nextval('data.dataset_
 
 
 --
--- TOC entry 4121 (class 2604 OID 548148)
+-- TOC entry 4122 (class 2604 OID 548148)
 -- Name: geometry id; Type: DEFAULT; Schema: data; Owner: postgres
 --
 
@@ -318,7 +319,7 @@ ALTER TABLE ONLY data.geometry ALTER COLUMN id SET DEFAULT nextval('data.geometr
 
 
 --
--- TOC entry 4122 (class 2604 OID 548149)
+-- TOC entry 4123 (class 2604 OID 548149)
 -- Name: prefix id; Type: DEFAULT; Schema: data; Owner: postgres
 --
 
@@ -326,7 +327,7 @@ ALTER TABLE ONLY data.prefix ALTER COLUMN id SET DEFAULT nextval('data.prefix_id
 
 
 --
--- TOC entry 4125 (class 2606 OID 548151)
+-- TOC entry 4126 (class 2606 OID 548151)
 -- Name: codes codes_pk; Type: CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -335,7 +336,7 @@ ALTER TABLE ONLY data.codes
 
 
 --
--- TOC entry 4131 (class 2606 OID 548153)
+-- TOC entry 4132 (class 2606 OID 548153)
 -- Name: dataset dataset_pk; Type: CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -344,7 +345,7 @@ ALTER TABLE ONLY data.dataset
 
 
 --
--- TOC entry 4136 (class 2606 OID 548155)
+-- TOC entry 4137 (class 2606 OID 548155)
 -- Name: geometry geometry_pk; Type: CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -353,7 +354,7 @@ ALTER TABLE ONLY data.geometry
 
 
 --
--- TOC entry 4140 (class 2606 OID 548157)
+-- TOC entry 4141 (class 2606 OID 548157)
 -- Name: prefix prefix_pk; Type: CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -362,7 +363,7 @@ ALTER TABLE ONLY data.prefix
 
 
 --
--- TOC entry 4123 (class 1259 OID 548158)
+-- TOC entry 4124 (class 1259 OID 548158)
 -- Name: code_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -370,7 +371,7 @@ CREATE UNIQUE INDEX code_idx ON data.codes USING btree (code);
 
 
 --
--- TOC entry 4126 (class 1259 OID 551689)
+-- TOC entry 4127 (class 1259 OID 551689)
 -- Name: codes_geometry_aggregated_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -378,7 +379,7 @@ CREATE INDEX codes_geometry_aggregated_idx ON data.codes_geometry USING btree (c
 
 
 --
--- TOC entry 4127 (class 1259 OID 548159)
+-- TOC entry 4128 (class 1259 OID 548159)
 -- Name: codes_geometry_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -386,7 +387,7 @@ CREATE UNIQUE INDEX codes_geometry_idx ON data.codes_geometry USING btree (geome
 
 
 --
--- TOC entry 4133 (class 1259 OID 548160)
+-- TOC entry 4134 (class 1259 OID 548160)
 -- Name: fki_dataset_id_fx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -394,7 +395,7 @@ CREATE INDEX fki_dataset_id_fx ON data.geometry USING btree (dataset_id);
 
 
 --
--- TOC entry 4132 (class 1259 OID 548161)
+-- TOC entry 4133 (class 1259 OID 548161)
 -- Name: fki_prefix_id_fk; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -402,7 +403,7 @@ CREATE INDEX fki_prefix_id_fk ON data.dataset USING btree (prefix_id);
 
 
 --
--- TOC entry 4134 (class 1259 OID 548162)
+-- TOC entry 4135 (class 1259 OID 548162)
 -- Name: geometry_geography_20180404; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -412,7 +413,7 @@ ALTER TABLE data.geometry CLUSTER ON geometry_geography_20180404;
 
 
 --
--- TOC entry 4137 (class 1259 OID 548163)
+-- TOC entry 4138 (class 1259 OID 548163)
 -- Name: localid_geometry_geometry_id_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -420,7 +421,7 @@ CREATE INDEX localid_geometry_geometry_id_idx ON data.localid_geometry USING btr
 
 
 --
--- TOC entry 4138 (class 1259 OID 548164)
+-- TOC entry 4139 (class 1259 OID 548164)
 -- Name: localid_geometry_localid_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -428,7 +429,7 @@ CREATE INDEX localid_geometry_localid_idx ON data.localid_geometry USING btree (
 
 
 --
--- TOC entry 4128 (class 1259 OID 548165)
+-- TOC entry 4129 (class 1259 OID 548165)
 -- Name: predecessor_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -436,7 +437,7 @@ CREATE INDEX predecessor_idx ON data.codeshierarchy USING btree (predecessor);
 
 
 --
--- TOC entry 4129 (class 1259 OID 548166)
+-- TOC entry 4130 (class 1259 OID 548166)
 -- Name: successor_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -444,7 +445,23 @@ CREATE INDEX successor_idx ON data.codeshierarchy USING btree (successor);
 
 
 --
--- TOC entry 4141 (class 1259 OID 548167)
+-- TOC entry 4143 (class 1259 OID 806250)
+-- Name: v_geometry_code_idx; Type: INDEX; Schema: data; Owner: postgres
+--
+
+CREATE INDEX v_geometry_code_idx ON data.v_geometry USING btree (code);
+
+
+--
+-- TOC entry 4144 (class 1259 OID 806251)
+-- Name: v_geometry_geometry_idx; Type: INDEX; Schema: data; Owner: postgres
+--
+
+CREATE INDEX v_geometry_geometry_idx ON data.v_geometry USING gist (geography);
+
+
+--
+-- TOC entry 4142 (class 1259 OID 548167)
 -- Name: value_description_idx; Type: INDEX; Schema: data; Owner: postgres
 --
 
@@ -452,7 +469,7 @@ CREATE UNIQUE INDEX value_description_idx ON data.prefix USING btree (value, des
 
 
 --
--- TOC entry 4144 (class 2606 OID 548168)
+-- TOC entry 4147 (class 2606 OID 548168)
 -- Name: geometry dataset_id_fx; Type: FK CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -461,7 +478,7 @@ ALTER TABLE ONLY data.geometry
 
 
 --
--- TOC entry 4142 (class 2606 OID 548173)
+-- TOC entry 4145 (class 2606 OID 548173)
 -- Name: codes_geometry geometry_id; Type: FK CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -470,7 +487,7 @@ ALTER TABLE ONLY data.codes_geometry
 
 
 --
--- TOC entry 4145 (class 2606 OID 548178)
+-- TOC entry 4148 (class 2606 OID 548178)
 -- Name: localid_geometry geometry_id; Type: FK CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -479,7 +496,7 @@ ALTER TABLE ONLY data.localid_geometry
 
 
 --
--- TOC entry 4143 (class 2606 OID 548183)
+-- TOC entry 4146 (class 2606 OID 548183)
 -- Name: dataset prefix_id_fk; Type: FK CONSTRAINT; Schema: data; Owner: postgres
 --
 
@@ -488,7 +505,7 @@ ALTER TABLE ONLY data.dataset
 
 
 --
--- TOC entry 4288 (class 0 OID 0)
+-- TOC entry 4291 (class 0 OID 0)
 -- Dependencies: 224
 -- Name: TABLE v_geometry; Type: ACL; Schema: data; Owner: postgres
 --
@@ -496,7 +513,7 @@ ALTER TABLE ONLY data.dataset
 GRANT SELECT ON TABLE data.v_geometry TO reader;
 
 
--- Completed on 2018-12-12 16:05:20
+-- Completed on 2018-12-12 16:55:53
 
 --
 -- PostgreSQL database dump complete
