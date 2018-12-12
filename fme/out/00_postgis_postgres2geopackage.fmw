@@ -20,8 +20,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="4f621859-5fae-45c7-9651-bbceadb8afae"
-#!   FME_DOCUMENT_PRIORGUID="8999d660-bf43-4e14-b032-3dc4fc2b906b"
+#!   FME_DOCUMENT_GUID="fa5ce346-f81a-4bef-998f-a246279ec403"
+#!   FME_DOCUMENT_PRIORGUID="8999d660-bf43-4e14-b032-3dc4fc2b906b,4f621859-5fae-45c7-9651-bbceadb8afae"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-15T14:39:09"
+#!   LAST_SAVE_DATE="2018-12-12T15:30:17"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-4349 4188.41"
+#!   VIEW_POSITION="-5824.71 4587.72"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="72"
@@ -67,7 +67,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_text_string char(50) multi_reader_id int4 multi_reader_type char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_start_angle float8 fme_type char(50) multi_reader_keyword char(50) fme_geometry char(50) fme_rotation float8 fme_dataset char(50) multi_reader_full_id int4 postgis_collection_id int4 fme_color char(50) fme_primary_axis float8 postgis_type char(50) fme_text_size float8 fme_feature_type char(50) postgres_oid int4 postgis_collection_part_id int4 fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry char(50) multi_reader_id int4 fme_basename char(50) fme_primary_axis float8 fme_feature_type char(50) postgres_oid int4 fme_rotation float8 fme_type char(50) fme_text_size float8 multi_reader_full_id int4 fme_text_string char(50) postgis_collection_id int4 fme_start_angle float8 postgis_collection_part_id int4 fme_dataset char(50) fme_color char(50) postgis_type char(50) multi_reader_type char(50) fme_fill_color char(50) multi_reader_keyword char(50) fme_sweep_angle float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -133,7 +133,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_text_string char(50) multi_reader_id int4 multi_reader_type char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_start_angle float8 fme_type char(50) multi_reader_keyword char(50) fme_geometry char(50) fme_rotation float8 fme_dataset char(50) multi_reader_full_id int4 fme_color char(50) fme_primary_axis float8 fme_text_size float8 fme_feature_type char(50) postgres_oid int4 postgres_type char(50) fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry char(50) multi_reader_id int4 fme_basename char(50) postgres_type char(50) fme_primary_axis float8 fme_feature_type char(50) postgres_oid int4 fme_rotation float8 fme_type char(50) fme_text_size float8 multi_reader_full_id int4 fme_text_string char(50) fme_start_angle float8 fme_dataset char(50) fme_color char(50) multi_reader_type char(50) fme_fill_color char(50) multi_reader_keyword char(50) fme_sweep_angle float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE;FORMAT,POSTGRES WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL;FORMAT,POSTGRES SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -203,7 +203,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_ID fme_match_id_attribute &quot;geopackage_fid&quot; geopackage_create_spatial_table YES geopackage_geometry_column geom geopackage_primary_index_column id geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset text(50) fme_sweep_angle double fme_text_string text(50) fme_feature_type text(50) fme_basename text(50) fme_rotation double fme_start_angle double fme_fill_color text(50) fme_text_size double fme_type text(50) fme_color text(50) fme_geometry text(50) geopackage_type text(255) fme_primary_axis double fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="fme_rotation double fme_geometry text(50) fme_primary_axis double fme_fill_color text(50) fme_type text(50) fme_basename text(50) geopackage_type text(255) fme_text_size double fme_start_angle double fme_color text(50) fme_secondary_axis double fme_text_string text(50) fme_feature_type text(50) fme_dataset text(50) fme_sweep_angle double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_match_id_attribute Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE ATTR fme_match_id_attribute \&quot; \&quot; ID Attribute&quot; geopackage_fid &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_primary_index_column%geopackage_create_spatial_table Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_ENCODED geopackage_primary_index_column Primary Index Column&quot; id &quot;GUI ACTIVEDISCLOSUREGROUP geopackage_create_spatial_table geopackage_geometry_column%geopackage_create_spatial_index Spatial&quot; YES &quot;GUI OPTIONAL TEXT_ENCODED geopackage_geometry_column Spatial Column&quot; geom &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
@@ -262,7 +262,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="spatialite_type wkb_geometry spatialite_overwrite_tables deprecated spatialite_create_spatial_index Yes spatialite_compress_geometry No fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_ID fme_match_id_attribute &quot;spatialite_id&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset string(50) spatialite_type string(255) fme_sweep_angle real(31,15) fme_text_string string(50) fme_feature_type string(50) fme_basename string(50) fme_rotation real(31,15) fme_start_angle real(31,15) fme_fill_color string(50) fme_text_size real(31,15) fme_type string(50) fme_color string(50) fme_geometry string(50) fme_primary_axis real(31,15) fme_secondary_axis real(31,15)"
+#!   EXPOSABLE_ATTRS="fme_rotation real(31,15) fme_geometry string(50) spatialite_type string(255) fme_primary_axis real(31,15) fme_fill_color string(50) fme_type string(50) fme_basename string(50) fme_text_size real(31,15) fme_start_angle real(31,15) fme_color string(50) fme_secondary_axis real(31,15) fme_text_string string(50) fme_feature_type string(50) fme_dataset string(50) fme_sweep_angle real(31,15)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_match_id_attribute Row Selection&quot; &quot;&quot; &quot;GUI WHOLE_LINE ATTR fme_match_id_attribute \&quot; \&quot; ID Attribute&quot; spatialite_id &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group spatialite_compress_geometry%spatialite_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE spatialite_compress_geometry Yes%No Compress Geometry&quot; No &quot;GUI CHOICE spatialite_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="\\/&quot;:?*&lt;&gt;|[# &apos;&amp;+-{}]."
@@ -310,535 +310,397 @@
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bool"
 #!   FME_TYPE="fme_boolean"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varchar(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="text"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="json"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int16"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int8"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_uint8"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_uint16"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_int64"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(20,0)"
 #!   FME_TYPE="fme_uint64"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="oid"
 #!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="serial"
 #!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float4"
 #!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="money"
 #!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float8"
 #!   FME_TYPE="fme_real64"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="date"
 #!   FME_TYPE="fme_date"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="time"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timetz"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamp"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamptz"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="uuid"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bit(width)"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
+#!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bool"
 #!   FME_TYPE="fme_boolean"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varchar(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="text"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="json"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int16"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int8"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_uint8"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_uint16"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_int64"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(20,0)"
 #!   FME_TYPE="fme_uint64"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="oid"
 #!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="serial"
 #!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float4"
 #!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="money"
 #!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float8"
 #!   FME_TYPE="fme_real64"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="date"
 #!   FME_TYPE="fme_date"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="time"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timetz"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamp"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamptz"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="uuid"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bit(width)"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="blob"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="blob(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="blob(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="datetime"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="datetime"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="boolean"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="tinyint"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="mediumint"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="mediumint"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="GEOPACKAGE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text(20)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="GEOPACKAGE"
+#!   FORMAT="POSTGIS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -984,8 +846,236 @@
 #!   FME_TYPE="fme_real64"
 #!   FORMAT="SPATIALITE"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="tinyint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mediumint"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="mediumint"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GEOPACKAGE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GEOPACKAGE"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POSTGRES"
+#! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgis_multipoint"
@@ -1143,94 +1233,358 @@
 #!   FORMAT="POSTGIS"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyzm"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point_xym"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyzm"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyz"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xym"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_point_xyzm"
 #!   FME_TYPE="fme_text"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_curve_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_curve_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_curve_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_curve"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_compound_curve_xyzm"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_compound_curve_xyz"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_compound_curve_xym"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_compound_curve"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_circular_string_xyzm"
 #!   FME_TYPE="fme_arc"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_circular_string_xyz"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_circular_string_xym"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POSTGRES"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_circular_string"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
 #!   FME_TYPE="fme_solid"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_line_xyzm"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_surface_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_surface_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_surface_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_multi_surface"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_curve_polygon_xyzm"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_curve_polygon_xyz"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_curve_polygon_xym"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_curve_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_curve_polygon_xyzm"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_polygon_xyzm"
 #!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyzm"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xyz"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection_xym"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="wkb_geometry"
 #!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POSTGRES"
+#!   FORMAT="SPATIALITE"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1585,360 +1939,6 @@
 #!   FORMAT_TYPE="wkb_geometry"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="GEOPACKAGE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_point_xyzm"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_point_xyz"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_point_xym"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_point"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point_xyzm"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point_xyz"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point_xym"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_point_xyzm"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_line_xyzm"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_line_xyz"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_line_xym"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_line"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_curve_xyzm"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_curve_xyz"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_curve_xym"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_curve"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyzm"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyz"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xym"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_compound_curve_xyzm"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_compound_curve_xyz"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_compound_curve_xym"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_compound_curve"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_circular_string_xyzm"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_circular_string_xyz"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_circular_string_xym"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_circular_string"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyzm"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_line_xyzm"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_polygon_xyzm"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_polygon_xyz"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_polygon_xym"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_polygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_surface_xyzm"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_surface_xyz"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_surface_xym"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_multi_surface"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyzm"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyz"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xym"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_curve_polygon_xyzm"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_curve_polygon_xyz"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_curve_polygon_xym"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_curve_polygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_curve_polygon_xyzm"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyzm"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyzm"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyzm"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_polygon_xyzm"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry_collection_xyzm"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry_collection_xyz"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry_collection_xym"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry_collection"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="SPATIALITE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="wkb_geometry"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="SPATIALITE"
 #! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
@@ -2155,7 +2155,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="9"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 2370.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 2370.7398575740144 -1 -1"
 #!   ORDER="500000000000001"
@@ -2171,10 +2171,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2187,7 +2187,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="10"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 1500.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 1500.7398575740144 -1 -1"
 #!   ORDER="500000000000002"
@@ -2205,10 +2205,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2221,7 +2221,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="11"
-#!   FEAT_GEOMTYPE="wkb_geometry wkb_multi_point_xyzm wkb_multi_line_xyzm wkb_multi_polygon_xyzm wkb_line_xyzm wkb_geometry_collection_xyzm"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 1326.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 1326.7398575740144 -1 -1"
 #!   ORDER="500000000000003"
@@ -2232,15 +2232,14 @@
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="int" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="geometry" ATTR_TYPE="" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="dataset_id" ATTR_TYPE="mediumint" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2253,7 +2252,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="12"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 1848.7398575740142"
 #!   BOUNDING_RECT="-801.54435316282979 1848.7398575740142 -1 -1"
 #!   ORDER="500000000000004"
@@ -2269,10 +2268,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2285,7 +2284,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="13"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 2022.7398575740142"
 #!   BOUNDING_RECT="-801.54435316282979 2022.7398575740142 -1 -1"
 #!   ORDER="500000000000005"
@@ -2301,10 +2300,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2317,7 +2316,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="14"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 1674.7398575740142"
 #!   BOUNDING_RECT="-801.54435316282979 1674.7398575740142 -1 -1"
 #!   ORDER="500000000000006"
@@ -2335,10 +2334,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2351,7 +2350,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="15"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 2196.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 2196.7398575740144 -1 -1"
 #!   ORDER="500000000000007"
@@ -2366,10 +2365,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="geopackage_fid"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_index" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_create_spatial_table" PARM_VALUE="YES"/>
 #!     <DEFLINE_PARM PARM_NAME="geopackage_geometry_column" PARM_VALUE="geom"/>
@@ -2382,7 +2381,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="23"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 3722.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 3722.7398575740144 -1 -1"
 #!   ORDER="500000000000008"
@@ -2398,10 +2397,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2412,7 +2411,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="24"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 2852.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 2852.7398575740144 -1 -1"
 #!   ORDER="500000000000009"
@@ -2430,10 +2429,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2444,7 +2443,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="25"
-#!   FEAT_GEOMTYPE="wkb_geometry wkb_multi_point_xyzm wkb_multi_line_xyzm wkb_multi_polygon_xyzm wkb_line_xyzm wkb_geometry_collection_xyzm"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 2678.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 2678.7398575740144 -1 -1"
 #!   ORDER="500000000000010"
@@ -2455,15 +2454,14 @@
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="integer64" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="geometry" ATTR_TYPE="" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="dataset_id" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2474,7 +2472,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="26"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 3200.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 3200.7398575740144 -1 -1"
 #!   ORDER="500000000000011"
@@ -2490,10 +2488,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2504,7 +2502,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="27"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 3374.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 3374.7398575740144 -1 -1"
 #!   ORDER="500000000000012"
@@ -2520,10 +2518,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2534,7 +2532,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="28"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 3026.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 3026.7398575740144 -1 -1"
 #!   ORDER="500000000000013"
@@ -2552,10 +2550,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2566,7 +2564,7 @@
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="29"
-#!   FEAT_GEOMTYPE="wkb_geometry"
+#!   FEAT_GEOMTYPE="All"
 #!   POSITION="-801.54435316282979 3548.7398575740144"
 #!   BOUNDING_RECT="-801.54435316282979 3548.7398575740144 -1 -1"
 #!   ORDER="500000000000014"
@@ -2581,10 +2579,10 @@
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
-#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="spatialite_id"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_id_attribute" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="DROP_CREATE"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_compress_geometry" PARM_VALUE="No"/>
 #!     <DEFLINE_PARM PARM_NAME="spatialite_create_spatial_index" PARM_VALUE="Yes"/>
 #! </FEATURE_TYPE>
@@ -2633,20 +2631,20 @@
 #! <BOOKMARK
 #!   IDENTIFIER="30"
 #!   NAME="Geopackage"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-918.54435316282979 2530.7398575740144"
 #!   ORDER="500000000000015"
 #!   BOTTOM_RIGHT="-188.54435316282979 1186.7398575740144"
 #!   BOUNDING_RECT="-918.54435316282979 2530.7398575740144 730 1344"
 #!   STICKY="true"
 #!   COLOUR="0.87450980392156863,0.25882352941176473,0.73725490196078436"
-#!   CONTENTS="14 12 10 13 9 15 11 "
+#!   CONTENTS="15 11 9 12 10 14 13 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="38"
 #!   NAME="Spatialite"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-918.54435316282979 3882.7398575740144"
 #!   ORDER="500000000000016"
 #!   BOTTOM_RIGHT="-188.54435316282979 2538.7398575740144"
@@ -2659,14 +2657,14 @@
 #! <BOOKMARK
 #!   IDENTIFIER="39"
 #!   NAME="PostGIS"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-2618.1227524555952 3074.6305371825651"
 #!   ORDER="500000000000017"
 #!   BOTTOM_RIGHT="-1888.1227524555952 1730.6305371825651"
 #!   BOUNDING_RECT="-2618.1227524555952 3074.6305371825651 730 1344"
 #!   STICKY="true"
 #!   COLOUR="0.73333333333333328,0.14509803921568629,0.88627450980392153"
-#!   CONTENTS="4 8 5 3 6 2 7 "
+#!   CONTENTS="5 7 3 8 6 4 2 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -3144,17 +3142,14 @@ MACRO WORKSPACE_NAME 00_postgis_postgres2geopackage
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::data.geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::data.geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes_geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes_geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.prefix multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.prefix ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codeshierarchy multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codeshierarchy ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.localid_geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.localid_geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.dataset multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.dataset ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::data.geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::data.geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.prefix multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.prefix ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.localid_geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.localid_geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.dataset multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.dataset ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes_geometry multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes_geometry ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codes multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codes ALIAS_GEOMETRY    ROUTE POSTGRES POSTGRES_1::data.codeshierarchy multi_reader_keyword,$(DATASET_KEYWORD_POSTGRES_1) TO FME_GENERIC ::data.codeshierarchy ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::data.geometry EXACT data.geometry DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,id,int8<comma>PrimaryKey,dataset_id,int4<comma>BTree
-POSTGRES_1_MERGE_DEF POSTGRES_1::data.codes_geometry EXACT data.codes_geometry DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,geometry_id,int8<comma>PrimaryKey,code,text,codes_id,int8,fraction,int4,created,timestamp
 POSTGRES_1_MERGE_DEF POSTGRES_1::data.prefix EXACT data.prefix DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,serial<comma>PrimaryKey,value,text<comma>PrimaryKey,description,text
-POSTGRES_1_MERGE_DEF POSTGRES_1::data.codeshierarchy EXACT data.codeshierarchy DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,predecessor,text<comma>BTree,successor,text<comma>BTree
 POSTGRES_1_MERGE_DEF POSTGRES_1::data.localid_geometry EXACT data.localid_geometry DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,geometry_id,int8<comma>BTree,localid,text<comma>BTree
-POSTGRES_1_MERGE_DEF POSTGRES_1::data.codes EXACT data.codes DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,code,text<comma>PrimaryKey,title,text,level,int4,index,int8
 POSTGRES_1_MERGE_DEF POSTGRES_1::data.dataset EXACT data.dataset DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,prefix_id,int4<comma>BTree,description,text
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "data.geometry (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE data.geometry    OUTPUT FEATURE_TYPE data.geometry_POSTGIS_1_0_+0c1vbUfDYE=    OUTPUT FEATURE_TYPE data.geometry_POSTGIS_1_1_/IXm4KS878Q=
+POSTGRES_1_MERGE_DEF POSTGRES_1::data.codes_geometry EXACT data.codes_geometry DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,geometry_id,int8<comma>PrimaryKey,code,text,codes_id,int8,fraction,int4,created,timestamp
+POSTGRES_1_MERGE_DEF POSTGRES_1::data.codes EXACT data.codes DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,code,text<comma>PrimaryKey,title,text,level,int4,index,int8
+POSTGRES_1_MERGE_DEF POSTGRES_1::data.codeshierarchy EXACT data.codeshierarchy DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,id,int8<comma>PrimaryKey,predecessor,text<comma>BTree,successor,text<comma>BTree
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "data.codes (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.codes    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1_0_2kl2yNBGGq0=    OUTPUT FEATURE_TYPE data.codes_POSTGRES_1_1_A1zL60k2l+8=
@@ -3173,39 +3168,42 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "data.localid_geometry (POSTGRES_1) Spl
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "data.prefix (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE data.prefix    OUTPUT FEATURE_TYPE data.prefix_POSTGRES_1_0_kJsiZjBzdaA=    OUTPUT FEATURE_TYPE data.prefix_POSTGRES_1_1_e5OYm5eJkMA=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "data.geometry (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE data.geometry    OUTPUT FEATURE_TYPE data.geometry_POSTGIS_1_0_+0c1vbUfDYE=    OUTPUT FEATURE_TYPE data.geometry_POSTGIS_1_1_/IXm4KS878Q=
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC data.prefix_POSTGRES_1_0_kJsiZjBzdaA= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_prefix<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_POSTGRES_1_0_2kl2yNBGGq0= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes<closeparen> GEOMETRY    ROUTE FME_GENERIC data.geometry_POSTGIS_1_0_+0c1vbUfDYE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codeshierarchy_POSTGRES_1_0_tVrIQY/jxdo= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codeshierarchy<closeparen> GEOMETRY    ROUTE FME_GENERIC data.dataset_POSTGRES_1_0_xtux2/6lyRU= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_dataset<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_geometry_POSTGRES_1_0_vFGXRZXMxVE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.localid_geometry_POSTGRES_1_0_Tv79LSkm9AE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_localid_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.prefix_POSTGRES_1_1_e5OYm5eJkMA= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_prefix<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_POSTGRES_1_1_A1zL60k2l+8= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes<closeparen> GEOMETRY    ROUTE FME_GENERIC data.geometry_POSTGIS_1_1_/IXm4KS878Q= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codeshierarchy_POSTGRES_1_1_ITSCRXzg5Ns= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codeshierarchy<closeparen> GEOMETRY    ROUTE FME_GENERIC data.dataset_POSTGRES_1_1_UvHFSt8Wz2s= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_dataset<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_geometry_POSTGRES_1_1_UwRVtTDwkSc= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.localid_geometry_POSTGRES_1_1_p2MImsHe2Go= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_localid_geometry<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC data.prefix_POSTGRES_1_1_e5OYm5eJkMA= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_prefix<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_POSTGRES_1_1_A1zL60k2l+8= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes<closeparen> GEOMETRY    ROUTE FME_GENERIC data.geometry_POSTGIS_1_1_/IXm4KS878Q= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codeshierarchy_POSTGRES_1_1_ITSCRXzg5Ns= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codeshierarchy<closeparen> GEOMETRY    ROUTE FME_GENERIC data.dataset_POSTGRES_1_1_UvHFSt8Wz2s= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_dataset<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_geometry_POSTGRES_1_1_UwRVtTDwkSc= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.localid_geometry_POSTGRES_1_1_p2MImsHe2Go= TO SPATIALITE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_localid_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.prefix_POSTGRES_1_0_kJsiZjBzdaA= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_prefix<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_POSTGRES_1_0_2kl2yNBGGq0= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes<closeparen> GEOMETRY    ROUTE FME_GENERIC data.geometry_POSTGIS_1_0_+0c1vbUfDYE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codeshierarchy_POSTGRES_1_0_tVrIQY/jxdo= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codeshierarchy<closeparen> GEOMETRY    ROUTE FME_GENERIC data.dataset_POSTGRES_1_0_xtux2/6lyRU= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_dataset<closeparen> GEOMETRY    ROUTE FME_GENERIC data.codes_geometry_POSTGRES_1_0_vFGXRZXMxVE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_codes_geometry<closeparen> GEOMETRY    ROUTE FME_GENERIC data.localid_geometry_POSTGRES_1_0_Tv79LSkm9AE= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>data_localid_geometry<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_codes   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   code                         text   title                        text   level                        mediumint   index                        int
+GEOPACKAGE_1_DEF data_codeshierarchy   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   predecessor                  text   successor                    text
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_dataset   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   prefix_id                    mediumint   description                  text
+GEOPACKAGE_1_DEF data_localid_geometry   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   geometry_id                  int   localid                      text
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_prefix   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           mediumint   value                        text   description                  text
+GEOPACKAGE_1_DEF data_dataset   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   prefix_id                    mediumint   description                  text
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_codeshierarchy   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   predecessor                  text   successor                    text
+GEOPACKAGE_1_DEF data_codes   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   code                         text   title                        text   level                        mediumint   index                        int
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_codes_geometry   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   geometry_id                  int   code                         text   codes_id                     int   fraction                     mediumint   created                      datetime
+GEOPACKAGE_1_DEF data_prefix   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           mediumint   value                        text   description                  text
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_geometry   geopackage_type              "wkb_geometry wkb_multi_point_xyzm wkb_multi_line_xyzm wkb_multi_polygon_xyzm wkb_line_xyzm wkb_geometry_collection_xyzm"   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   dataset_id                   mediumint
+GEOPACKAGE_1_DEF data_codes_geometry   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   geometry_id                  int   code                         text   codes_id                     int   fraction                     mediumint   created                      datetime
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF data_localid_geometry   geopackage_type              wkb_geometry   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       geopackage_fid   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   geometry_id                  int   localid                      text
+GEOPACKAGE_1_DEF data_geometry   geopackage_type              All   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geopackage_create_spatial_table YES   geopackage_geometry_column   geom   geopackage_primary_index_column id   geopackage_create_spatial_index Yes   id                           int   dataset_id                   mediumint
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_codes   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   id                           integer64   code                         string(255)   title                        string(255)   level                        integer   index                        integer64
+SPATIALITE_1_DEF data_codeshierarchy   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   id                           integer64   predecessor                  string(255)   successor                    string(255)
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_dataset   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   id                           integer64   prefix_id                    integer   description                  string(255)
+SPATIALITE_1_DEF data_localid_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geometry_id                  integer64   localid                      string(255)
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_prefix   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   id                           integer   value                        string(255)   description                  string(255)
+SPATIALITE_1_DEF data_dataset   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   id                           integer64   prefix_id                    integer   description                  string(255)
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_codeshierarchy   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   id                           integer64   predecessor                  string(255)   successor                    string(255)
+SPATIALITE_1_DEF data_codes   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   id                           integer64   code                         string(255)   title                        string(255)   level                        integer   index                        integer64
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_codes_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   geometry_id                  integer64   code                         string(255)   codes_id                     integer64   fraction                     integer   created                      datetime
+SPATIALITE_1_DEF data_prefix   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   id                           integer   value                        string(255)   description                  string(255)
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   id                           integer64   dataset_id                   integer
+SPATIALITE_1_DEF data_codes_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   geometry_id                  integer64   code                         string(255)   codes_id                     integer64   fraction                     integer   created                      datetime
 # -------------------------------------------------------------------------
-SPATIALITE_1_DEF data_localid_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   fme_selection_method         MATCH_ID   fme_match_id_attribute       spatialite_id   geometry_id                  integer64   localid                      string(255)
+SPATIALITE_1_DEF data_geometry   spatialite_type              wkb_geometry   spatialite_overwrite_tables  deprecated   spatialite_create_spatial_index Yes   spatialite_compress_geometry No   fme_feature_operation        INSERT   fme_table_handling           DROP_CREATE   fme_selection_method         MATCH_ID   id                           integer64   dataset_id                   integer
