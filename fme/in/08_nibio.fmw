@@ -11,14 +11,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="9461.9 497.999"
+#!   DOC_EXTENTS="8685.9 497.999"
 #!   DOC_TOP_LEFT="109 253.751"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="979540c2-3d12-4f2b-8fd2-490bf4c7f1e8"
-#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,bfef4fb3-5469-44db-957d-0d49ba089f20,a251ba24-80c3-4ed7-a1c6-a642b4128a26,eeb91cd1-f0d4-4c2a-973d-e83c0dd31033,699c8def-6764-458b-89e8-7050ffdd3cec,8dbc0e82-05d5-44b9-8f8a-a811a029c7f4,683dee41-899c-4497-a522-1dbcf60f0a62,9948a956-a3ef-4252-bc74-e912f4f51c0a,bf4b45c2-b7aa-4cfe-bf09-414f1cb4c6eb,752dea29-475b-4059-bf2b-321bd2d78de0,ec88d2b9-1f4f-4de2-be23-e2225ab79144,eed99610-0fb6-4458-a06f-2bcdd4066585,7d1bcdfc-f213-43bd-a576-22576baa80b7,739e2f05-2e59-4e88-ad25-7439d44e2aef,1c1c383a-8e93-479a-9d12-128ecb743325,732d94da-c266-49c9-bc1b-6e34f87d41c3"
+#!   FME_DOCUMENT_GUID="0763d73e-8283-4f3a-985d-952623d6987a"
+#!   FME_DOCUMENT_PRIORGUID="da1bc3c0-bf29-401a-b8fe-2e7355b4be9a,1b7f10b8-0bcd-4830-9365-4baa7cabcb65,abe2e3e0-b8f3-47fb-9965-0cb25ac1025d,98cfe63a-0bfd-472f-99ea-18f17fdc0ff2,151b29b4-fd57-451c-a183-427344f99ba1,bfef4fb3-5469-44db-957d-0d49ba089f20,a251ba24-80c3-4ed7-a1c6-a642b4128a26,eeb91cd1-f0d4-4c2a-973d-e83c0dd31033,699c8def-6764-458b-89e8-7050ffdd3cec,8dbc0e82-05d5-44b9-8f8a-a811a029c7f4,683dee41-899c-4497-a522-1dbcf60f0a62,9948a956-a3ef-4252-bc74-e912f4f51c0a,bf4b45c2-b7aa-4cfe-bf09-414f1cb4c6eb,752dea29-475b-4059-bf2b-321bd2d78de0,ec88d2b9-1f4f-4de2-be23-e2225ab79144,eed99610-0fb6-4458-a06f-2bcdd4066585,7d1bcdfc-f213-43bd-a576-22576baa80b7,739e2f05-2e59-4e88-ad25-7439d44e2aef,1c1c383a-8e93-479a-9d12-128ecb743325,732d94da-c266-49c9-bc1b-6e34f87d41c3,979540c2-3d12-4f2b-8fd2-490bf4c7f1e8"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -27,7 +27,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-12-07T13:39:24"
+#!   LAST_SAVE_DATE="2018-12-12T15:48:41"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,10 +45,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-203.806 2074.3"
+#!   VIEW_POSITION="-249.158 2200.19"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="69"
+#!   ZOOM_SCALE="74"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="xml_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_basename xml_char(50) multi_reader_full_id xml_int32 fme_secondary_axis xml_real64 fme_geometry fme_char(50) fme_rotation xml_real64 fme_primary_axis xml_real64 fme_fill_color xml_char(50) fme_text_string xml_char(50) multi_reader_type xml_char(50) fme_dataset xml_char(50) fme_feature_type xml_char(50) fme_sweep_angle xml_real64 fme_color xml_char(50) fme_start_angle xml_real64 multi_reader_keyword xml_char(50) xml_type xml_char(50) fme_text_size xml_real64 multi_reader_id xml_int32 fme_type xml_char(50)"
+#!   EXPOSABLE_ATTRS="fme_secondary_axis xml_real64 fme_geometry fme_char(50) multi_reader_id xml_int32 fme_basename xml_char(50) fme_primary_axis xml_real64 fme_feature_type xml_char(50) xml_type xml_char(50) fme_rotation xml_real64 fme_type xml_char(50) fme_text_size xml_real64 multi_reader_full_id xml_int32 fme_text_string xml_char(50) fme_start_angle xml_real64 fme_dataset xml_char(50) fme_color xml_char(50) multi_reader_type xml_char(50) fme_fill_color xml_char(50) multi_reader_keyword xml_char(50) fme_sweep_angle xml_real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -110,7 +110,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_basename char(50) fme_secondary_axis float8 fme_geometry fme_char(50) postgis_collection_id int4 fme_rotation float8 fme_db_operation char(8) fme_primary_axis float8 postgis_type char(50) fme_fill_color char(50) fme_text_string char(50) postgis_collection_part_id int4 fme_dataset char(50) fme_feature_type char(50) fme_sweep_angle float8 fme_color char(50) fme_start_angle float8 fme_text_size float8 fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 fme_geometry fme_char(50) fme_basename char(50) fme_primary_axis float8 fme_feature_type char(50) fme_rotation float8 fme_type char(50) fme_text_size float8 fme_text_string char(50) postgis_collection_id int4 fme_start_angle float8 postgis_collection_part_id int4 fme_dataset char(50) fme_db_operation char(8) fme_color char(50) postgis_type char(50) fme_fill_color char(50) fme_sweep_angle float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -841,8 +841,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="25"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="9013.1034999999993 395.75"
-#!   BOUNDING_RECT="9013.1034999999993 395.75 557.79300000000001 71"
+#!   POSITION="8237.1034999999993 395.75"
+#!   BOUNDING_RECT="8237.1034999999993 395.75 557.79300000000001 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_1"
@@ -1000,26 +1000,12 @@
 #!   ANCHORED_NODE="27"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="54"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Insert codes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7437 401.75"
-#!   TOP_LEFT="7437 401.75"
-#!   BOTTOM_RIGHT="7436 402.75"
-#!   BOUNDING_RECT="7437 401.75 -1 -1"
-#!   ORDER="500000000000000"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.78431372549019607,0.19215686274509805"
-#!   SIZE_POLICY="8"
-#!   ANCHORED_NODE="32"
-#! />
-#! <COMMENT
 #!   IDENTIFIER="38"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Insert dataset&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(prefix should already be there from NiN-import)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3017.5582655826561 444.75056250562511"
-#!   TOP_LEFT="3017.5582655826561 444.75056250562511"
-#!   BOTTOM_RIGHT="3016.5582655826561 445.75056250562511"
-#!   BOUNDING_RECT="3017.5582655826561 444.75056250562511 -1 -1"
+#!   POSITION="3017.5582655826561 444.75056250562506"
+#!   TOP_LEFT="3017.5582655826561 444.75056250562506"
+#!   BOTTOM_RIGHT="3016.5582655826561 445.75056250562506"
+#!   BOUNDING_RECT="3017.5582655826561 444.75056250562506 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1030,10 +1016,10 @@
 #! <COMMENT
 #!   IDENTIFIER="67"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get code-id&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="8213 401.75"
-#!   TOP_LEFT="8213 401.75"
-#!   BOTTOM_RIGHT="8212 402.75"
-#!   BOUNDING_RECT="8213 401.75 -1 -1"
+#!   POSITION="7437 401.75"
+#!   TOP_LEFT="7437 401.75"
+#!   BOTTOM_RIGHT="7436 402.75"
+#!   BOUNDING_RECT="7437 401.75 -1 -1"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1197,62 +1183,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="32"
-#!   TYPE="SQLExecutor"
-#!   VERSION="8"
-#!   POSITION="7479 254.49099999999999"
-#!   BOUNDING_RECT="7479 254.49099999999999 -1 -1"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17539"
-#! >
-#!     <OUTPUT_FEAT NAME="RESULT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="INITIATOR"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="geometry_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="created" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="COMBINE_ATTRS" PARM_VALUE="Keep Result Attributes if Conflict"/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Initiator Geometry Only"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(config_db)"/>
-#!     <XFORM_PARM PARM_NAME="DB_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXPOSED_ATTRIBUTE_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGRES"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGRES_USER_NAME,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Username:,POSTGRES_PORT,&quot;OPTIONAL INTEGER&quot;,POSTGRES&lt;space&gt;Port:,POSTGRES_HOST,&quot;OPTIONAL TEXT&quot;,POSTGRES&lt;space&gt;Host:,POSTGRES_PASSWORD,&quot;OPTIONAL PASSWORD_ENCODED&quot;,POSTGRES&lt;space&gt;Password:,POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;,POSTGRES_SCHEMAS_FOR_TABLE_LISTING,&quot;IGNORE TEXT&quot;,POSTGRES&lt;space&gt;Schemas&lt;space&gt;for&lt;space&gt;Table&lt;space&gt;Listing:"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_HOST" PARM_VALUE="$(config_host)"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PASSWORD" PARM_VALUE="$(config_pass)"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_PORT" PARM_VALUE="$(config_port)"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_SCHEMAS_FOR_TABLE_LISTING" PARM_VALUE="data"/>
-#!     <XFORM_PARM PARM_NAME="POSTGRES_USER_NAME" PARM_VALUE="$(config_user)"/>
-#!     <XFORM_PARM PARM_NAME="SQL_STATEMENT" PARM_VALUE="INSERT&lt;space&gt;INTO&lt;space&gt;data.codes&lt;space&gt;&lt;openparen&gt;code&lt;comma&gt;&lt;space&gt;title&lt;closeparen&gt;&lt;space&gt;select&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;title&lt;closeparen&gt;&lt;apos&gt;&lt;space&gt;WHERE&lt;space&gt;NOT&lt;space&gt;EXISTS&lt;space&gt;&lt;openparen&gt;SELECT&lt;space&gt;1&lt;space&gt;FROM&lt;space&gt;data.codes&lt;space&gt;WHERE&lt;space&gt;code&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;code&lt;closeparen&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;semicolon&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SQLExecutor_3"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="37"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="3063.1882655826562 253.75056250562511"
-#!   BOUNDING_RECT="3063.1882655826562 253.75056250562511 -1 -1"
+#!   POSITION="3063.1882655826562 253.75056250562506"
+#!   BOUNDING_RECT="3063.1882655826562 253.75056250562506 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1325,8 +1260,8 @@
 #!   IDENTIFIER="66"
 #!   TYPE="SQLExecutor"
 #!   VERSION="8"
-#!   POSITION="8255 254.49099999999999"
-#!   BOUNDING_RECT="8255 254.49099999999999 -1 -1"
+#!   POSITION="7479 254.49099999999999"
+#!   BOUNDING_RECT="7479 254.49099999999999 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1527,7 +1462,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="53"
 #!   SOURCE_NODE="45"
-#!   TARGET_NODE="32"
+#!   TARGET_NODE="66"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
@@ -1585,17 +1520,6 @@
 #!   TARGET_NODE="25"
 #!   SOURCE_PORT_DESC="fo 0 RESULT"
 #!   TARGET_PORT_DESC="-1"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="68"
-#!   SOURCE_NODE="32"
-#!   TARGET_NODE="66"
-#!   SOURCE_PORT_DESC="fo 1 INITIATOR"
-#!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2036,8 +1960,8 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE AR50_WFS_1    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "code" "SET_TO" "$(Prefix$encode)-I1" }      ATTR_ACTION { "" "created" "SET_TO" "<at>ReplaceRegEx<openparen><at>Value<openparen>oppdateringsdato<closeparen><comma><quote><openparen><openbracket><space><closebracket>.*<closeparen><dollar><quote><comma><quote><quote><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2066bbeb_7ab5_4f1d_af3a_089a1ec000432_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,created,code,fme_pcre_match,"^fme_$(AttributeKeeper_2066bbeb_7ab5_4f1d_af3a_089a1ec000432_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_b4c89bb9_6db9_43b8_a608_d789112a69c13_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,created,code,fme_pcre_match,"^fme_$(AttributeKeeper_b4c89bb9_6db9_43b8_a608_d789112a69c13_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 INCLUDE [ puts "MACRO REAL_RATE [expr 1 * -1 ]" ]
 FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER ORIGINAL    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___    OUTPUT NOT_SAMPLED FEATURE_TYPE Sampler_NOT_SAMPLED
@@ -2067,14 +1991,8 @@ FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY
 # -------------------------------------------------------------------------
 FACTORY_DEF * SortFactory    FACTORY_NAME FeatureHolder    INPUT  FEATURE_TYPE AttributeRenamer_4_OUTPUT    OUTPUT SORTED FEATURE_TYPE FeatureHolder_OUTPUT
 # -------------------------------------------------------------------------
-MACRO SQLExecutor_3_DIRECTIVES USER_NAME "$(config_user)" PORT "$(config_port)" HOST "$(config_host)" PASSWORD "$(config_pass)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SCHEMAS_FOR_TABLE_LISTING data
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_3    INPUT  FEATURE_TYPE FeatureHolder_OUTPUT    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,INSERT<space>INTO<space>data.codes<space><openparen>code<comma><space>title<closeparen><space>select<space><apos><at>Value<openparen>code<closeparen><apos><comma><space><apos><at>Value<openparen>title<closeparen><apos><space>WHERE<space>NOT<space>EXISTS<space><openparen>SELECT<space>1<space>FROM<space>data.codes<space>WHERE<space>code<space>=<space><apos><at>Value<openparen>code<closeparen><apos><closeparen><semicolon>,SQLExecutor_3)"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_3)"    COMBINE_ATTRIBUTES   PREFER_RESULT    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_3_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_3_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_3)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_3_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_3_<REJECTED>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_3 RESULT Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_3_RESULT
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_3_<Rejected> INPUT FEATURE_TYPE SQLExecutor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
 MACRO SQLExecutor_5_DIRECTIVES USER_NAME "$(config_user)" PORT "$(config_port)" HOST "$(config_host)" PASSWORD "$(config_pass)" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes SCHEMAS_FOR_TABLE_LISTING data
-FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_5    INPUT  FEATURE_TYPE SQLExecutor_3_INITIATOR    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space>id<space>as<space>codes_id<space>from<space>data.codes<space>where<space>code<space>=<space><apos><at>Value<openparen>code<closeparen><apos><semicolon>,SQLExecutor_5)"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_5)"    COMBINE_ATTRIBUTES   PREFER_RESULT    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_5_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_5_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_5)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_5_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_5_<REJECTED>
+FACTORY_DEF * QueryFactory    FACTORY_NAME SQLExecutor_5    INPUT  FEATURE_TYPE FeatureHolder_OUTPUT    QUERY_SQL            "@EvaluateExpression(FDIV,STRING_ENCODED,select<space>id<space>as<space>codes_id<space>from<space>data.codes<space>where<space>code<space>=<space><apos><at>Value<openparen>code<closeparen><apos><semicolon>,SQLExecutor_5)"    READER_TYPE          POSTGRES    READER_DATASET       "@EvaluateExpression(FDIV,STRING_ENCODED,$(config_db$encode),SQLExecutor_5)"    COMBINE_ATTRIBUTES   PREFER_RESULT    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $(SQLExecutor_5_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE SQLExecutor_5_RESULT        @SupplyAttributes(fme_feature_type,SQLExecutor_5)    OUTPUT QUERY FEATURE_TYPE SQLExecutor_5_INITIATOR    OUTPUT READER_ERROR FEATURE_TYPE SQLExecutor_5_<REJECTED>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SQLExecutor_5 INITIATOR Transformer Output Nuker"   INPUT FEATURE_TYPE SQLExecutor_5_INITIATOR
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SQLExecutor_5_<Rejected> INPUT FEATURE_TYPE SQLExecutor_5_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SQLExecutor_5<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -2092,6 +2010,6 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-POSTGIS_1_DEF data.codes_geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   codes_id                     text   geometry_id                  text   code                         text   created                      timestamp
-# -------------------------------------------------------------------------
 POSTGIS_1_DEF data.geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing YES   dataset_id                   int8   id                           int8
+# -------------------------------------------------------------------------
+POSTGIS_1_DEF data.codes_geometry   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           USE_EXISTING   postgis_create_with_oids     NO   postgis_create_gist_index    YES   postgis_spatial_column_type  geography   postgis_spatial_column       geography   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   codes_id                     text   geometry_id                  text   code                         text   created                      timestamp
