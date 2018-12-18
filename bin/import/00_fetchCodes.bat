@@ -1,0 +1,1 @@
+docker run -v D:\in\ADB:/data -it artsdatabanken/releasefetcher sh getLatestReleaseFromRepo.sh Artsdatabanken/kverna kodetre.tar.gz /data
