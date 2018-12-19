@@ -14,14 +14,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3713.37 1585.33"
-#!   DOC_TOP_LEFT="87.6328 -748.828"
+#!   DOC_EXTENTS="2775.05 1585.33"
+#!   DOC_TOP_LEFT="1025.95 -748.828"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18552"
-#!   FME_DOCUMENT_GUID="624f87c8-de1a-4fec-8323-f7750406870e"
-#!   FME_DOCUMENT_PRIORGUID="f4679687-10c1-404d-8427-1b15c994c9d1"
+#!   FME_DOCUMENT_GUID="6b9c9979-5251-493c-9ee1-876d6fea709a"
+#!   FME_DOCUMENT_PRIORGUID="f4679687-10c1-404d-8427-1b15c994c9d1,624f87c8-de1a-4fec-8323-f7750406870e"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-12-04T13:37:24"
+#!   LAST_SAVE_DATE="2018-12-05T14:51:44"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1102.61 1512.4"
+#!   VIEW_POSITION="-1695.18 1512.4"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="106"
@@ -67,7 +67,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_secondary_axis float geotiff_area_or_point char(255) geotiff_number_of_bits_per_cell decimal(1,0) fme_primary_axis float geotiff_tifftag_datetime datetime fme_dataset char(50) multi_reader_keyword char(50) fme_type char(50) geotiff_tifftag_software char(255) multi_reader_full_id integer geotiff_pyramid_num_levels integer geotiff_tifftag_imagedescription char(255) fme_fill_color char(50) fme_color char(50) geotiff_tifftag_minsamplevalue integer geotiff_type char(255) geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_xresolution float geotiff_pyramid_level{}.num_columns integer geotiff_interleaving_type char(3) geotiff_private_keys{}.value char(255) multi_reader_id integer geotiff_byte_order char(7) fme_rotation float fme_start_angle float geotiff_tifftag_yresolution float fme_geometry char(50) geotiff_tifftag_artist char(255) fme_text_size float geotiff_tifftag_documentname char(255) fme_basename char(50) geotiff_compression_method char(9) fme_feature_type char(50) geotiff_subdataset_description char(255) geotiff_private_keys{}.id integer geotiff_tifftag_resolutionunit decimal(1,0) geotiff_pyramid_level{}.num_rows integer geotiff_tifftag_copyright char(255) multi_reader_type char(50) geotiff_private_keys{}.type char(6) geotiff_tifftag_hostcomputer char(255) geotiff_subdataset_name char(255) fme_sweep_angle float geotiff_photometric_interpretation char(10)"
+#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_type char(255) fme_color char(50) geotiff_photometric_interpretation char(10) fme_basename char(50) geotiff_subdataset_name char(255) geotiff_interleaving_type char(3) geotiff_tifftag_datetime datetime fme_rotation float fme_type char(50) multi_reader_full_id integer multi_reader_keyword char(50) fme_primary_axis float fme_feature_type char(50) fme_text_string char(50) geotiff_tifftag_hostcomputer char(255) fme_start_angle float geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_software char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_tifftag_minsamplevalue integer geotiff_tifftag_xresolution float geotiff_pyramid_num_levels integer fme_sweep_angle float geotiff_compression_method char(9) fme_dataset char(50) geotiff_tifftag_copyright char(255) geotiff_private_keys{}.type char(6) geotiff_area_or_point char(255) geotiff_private_keys{}.id integer geotiff_tifftag_artist char(255) fme_geometry char(50) geotiff_tifftag_imagedescription char(255) geotiff_pyramid_level{}.num_rows integer geotiff_byte_order char(7) geotiff_pyramid_level{}.num_columns integer multi_reader_id integer fme_fill_color char(50) geotiff_private_keys{}.value char(255) fme_secondary_axis float geotiff_tifftag_documentname char(255) fme_text_size float multi_reader_type char(50) geotiff_tifftag_yresolution float geotiff_subdataset_description char(255)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -133,7 +133,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_secondary_axis float geotiff_area_or_point char(255) geotiff_number_of_bits_per_cell decimal(1,0) fme_primary_axis float geotiff_tifftag_datetime datetime fme_dataset char(50) multi_reader_keyword char(50) fme_type char(50) geotiff_tifftag_software char(255) multi_reader_full_id integer geotiff_pyramid_num_levels integer geotiff_tifftag_imagedescription char(255) fme_fill_color char(50) fme_color char(50) geotiff_tifftag_minsamplevalue integer geotiff_type char(255) geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_xresolution float geotiff_pyramid_level{}.num_columns integer geotiff_interleaving_type char(3) geotiff_private_keys{}.value char(255) multi_reader_id integer geotiff_byte_order char(7) fme_rotation float fme_start_angle float geotiff_tifftag_yresolution float fme_geometry char(50) geotiff_tifftag_artist char(255) fme_text_size float geotiff_tifftag_documentname char(255) fme_basename char(50) geotiff_compression_method char(9) fme_feature_type char(50) geotiff_subdataset_description char(255) geotiff_private_keys{}.id integer geotiff_tifftag_resolutionunit decimal(1,0) geotiff_pyramid_level{}.num_rows integer geotiff_tifftag_copyright char(255) multi_reader_type char(50) geotiff_private_keys{}.type char(6) geotiff_tifftag_hostcomputer char(255) geotiff_subdataset_name char(255) fme_sweep_angle float geotiff_photometric_interpretation char(10)"
+#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_type char(255) fme_color char(50) geotiff_photometric_interpretation char(10) fme_basename char(50) geotiff_subdataset_name char(255) geotiff_interleaving_type char(3) geotiff_tifftag_datetime datetime fme_rotation float fme_type char(50) multi_reader_full_id integer multi_reader_keyword char(50) fme_primary_axis float fme_feature_type char(50) fme_text_string char(50) geotiff_tifftag_hostcomputer char(255) fme_start_angle float geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_software char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_tifftag_minsamplevalue integer geotiff_tifftag_xresolution float geotiff_pyramid_num_levels integer fme_sweep_angle float geotiff_compression_method char(9) fme_dataset char(50) geotiff_tifftag_copyright char(255) geotiff_private_keys{}.type char(6) geotiff_area_or_point char(255) geotiff_private_keys{}.id integer geotiff_tifftag_artist char(255) fme_geometry char(50) geotiff_tifftag_imagedescription char(255) geotiff_pyramid_level{}.num_rows integer geotiff_byte_order char(7) geotiff_pyramid_level{}.num_columns integer multi_reader_id integer fme_fill_color char(50) geotiff_private_keys{}.value char(255) fme_secondary_axis float geotiff_tifftag_documentname char(255) fme_text_size float multi_reader_type char(50) geotiff_tifftag_yresolution float geotiff_subdataset_description char(255)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -199,7 +199,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="pngraster_world_file_generation $(_PNGRASTER_WRITER_WORLD_FILE_GENERATION) pngraster_tab_file_generation $(_PNGRASTER_WRITER_TAB_FILE_GENERATION) pngraster_optimize $(_PNGRASTER_WRITER_OPTIMIZE)"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_rotation float pngraster_world_file_generation char(3) fme_secondary_axis float fme_color char(50) fme_text_string char(50) fme_text_size float pngraster_tab_file_generation char(3) fme_sweep_angle float fme_dataset char(50) fme_start_angle float fme_geometry fme_char(50) fme_basename char(50) fme_type char(50) fme_feature_type char(50) pngraster_optimize char(3) fme_primary_axis float fme_fill_color char(50) pngraster_type char(255)"
+#!   EXPOSABLE_ATTRS="fme_start_angle float fme_rotation float fme_geometry fme_char(50) fme_text_size float fme_basename char(50) fme_secondary_axis float pngraster_type char(255) pngraster_world_file_generation char(3) pngraster_optimize char(3) fme_sweep_angle float fme_primary_axis float pngraster_tab_file_generation char(3) fme_feature_type char(50) fme_dataset char(50) fme_text_string char(50) fme_color char(50) fme_fill_color char(50) fme_type char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP pngraster_layer_group pngraster_world_file_generation%pngraster_tab_file_generation%pngraster_optimize Raster&quot; &quot;&quot; &quot;GUI CHOICE pngraster_world_file_generation yes%no World File Generation&quot; yes &quot;GUI CHOICE pngraster_tab_file_generation yes%no TAB File Generation&quot; no &quot;GUI CHOICE pngraster_optimize No_optimization%Level_1_(recommended)%Level_2%Level_3%Level_4%Level_5%Level_6%Level_7_(slow) PNG Optimization Level (reduces file size)&quot; No_optimization "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -258,7 +258,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_basename char(50) fme_text_string char(50) fme_start_angle number(31,15) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_type char(50) fme_rotation number(31,15) fme_primary_axis number(31,15) fme_feature_type char(50) fme_geometry fme_char(50) fme_color char(50) fme_secondary_axis number(31,15) fme_dataset char(50) text_line_eol char(10)"
+#!   EXPOSABLE_ATTRS="text_line_eol char(10) fme_text_string char(50) fme_text_size number(31,15) fme_fill_color char(50) fme_feature_type char(50) fme_basename char(50) fme_color char(50) fme_secondary_axis number(31,15) fme_sweep_angle number(31,15) fme_start_angle number(31,15) fme_primary_axis number(31,15) fme_type char(50) fme_rotation number(31,15) fme_geometry fme_char(50) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -1010,8 +1010,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="geotiff_raster"
-#!   POSITION="181.75871598852035 28.447704068877385"
-#!   BOUNDING_RECT="181.75871598852035 28.447704068877385 -1 -1"
+#!   POSITION="1125.1643764602193 58.447704068877385"
+#!   BOUNDING_RECT="1125.1643764602193 58.447704068877385 -1 -1"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="GEOTIFF_1"
@@ -1029,7 +1029,7 @@
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
 #!   NODE_NAME="raster.data.8bit.3857"
-#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME="raster.@Value(type).@Value(bitdepth).3857"
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="15"
@@ -1043,12 +1043,14 @@
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="code" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="datatype" ATTR_TYPE="char(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="min" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="max" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="range" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="type" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="bitdepth" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="code" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="datatype" ATTR_TYPE="char(255)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_band{}_min" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_band{}_max" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_band{}_palette{}_keyMin" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1068,8 +1070,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="34"
 #!   FEAT_GEOMTYPE="geotiff_raster"
-#!   POSITION="1063.0198342799752 582"
-#!   BOUNDING_RECT="1063.0198342799752 582 -1 -1"
+#!   POSITION="1125.1643764602193 612"
+#!   BOUNDING_RECT="1125.1643764602193 612 -1 -1"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="GEOTIFF_2"
@@ -1092,8 +1094,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="36"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="2885.8570167305443 -359.78640923201669"
-#!   BOUNDING_RECT="2885.8570167305443 -359.78640923201669 -1 -1"
+#!   POSITION="3112.288416322745 -477.712116790979"
+#!   BOUNDING_RECT="3112.288416322745 -477.712116790979 -1 -1"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -1156,10 +1158,10 @@
 #! <COMMENT
 #!   IDENTIFIER="28"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Use bilinear interp for data&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="3152.4055059598209 -79.213725810727453"
-#!   TOP_LEFT="3152.4055059598209 -79.213725810727453"
-#!   BOTTOM_RIGHT="3582.4055059598209 -78.213725810727453"
-#!   BOUNDING_RECT="3152.4055059598209 -79.213725810727453 430 -1"
+#!   POSITION="3143.5610778928981 -214.82828950353417"
+#!   TOP_LEFT="3143.5610778928981 -214.82828950353417"
+#!   BOTTOM_RIGHT="3573.5610778928981 -213.82828950353417"
+#!   BOUNDING_RECT="3143.5610778928981 -214.82828950353417 430 -1"
 #!   ORDER="500000000000062"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1188,27 +1190,27 @@
 #! <BOOKMARK
 #!   IDENTIFIER="32"
 #!   NAME="Classes"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="879.5 836.50112501125"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1025.9536557629726 836.50112501125"
 #!   ORDER="500000000000067.13"
-#!   BOTTOM_RIGHT="3582 365.24999999999989"
-#!   BOUNDING_RECT="879.5 836.50112501125 2702.5 471.25112501125011"
+#!   BOTTOM_RIGHT="3581.9999999999991 365.24999999999989"
+#!   BOUNDING_RECT="1025.9536557629726 836.50112501125 2556.0463442370265 471.25112501125011"
 #!   STICKY="true"
 #!   COLOUR="0.10196078431372549,0.70980392156862748,0.094117647058823528"
-#!   CONTENTS="14 35 20 23 34 31 27 29 "
+#!   CONTENTS="31 29 38 14 49 40 27 34 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="33"
 #!   NAME="Data"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="87.632844389668321 292.44770406887739"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1036.9347902393154 292.44770406887739"
 #!   ORDER="500000000000066.13"
-#!   BOTTOM_RIGHT="3632.3897745525073 -748.82824299941103"
-#!   BOUNDING_RECT="87.632844389668321 292.44770406887739 3544.7569301628391 1041.2759470682884"
+#!   BOTTOM_RIGHT="3620.319222060145 -748.82824299941103"
+#!   BOUNDING_RECT="1036.9347902393154 292.44770406887739 2583.3844318208294 1041.2759470682884"
 #!   STICKY="true"
 #!   COLOUR="0.36470588235294116,0.61176470588235299,0.2627450980392157"
-#!   CONTENTS="24 25 37 16 36 28 21 8 2 13 42 19 39 18 "
+#!   CONTENTS="8 39 16 18 43 35 24 37 44 2 36 28 42 13 25 19 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1217,8 +1219,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="RasterBandMinMaxExtractor"
 #!   VERSION="1"
-#!   POSITION="990.63284438966832 148.44770406887739"
-#!   BOUNDING_RECT="990.63284438966832 148.44770406887739 -1 -1"
+#!   POSITION="1845.5942241921457 58.447704068877385"
+#!   BOUNDING_RECT="1845.5942241921457 58.447704068877385 -1 -1"
 #!   ORDER="500000000000051"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1226,6 +1228,9 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1236,6 +1241,9 @@
 #!     <XFORM_ATTR ATTR_NAME="_band{}.palette{}.valueMax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1252,8 +1260,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="RasterExpressionEvaluator"
 #!   VERSION="3"
-#!   POSITION="2443.1328443896678 178.44770406887739"
-#!   BOUNDING_RECT="2443.1328443896678 178.44770406887739 -1 -1"
+#!   POSITION="2434.288416322745 42.833140376070673"
+#!   BOUNDING_RECT="2434.288416322745 42.833140376070673 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1261,10 +1269,12 @@
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="range" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1275,10 +1285,12 @@
 #!     <XFORM_ATTR ATTR_NAME="_band{}.palette{}.valueMax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="min" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="max" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="range" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1290,7 +1302,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;GRAY8&quot; EXPRESSION_LIST &quot;&lt;at&gt;uint8&lt;openparen&gt;&lt;openparen&gt;&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;-&lt;at&gt;Value&lt;openparen&gt;A:min&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;A:range&lt;closeparen&gt;&lt;closeparen&gt;*254&lt;closeparen&gt;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;GRAY16&quot; EXPRESSION_LIST &quot;&lt;at&gt;uint16&lt;openparen&gt;&lt;openparen&gt;&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;-&lt;at&gt;Value&lt;openparen&gt;A:min&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;A:range&lt;closeparen&gt;&lt;closeparen&gt;*65534&lt;closeparen&gt;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="One Raster"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -1300,8 +1312,8 @@
 #!   IDENTIFIER="18"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="1741.1328443896678 118.44770406887739"
-#!   BOUNDING_RECT="1741.1328443896678 118.44770406887739 -1 -1"
+#!   POSITION="1845.5942241921457 -206.88513793878792"
+#!   BOUNDING_RECT="1845.5942241921457 -206.88513793878792 -1 -1"
 #!   ORDER="500000000000054"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1309,10 +1321,12 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="range" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1323,7 +1337,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_band{}.palette{}.valueMax" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; code SET_TO &lt;at&gt;ReplaceString&lt;openparen&gt;LA_&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;&lt;comma&gt;_&lt;comma&gt;&lt;backslash&gt;&lt;closeparen&gt;  min SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt;&lt;closeparen&gt;  max SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.max&lt;closeparen&gt;&lt;closeparen&gt;  range SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.max&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; min SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt;&lt;closeparen&gt;  max SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.max&lt;closeparen&gt;&lt;closeparen&gt;  range SET_TO &lt;at&gt;double&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.max&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt;&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1345,11 +1359,15 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1369,38 +1387,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterInterpretationCoercer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="20"
-#!   TYPE="AttributeCreator"
-#!   VERSION="9"
-#!   POSITION="1722 582"
-#!   BOUNDING_RECT="1722 582 -1 -1"
-#!   ORDER="500000000000054"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18552"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; code SET_TO &lt;at&gt;ReplaceString&lt;openparen&gt;LA_&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;&lt;comma&gt;_&lt;comma&gt;&lt;backslash&gt;&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="19"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="3121.1328443896678 182.44770406887739"
-#!   BOUNDING_RECT="3121.1328443896678 182.44770406887739 -1 -1"
+#!   POSITION="3112.288416322745 46.833140376070673"
+#!   BOUNDING_RECT="3112.288416322745 46.833140376070673 -1 -1"
 #!   ORDER="500000000000061"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1408,10 +1399,12 @@
 #! >
 #!     <OUTPUT_FEAT NAME="REPROJECTED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="range" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1443,6 +1436,8 @@
 #! >
 #!     <OUTPUT_FEAT NAME="REPROJECTED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1460,8 +1455,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="JSONTemplater"
 #!   VERSION="0"
-#!   POSITION="2097.0164506833744 -294.70126772022434"
-#!   BOUNDING_RECT="2097.0164506833744 -294.70126772022434 -1 -1"
+#!   POSITION="2465.5342868051307 -315.33826654304272"
+#!   BOUNDING_RECT="2465.5342868051307 -315.33826654304272 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1469,10 +1464,12 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="min" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="max" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="range" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_band{}.min" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1488,7 +1485,7 @@
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="text_line_data"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;value_range&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;source&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;min&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;max&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;compressed&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;0&lt;comma&gt;254&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;nodata&lt;quote&gt;:&lt;space&gt;255&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;value_range&lt;quote&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;source&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;min&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;max&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;compressed&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;0&lt;comma&gt;65534&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;nodata&lt;quote&gt;:&lt;space&gt;65535&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
@@ -1497,12 +1494,70 @@
 #!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="38"
+#!   TYPE="AttributeCreator"
+#!   VERSION="9"
+#!   POSITION="1820.4054655294335 612"
+#!   BOUNDING_RECT="1820.4054655294335 612 -1 -1"
+#!   ORDER="500000000000068.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18552"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; type SET_TO classes  bitdepth SET_TO 8  code SET_TO &lt;at&gt;ReplaceString&lt;openparen&gt;&lt;at&gt;ReplaceString&lt;openparen&gt;LA_&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;&lt;comma&gt;_k&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;_&lt;comma&gt;&lt;backslash&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="35"
+#!   TYPE="AttributeCreator"
+#!   VERSION="9"
+#!   POSITION="1179.2614515995992 -75.614568692806586"
+#!   BOUNDING_RECT="1179.2614515995992 -75.614568692806586 -1 -1"
+#!   ORDER="500000000000068.13"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18552"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="bitdepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datatype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; type SET_TO data  bitdepth SET_TO 16bit  code SET_TO &lt;at&gt;ReplaceString&lt;openparen&gt;&lt;at&gt;ReplaceString&lt;openparen&gt;LA_&lt;at&gt;Value&lt;openparen&gt;fme_basename&lt;closeparen&gt;&lt;comma&gt;_k&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;_&lt;comma&gt;&lt;backslash&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="21"
+#!   IDENTIFIER="43"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="8"
+#!   TARGET_NODE="35"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1511,9 +1566,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="35"
+#!   IDENTIFIER="40"
 #!   SOURCE_NODE="34"
-#!   TARGET_NODE="20"
+#!   TARGET_NODE="38"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1588,22 +1643,22 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="23"
-#!   SOURCE_NODE="20"
-#!   TARGET_NODE="14"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="15"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="30"
-#!   SOURCE_NODE="27"
-#!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
-#!   TARGET_PORT_DESC="-1"
+#!   IDENTIFIER="44"
+#!   SOURCE_NODE="35"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1620,51 +1675,62 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="49"
+#!   SOURCE_NODE="38"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#!   IDENTIFIER="655386"
+#!   IDENTIFIER="851994"
 #!   SOURCE_NODE="19"
 #!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="ao 0 11 REPROJECTED"
-#!   TARGET_PORT_DESC="11"
+#!   SOURCE_PORT_DESC="ao 0 9 REPROJECTED"
+#!   TARGET_PORT_DESC="9"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="786458"
-#!   SOURCE_NODE="19"
-#!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="ao 0 10 REPROJECTED"
-#!   TARGET_PORT_DESC="10"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="589850"
-#!   SOURCE_NODE="19"
-#!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="ao 0 7 REPROJECTED"
-#!   TARGET_PORT_DESC="7"
-#! />
-#! <ATTR_LINK
-#!   IDENTIFIER="720922"
+#!   IDENTIFIER="917530"
 #!   SOURCE_NODE="19"
 #!   TARGET_NODE="15"
 #!   SOURCE_PORT_DESC="ao 0 8 REPROJECTED"
 #!   TARGET_PORT_DESC="8"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="524314"
+#!   IDENTIFIER="983066"
 #!   SOURCE_NODE="19"
 #!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="ao 0 6 REPROJECTED"
-#!   TARGET_PORT_DESC="6"
+#!   SOURCE_PORT_DESC="ao 0 10 REPROJECTED"
+#!   TARGET_PORT_DESC="10"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="458778"
+#!   IDENTIFIER="1048602"
 #!   SOURCE_NODE="19"
 #!   TARGET_NODE="15"
-#!   SOURCE_PORT_DESC="ao 0 9 REPROJECTED"
-#!   TARGET_PORT_DESC="9"
+#!   SOURCE_PORT_DESC="ao 0 11 REPROJECTED"
+#!   TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1114138"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="15"
+#!   SOURCE_PORT_DESC="ao 0 12 REPROJECTED"
+#!   TARGET_PORT_DESC="12"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1179674"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="15"
+#!   SOURCE_PORT_DESC="ao 0 13 REPROJECTED"
+#!   TARGET_PORT_DESC="13"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -2010,11 +2076,11 @@ DEFAULT_MACRO DATASET_KEYWORD_PNGRASTER_1 PNGRASTER_1
 DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
 # -------------------------------------------------------------------------
 
-GEOTIFF_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
+GEOTIFF_1_READER_META_ATTRIBUTES fme_feature_type fme_basename
 
 # -------------------------------------------------------------------------
 
-GEOTIFF_2_READER_META_ATTRIBUTES fme_basename fme_feature_type
+GEOTIFF_2_READER_META_ATTRIBUTES fme_feature_type fme_basename
 
 # -------------------------------------------------------------------------
 
@@ -2041,10 +2107,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_1) Splitter"    INPUT
 FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_2) Splitter"    INPUT FEATURE_TYPE GEOTIFF      multi_reader_keyword $(DATASET_KEYWORD_GEOTIFF_2)    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_2    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "code" "SET_TO" "<at>ReplaceString<openparen>LA_<at>Value<openparen>fme_basename<closeparen><comma>_<comma><backslash><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_2    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "type" "SET_TO" "classes" }      ATTR_ACTION { "" "bitdepth" "SET_TO" "8" }      ATTR_ACTION { "" "code" "SET_TO" "<at>ReplaceString<openparen><at>ReplaceString<openparen>LA_<at>Value<openparen>fme_basename<closeparen><comma>_k<comma><quote><quote><closeparen><comma>_<comma><backslash><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
 # -------------------------------------------------------------------------
 INCLUDE [ if {[string equal {<Unused>}        {<Unused>}]} { puts {MACRO RGBA_TO_RGB_ARG DROPALPHA} }           else { puts {MACRO RGBA_TO_RGB_ARG        <Unused>} }; if {[string equal {<Unused>}        {<Unused>}]} { puts {MACRO RGB_TO_RGBA_ARG CREATEOPAQUEALPHA} }   else { puts {MACRO RGB_TO_RGBA_ARG        <Unused>} }; if {[string equal {TYPESCALE}     {<Unused>}]} { puts {MACRO COLOR_TO_COLOR_ARG TYPESCALE} }        else { puts {MACRO COLOR_TO_COLOR_ARG     TYPESCALE} }; if {[string equal {DATASCALE}   {<Unused>}]} { puts {MACRO NUMERIC_TO_COLOR_ARG DATASCALE} }      else { puts {MACRO NUMERIC_TO_COLOR_ARG   DATASCALE} }; if {[string equal {<Unused>}   {<Unused>}]} { puts {MACRO COLOR_TO_NUMERIC_ARG BOUNDED_CAST} }   else { puts {MACRO COLOR_TO_NUMERIC_ARG   <Unused>} }; if {[string equal {<Unused>} {<Unused>}]} { puts {MACRO NUMERIC_TO_NUMERIC_ARG BOUNDED_CAST} } else { puts {MACRO NUMERIC_TO_NUMERIC_ARG <Unused>} }; if {[string equal {ROUND}   {<Unused>}]} { puts {MACRO FLOAT_TO_INTEGER_ARG ROUND} }          else { puts {MACRO FLOAT_TO_INTEGER_ARG   ROUND} }; puts {MACRO MANY_TO_ONE_ARG AVERAGE}; ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME RasterInterpretationCoercer    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @ReinterpretRaster(REJECTABLE, RASTER, GRAY8, $(MANY_TO_ONE_ARG), $(RGBA_TO_RGB_ARG), $(COLOR_TO_COLOR_ARG), $(COLOR_TO_NUMERIC_ARG), $(NUMERIC_TO_COLOR_ARG), $(NUMERIC_TO_NUMERIC_ARG), $(FLOAT_TO_INTEGER_ARG), $(RGB_TO_RGBA_ARG))
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterInterpretationCoercer    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @ReinterpretRaster(REJECTABLE, RASTER, GRAY8, $(MANY_TO_ONE_ARG), $(RGBA_TO_RGB_ARG), $(COLOR_TO_COLOR_ARG), $(COLOR_TO_NUMERIC_ARG), $(NUMERIC_TO_COLOR_ARG), $(NUMERIC_TO_NUMERIC_ARG), $(FLOAT_TO_INTEGER_ARG), $(RGB_TO_RGBA_ARG))
 FACTORY_DEF * TestFactory     FACTORY_NAME RasterInterpretationCoercer_Rejector     INPUT FEATURE_TYPE ___TOREJECTOR___     TEST @Value(fme_rejection_code) != ""     OUTPUT PASSED FEATURE_TYPE RasterInterpretationCoercer_<REJECTED>        @RemoveAttributes(___fme_rejection_code___)     OUTPUT FAILED FEATURE_TYPE RasterInterpretationCoercer_OUTPUT        @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterInterpretationCoercer_<Rejected> INPUT FEATURE_TYPE RasterInterpretationCoercer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterInterpretationCoercer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -2054,17 +2120,19 @@ DEFAULT_MACRO Reprojector_2_SOURCE "EPSG:25833"
 INCLUDE [if { {EPSG:25833} == {Read from feature} } {             puts {MACRO Reprojector_2_SOURCE}          }         ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector_2    INPUT  FEATURE_TYPE RasterInterpretationCoercer_OUTPUT    OUTPUT FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject($(Reprojector_2_SOURCE),"EPSG:3857",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME RasterBandMinMaxExtractor    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_1    OUTPUT FEATURE_TYPE ___TOREJECTOR___      @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)      @ProcessRasterTiles(REJECTABLE, MINMAX, TILE)
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_1    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "type" "SET_TO" "data" }      ATTR_ACTION { "" "bitdepth" "SET_TO" "16bit" }      ATTR_ACTION { "" "code" "SET_TO" "<at>ReplaceString<openparen><at>ReplaceString<openparen>LA_<at>Value<openparen>fme_basename<closeparen><comma>_k<comma><quote><quote><closeparen><comma>_<comma><backslash><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME RasterBandMinMaxExtractor    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___      @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)      @ProcessRasterTiles(REJECTABLE, MINMAX, TILE)
 FACTORY_DEF * TestFactory    FACTORY_NAME RasterBandMinMaxExtractor_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE RasterBandMinMaxExtractor_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterBandMinMaxExtractor_<Rejected> INPUT FEATURE_TYPE RasterBandMinMaxExtractor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterBandMinMaxExtractor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "code" "SET_TO" "<at>ReplaceString<openparen>LA_<at>Value<openparen>fme_basename<closeparen><comma>_<comma><backslash><closeparen>" }      ATTR_ACTION { "" "min" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen><closeparen>" }      ATTR_ACTION { "" "max" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.max<closeparen><closeparen>" }      ATTR_ACTION { "" "range" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.max<closeparen>-<at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "min" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen><closeparen>" }      ATTR_ACTION { "" "max" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.max<closeparen><closeparen>" }      ATTR_ACTION { "" "range" "SET_TO" "<at>double<openparen><at>Value<openparen>_band<opencurly>0<closecurly>.max<closeparen>-<at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen><closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_0_lQ+3mj5tm0E=   OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT_1_Et/p63Aqn4M=
 # -------------------------------------------------------------------------
-FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE AttributeCreator_OUTPUT_1_Et/p63Aqn4M= INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR text_line_data OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <opencurly><lf><space><space><quote>value_range<quote>:<space><opencurly><lf><space><space><space><space><quote>source<quote>:<space><openbracket><space>fme:get-attribute<openparen><quote>min<quote><closeparen><comma><space><space>fme:get-attribute<openparen><quote>max<quote><closeparen><space><closebracket><comma><lf><space><space><space><space><quote>compressed<quote>:<space><openbracket>0<comma>254<closebracket><comma><lf><space><space><space><space><quote>nodata<quote>:<space>255<space><lf><space><space><closecurly><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE AttributeCreator_OUTPUT_1_Et/p63Aqn4M= INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR text_line_data OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <opencurly><lf><space><space><quote>value_range<quote>:<space><opencurly><lf><space><space><space><space><quote>source<quote>:<space><openbracket><space>fme:get-attribute<openparen><quote>min<quote><closeparen><comma><space><space>fme:get-attribute<openparen><quote>max<quote><closeparen><space><closebracket><comma><lf><space><space><space><space><quote>compressed<quote>:<space><openbracket>0<comma>65534<closebracket><comma><lf><space><space><space><space><quote>nodata<quote>:<space>65535<space><lf><space><space><closecurly><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_3    INPUT A FEATURE_TYPE AttributeCreator_OUTPUT_0_lQ+3mj5tm0E=    INTERPRETATION_LIST "GRAY8" EXPRESSION_LIST "<at>uint8<openparen><openparen><openparen>A<openbracket>0<closebracket>-<at>Value<openparen>A:min<closeparen><closeparen><solidus><at>Value<openparen>A:range<closeparen><closeparen>*254<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_3_RESULT    OUTPUT <REJECTED> FEATURE_TYPE RasterExpressionEvaluator_3_<REJECTED>
+FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_3    INPUT A FEATURE_TYPE AttributeCreator_OUTPUT_0_lQ+3mj5tm0E=    INTERPRETATION_LIST "GRAY16" EXPRESSION_LIST "<at>uint16<openparen><openparen><openparen>A<openbracket>0<closebracket>-<at>Value<openparen>A:min<closeparen><closeparen><solidus><at>Value<openparen>A:range<closeparen><closeparen>*65534<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_3_RESULT    OUTPUT <REJECTED> FEATURE_TYPE RasterExpressionEvaluator_3_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterExpressionEvaluator_3_<Rejected> INPUT FEATURE_TYPE RasterExpressionEvaluator_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterExpressionEvaluator_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -2074,10 +2142,10 @@ INCLUDE [if { {EPSG:25833} == {Read from feature} } {             puts {MACRO Re
 FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE RasterExpressionEvaluator_3_RESULT    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"EPSG:3857",Bilinear,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Reprojector_REPROJECTED TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_min<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.min<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_max<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.max<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_keyMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.keyMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_keyMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.keyMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_valueMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.valueMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_valueMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.valueMax<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>raster.data.8bit.3857<closeparen> GEOMETRY    ROUTE FME_GENERIC Reprojector_2_REPROJECTED TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>raster.data.8bit.3857<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONTemplater_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Reprojector_REPROJECTED TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_min<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.min<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_max<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.max<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_keyMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.keyMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_keyMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.keyMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_valueMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.valueMin<comma>_band<lt>opencurly<gt><lt>closecurly<gt>_palette<lt>opencurly<gt><lt>closecurly<gt>_valueMax<comma>_band<lt>opencurly<gt><lt>closecurly<gt>.palette<lt>opencurly<gt><lt>closecurly<gt>.valueMax<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>raster.data.8bit.3857<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>raster.<lt>at<gt>Value<lt>openparen<gt>type<lt>closeparen<gt>.<lt>at<gt>Value<lt>openparen<gt>bitdepth<lt>closeparen<gt>.3857<comma>raster.data.8bit.3857<closeparen> GEOMETRY    ROUTE FME_GENERIC Reprojector_2_REPROJECTED TO PNGRASTER __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>raster.data.8bit.3857<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>raster.<lt>at<gt>Value<lt>openparen<gt>type<lt>closeparen<gt>.<lt>at<gt>Value<lt>openparen<gt>bitdepth<lt>closeparen<gt>.3857<comma>raster.data.8bit.3857<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONTemplater_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-PNGRASTER_1_DEF raster.data.8bit.3857   pngraster_world_file_generation yes   pngraster_tab_file_generation no   pngraster_optimize           Level_1_(recommended)   code                         char(200)   datatype                     char(255)   min                          char(200)   max                          char(200)   range                        char(200)   _band{}_min                  char(200)   _band{}_max                  char(200)   _band{}_palette{}_keyMin     char(200)   _band{}_palette{}_keyMax     char(200)   _band{}_palette{}_valueMin   char(200)   _band{}_palette{}_valueMax   char(200)
+PNGRASTER_1_DEF raster.data.8bit.3857   pngraster_world_file_generation yes   pngraster_tab_file_generation no   pngraster_optimize           Level_1_(recommended)   min                          char(200)   max                          char(200)   range                        char(200)   type                         char(200)   bitdepth                     char(200)   code                         char(200)   datatype                     char(255)   _band{}_min                  char(200)   _band{}_max                  char(200)   _band{}_palette{}_keyMin     char(200)   _band{}_palette{}_keyMax     char(200)   _band{}_palette{}_valueMin   char(200)   _band{}_palette{}_valueMax   char(200)
