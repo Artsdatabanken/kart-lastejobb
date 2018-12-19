@@ -1,3 +1,5 @@
+python ..\pgSqlExecutor.py ..\..\sql\makevalid.sql ..\..\config\postgis.json
+
 python .\codes.py ..\..\config\postgis.json
 
 python ..\pgSqlExecutor.py ..\..\sql\post-process.sql ..\..\config\postgis.json

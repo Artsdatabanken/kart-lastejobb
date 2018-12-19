@@ -1,0 +1,1 @@
+update data.geometry g set geography = st_makevalid(g.geography::geometry)::geography where ST_isValid(g.geography::geometry) = false
