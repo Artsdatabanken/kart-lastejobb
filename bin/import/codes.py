@@ -25,3 +25,8 @@ def executeSql(sqlFile):
 result = 1
 while result > 0:
     result = executeSql('../../sql/insertParents.sql')
+
+result = 1
+while result > 0:
+    result = executeSql('../../sql/insertHierarchy.sql')
+    
