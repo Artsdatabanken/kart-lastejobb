@@ -11,7 +11,7 @@ set tippecanoe=sh -c "find %datafolder% -name '*.geojson' -exec bash /app/tippec
 docker run -v %out%:%datafolder% -v %CD%:/app -it --rm tippecanoe %tippecanoe%
 
 echo Creating raster mbtiles for png
-set gdal=sh -c "find %datafolder% -name '*.png' -exec bash /app/gdal.near.sh {} \;"
+set gdal=sh -c "find %datafolder% -name '*.png' -exec bash /app/gdal.sh {} \;"
 docker run -v %out%:%datafolder% -v %CD%:/app -it --rm geographica/gdal2 %gdal%
 
 exit
