@@ -1,1 +1,0 @@
-.\node_modules\.bin\tileserver-gl-light --verbose -c .\config.json -p 81
