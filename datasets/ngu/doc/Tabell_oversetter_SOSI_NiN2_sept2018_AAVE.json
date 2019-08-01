@@ -1,0 +1,290 @@
+[
+  {
+    "SOSI_navn": "Tynt eller usammenhengende sedimentdekk over bergrunn. Sedimenter med varierende kornstørrelse",
+    "SOSI_kode": 1,
+    "NiN2_S3E": "x",
+    "NGU_S3E": "x",
+    "NiN2_S3F": "x",
+    "NGU_S3F": "x"
+  },
+  {
+    "SOSI_navn": "Bart fjell",
+    "SOSI_kode": 5,
+    "NiN2_S3E": "+",
+    "NGU_S3E": 7,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Leir",
+    "SOSI_kode": 10,
+    "NiN2_S3E": "a",
+    "NGU_S3E": 1,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Organisk slam",
+    "SOSI_kode": 15,
+    "NiN2_S3E": 0,
+    "NGU_S3E": 0,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Slam",
+    "SOSI_kode": 20,
+    "NiN2_S3E": "a",
+    "NGU_S3E": 1,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Slam med blokker av sedimenter",
+    "SOSI_kode": 21,
+    "NiN2_S3E": "x",
+    "NGU_S3E": "x",
+    "NiN2_S3F": "x",
+    "NGU_S3F": "x"
+  },
+  {
+    "SOSI_navn": "Sandholdig leir",
+    "SOSI_kode": 30,
+    "NiN2_S3E": "d",
+    "NGU_S3E": 4,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Sandholdig slam",
+    "SOSI_kode": 40,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Silt",
+    "SOSI_kode": 50,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Sandholdig silt",
+    "SOSI_kode": 60,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Leirholdig sand",
+    "SOSI_kode": 70,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "c",
+    "NGU_S3F": "c"
+  },
+  {
+    "SOSI_navn": "Slamholdig sand",
+    "SOSI_kode": 80,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "b",
+    "NGU_S3F": "b"
+  },
+  {
+    "SOSI_navn": "Siltholdig sand",
+    "SOSI_kode": 90,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "b",
+    "NGU_S3F": "b"
+  },
+  {
+    "SOSI_navn": "Fin sand",
+    "SOSI_kode": 95,
+    "NiN2_S3E": "a",
+    "NGU_S3E": 1,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Sand",
+    "SOSI_kode": 100,
+    "NiN2_S3E": "a",
+    "NGU_S3E": 1,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Grov sand",
+    "SOSI_kode": 105,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Grusholdig slam",
+    "SOSI_kode": 110,
+    "NiN2_S3E": "b",
+    "NGU_S3E": 2,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Grusholdig sandholdig slam",
+    "SOSI_kode": 115,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Grusholdig slamholdig sand",
+    "SOSI_kode": 120,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "b",
+    "NGU_S3F": "b"
+  },
+  {
+    "SOSI_navn": "Grusholdig sand",
+    "SOSI_kode": 130,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Slamholdig grus",
+    "SOSI_kode": 140,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "b",
+    "NGU_S3F": "b"
+  },
+  {
+    "SOSI_navn": "Slamholdig sandholdig grus",
+    "SOSI_kode": 150,
+    "NiN2_S3E": "d",
+    "NGU_S3E": "",
+    "NiN2_S3F": "b",
+    "NGU_S3F": "b"
+  },
+  {
+    "SOSI_navn": "Sandholdig grus",
+    "SOSI_kode": 160,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Grus",
+    "SOSI_kode": 170,
+    "NiN2_S3E": "d",
+    "NGU_S3E": 4,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Grus og stein",
+    "SOSI_kode": 174,
+    "NiN2_S3E": "e",
+    "NGU_S3E": 5,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Grus, stein og blokk",
+    "SOSI_kode": 175,
+    "NiN2_S3E": "f",
+    "NGU_S3E": 6,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Stein og blokk",
+    "SOSI_kode": 180,
+    "NiN2_S3E": "f",
+    "NGU_S3E": 6,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Sand, grus og stein",
+    "SOSI_kode": 185,
+    "NiN2_S3E": "d",
+    "NGU_S3E": 4,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Sand og blokk",
+    "SOSI_kode": 190,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "a",
+    "NGU_S3F": "a"
+  },
+  {
+    "SOSI_navn": "Diamikton",
+    "SOSI_kode": 200,
+    "NiN2_S3E": "x",
+    "NGU_S3E": "",
+    "NiN2_S3F": "x",
+    "NGU_S3F": "x"
+  },
+  {
+    "SOSI_navn": "Slam/sand med stein/blokk",
+    "SOSI_kode": 205,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "c",
+    "NGU_S3F": "c"
+  },
+  {
+    "SOSI_navn": "Slam og sand med grus, stein og blokk",
+    "SOSI_kode": 206,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "c",
+    "NGU_S3F": "c"
+  },
+  {
+    "SOSI_navn": "Stein/blokk med sand-/slamdekke",
+    "SOSI_kode": 210,
+    "NiN2_S3E": "c",
+    "NGU_S3E": 3,
+    "NiN2_S3F": "c",
+    "NGU_S3F": "c"
+  },
+  {
+    "SOSI_navn": "Sand, grus, stein og blokk",
+    "SOSI_kode": 215,
+    "NiN2_S3E": "d",
+    "NGU_S3E": 4,
+    "NiN2_S3F": 0,
+    "NGU_S3F": 0
+  },
+  {
+    "SOSI_navn": "Harde sedimenter eller sedimentære bergarter",
+    "SOSI_kode": 300,
+    "NiN2_S3E": "e",
+    "NGU_S3E": 5,
+    "NiN2_S3F": "¤",
+    "NGU_S3F": "Ø"
+  },
+  {
+    "SOSI_navn": "Biogent materiale",
+    "SOSI_kode": 500,
+    "NiN2_S3E": "d?",
+    "NGU_S3E": 4,
+    "NiN2_S3F": "a?",
+    "NGU_S3F": "a"
+  }
+]

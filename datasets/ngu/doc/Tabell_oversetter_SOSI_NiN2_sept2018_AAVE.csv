@@ -1,0 +1,37 @@
+SOSI_navn,SOSI_kode,NiN2_S3E,NGU_S3E,NiN2_S3F,NGU_S3F
+Tynt eller usammenhengende sedimentdekk over bergrunn. Sedimenter med varierende kornstørrelse,1,x,x,x,x
+Bart fjell,5,+,7,0,0
+Leir,10,a,1,¤,Ø
+Organisk slam,15,0,0,¤,Ø
+Slam,20,a,1,¤,Ø
+Slam med blokker av sedimenter,21,x,x,x,x
+Sandholdig leir,30,d,4,¤,Ø
+Sandholdig slam,40,b,2,¤,Ø
+Silt,50,b,2,¤,Ø
+Sandholdig silt,60,b,2,¤,Ø
+Leirholdig sand,70,b,2,c,c
+Slamholdig sand,80,b,2,b,b
+Siltholdig sand,90,b,2,b,b
+Fin sand,95,a,1,a,a
+Sand,100,a,1,a,a
+Grov sand,105,b,2,a,a
+Grusholdig slam,110,b,2,¤,Ø
+Grusholdig sandholdig slam,115,c,3,¤,Ø
+Grusholdig slamholdig sand,120,c,3,b,b
+Grusholdig sand,130,c,3,a,a
+Slamholdig grus,140,c,3,b,b
+Slamholdig sandholdig grus,150,d,,b,b
+Sandholdig grus,160,c,3,a,a
+Grus,170,d,4,a,a
+Grus og stein,174,e,5,0,0
+"Grus, stein og blokk",175,f,6,0,0
+Stein og blokk,180,f,6,0,0
+"Sand, grus og stein",185,d,4,0,0
+Sand og blokk,190,c,3,a,a
+Diamikton,200,x,,x,x
+Slam/sand med stein/blokk,205,c,3,c,c
+"Slam og sand med grus, stein og blokk",206,c,3,c,c
+Stein/blokk med sand-/slamdekke,210,c,3,c,c
+"Sand, grus, stein og blokk",215,d,4,0,0
+Harde sedimenter eller sedimentære bergarter,300,e,5,¤,Ø
+Biogent materiale,500,d?,4,a?,a
