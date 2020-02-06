@@ -1,19 +1,19 @@
 {
- "name": "landformer",
- "version": "1.0.0",
- "description": "",
- "main": "index.js",
- "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "download": "node node_modules/lastejobb/index download",
-  "transform": "node node_modules/lastejobb/index transform",
-  "build": "npm run download && npm run transform",
-  "deploy": "node node_modules/lastejobb/index deploy"
- },
- "keywords": [],
- "author": "",
- "license": "ISC",
- "dependencies": {
-  "lastejobb": "^3.0.4"
- }
+    "name": "landformer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "download": "node node_modules/lastejobb/index stages/download",
+        "transform": "node node_modules/lastejobb/index stages/transform",
+        "build": "npm run download && npm run transform",
+        "deploy": "node node_modules/lastejobb/index stages/deploy"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lastejobb": "^3.0.4"
+    }
 }
