@@ -1,14 +1,14 @@
-const { processes } = require("lastejobb");
+const { io, processes } = require("lastejobb");
 var fs = require('fs')
+const path = require('path')
 
-
-function geojsonlMap(inputfile, outputfile, mapper) {
+function jsonLinesMap(inputfile, outputfile, mapper) {
+    io.mkdir(path.dirname(outputfile))
     var reader = require('readline').createInterface({
         input: require('fs').createReadStream(inputfile)
     });
 
     var writer = fs.createWriteStream(outputfile)
-
     reader.on('line', function (line) {
         const json = JSON.parse(line)
         const out = mapper(json)
@@ -23,4 +23,4 @@ function map(feature) {
     return { type: "Feature", geometry: feature.geometry, properties: { kode: 'BK', id } }
 }
 
-geojsonlMap('temp/landform.geojsonl', 'build/polygon.4326.geojsonl', map)
+jsonLinesMap('temp/landform.geojsonl', 'build/polygon.4326.geojsonl', map)
