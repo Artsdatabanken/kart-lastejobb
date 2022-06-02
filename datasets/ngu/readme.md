@@ -1,0 +1,1 @@
+# Får ikke lastet ned data pr nå

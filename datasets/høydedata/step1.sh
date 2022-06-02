@@ -15,6 +15,7 @@ mv 56 DTM.zip
 #mv 54 DTM50.zip
 
 unzip DTM.zip && rm DTM.zip
-echo Build Virtual data set (VRT)
+echo Build Virtual data set "VRT"
+cd temp
 gdalbuildvrt dtm.vrt *.tif 
 cd ..
