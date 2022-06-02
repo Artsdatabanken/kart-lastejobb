@@ -1,3 +1,7 @@
+##
+Avhengiheter
+gdal bibliotek
+
 # Terrengformvariasjon / DTM
 
 Lager .mbtiles for [NIN Terrengformvariasjon](https://artsdatabanken.no/Pages/182007/Terrengformvariasjon) fra [Høydedata.no](https://hoydedata.no)
